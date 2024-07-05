@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: liangkai_pic.jpg
+  image: liangkai-pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>4944 Beyster</p>
