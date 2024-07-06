@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Edge Computing fot Public Safety
+title: Edge Computing for Public Safety
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
