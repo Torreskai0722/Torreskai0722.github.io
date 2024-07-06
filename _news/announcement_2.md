@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One co-authored paper accepted by DAC 2024!
+One paper accepted by DAC 2024!
