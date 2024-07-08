@@ -7,7 +7,7 @@ subtitle: <a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a>
 
 profile:
   align: right
-  image: liangkai-pic.jpg
+  image: head-new.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>4944 Beyster</p>
