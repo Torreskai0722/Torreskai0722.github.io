@@ -9,10 +9,11 @@ profile:
   align: right
   image: head-new.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>4944 Beyster</p>
-    <p>2260 Hayward St.</p>
-    <p>Ann Arbor, MI 48109</p>
+  social: true # includes social icons at the bottom of the page
+  # more_info: >
+  #   <p>4944 Beyster</p>
+  #   <p>2260 Hayward St.</p>
+  #   <p>Ann Arbor, MI 48109</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
