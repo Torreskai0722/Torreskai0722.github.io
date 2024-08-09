@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to Sanjith Udupa, my summer intern student, for being admitted to the class of 2028 at MIT!
+[Student] Congratulations to Sanjith Udupa, my summer intern student, for being admitted to the class of 2028 at MIT!

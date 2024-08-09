@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by DAC 2024!
+[Paper] One paper accepted by DAC 2024!
