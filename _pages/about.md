@@ -23,3 +23,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 Liangkai Liu is currently a Research Fellow working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/) in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) in the Computer Science and Engineering Department at The University of Michigan. His research is primarily at the intersection of [Autonomous Driving and Computing Systems](https://arxiv.org/abs/2009.14349), focusing on building **safe**, **predictable**, and **energy-efficient** machine learning systems for **autonomous vehicles** and **autonomous mobile robots**.
 
 Before that, he received his Ph.D. degree in computer science from Wayne State University in May 2023, supervised by Prof. [Weisong Shi](https://www.weisongshi.org/). He has collaborated/worked with researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
+
+
+**UPDATE: I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department in hiring, please feel free to reach out at liangkai@umich.edu.**
