@@ -22,8 +22,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 
 I am currently a Research Fellow working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/) in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) in the Computer Science and Engineering Department at The University of Michigan. My research is primarily at the intersection of [Autonomous Driving and Computing Systems](https://arxiv.org/abs/2009.14349), focusing on building **safe**, **predictable**, and **energy-efficient** cyber-physical systems for **autonomous vehicles** and **autonomous mobile robots**.
 
-Before that, I got my Ph.D. degree in computer science from Wayne State University in May 2023, supervised by Prof. [Weisong Shi](https://www.weisongshi.org/). I have collaborated/worked with researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
+Before that, I got my Ph.D. degree in computer science from Wayne State University in May 2023, supervised by Prof. [Weisong Shi](https://www.weisongshi.org/). I have collaborated with researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
 
-**UPDATE: I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department in hiring, please feel free to reach out at liangkai@umich.edu.**
+<!-- **UPDATE:** *I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department is hiring, please feel free to reach out at liangkai@umich.edu.* -->
 
-[Download CV](../assets/pdf/cv.pdf)(Last updated: October 2024)
+<span style="color: #A64CA6;"><strong>UPDATE:</strong> I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department is hiring, please feel free to reach out at liangkai@umich.edu.</span>
+
+<!-- <p class="highlight">UPDATE: I will be on the academic job market...</p> -->
+
+[**Download CV**](../assets/pdf/cv.pdf) (Last updated: October 2024)
