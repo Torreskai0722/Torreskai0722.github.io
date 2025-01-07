@@ -30,4 +30,4 @@ Before that, I got my Ph.D. degree in computer science from Wayne State Universi
 
 <!-- <p class="highlight">UPDATE: I will be on the academic job market...</p> -->
 
-[Download CV](../assets/pdf/cv.pdf) (Last updated: November 2024)
+[Download CV](../assets/pdf/cv.pdf) (Last updated: January 2025)
