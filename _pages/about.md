@@ -26,8 +26,8 @@ Before that, I got my Ph.D. degree in computer science from Wayne State Universi
 
 <!-- **UPDATE:** *I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department is hiring, please feel free to reach out at liangkai@umich.edu.* -->
 
-<span style="color: #A500FF;"><strong>UPDATE: I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department is hiring, please feel free to reach out at <a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a>.</strong></span>
+<span style="color: #A500FF;"><strong>I am on the job market 2024-2025. Links: [CV](../assets/pdf/cv.pdf) | [Research Statement](../assets/pdf/research-withref.pdf).</strong></span>
 
 <!-- <p class="highlight">UPDATE: I will be on the academic job market...</p> -->
 
-[Download CV](../assets/pdf/cv.pdf) (Last updated: January 2025)
+<!-- [Download CV](../assets/pdf/cv.pdf) (Last updated: January 2025) -->
