@@ -28,4 +28,4 @@ Before that, I got my Ph.D. degree in computer science from Wayne State Universi
 
 <span style="color: #A500FF;"><strong>I am on the job market 2024-2025. Links: [CV](../assets/pdf/cv.pdf) | [Research Statement](../assets/pdf/research-withref.pdf).</strong></span>
 
-<img src="../assets/img/research-overview.png" alt="Research Overview">
+![Research Overview](../assets/img/research-overview.png){: style="max-width:100%; height:auto;" }
