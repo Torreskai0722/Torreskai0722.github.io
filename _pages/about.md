@@ -24,8 +24,10 @@ I am currently a Research Fellow working with Prof. [Kang G. Shin](https://web.e
 
 Before that, I got my Ph.D. degree in computer science from Wayne State University in May 2023, supervised by Prof. [Weisong Shi](https://www.weisongshi.org/) (IEEE Fellow). I have collaborated with researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
 
-<!-- **UPDATE:** *I will be on the academic job market in the 2024-2025 cycle looking for tenure-track assistant professor positions. If your department is hiring, please feel free to reach out at liangkai@umich.edu.* -->
-
-<span style="color: #A500FF;"><strong>I am on the job market 2024-2025. Links: [CV](../assets/pdf/cv.pdf) | [Research Statement](../assets/pdf/research.pdf).</strong></span>
+<span style="color: #A500FF;"><strong>Links: [CV](../assets/pdf/cv.pdf) | [Research Statement](../assets/pdf/research.pdf).</strong></span>
 
 ![Research Overview](../assets/img/research-overview.png){: style="max-width:100%; height:auto;" }
+
+<!-- <span style="color: #A500FF;"><strong>I am on the job market 2024-2025. Links: [CV](../assets/pdf/cv.pdf) | [Research Statement](../assets/pdf/research.pdf).</strong></span>
+
+![Research Overview](../assets/img/research-overview.png){: style="max-width:100%; height:auto;" } -->
