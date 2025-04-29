@@ -7,7 +7,8 @@ subtitle: <a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a>
 
 profile:
   align: right
-  image: head-new.jpg
+  # image: head-new.jpg
+  image: liangkai-pic.jpg
   image_circular: false # crops the image to make it circular
   social: true # includes social icons at the bottom of the page
   # more_info: >
