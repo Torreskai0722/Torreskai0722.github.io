@@ -1,12 +1,23 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching & Talks
+description: 
 nav: false
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+**Talks**
+-  **Building Predictable and Power-Efficient Autonomous Cyber-Physical Systems**\
+University of Michigan, Nov. 2024\
+Oakland University, Dec. 2024
+- **Robot Platforms for CPS Research.**\
+University of Michigan, Sep. 2024
+- **Building Predictable and Efficient System for Autonomous Vehicles/Robots**\
+University of Michigan, Nov. 2023\
+University of North Texas, Sep. 2023\
+California Polytechnic State University, Aug. 2023
+- **Introduction to Autonomous Driving.**\
+HensHack at University of Delaware, 2023
+- **Computing systems for connected and autonomous driving.**\
+UIUC physical AI group, Nov. 2022.
