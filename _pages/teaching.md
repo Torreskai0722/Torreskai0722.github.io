@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching & Talks
+title: Talks
 description: 
 nav: true
 nav_order: 5
 ---
 
-**Talks**
+<!-- **Talks** -->
 -  **Building Predictable and Power-Efficient Autonomous Cyber-Physical Systems**\
 University of Michigan, Nov. 2024\
 Oakland University, Dec. 2024
