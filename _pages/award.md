@@ -8,8 +8,8 @@ nav_order: 3
 ---
 
 **[NSF CSR: Small: Predictable Multi-Tenant DNN Inference for Autonomous Driving](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343601&HistoricalAwards=false)**\
-co-PI (PI: Shi)\
-National Science Foundation, 2024
+Co-Principal Investigator (PI: Shi)\
+National Science Foundation, 2024-2027
 
 **Travel Award for Outstanding Conference Publications**\
 Wayne State University, 2023
