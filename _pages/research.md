@@ -22,19 +22,19 @@ My research vision is to develop **real-time cyber-physical systems** that enhan
 
 ![Research Overview](assets/img/research-overview.png)
 
-## Research Highlights
+<!-- ## Research Highlights
 
 My research interests lie in computing systems for autonomous driving, cyber-physical systems, robotics, and edge computing. By delivering robust AI system solutions with significant societal impact, I aim to enhance the **safety**, **predictability**, and **efficiency** of **real-time cyber-physical systems**, such as autonomous vehicles, trucks, and mobile robots. My work, published in top-tier venues like RTSS, RTAS, ICCAD, ICRA, SEC, HotEdge, TITS, IWC, and IoTJ, addresses these objectives in the autonomous CPS sphere.
 
-Notably, I was among the first in the computing systems community to explore DNN inference time variations in autonomous driving, leading to a **\$600,000 [NSF Grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343601&HistoricalAwards=false)** as Co-PI on multi-tenant DNN timing research. I developed testbeds like **HydraOne** and **Donkey**, programmable and energy-efficient platforms for autonomous mobile robots. My work on fuel-efficient autonomous trucking achieved a **7% reduction in fuel consumption** in real deployments compared to experienced drivers. As of December 9, 2024, my publications have over **1,960 citations**, with an **H-Index 17** and **i10-Index 20**.
+Notably, I was among the first in the computing systems community to explore DNN inference time variations in autonomous driving, leading to a **\$600,000 [NSF Grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343601&HistoricalAwards=false)** as Co-PI on multi-tenant DNN timing research. I developed testbeds like **HydraOne** and **Donkey**, programmable and energy-efficient platforms for autonomous mobile robots. My work on fuel-efficient autonomous trucking achieved a **7% reduction in fuel consumption** in real deployments compared to experienced drivers. As of December 9, 2024, my publications have over **1,960 citations**, with an **H-Index 17** and **i10-Index 20**. -->
 
-## Prior Research
+<!-- ## Prior Research -->
 
 ### 1. Predictable Perception for AVs
 
 Autonomous vehicles depend on sensors and deep neural networks (DNNs) to perceive their environment in real time. Ensuring predictability in the perception pipeline is challenging. My prior work spans comprehensive profiling of DNN inference time variations and novel systems to guarantee predictable perception.
 
-![Environment-Aware Dynamic ROIs](assets/img/RoI-example.pdf)
+![Environment-Aware Dynamic ROIs](assets/img/publication_preview/RoI-example.pdf)
 
 #### DNN Inference Time Variations Profiling  
 We built a reconfigurable testbed for fine-grained profiling of DNN inference and analyzed time variations across six dimensions: data, I/O, model, runtime, hardware, and end-to-end pipeline. This effort yielded six key insights and informed an NSF grant on multi-tenant DNN timing.
@@ -81,8 +81,8 @@ Using the Donkey platform’s power profiling, we developed a real-time energy p
 Connected and Autonomous Vehicles (CAVs) require robust computing and communication testbeds. My work spans vehicle-scale testbeds and edge-driven safety systems.
 
 <div style="display: flex; gap: 1rem;">
-  <img src="figures/typical-example.pdf" alt="Hydra Autonomous Driving Testbed" style="width:50%;">
-  <img src="figures/Equinox.pdf" alt="Equinox Platform" style="width:45%;">
+  <img src="assets/img/publication_preview/typical-example.pdf" alt="Hydra Autonomous Driving Testbed" style="width:50%;">
+  <img src="assets/img/publication_preview/Equinox-design.png" alt="Equinox Platform" style="width:45%;">
 </div>
 
 #### Hydra AV Testbed  
