@@ -1,22 +1,23 @@
 ---
 layout: page
-title: Awards
+title: Awards & Grant
 permalink: /award/
 description: 
 nav: true
 nav_order: 3
 ---
 
-**[NSF CISE CSR Small Grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343601&HistoricalAwards=false)**\
+**[NSF CSR: Small: Predictable Multi-Tenant DNN Inference for Autonomous Driving](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343601&HistoricalAwards=false)**\
+co-PI (PI: Shi)\
 National Science Foundation, 2024
 
-**[Travel Award for Outstanding Conference Publications]**\
+**Travel Award for Outstanding Conference Publications**\
 Wayne State University, 2023
 
 **IEEE Real-Time Systems Symposium Travel Award**\
 IEEE, 2023
 
-**[Travel Award for Outstanding Conference Publications]**\
+**Travel Award for Outstanding Conference Publications**\
 Wayne State University, 2022
 
 **ACM/IEEE Symposium on Edge Computing Student Travel Grant**\
