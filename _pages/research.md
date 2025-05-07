@@ -11,7 +11,7 @@ nav_order: 2
 
 My research vision is to develop **real-time cyber-physical systems** that enhance **autonomy**, **efficiency**, and **safety** in transportation and robotics. By integrating cyber-physical systems, real-time processing, and edge computing, I aim to create robust and scalable solutions to address the challenges of autonomous driving and intelligent transportation. My goal is to bridge the gap between theory and practice, ensuring that advanced transportation systems are both innovative and reliable in real-world applications.
 
-![Research Overview](assets/img/research-overview.png)
+![Research Overview](../assets/img/research-overview.png)
 
 <!-- ## Research Highlights
 
@@ -25,7 +25,7 @@ Notably, I was among the first in the computing systems community to explore DNN
 
 Autonomous vehicles depend on sensors and deep neural networks (DNNs) to perceive their environment in real time. Ensuring predictability in the perception pipeline is challenging. My prior work spans comprehensive profiling of DNN inference time variations and novel systems to guarantee predictable perception.
 
-![Environment-Aware Dynamic ROIs](assets/img/publication_preview/RoI-example.pdf)
+![Environment-Aware Dynamic ROIs](../assets/img/publication_preview/RoI-example.pdf)
 
 #### DNN Inference Time Variations Profiling  
 We built a reconfigurable testbed for fine-grained profiling of DNN inference and analyzed time variations across six dimensions: data, I/O, model, runtime, hardware, and end-to-end pipeline. This effort yielded six key insights and informed an NSF grant on multi-tenant DNN timing.
@@ -38,7 +38,7 @@ We built a reconfigurable testbed for fine-grained profiling of DNN inference an
 
 #### RT-BEV
 
-![RT-BEV System Overview](assets/img/publication_preview/RT-BEV-Design.pdf)
+![RT-BEV System Overview](../assets/img/publication_preview/RT-BEV-Design.pdf)
 
 **RT-BEV** co-optimizes message communication and object detection for real-time Bird’s-Eye-View perception. Key components include an ROI-aware camera synchronizer, context-aware ROI generator, feature split & merge for variable ROI sizes, a time predictor, and a global coordinator. Implemented in a ROS BEV pipeline and validated on nuScenes, RT-BEV delivers low-latency, high-accuracy BEV perception (IEEE RTSS 2024).
 
@@ -51,7 +51,7 @@ We built a reconfigurable testbed for fine-grained profiling of DNN inference an
 
 Energy efficiency is critical for mobile robots and heavy-duty trucks. We built platforms and middleware to coordinate perception, planning, control, and hardware for power savings.
 
-![Energy-Efficient Platforms](assets/img/publication_preview/EEAutoSys.pdf)
+![Energy-Efficient Platforms](../assets/img/publication_preview/EEAutoSys.pdf)
 
 #### E2M  
 **E2M** is an energy-efficient middleware that regulates sensor data access, adjusts process execution periods, and coordinates concurrent jobs to maximize hardware sleep time. On the HydraOne testbed, E2M achieves **24% computing energy savings**, translating to **11.5% more battery life** and **14 extra minutes** of runtime with minimal performance loss (ACM/IEEE SEC 2019).
@@ -72,8 +72,8 @@ Using the Donkey platform’s power profiling, we developed a real-time energy p
 Connected and Autonomous Vehicles (CAVs) require robust computing and communication testbeds. My work spans vehicle-scale testbeds and edge-driven safety systems.
 
 <div style="display: flex; gap: 1rem;">
-  <img src="assets/img/publication_preview/typical-example.pdf" alt="Hydra Autonomous Driving Testbed" style="width:50%;">
-  <img src="assets/img/publication_preview/Equinox-design.png" alt="Equinox Platform" style="width:45%;">
+  <img src="../assets/img/publication_preview/typical-example.pdf" alt="Hydra Autonomous Driving Testbed" style="width:50%;">
+  <img src="../assets/img/publication_preview/Equinox-design.png" alt="Equinox Platform" style="width:45%;">
 </div>
 
 #### Hydra AV Testbed  
