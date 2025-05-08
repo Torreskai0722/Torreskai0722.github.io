@@ -15,7 +15,7 @@ National Science Foundation, 2024-2027
 Wayne State University, 2023
 
 **IEEE Real-Time Systems Symposium Travel Award**\
-IEEE, 2023
+IEEE TCRTS, 2023
 
 **Travel Award for Outstanding Conference Publications**\
 Wayne State University, 2022
