@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-RT-BEV gets accepted by RTSS 2024!
+RT-BEV gets accepted by [RTSS 2024](https://2024.rtss.org/)!

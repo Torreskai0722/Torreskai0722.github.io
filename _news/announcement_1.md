@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One co-first authored paper accepted by ICCAD 2024!
+One co-first authored paper accepted by [ICCAD 2024](https://2024.iccad.com/)!
