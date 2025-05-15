@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [An Open Approach to Energy-Efficient Autonomous Mobile Robots](https://ieeexplore.ieee.org/document/10161110) accepted by **2023 IEEE International Conference on Robotics and Automation (ICRA)**!
+[Donkey](https://ieeexplore.ieee.org/document/10161110) gets accepted by [ICRA 2023](https://www.icra2023.org/)!

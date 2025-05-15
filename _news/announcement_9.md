@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Fuel Rate Prediction for Heavy-Duty Trucks](https://ieeexplore.ieee.org/document/10153345) accepted by **IEEE Transactions on Intelligent Transportation Systems**!
+[FEAD](https://ieeexplore.ieee.org/document/10153345) gets accepted by [IEEE Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)!
