@@ -21,7 +21,7 @@ nav_order: 4
 - [ACM SenSys 2023 Posters & Demos](https://sensys.acm.org/2023/demos/)
 
 **Reviewer**
-
+- Grant proposal reviewer, AAPG 2025, French National Research Agency’s (ANR)
 - ICCV 2025 
 - CVPR 2024/2025
 - IROS 2022/2023/2024/2025
