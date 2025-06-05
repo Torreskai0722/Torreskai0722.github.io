@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /talks/
 title: Talks
 description: 
 nav: true
@@ -9,6 +9,7 @@ nav_order: 5
 
 <!-- **Talks** -->
 **Building Predictable and Power-Efficient Autonomous Cyber-Physical Systems**\
+Wayne State University, Jan. 2025\
 University of Michigan, Nov. 2024\
 Oakland University, Dec. 2024
 
