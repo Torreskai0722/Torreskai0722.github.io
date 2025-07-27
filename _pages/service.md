@@ -16,7 +16,9 @@ nav_order: 4
 
 **Technical Program Committee**
 
-- IEEE International Conference on Mobility: Operations, Services, and Technologies ([MOST](https://ieeemobility.org/MOST2025/index.php)), 2024/2025
+- IEEE Conference on Dependable and Secure Computing ([DSC](https://attend.ieee.org/dsc-2025/)), 2025
+- IEEE International Conference on Mobility: Operations, Services, and Technologies ([MOST](https://ieeemobility.org/MOST2025/index.php)), 2025
+- IEEE International Conference on Mobility: Operations, Services, and Technologies ([MOST](https://ieeemobility.org/MOST2024/index.php)), 2024
 - ASPLOS 2024 Workshop on Compute Platforms for Autonomous Vehicles ([CAV](https://sites.google.com/g.harvard.edu/cav-asplos24/home))
 - [ACM SenSys 2023 Posters & Demos](https://sensys.acm.org/2023/demos/)
 
