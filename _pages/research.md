@@ -38,7 +38,7 @@ We built a reconfigurable testbed for fine-grained profiling of DNN inference an
 
 #### RT-BEV
 
-![RT-BEV System Overview](../assets/img/publication_preview/RT-BEV-Design.pdf)
+<!-- ![RT-BEV System Overview](../assets/img/publication_preview/RT-BEV-Design.pdf) -->
 
 **RT-BEV** co-optimizes message communication and object detection for real-time Bird’s-Eye-View perception. Key components include an ROI-aware camera synchronizer, context-aware ROI generator, feature split & merge for variable ROI sizes, a time predictor, and a global coordinator. Implemented in a ROS BEV pipeline and validated on nuScenes, RT-BEV delivers low-latency, high-accuracy BEV perception (IEEE RTSS 2024).
 
