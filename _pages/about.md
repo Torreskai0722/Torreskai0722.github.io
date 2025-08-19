@@ -26,6 +26,7 @@ I am currently a Research Fellow working with Prof. [Kang G. Shin](https://web.e
 Before that, I got my Ph.D. degree in computer science from Wayne State University in May 2023, supervised by Prof. [Weisong Shi](https://www.weisongshi.org/) (IEEE Fellow). I have collaborated with researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
 
 <span style="color: #A500FF;"><strong>I am on the academic job market!</strong></span>
+
 <span style="color: #A500FF;"><strong>Links: [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf).</strong></span>
 
 ![Research Overview](../assets/img/research-overview.png){: style="max-width:100%; height:auto;" }
