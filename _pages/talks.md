@@ -10,6 +10,7 @@ nav_order: 5
 <!-- **Talks** -->
 **Building Predictable and Efficient Computing Systems for Autonomous Cyber-Physical Systems**\
 University of Pennsylvania, [Distributed Systems Laboratory](https://dsl.cis.upenn.edu/seminar/), Sep. 2025\
+NSF [CSR PI Meeting Lighting Talk](https://nsfcsr2025.hpc.fau.edu/?utm_source=chatgpt.com#schedule), Sep. 2025\
 NTU Singapore, Sep. 2025\
 Wayne State University, Jan. 2025\
 University of Michigan, Nov. 2024\
