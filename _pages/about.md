@@ -23,20 +23,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 
 ## About Me
 
-I am a Research Fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) at the University of Michigan, working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/) (ACM/IEEE Fellow). My research focuses on building **safe**, **predictable**, and **energy-efficient** cyber-physical systems for autonomous vehicles and mobile robots.
+I am a Research Fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) at the University of Michigan, working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/) (ACM/IEEE Fellow). I received my Ph.D. in Computer Science from Wayne State University in May 2023, where I was supervised by Prof. [Weisong Shi](https://www.weisongshi.org/) (IEEE Fellow). Throughout my research career, I've had the privilege of collaborating with leading researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware. My research focuses on building **safe**, **predictable**, and **energy-efficient** cyber-physical systems for autonomous vehicles and mobile robots.
 
 ## Research Focus
 
 My work sits at the intersection of [Autonomous Driving and Computing Systems](https://arxiv.org/abs/2009.14349), where I develop novel approaches to ensure the reliability and efficiency of autonomous systems in real-world environments. I'm particularly interested in:
 
 - **Safety-critical systems** for autonomous vehicles
-- **Real-time computing** architectures for robotics
+- **Real-time computing** for robotics
 - **Energy optimization** in mobile autonomous systems
 - **Predictable performance** guarantees for cyber-physical systems
-
-## Background
-
-I received my Ph.D. in Computer Science from Wayne State University in May 2023, where I was supervised by Prof. [Weisong Shi](https://www.weisongshi.org/) (IEEE Fellow). Throughout my research career, I've had the privilege of collaborating with leading researchers from Argonne National Laboratory, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
 
 ## Academic Job Market
 
