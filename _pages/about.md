@@ -34,10 +34,9 @@ My work sits at the intersection of [Autonomous Driving and Computing Systems](h
 - **Energy optimization** in mobile autonomous systems
 - **Predictable performance** guarantees for cyber-physical systems
 
-## Academic Job Market
-
 <span style="color: #A500FF;"><strong>I am currently on the academic job market and seeking faculty positions!</strong></span>
 
-**Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf)
+<!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
+<span style="color: #A500FF;"><strong>Application Materials: [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf).</strong></span>
 
 ![Research Overview](../assets/img/research-overview.png){: style="max-width:100%; height:auto;" }
