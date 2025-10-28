@@ -29,10 +29,10 @@ I am a Research Fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs
 
 My work sits at the intersection of [Autonomous Driving and Computing Systems](https://arxiv.org/abs/2009.14349), where I develop novel approaches to ensure the reliability and efficiency of autonomous systems in real-world environments. I'm particularly interested in:
 
-- **Safety-critical systems** for autonomous vehicles
-- **Real-time computing** for robotics
-- **Energy optimization** in mobile autonomous systems
-- **Predictable performance** guarantees for cyber-physical systems
+- 
+- [[RTSS24](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2024/rtss24-liu.pdf), [RTSS22](https://weisongshi.org/papers/liu22-prophet.pdf), [MLBench23](https://arxiv.org/abs/2209.05487), [IoTJ20](https://arxiv.org/abs/2009.14349), [PIEEE19](https://ieeexplore.ieee.org/document/8744265/)] **Real-time ML for Autonomous Vehicles** 
+- [] **Energy Efficient Robots**
+- [] **Edge Computing for Public Safety**
 
 <span style="color: #A500FF;"><strong>I am currently on the academic job market and seeking faculty positions!</strong></span>
 
