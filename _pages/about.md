@@ -29,13 +29,13 @@ I am a Research Fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs
 
 My work sits at the intersection of [Autonomous Driving and Computing Systems](https://arxiv.org/abs/2009.14349), where I develop novel approaches to ensure the reliability and efficiency of autonomous systems in real-world environments. I'm particularly interested in:
 
-- [[RTSS24](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2024/rtss24-liu.pdf), [ICCAD24](https://www.arxiv.org/abs/2408.05363), [DAC24](https://dl.acm.org/doi/10.1145/3649329.3657310), [RTSS22](https://weisongshi.org/papers/liu22-prophet.pdf), [MLBench23](https://arxiv.org/abs/2209.05487), [IoTJ20](https://arxiv.org/abs/2009.14349)] **Real-time ML for Autonomous Vehicles** 
+- [[RTSS24](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2024/rtss24-liu.pdf), [ICCAD24](https://www.arxiv.org/abs/2408.05363), [DAC24](https://dl.acm.org/doi/10.1145/3649329.3657310), [RTSS22](https://weisongshi.org/papers/liu22-prophet.pdf), [MLBench23](https://arxiv.org/abs/2209.05487), [IoTJ20](https://arxiv.org/abs/2009.14349)] **Real-time ML for CPS** 
 - [[TITS23](https://ieeexplore.ieee.org/document/10153345), [ICRA23](https://ieeexplore.ieee.org/document/10161110), [SEC19](https://dl.acm.org/doi/10.1145/3318216.3363302), [HotEdge19](https://weisongshi.org/hydraone/)] **Energy Efficient Autonomous Systems**
-- [[CPSWeek19](https://dl.acm.org/doi/10.1145/3313237.3313303), [ICDCS19](https://www.computer.org/csdl/proceedings-article/icdcs/2019/251900b840/1ezRVfNitd6), [PIEEE19](https://ieeexplore.ieee.org/document/8744265), [HotEdge18](https://www.usenix.org/conference/hotedge18/presentation/liu), [SEC18](https://ieeexplore.ieee.org/document/8567654), [ICDCS18](https://ieeexplore.ieee.org/document/8416394)] **Edge Computing for Public Safety**
+- [[CPSWeek19](https://dl.acm.org/doi/10.1145/3313237.3313303), [PIEEE19](https://ieeexplore.ieee.org/document/8744265), [HotEdge18](https://www.usenix.org/conference/hotedge18/presentation/liu), [SEC18](https://ieeexplore.ieee.org/document/8567654), [ICDCS18](https://ieeexplore.ieee.org/document/8416394)] **Edge Computing for Public Safety**
 
 <span style="color: #A500FF;"><strong>I am currently on the academic job market and seeking faculty positions!</strong></span>
 
 <!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
 <span style="color: #A500FF;"><strong>Application Materials: [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf).</strong></span>
 
-![Research Overview](../assets/img/research-overview.png){: style="max-width:100%; height:auto;" }
+![Research Overview](../assets/img/research-overview.png){: style="max-width:90%; height:auto;" }
