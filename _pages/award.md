@@ -13,15 +13,18 @@ My role: **Co-Principal Investigator** (PI: Weisong Shi)
 
 **I-SEE: Intelligent Vehicular Perception and Control**\
 General Motors, 2025-2026\
-My role: **Project Leader** (PI: Kang G. Shin) 
+My role: **Project Leader** (PI: Kang G. Shin)
 
-**Travel Award for Outstanding Conference Publications**\
+**ACSIC SOFC 2025 Travel Grant Award**\
+ACSIC, 2025
+
+**Outstanding Conference Publications Award**\
 Wayne State University, 2023
 
 **IEEE Real-Time Systems Symposium Travel Award**\
 IEEE TCRTS, 2023
 
-**Travel Award for Outstanding Conference Publications**\
+**Outstanding Conference Publications Award**\
 Wayne State University, 2022
 
 **ACM/IEEE Symposium on Edge Computing Student Travel Grant**\
