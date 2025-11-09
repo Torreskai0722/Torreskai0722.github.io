@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to give a [lightning talk](https://nsfcsr2025.hpc.fau.edu/?utm_source=chatgpt.com#schedule) at NSF CSR PI meeting and UPenn's [Distributed Systems Laboratory](https://dsl.cis.upenn.edu/seminar/)!
+Invited to give a [lightning talk](https://nsfcsr2025.hpc.fau.edu/?utm_source=chatgpt.com#schedule) at NSF CSR PI meeting!
