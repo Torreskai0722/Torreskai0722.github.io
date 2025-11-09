@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to give a talk at UPenn's [Distributed Systems Laboratory](https://dsl.cis.upenn.edu/seminar/)!
+Invited to give a talk at the [DSL Seminar](https://dsl.cis.upenn.edu/seminar/) at University of Pennsylvania!
