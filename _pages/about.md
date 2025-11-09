@@ -33,7 +33,7 @@ My research focuses on building **safe**, **predictable**, and **energy-efficien
 - [[TITS23](https://ieeexplore.ieee.org/document/10153345), [ICRA23](https://ieeexplore.ieee.org/document/10161110), [SEC19](https://dl.acm.org/doi/10.1145/3318216.3363302), [HotEdge19](https://weisongshi.org/hydraone/)] **Energy Efficient Autonomous Systems**
 - [[CPSWeek19](https://dl.acm.org/doi/10.1145/3313237.3313303), [PIEEE19](https://ieeexplore.ieee.org/document/8744265), [HotEdge18](https://www.usenix.org/conference/hotedge18/presentation/liu), [SEC18](https://ieeexplore.ieee.org/document/8567654), [ICDCS18](https://ieeexplore.ieee.org/document/8416394)] **Edge Computing for Public Safety**
 
-<span style="color: #A500FF;"><strong>I am currently on the academic job market and seeking faculty positions!</strong></span>
+<span style="color: #A500FF;"><strong>[I am currently on the academic job market and seeking faculty positions!]()</strong></span>
 
 <!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
 <span style="color: #A500FF;"><strong>Application Materials: [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf).</strong></span>
