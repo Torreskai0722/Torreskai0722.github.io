@@ -27,7 +27,7 @@ I am a Research Fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs
 
 ## Research Focus
 
-My research focuses on building **safe**, **predictable**, and **energy-efficient** ML systems for safety-critical **cyber-physical systems (CPS)** — from autonomous driving to robotics and beyond. I develop novel **cross-layer** (application, communication middleware, computing system, etc.) approaches to achieve these goals. I'm particularly interested in:
+My research focuses on building **safe**, **predictable**, and **energy-efficient** ML systems for safety-critical **cyber-physical systems (CPS)** — from autonomous driving to robotics and beyond. I develop novel **cross-layer** systems(application, communication middleware, computing system, etc.) to achieve these goals. I'm particularly interested in:
 
 - [[RTSS24](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2024/rtss24-liu.pdf), [ICCAD24](https://www.arxiv.org/abs/2408.05363), [DAC24](https://dl.acm.org/doi/10.1145/3649329.3657310), [RTSS22](https://weisongshi.org/papers/liu22-prophet.pdf), [MLBench23](https://arxiv.org/abs/2209.05487), [IoTJ20](https://arxiv.org/abs/2009.14349)] **Predictable ML for CPS** 
 - [[TITS23](https://ieeexplore.ieee.org/document/10153345), [ICRA23](https://ieeexplore.ieee.org/document/10161110), [SEC19](https://dl.acm.org/doi/10.1145/3318216.3363302), [HotEdge19](https://weisongshi.org/hydraone/)] **Energy Efficient Autonomous Systems**
