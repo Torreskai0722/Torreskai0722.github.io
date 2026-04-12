@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /openings/
-title: Openings for PhDs and Interns 
-description:
+title: Openings for PhDs and Interns
 nav: true
 nav_order: 6
 ---
