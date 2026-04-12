@@ -10,6 +10,7 @@ profile:
   image: liangkai-pic-old.jpg
   image_circular: true # crops the image to make it circular
   social: true # includes social icons at the bottom of the page
+  <span style="color: #A500FF;"><strong>[CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf)</strong></span>
   # more_info: >
   #   <p><strong>Research Fellow</strong></p>
   #   <p>Real-Time Computing Laboratory</p>
@@ -35,12 +36,11 @@ My research focuses on building **safe**, **predictable**, and **energy-efficien
 
 <!-- <span style="color: #A500FF;"><strong>I will join the Department of Computer Science at Texas Tech University as an Assistant Professor in Fall 2026. I am actively recruiting PhD students and interns — see the <a href="/openings/">Openings</a> page for details.</strong></span> -->
 <div style="border: 2px solid #A500FF; background-color: #F8EEFF; padding: 16px 20px; border-radius: 12px; margin: 20px 0; text-align: center;">
-  <strong style="color: #A500FF;">
+  <strong style="color: #000000;">
     I will join the Department of Computer Science at Texas Tech University as an Assistant Professor in Fall 2026. I am actively recruiting PhD students and interns — see the <a href="/openings/" style="color: #A500FF; text-decoration: underline;">Openings</a> page for details.
   </strong>
 </div>
 
 <!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
-<span style="color: #A500FF;"><strong>[CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf)</strong></span>
 
 ![Research Overview](../assets/img/research-overview.png){: style="max-width:90%; height:auto;" }
