@@ -13,7 +13,7 @@ nav_order: 6
 
 I will join the Department of Computer Science at Texas Tech University as an Assistant Professor in Fall 2026. I am actively recruiting several PhD students to join my group starting in Fall 2026 and Spring 2027. My research focuses on building **safe**, **efficient**, and **predictable** AI-enabled autonomous systems, with interests spanning autonomous driving, robotics, real-time and edge AI, multimodal perception, vision-language systems, and vehicle–edge–cloud collaboration.
 
-If you are interested in working with me, please read my [Research Statement](/research/) first before reaching out.
+If you are interested in working with me, please read my <strong>[Research Statement](/research/)</strong> first before reaching out.
 
 ![Research Overview](../assets/img/research-scope.png){: style="max-width:90%; height:auto;" }
 
