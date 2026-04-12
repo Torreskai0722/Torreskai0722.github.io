@@ -1,15 +1,15 @@
 ---
 layout: page
 permalink: /openings/
-title: Openings
-description: Opportunities for prospective PhD students and collaborators
+title:
+description:
 nav: true
 nav_order: 6
 ---
 
-# Openings
+<!-- # Openings -->
 
-![Texas Tech University Campus](../assets/img/ttu-campus.jpg){: style="max-width:100%; height:auto; margin-bottom:30px;" }
+<!-- ![Texas Tech University Campus](../assets/img/ttu-campus.jpg){: style="max-width:100%; height:auto; margin-bottom:30px;" } -->
 
 I will join the Department of Computer Science at Texas Tech University as an Assistant Professor in Fall 2026. I am actively recruiting several PhD students to join my group starting in Fall 2026 and Spring 2027. My research focuses on building safe, efficient, and predictable AI-enabled cyber-physical systems, with interests spanning autonomous driving, robotics, real-time and edge AI, multimodal perception, vision-language systems, and vehicle–edge–cloud collaboration.
 
@@ -21,25 +21,14 @@ My group works at the intersection of **AI, systems, and cyber-physical systems*
 
 Topics of interest include:
 
-- **Autonomous driving and robotics**
-  - Multimodal perception for autonomous systems
-  - Efficient sensing, planning, and decision-making under resource constraints
-  - Safe and robust autonomy in dynamic real-world environments
+- **Foundation Models**
+  - Perception, reasoning, and decision-making for AI-enabled autonomy in autonomous vehicles, robotics, and drones
 
-- **Real-time and predictable AI**
-  - Deadline-aware and efficient execution of DNNs and vision-language models
-  - Runtime scheduling and system support for safety-critical AI workloads
-  - Improving predictability, robustness, and efficiency on edge platforms
+- **Computing Systems**
+  - Real-time, efficient, and scalable systems support for autonomous intelligence across device, edge, and cloud
 
-- **Edge AI and collaborative intelligence**
-  - Vehicle–edge–cloud collaborative systems
-  - Distributed intelligence for latency-sensitive applications
-  - Cross-layer optimization across hardware, systems, and algorithms
-
-- **Vision-language and multimodal AI for autonomy**
-  - Efficient VLM/VLA systems for embodied and autonomous agents
-  - Context-aware perception and decision-making
-  - Adaptive prompting and computation for real-time autonomous systems
+- **Physics**
+  - Physics-aware and safety-conscious autonomy for robust cyber-physical systems, including AVs, off-road platforms, AR/VR, and other emerging applications
 
 ## Prospective PhD Students
 
@@ -52,7 +41,6 @@ I welcome applications from motivated students with backgrounds in:
 - Machine Learning
 - Computer Vision
 - Embedded Systems
-- Related fields
 
 Strong applicants typically have one or more of the following:
 
