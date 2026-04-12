@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /openings/
-title:
+title: Openings
 description:
 nav: true
 nav_order: 6
