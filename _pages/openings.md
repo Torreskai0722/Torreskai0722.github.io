@@ -34,19 +34,16 @@ Topics of interest include:
 
 I welcome applications from motivated students with backgrounds in:
 
-- Computer Science
-- Computer Engineering
-- Electrical Engineering
 - Robotics
-- Machine Learning
-- Computer Vision
+- Cyber-Physical Systems
+- Computer Engineering
+- Machine Learning, Computer Vision
 - Embedded Systems
 
 Strong applicants typically have one or more of the following:
 
 - Solid programming and system-building skills
 - Prior research experience in AI, systems, robotics, or autonomous systems
-- Strong mathematical and analytical background
 - Interest in tackling real-world problems in safety-critical systems
 - Publication experience or other evidence of research potential
 
