@@ -16,7 +16,7 @@ If you are interested in working with me, please read my [Research Statement](..
 
 ## Research Areas
 
-My group works at the intersection of **AI, systems, and cyber-physical systems**, with a focus on cross-layer co-design of models, runtime systems, sensing pipelines, and computing platforms for mission-critical autonomy.
+My group works at the intersection of **AI, robotics, and cyber-physical systems**, with a focus on cross-layer co-design of models, runtime systems, sensing/perception pipelines, and computing platforms for mission-critical autonomy.
 
 ![Research Overview](../assets/img/research-scope.png){: style="max-width:90%; height:auto;" }
 
