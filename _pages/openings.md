@@ -31,9 +31,30 @@ Topics of interest include:
 - **Physics Intelligence**
   - Physics-aware and safety-conscious autonomy for robust cyber-physical systems, including AVs, off-road platforms, AR/VR, and other emerging applications
 
-## Prospective PhD Students
+<!-- ## Prospective PhD Students -->
 
-I welcome applications from motivated students with backgrounds in:
+<!-- Prospective Students -->
+<h2 class="teaching-subheading" style="margin-top: 2.5rem;">Prospective Students</h2>
+<div class="students-form-cta">
+  <p>
+    I am actively recruiting <strong>PhD students</strong> for <strong>Fall 2026</strong> and <strong>Spring 2027</strong>
+    with interests in LLM Security, AI Security, Hardware Security, and Side-Channel Analysis.
+  </p>
+  <p style="margin-bottom:0.5rem;"><strong>What I look for:</strong></p>
+  <ul style="text-align:left; display:inline-block; margin-bottom:1rem;">
+    <li>Background on Robotics, Machine Learning, Computer Vision, and Embedded Systems</li>
+    <li>Programming skills (Python, C/C++)</li>
+    <li>Passion for research and security</li>
+  </ul>
+  <p><strong>Fully-funded RA positions</strong> with competitive stipend and tuition waiver are available.</p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSea4ocykyiOsp-uoxQg72iiNcKTXn2gk3swSwZ923mYu0gCDQ/viewform?usp=dialog" class="cta-btn" target="_blank" rel="noopener">Apply via Google Form</a>
+  <p style="margin-top:1rem; font-size:0.85rem; color:#888;">
+    Or email your CV and research statement to
+    <a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a>
+  </p>
+</div>
+
+<!-- I welcome applications from motivated students with backgrounds in:
 
 - Robotics
 - Cyber-Physical Systems
@@ -60,4 +81,4 @@ Please use the following email subject line:
 
 ```text
 [Prospective PhD] Your Name - Your University
-```
+``` -->
