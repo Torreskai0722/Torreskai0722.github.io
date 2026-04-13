@@ -6,7 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-# Openings for PhDs and Interns
+<!-- # Openings for PhDs and Interns -->
 
 <!-- ![Texas Tech University Campus](../assets/img/ttu-campus.jpg){: style="max-width:100%; height:auto; margin-bottom:30px;" } -->
 
