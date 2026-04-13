@@ -35,22 +35,26 @@ Topics of interest include:
 
 <!-- Prospective Students -->
 <h2 class="teaching-subheading" style="margin-top: 2.5rem;">Prospective Students</h2>
-<div class="students-form-cta">
-  <p>
-    I am actively recruiting <strong>PhD students</strong> for <strong>Fall 2026</strong> and <strong>Spring 2027</strong>
-    with interests in LLM Security, AI Security, Hardware Security, and Side-Channel Analysis.
-  </p>
-  <p style="margin-bottom:0.5rem;"><strong>What I look for:</strong></p>
-  <ul style="text-align:left; display:inline-block; margin-bottom:1rem;">
+
+<div style="border: 2px solid #A500FF; background-color: #F8EEFF; padding: 20px 24px; border-radius: 12px; margin: 20px 0; text-align: center;">
+  <p style="margin-bottom: 0.75rem;"><strong>What I look for:</strong></p>
+  <ul style="text-align: left; display: inline-block; margin: 0 0 1rem 0; padding-left: 1.2rem;">
     <li>Background on Robotics, Machine Learning, Computer Vision, and Embedded Systems</li>
     <li>Programming skills (Python, C/C++)</li>
-    <li>Passion for research and security</li>
+    <li>Passion for research and robotics</li>
   </ul>
-  <p><strong>Fully-funded RA positions</strong> with competitive stipend and tuition waiver are available.</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSea4ocykyiOsp-uoxQg72iiNcKTXn2gk3swSwZ923mYu0gCDQ/viewform?usp=dialog" class="cta-btn" target="_blank" rel="noopener">Apply via Google Form</a>
-  <p style="margin-top:1rem; font-size:0.85rem; color:#888;">
+  <p style="margin: 0 0 1rem 0;">
+    <strong>Fully-funded RA positions</strong> with competitive stipend and tuition waiver are available.
+  </p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSea4ocykyiOsp-uoxQg72iiNcKTXn2gk3swSwZ923mYu0gCDQ/viewform?usp=dialog"
+     class="cta-btn"
+     target="_blank"
+     rel="noopener">
+    Apply via Google Form
+  </a>
+  <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
     Or email your CV and research statement to
-    <a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a>
+    <a href="mailto:liangkai@umich.edu" style="color: #A500FF; text-decoration: underline;">liangkai@umich.edu</a>
   </p>
 </div>
 
