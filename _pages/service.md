@@ -2,7 +2,7 @@
 layout: page
 title: Service
 permalink: /service/
-description: 
+description:
 nav: true
 nav_order: 4
 ---
@@ -13,7 +13,7 @@ nav_order: 4
 - Publication Chair, ACM/IEEE Symposium on Edge Computing ([SEC](https://acm-ieee-sec.org/2025/)), 2025
 - Web Chair, The 30th Annual International Conference on Mobile Computing and Networking ([MobiCom](https://www.sigmobile.org/mobicom/2024/index.html)) 2024
 - Committee Member, Technical Steering Committee of the [Autoware Foundation](https://autoware.org/), October 2022 - December
-2023
+  2023
 
 **Technical Program Committee**
 
@@ -24,8 +24,9 @@ nav_order: 4
 - [ACM SenSys 2023 Posters & Demos](https://sensys.acm.org/2023/demos/)
 
 **Reviewer**
+
 - Grant proposal reviewer, AAPG 2025, French National Research Agency’s (ANR)
-- ICCV 2025 
+- ICCV 2025
 - CVPR 2024/2025
 - IROS 2022/2023/2024/2025
 - ICRA 2023

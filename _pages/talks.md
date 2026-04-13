@@ -2,12 +2,13 @@
 layout: page
 permalink: /talks/
 title: Talks
-description: 
+description:
 nav: true
 nav_order: 5
 ---
 
 <!-- **Talks** -->
+
 **Building Predictable and Efficient Computing Systems for Autonomous Cyber-Physical Systems**\
 [Autoware Center of Excellence](https://autowarefoundation.github.io/autoware-coe/), Oct. 2025\
 University of Pennsylvania, [Distributed Systems Laboratory](https://dsl.cis.upenn.edu/seminar/), Sep. 2025\

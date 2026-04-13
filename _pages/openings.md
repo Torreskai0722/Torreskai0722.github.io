@@ -23,9 +23,11 @@ My group works at the intersection of **AI, systems, and cyber-physical systems*
 Topics of interest include:
 
 - **Foundation Models**
+
   - Perception, reasoning, and decision-making for AI-enabled autonomy in autonomous vehicles, robotics, and drones
 
 - **Computing Systems**
+
   - Real-time, efficient, and scalable systems support for autonomous intelligence across device, edge, and cloud
 
 - **Physics**
