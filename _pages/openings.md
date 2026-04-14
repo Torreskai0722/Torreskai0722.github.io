@@ -53,7 +53,7 @@ Topics of interest include:
     Apply via Google Form
   </a>
   <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
-    Or email your CV, transcripts, and a brief summary of your research interests, prior experience, and career goals to
+    Or email your CV, transcripts, and research statement to
     <a href="mailto:liangkai@umich.edu" style="color: #A500FF; text-decoration: underline;">liangkai@umich.edu</a>
   </p>
 </div>
