@@ -14,7 +14,7 @@ I will join the Department of Computer Science at Texas Tech University as an As
 
 If you are interested in working with me, please read my [Research Statement](../assets/pdf/research.pdf) first before reaching out.
 
-## Research Areas
+<!-- ## Research Areas
 
 My group works at the intersection of **AI, robotics, and cyber-physical systems**, with a focus on cross-layer co-design of models, runtime systems, sensing/perception pipelines, and computing platforms for mission-critical autonomy.
 
@@ -29,7 +29,7 @@ Topics of interest include:
   - Real-time, efficient, and scalable systems support for autonomous intelligence across device, edge, and cloud
 
 - **Physics Intelligence**
-  - Physics-aware and safety-conscious autonomy for robust cyber-physical systems, including AVs, off-road platforms, AR/VR, and other emerging applications
+  - Physics-aware and safety-conscious autonomy for robust cyber-physical systems, including AVs, off-road platforms, AR/VR, and other emerging applications -->
 
 <!-- ## Prospective PhD Students -->
 
