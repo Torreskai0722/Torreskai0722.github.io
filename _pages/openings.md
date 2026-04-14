@@ -52,10 +52,10 @@ Topics of interest include:
      rel="noopener">
     Apply via Google Form
   </a>
-  <!-- <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
-    Or email your CV and research statement to
+  <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
+    Or email your CV, transcripts, and research statement to
     <a href="mailto:liangkai@umich.edu" style="color: #A500FF; text-decoration: underline;">liangkai@umich.edu</a>
-  </p> -->
+  </p>
 </div>
 
 <!-- I welcome applications from motivated students with backgrounds in:
