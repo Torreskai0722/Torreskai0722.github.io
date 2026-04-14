@@ -18,7 +18,7 @@ If you are interested in working with me, please read my [Research Statement](..
 
 My group works at the intersection of **AI, robotics, and cyber-physical systems**, with a focus on cross-layer co-design of models, runtime systems, sensing/perception pipelines, and computing platforms for mission-critical autonomy. You will have the opportunity to work on real, practical robotic platforms, including several examples shown below.
 
-![Research Platforms](../assets/img/research-platforms.jpg){: style="max-width:90%; height:auto;" }
+![Research Platforms](../assets/img/research-platforms.jpg){: style="max-width:100%; height:auto;" }
 
 Topics of interest include:
 
