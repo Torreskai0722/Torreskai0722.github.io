@@ -38,12 +38,12 @@ Topics of interest include:
 
 <div style="border: 2px solid #A500FF; background-color: #F8EEFF; padding: 20px 24px; border-radius: 12px; margin: 20px 0; text-align: center;">
   <p style="margin-bottom: 0.75rem;"><strong>What I look for:</strong></p>
-  <ul style="text-align: left; display: inline-block; margin: 0 0 1rem 0; padding-left: 1.2rem;">
+  <ul style="text-align: left; display: inline-block; margin: 0 0 1rem 0; padding-left: 1.2rem; color: #666;">
     <li>Background on Robotics, Machine Learning, Computer Vision, and Computer Engineering</li>
     <li>Programming skills (Python, ROS)</li>
     <li>Passion for research and robotics</li>
   </ul>
-  <p style="margin: 0 0 1rem 0;">
+  <p style="margin: 0 0 1rem 0; color: #666;">
     <strong>Fully-funded RA positions</strong> with competitive stipend and tuition waiver are available.
   </p>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSea4ocykyiOsp-uoxQg72iiNcKTXn2gk3swSwZ923mYu0gCDQ/viewform?usp=dialog"
