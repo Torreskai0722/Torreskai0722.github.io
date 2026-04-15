@@ -50,7 +50,7 @@ Topics of interest include:
      class="cta-btn"
      target="_blank"
      rel="noopener">
-    <strong>Apply via Google Form</strong>
+    Apply via Google Form
   </a>
   <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
     Or email your CV, transcripts, and research statement to
