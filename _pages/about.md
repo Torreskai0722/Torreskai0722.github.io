@@ -25,6 +25,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 
 I am a Research Fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) at the University of Michigan, working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/) (ACM/IEEE Fellow). Previously, I received my Ph.D. in Computer Science from Wayne State University in May 2023, where I was supervised by Prof. [Weisong Shi](https://www.weisongshi.org/) (IEEE Fellow). Throughout my research career, I've had the privilege of collaborating with leading researchers from Argonne National Laboratory, General Motors, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware.
 
+I am also the founder of the <a href="https://liangkai.org/um-hiking/" target="_blank" rel="noopener">UMich Hiking Group</a>, a community for people who enjoy hiking and exploring the outdoors together.
+
 <span style="color: #A500FF;"><strong>[CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf)</strong></span>
 
 ## Research Focus
