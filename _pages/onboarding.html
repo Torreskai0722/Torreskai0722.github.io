@@ -1,578 +1,549 @@
 ---
-layout: none
+layout: page
 permalink: /onboarding/
 title: Onboarding
 nav: true
 nav_order: 7
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Autonomous Mobile Robots — Intern Onboarding Plan</title>
+
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+#ob {
+  --ob-bg: #F7F6F2;
+  --ob-surface: #FFFFFF;
+  --ob-border: #E2DFD8;
+  --ob-border-dark: #C8C4BC;
+  --ob-text-primary: #1A1916;
+  --ob-text-secondary: #6B6760;
+  --ob-text-muted: #A09D98;
+  --ob-tag-doc-bg: #E8F4EC;   --ob-tag-doc-text: #1A5C2E;
+  --ob-tag-paper-bg: #E8EEF8; --ob-tag-paper-text: #1A3A6B;
+  --ob-tag-code-bg: #F0EBF8;  --ob-tag-code-text: #4A1A7A;
+  --ob-tag-video-bg: #FBF0E4; --ob-tag-video-text: #7A3A0A;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--ob-text-primary);
+  font-size: 15px;
+  line-height: 1.6;
+}
 
-  :root {
-    --bg: #F7F6F2;
-    --surface: #FFFFFF;
-    --border: #E2DFD8;
-    --border-dark: #C8C4BC;
-    --text-primary: #1A1916;
-    --text-secondary: #6B6760;
-    --text-muted: #A09D98;
-    --accent: #1A1916;
-    --tag-doc-bg: #E8F4EC; --tag-doc-text: #1A5C2E;
-    --tag-paper-bg: #E8EEF8; --tag-paper-text: #1A3A6B;
-    --tag-code-bg: #F0EBF8; --tag-code-text: #4A1A7A;
-    --tag-video-bg: #FBF0E4; --tag-video-text: #7A3A0A;
-    --tag-milestone-bg: #1A1916; --tag-milestone-text: #F7F6F2;
-    --phase1: #2D5A27;
-    --phase2: #1A3A6B;
-    --phase3: #4A1A7A;
-    --phase4: #7A3A0A;
-    --supp: #5A3A1A;
-  }
+/* ── Hero banner ── */
+#ob .ob-hero {
+  background: var(--ob-text-primary);
+  color: var(--ob-bg);
+  padding: 2.5rem 2rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+#ob .ob-hero-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #A09D98;
+  margin-bottom: 0.75rem;
+}
+#ob .ob-hero h1 {
+  font-size: clamp(22px, 4vw, 34px);
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  border: none;
+  color: #F7F6F2;
+}
+#ob .ob-hero h1 span { font-weight: 500; }
+#ob .ob-meta {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 0.5px solid #3A3936;
+}
+#ob .ob-meta-item { display: flex; flex-direction: column; gap: 2px; }
+#ob .ob-meta-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7A7874;
+}
+#ob .ob-meta-value { font-size: 13px; color: #D0CEC9; }
 
-  html { scroll-behavior: smooth; }
+/* ── Section nav ── */
+#ob .ob-subnav {
+  background: var(--ob-surface);
+  border: 0.5px solid var(--ob-border);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+#ob .ob-subnav::-webkit-scrollbar { display: none; }
+#ob .ob-subnav-inner {
+  display: flex;
+  padding: 0 0.5rem;
+  gap: 0;
+}
+#ob .ob-subnav a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ob-text-muted);
+  text-decoration: none;
+  padding: 11px 14px;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  display: block;
+}
+#ob .ob-subnav a:hover {
+  color: var(--ob-text-primary);
+  border-bottom-color: var(--ob-text-primary);
+}
 
-  body {
-    font-family: 'IBM Plex Sans', sans-serif;
-    background: var(--bg);
-    color: var(--text-primary);
-    font-size: 15px;
-    line-height: 1.6;
-    min-height: 100vh;
-  }
+/* ── Timeline ── */
+#ob .ob-timeline {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 0 2rem;
+}
+#ob .ob-phase { display: contents; }
+#ob .ob-sidebar {
+  padding-top: 2px;
+  position: relative;
+}
+#ob .ob-sidebar::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 28px;
+  bottom: -40px;
+  width: 0.5px;
+  background: var(--ob-border);
+}
+#ob .ob-phase:last-child .ob-sidebar::after { display: none; }
+#ob .ob-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--ob-text-primary);
+  margin: 4px auto 8px;
+}
+#ob .ob-days {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ob-text-muted);
+  text-align: center;
+  line-height: 1.4;
+}
+#ob .ob-body { padding-bottom: 2.5rem; }
+#ob .ob-phase-title {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+#ob .ob-phase-sub {
+  font-size: 13px;
+  color: var(--ob-text-secondary);
+  margin-bottom: 1.25rem;
+}
 
-  header {
-    background: var(--text-primary);
-    color: var(--bg);
-    padding: 3rem 2rem 2.5rem;
-  }
+/* ── Cards ── */
+#ob .ob-card {
+  background: var(--ob-surface);
+  border: 0.5px solid var(--ob-border);
+  border-radius: 8px;
+  padding: 1rem 1.125rem;
+  margin-bottom: 10px;
+  transition: border-color 0.15s;
+}
+#ob .ob-card:hover { border-color: var(--ob-border-dark); }
+#ob .ob-card-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+#ob .ob-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+#ob .ob-tag-doc   { background: var(--ob-tag-doc-bg);   color: var(--ob-tag-doc-text); }
+#ob .ob-tag-paper { background: var(--ob-tag-paper-bg); color: var(--ob-tag-paper-text); }
+#ob .ob-tag-code  { background: var(--ob-tag-code-bg);  color: var(--ob-tag-code-text); }
+#ob .ob-tag-video { background: var(--ob-tag-video-bg); color: var(--ob-tag-video-text); }
+#ob .ob-card-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--ob-text-primary);
+}
+#ob .ob-card-desc {
+  font-size: 13px;
+  color: var(--ob-text-secondary);
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+#ob .ob-links { display: flex; flex-wrap: wrap; gap: 6px; }
+#ob .ob-link {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--ob-text-primary);
+  background: var(--ob-bg);
+  border: 0.5px solid var(--ob-border-dark);
+  border-radius: 4px;
+  padding: 4px 10px;
+  text-decoration: none;
+  transition: background 0.12s, border-color 0.12s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+#ob .ob-link::after { content: '↗'; font-size: 10px; opacity: 0.5; }
+#ob .ob-link:hover {
+  background: var(--ob-text-primary);
+  color: var(--ob-bg);
+  border-color: var(--ob-text-primary);
+  text-decoration: none;
+}
+#ob .ob-link:hover::after { opacity: 1; }
 
-  .header-inner { max-width: 860px; margin: 0 auto; }
+/* ── Milestone ── */
+#ob .ob-milestone {
+  background: var(--ob-text-primary);
+  color: var(--ob-bg);
+  border-radius: 8px;
+  padding: 0.875rem 1.125rem;
+  margin-top: 4px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+#ob .ob-milestone-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7A7874;
+  white-space: nowrap;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+#ob .ob-milestone-text { font-size: 13px; color: #D0CEC9; line-height: 1.6; }
 
-  .header-label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #A09D98;
-    margin-bottom: 1rem;
-  }
+/* ── Divider & supplementary ── */
+#ob .ob-divider { border: none; border-top: 0.5px solid var(--ob-border); margin: 0 0 2rem; }
+#ob .ob-supp-title { font-size: 19px; font-weight: 500; margin-bottom: 4px; }
+#ob .ob-supp-sub { font-size: 13px; color: var(--ob-text-secondary); margin-bottom: 1.25rem; }
 
-  header h1 {
-    font-size: clamp(26px, 5vw, 40px);
-    font-weight: 300;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
-    margin-bottom: 1rem;
-  }
-
-  header h1 span { font-weight: 500; }
-
-  .header-meta {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 0.5px solid #3A3936;
-  }
-
-  .meta-item { display: flex; flex-direction: column; gap: 2px; }
-
-  .meta-label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #7A7874;
-  }
-
-  .meta-value { font-size: 13px; color: #D0CEC9; }
-
-  nav {
-    background: var(--surface);
-    border-bottom: 0.5px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-
-  .nav-inner {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    gap: 0;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .nav-inner::-webkit-scrollbar { display: none; }
-
-  .nav-link {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    text-decoration: none;
-    padding: 12px 16px;
-    white-space: nowrap;
-    border-bottom: 2px solid transparent;
-    transition: color 0.15s, border-color 0.15s;
-  }
-
-  .nav-link:hover {
-    color: var(--text-primary);
-    border-bottom-color: var(--text-primary);
-  }
-
-  main { max-width: 860px; margin: 0 auto; padding: 3rem 2rem; }
-
-  .timeline { display: grid; grid-template-columns: 120px 1fr; gap: 0 2rem; }
-
-  .phase { display: contents; }
-
-  .phase-sidebar { padding-top: 2px; position: relative; }
-
-  .phase-sidebar::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 28px;
-    bottom: -40px;
-    width: 0.5px;
-    background: var(--border);
-  }
-
-  .phase:last-child .phase-sidebar::after { display: none; }
-
-  .phase-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--text-primary);
-    margin: 4px auto 8px;
-  }
-
-  .phase-weeks {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    text-align: center;
-    line-height: 1.4;
-  }
-
-  .phase-body { padding-bottom: 3rem; }
-
-  .phase-title { font-size: 20px; font-weight: 500; letter-spacing: -0.01em; margin-bottom: 4px; }
-
-  .phase-subtitle { font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem; }
-
-  .card {
-    background: var(--surface);
-    border: 0.5px solid var(--border);
-    border-radius: 8px;
-    padding: 1.125rem 1.25rem;
-    margin-bottom: 10px;
-  }
-
-  .card:hover { border-color: var(--border-dark); }
-
-  .card-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
-
-  .tag {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 3px 8px;
-    border-radius: 4px;
-    white-space: nowrap;
-    flex-shrink: 0;
-    margin-top: 2px;
-  }
-
-  .tag-doc    { background: var(--tag-doc-bg);    color: var(--tag-doc-text); }
-  .tag-paper  { background: var(--tag-paper-bg);  color: var(--tag-paper-text); }
-  .tag-code   { background: var(--tag-code-bg);   color: var(--tag-code-text); }
-  .tag-video  { background: var(--tag-video-bg);  color: var(--tag-video-text); }
-
-  .card-title { font-size: 14px; font-weight: 500; line-height: 1.45; color: var(--text-primary); }
-
-  .card-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 12px; }
-
-  .links { display: flex; flex-wrap: wrap; gap: 6px; }
-
-  .link {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    color: var(--text-primary);
-    background: var(--bg);
-    border: 0.5px solid var(--border-dark);
-    border-radius: 4px;
-    padding: 4px 10px;
-    text-decoration: none;
-    transition: background 0.12s, border-color 0.12s;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .link::after { content: '↗'; font-size: 10px; opacity: 0.5; }
-
-  .link:hover { background: var(--text-primary); color: var(--bg); border-color: var(--text-primary); }
-
-  .link:hover::after { opacity: 1; }
-
-  .milestone {
-    background: var(--text-primary);
-    color: var(--bg);
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
-    margin-top: 4px;
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-  }
-
-  .milestone-label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #7A7874;
-    white-space: nowrap;
-    padding-top: 2px;
-    flex-shrink: 0;
-  }
-
-  .milestone-text { font-size: 13px; color: #D0CEC9; line-height: 1.6; }
-
-  .section-divider { border: none; border-top: 0.5px solid var(--border); margin: 0 0 3rem; }
-
-  footer { border-top: 0.5px solid var(--border); padding: 2rem; text-align: center; }
-
-  .footer-inner {
-    max-width: 860px;
-    margin: 0 auto;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    color: var(--text-muted);
-    letter-spacing: 0.04em;
-  }
-
-  @media (max-width: 600px) {
-    .timeline { grid-template-columns: 1fr; }
-    .phase-sidebar { display: none; }
-    header { padding: 2rem 1.25rem 1.75rem; }
-    main { padding: 2rem 1.25rem; }
-    .header-meta { gap: 1.25rem; }
-  }
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  #ob .ob-timeline { grid-template-columns: 1fr; }
+  #ob .ob-sidebar { display: none; }
+  #ob .ob-hero { padding: 1.75rem 1.25rem 1.5rem; }
+  #ob .ob-meta { gap: 1.25rem; }
+}
 </style>
-</head>
-<body>
 
-<header>
-  <div class="header-inner">
-    <p class="header-label">Research Group — Intern Onboarding</p>
-    <h1>Autonomous<br><span>Mobile Robots</span><br>Onboarding Plan</h1>
-    <div class="header-meta">
-      <div class="meta-item">
-        <span class="meta-label">Duration</span>
-        <span class="meta-value">2 weeks</span>
+<div id="ob">
+
+  <!-- Hero -->
+  <div class="ob-hero">
+    <p class="ob-hero-label">Research Group — Intern Onboarding</p>
+    <h1>Autonomous <span>Mobile Robots</span> Onboarding Plan</h1>
+    <div class="ob-meta">
+      <div class="ob-meta-item">
+        <span class="ob-meta-label">Duration</span>
+        <span class="ob-meta-value">2 weeks</span>
       </div>
-      <div class="meta-item">
-        <span class="meta-label">Stack</span>
-        <span class="meta-value">ROS 2 · Nav2 · Gazebo</span>
+      <div class="ob-meta-item">
+        <span class="ob-meta-label">Stack</span>
+        <span class="ob-meta-value">ROS 2 · Nav2 · Gazebo</span>
       </div>
-      <div class="meta-item">
-        <span class="meta-label">Prerequisites</span>
-        <span class="meta-value">Python · Linux · No robotics required</span>
+      <div class="ob-meta-item">
+        <span class="ob-meta-label">Prerequisites</span>
+        <span class="ob-meta-value">Python · Linux · No robotics required</span>
       </div>
     </div>
   </div>
-</header>
 
-<nav>
-  <div class="nav-inner">
-    <a class="nav-link" href="#phase1">Phase 1</a>
-    <a class="nav-link" href="#phase2">Phase 2</a>
-    <a class="nav-link" href="#phase3">Phase 3</a>
-    <a class="nav-link" href="#phase4">Phase 4</a>
-    <a class="nav-link" href="#supplementary">Supplementary</a>
+  <!-- Section nav -->
+  <div class="ob-subnav">
+    <div class="ob-subnav-inner">
+      <a href="#ob-phase1">Phase 1</a>
+      <a href="#ob-phase2">Phase 2</a>
+      <a href="#ob-phase3">Phase 3</a>
+      <a href="#ob-phase4">Phase 4</a>
+      <a href="#ob-supp">Supplementary</a>
+    </div>
   </div>
-</nav>
 
-<main>
-  <div class="timeline">
+  <!-- Timeline -->
+  <div class="ob-timeline">
 
     <!-- Phase 1 -->
-    <div class="phase" id="phase1">
-      <div class="phase-sidebar">
-        <div class="phase-dot"></div>
-        <div class="phase-weeks">Days<br>1–3</div>
+    <div class="ob-phase" id="ob-phase1">
+      <div class="ob-sidebar">
+        <div class="ob-dot"></div>
+        <div class="ob-days">Days<br>1–3</div>
       </div>
-      <div class="phase-body">
-        <h2 class="phase-title">Set up the environment</h2>
-        <p class="phase-subtitle">Get something moving before reading anything</p>
+      <div class="ob-body">
+        <h2 class="ob-phase-title">Set up the environment</h2>
+        <p class="ob-phase-sub">Get something moving before reading anything</p>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-doc">Docs</span>
-            <span class="card-title">ROS 2 Humble — Installation</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-doc">Docs</span>
+            <span class="ob-card-title">ROS 2 Humble — Installation</span>
           </div>
-          <p class="card-desc">Install ROS 2 Humble first. It is the recommended LTS version for Nav2 and has the widest package support.</p>
-          <div class="links">
-            <a class="link" href="https://docs.ros.org/en/humble/Installation.html">Installation guide</a>
-            <a class="link" href="https://docs.ros.org/en/humble/Tutorials.html">Beginner tutorials</a>
-            <a class="link" href="https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html">Understanding topics</a>
+          <p class="ob-card-desc">Install ROS 2 Humble first. It is the recommended LTS version for Nav2 and has the widest package support.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://docs.ros.org/en/humble/Installation.html">Installation guide</a>
+            <a class="ob-link" href="https://docs.ros.org/en/humble/Tutorials.html">Beginner tutorials</a>
+            <a class="ob-link" href="https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html">Understanding topics</a>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-doc">Docs</span>
-            <span class="card-title">Nav2 — Getting Started</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-doc">Docs</span>
+            <span class="ob-card-title">Nav2 — Getting Started</span>
           </div>
-          <p class="card-desc">The official Nav2 getting started guide. Run TurtleBot4 in Gazebo and navigate to a goal point. TurtleBot4 runs ROS 2 natively and is the current ROBOTIS reference platform.</p>
-          <div class="links">
-            <a class="link" href="https://docs.nav2.org/getting_started/index.html">Getting started</a>
-            <a class="link" href="https://docs.nav2.org/">Full Nav2 docs</a>
-            <a class="link" href="https://github.com/ros-navigation/navigation2">GitHub repo</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-doc">Docs</span>
-            <span class="card-title">TurtleBot4 — Simulation setup</span>
-          </div>
-          <p class="card-desc">The current reference platform for Nav2, with native ROS 2 support. Simulates with Ignition Gazebo out of the box — no hardware needed.</p>
-          <div class="links">
-            <a class="link" href="https://turtlebot.github.io/turtlebot4-user-manual/">User manual</a>
-            <a class="link" href="https://turtlebot.github.io/turtlebot4-user-manual/simulator/simulation.html">Simulation guide</a>
-            <a class="link" href="https://github.com/turtlebot/turtlebot4">GitHub repo</a>
+          <p class="ob-card-desc">The official Nav2 getting started guide. Run TurtleBot4 in Gazebo and navigate to a goal point. TurtleBot4 runs ROS 2 natively and is the current ROBOTIS reference platform.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://docs.nav2.org/getting_started/index.html">Getting started</a>
+            <a class="ob-link" href="https://docs.nav2.org/">Full Nav2 docs</a>
+            <a class="ob-link" href="https://github.com/ros-navigation/navigation2">GitHub repo</a>
           </div>
         </div>
 
-        <div class="milestone">
-          <span class="milestone-label">Milestone</span>
-          <p class="milestone-text">TurtleBot4 navigates to a clicked goal point in simulation. Can launch the stack, build a map with teleop, save it, and send a Nav2 goal.</p>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-doc">Docs</span>
+            <span class="ob-card-title">TurtleBot4 — Simulation setup</span>
+          </div>
+          <p class="ob-card-desc">The current reference platform for Nav2, with native ROS 2 support. Simulates with Ignition Gazebo out of the box — no hardware needed.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://turtlebot.github.io/turtlebot4-user-manual/">User manual</a>
+            <a class="ob-link" href="https://turtlebot.github.io/turtlebot4-user-manual/simulator/simulation.html">Simulation guide</a>
+            <a class="ob-link" href="https://github.com/turtlebot/turtlebot4">GitHub repo</a>
+          </div>
+        </div>
+
+        <div class="ob-milestone">
+          <span class="ob-milestone-label">Milestone</span>
+          <p class="ob-milestone-text">TurtleBot4 navigates to a clicked goal point in simulation. Can launch the stack, build a map with teleop, save it, and send a Nav2 goal.</p>
         </div>
       </div>
     </div>
 
     <!-- Phase 2 -->
-    <div class="phase" id="phase2">
-      <div class="phase-sidebar">
-        <div class="phase-dot"></div>
-        <div class="phase-weeks">Days<br>4–5</div>
+    <div class="ob-phase" id="ob-phase2">
+      <div class="ob-sidebar">
+        <div class="ob-dot"></div>
+        <div class="ob-days">Days<br>4–5</div>
       </div>
-      <div class="phase-body">
-        <h2 class="phase-title">Understand localization</h2>
-        <p class="phase-subtitle">How does the robot know where it is?</p>
+      <div class="ob-body">
+        <h2 class="ob-phase-title">Understand localization</h2>
+        <p class="ob-phase-sub">How does the robot know where it is?</p>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-paper">Paper</span>
-            <span class="card-title">Thrun, Fox &amp; Burgard — "Robust Monte Carlo Localization for Mobile Robots" (2001)</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-paper">Paper</span>
+            <span class="ob-card-title">Thrun, Fox &amp; Burgard — "Robust Monte Carlo Localization for Mobile Robots" (2001)</span>
           </div>
-          <p class="card-desc">The algorithm behind Nav2's AMCL package. Explains how the robot uses particle filters to localize itself on a known map using laser scan data.</p>
-          <div class="links">
-            <a class="link" href="https://robots.stanford.edu/papers/thrun.robust-mcl.pdf">PDF</a>
-            <a class="link" href="https://docs.nav2.org/configuration/packages/configuring-amcl.html">Nav2 AMCL config</a>
-            <a class="link" href="https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl">AMCL source</a>
+          <p class="ob-card-desc">The algorithm behind Nav2's AMCL package. Explains how the robot uses particle filters to localize itself on a known map using laser scan data.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://robots.stanford.edu/papers/thrun.robust-mcl.pdf">PDF</a>
+            <a class="ob-link" href="https://docs.nav2.org/configuration/packages/configuring-amcl.html">Nav2 AMCL config</a>
+            <a class="ob-link" href="https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl">AMCL source</a>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-doc">Docs</span>
-            <span class="card-title">SLAM Toolbox — building the map first</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-doc">Docs</span>
+            <span class="ob-card-title">SLAM Toolbox — building the map first</span>
           </div>
-          <p class="card-desc">Before AMCL can localize, you need a map. SLAM Toolbox is the standard tool in Nav2 for building one from lidar data.</p>
-          <div class="links">
-            <a class="link" href="https://docs.nav2.org/tutorials/docs/navigation2_with_slam.html">SLAM + Nav2 tutorial</a>
-            <a class="link" href="https://github.com/SteveMacenski/slam_toolbox">slam_toolbox GitHub</a>
+          <p class="ob-card-desc">Before AMCL can localize, you need a map. SLAM Toolbox is the standard tool in Nav2 for building one from lidar data.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://docs.nav2.org/tutorials/docs/navigation2_with_slam.html">SLAM + Nav2 tutorial</a>
+            <a class="ob-link" href="https://github.com/SteveMacenski/slam_toolbox">slam_toolbox GitHub</a>
           </div>
         </div>
 
-        <div class="milestone">
-          <span class="milestone-label">Milestone</span>
-          <p class="milestone-text">Can explain what AMCL is doing when the robot localizes. Understands the difference between mapping mode and localization mode.</p>
+        <div class="ob-milestone">
+          <span class="ob-milestone-label">Milestone</span>
+          <p class="ob-milestone-text">Can explain what AMCL is doing when the robot localizes. Understands the difference between mapping mode and localization mode.</p>
         </div>
       </div>
     </div>
 
     <!-- Phase 3 -->
-    <div class="phase" id="phase3">
-      <div class="phase-sidebar">
-        <div class="phase-dot"></div>
-        <div class="phase-weeks">Days<br>6–7</div>
+    <div class="ob-phase" id="ob-phase3">
+      <div class="ob-sidebar">
+        <div class="ob-dot"></div>
+        <div class="ob-days">Days<br>6–7</div>
       </div>
-      <div class="phase-body">
-        <h2 class="phase-title">Understand collision avoidance</h2>
-        <p class="phase-subtitle">How does the robot avoid obstacles in real time?</p>
+      <div class="ob-body">
+        <h2 class="ob-phase-title">Understand collision avoidance</h2>
+        <p class="ob-phase-sub">How does the robot avoid obstacles in real time?</p>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-paper">Paper</span>
-            <span class="card-title">Fox, Burgard &amp; Thrun — "The Dynamic Window Approach to Collision Avoidance" (1997)</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-paper">Paper</span>
+            <span class="ob-card-title">Fox, Burgard &amp; Thrun — "The Dynamic Window Approach to Collision Avoidance" (1997)</span>
           </div>
-          <p class="card-desc">The algorithm behind Nav2's DWB controller. Only 8 pages, very clearly written. Explains how the robot samples velocity commands and picks the one that avoids obstacles while tracking the global path.</p>
-          <div class="links">
-            <a class="link" href="https://www.ri.cmu.edu/pub_files/pub1/fox_dieter_1997_1/fox_dieter_1997_1.pdf">PDF</a>
-            <a class="link" href="https://docs.nav2.org/configuration/packages/configuring-dwb-controller.html">Nav2 DWB config</a>
+          <p class="ob-card-desc">The algorithm behind Nav2's DWB controller. Only 8 pages, very clearly written. Explains how the robot samples velocity commands and picks the one that avoids obstacles while tracking the global path.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://www.ri.cmu.edu/pub_files/pub1/fox_dieter_1997_1/fox_dieter_1997_1.pdf">PDF</a>
+            <a class="ob-link" href="https://docs.nav2.org/configuration/packages/configuring-dwb-controller.html">Nav2 DWB config</a>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-doc">Docs</span>
-            <span class="card-title">Nav2 Costmap 2D</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-doc">Docs</span>
+            <span class="ob-card-title">Nav2 Costmap 2D</span>
           </div>
-          <p class="card-desc">Costmaps are how Nav2 represents obstacles for both the global and local planner. Understanding inflation radius and layer configuration is essential for any real deployment.</p>
-          <div class="links">
-            <a class="link" href="https://docs.nav2.org/configuration/packages/configuring-costmaps.html">Costmap config</a>
-            <a class="link" href="https://github.com/ros-navigation/navigation2/tree/main/nav2_costmap_2d">Source code</a>
+          <p class="ob-card-desc">Costmaps are how Nav2 represents obstacles for both the global and local planner. Understanding inflation radius and layer configuration is essential for any real deployment.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://docs.nav2.org/configuration/packages/configuring-costmaps.html">Costmap config</a>
+            <a class="ob-link" href="https://github.com/ros-navigation/navigation2/tree/main/nav2_costmap_2d">Source code</a>
           </div>
         </div>
 
-        <div class="milestone">
-          <span class="milestone-label">Milestone</span>
-          <p class="milestone-text">Can tune costmap inflation radius and explain the effect. Understands the role of the local planner versus the global planner.</p>
+        <div class="ob-milestone">
+          <span class="ob-milestone-label">Milestone</span>
+          <p class="ob-milestone-text">Can tune costmap inflation radius and explain the effect. Understands the role of the local planner versus the global planner.</p>
         </div>
       </div>
     </div>
 
     <!-- Phase 4 -->
-    <div class="phase" id="phase4">
-      <div class="phase-sidebar">
-        <div class="phase-dot"></div>
-        <div class="phase-weeks">Days<br>8–10</div>
+    <div class="ob-phase" id="ob-phase4">
+      <div class="ob-sidebar">
+        <div class="ob-dot"></div>
+        <div class="ob-days">Days<br>8–10</div>
       </div>
-      <div class="phase-body">
-        <h2 class="phase-title">Understand the full system</h2>
-        <p class="phase-subtitle">How do all the modules fit together?</p>
+      <div class="ob-body">
+        <h2 class="ob-phase-title">Understand the full system</h2>
+        <p class="ob-phase-sub">How do all the modules fit together?</p>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-paper">Paper</span>
-            <span class="card-title">Macenski et al. — "Marathon 2: A Navigation System" (IROS 2020)</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-paper">Paper</span>
+            <span class="ob-card-title">Macenski et al. — "Marathon 2: A Navigation System" (IROS 2020)</span>
           </div>
-          <p class="card-desc">The official Nav2 architecture paper by its main author, Steve Macenski. Read this after running Nav2 for a few days — every design decision will make sense in context.</p>
-          <div class="links">
-            <a class="link" href="https://arxiv.org/abs/2003.00368">arXiv</a>
-            <a class="link" href="https://docs.nav2.org/concepts/index.html">Nav2 concepts</a>
-            <a class="link" href="https://docs.nav2.org/behavior_trees/index.html">Behavior tree docs</a>
+          <p class="ob-card-desc">The official Nav2 architecture paper by its main author, Steve Macenski. Read this after running Nav2 for a few days — every design decision will make sense in context.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://arxiv.org/abs/2003.00368">arXiv</a>
+            <a class="ob-link" href="https://docs.nav2.org/concepts/index.html">Nav2 concepts</a>
+            <a class="ob-link" href="https://docs.nav2.org/behavior_trees/index.html">Behavior tree docs</a>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-top">
-            <span class="tag tag-video">Talk</span>
-            <span class="card-title">Nav2 architecture talks — ROSCon &amp; YouTube</span>
+        <div class="ob-card">
+          <div class="ob-card-top">
+            <span class="ob-tag ob-tag-video">Talk</span>
+            <span class="ob-card-title">Nav2 architecture talks — ROSCon &amp; YouTube</span>
           </div>
-          <p class="card-desc">Watch alongside the Marathon 2 paper. The author walks through every component in a live setting, which helps connect the paper to actual code.</p>
-          <div class="links">
-            <a class="link" href="https://vimeo.com/showcase/9954564">ROSCon 2022</a>
-            <a class="link" href="https://www.youtube.com/@Nav2Project">Nav2 YouTube</a>
+          <p class="ob-card-desc">Watch alongside the Marathon 2 paper. The author walks through every component in a live setting, which helps connect the paper to actual code.</p>
+          <div class="ob-links">
+            <a class="ob-link" href="https://vimeo.com/showcase/9954564">ROSCon 2022</a>
+            <a class="ob-link" href="https://www.youtube.com/@Nav2Project">Nav2 YouTube</a>
           </div>
         </div>
 
-        <div class="milestone">
-          <span class="milestone-label">Milestone</span>
-          <p class="milestone-text">Can draw the full Nav2 pipeline from scratch: sensor → costmap → BT navigator → global planner → local controller → cmd_vel.</p>
+        <div class="ob-milestone">
+          <span class="ob-milestone-label">Milestone</span>
+          <p class="ob-milestone-text">Can draw the full Nav2 pipeline from scratch: sensor → costmap → BT navigator → global planner → local controller → cmd_vel.</p>
         </div>
       </div>
     </div>
 
   </div><!-- end timeline -->
 
-  <hr class="section-divider" id="supplementary">
+  <hr class="ob-divider" id="ob-supp">
 
-  <h2 style="font-size: 20px; font-weight: 500; margin-bottom: 4px;">Supplementary references</h2>
-  <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem;">Keep these open throughout. Reach for them when you hit a wall.</p>
+  <h2 class="ob-supp-title">Supplementary references</h2>
+  <p class="ob-supp-sub">Keep these open throughout. Reach for them when you hit a wall.</p>
 
-  <div class="card">
-    <div class="card-top">
-      <span class="tag tag-doc">Docs</span>
-      <span class="card-title">Nav2 configuration guide — all parameters</span>
+  <div class="ob-card">
+    <div class="ob-card-top">
+      <span class="ob-tag ob-tag-doc">Docs</span>
+      <span class="ob-card-title">Nav2 configuration guide — all parameters</span>
     </div>
-    <p class="card-desc">The definitive reference when tuning any Nav2 component. Bookmark this and use it constantly.</p>
-    <div class="links">
-      <a class="link" href="https://docs.nav2.org/configuration/index.html">Configuration index</a>
+    <p class="ob-card-desc">The definitive reference when tuning any Nav2 component. Bookmark this and use it constantly.</p>
+    <div class="ob-links">
+      <a class="ob-link" href="https://docs.nav2.org/configuration/index.html">Configuration index</a>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-top">
-      <span class="tag tag-doc">Docs</span>
-      <span class="card-title">Nav2 tutorials — beyond getting started</span>
+  <div class="ob-card">
+    <div class="ob-card-top">
+      <span class="ob-tag ob-tag-doc">Docs</span>
+      <span class="ob-card-title">Nav2 tutorials — beyond getting started</span>
     </div>
-    <p class="card-desc">Dynamic obstacles, custom plugins, multi-robot, GPS navigation, and real hardware deployment.</p>
-    <div class="links">
-      <a class="link" href="https://docs.nav2.org/tutorials/index.html">All tutorials</a>
-      <a class="link" href="https://docs.nav2.org/tutorials/docs/navigation2_with_stvl.html">Spatio-temporal voxel layer</a>
-      <a class="link" href="https://docs.nav2.org/tutorials/docs/follow_dynamic_point.html">Dynamic obstacle following</a>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-top">
-      <span class="tag tag-paper">Paper</span>
-      <span class="card-title">Macenski et al. — "Regulated Pure Pursuit for Robot Path Tracking" (2023)</span>
-    </div>
-    <p class="card-desc">The RPP controller in Nav2 — a simpler and more robust alternative to DWB for many real-world use cases.</p>
-    <div class="links">
-      <a class="link" href="https://arxiv.org/abs/2305.20026">arXiv</a>
-      <a class="link" href="https://docs.nav2.org/configuration/packages/configuring-regulated-pp.html">Nav2 RPP config</a>
+    <p class="ob-card-desc">Dynamic obstacles, custom plugins, multi-robot, GPS navigation, and real hardware deployment.</p>
+    <div class="ob-links">
+      <a class="ob-link" href="https://docs.nav2.org/tutorials/index.html">All tutorials</a>
+      <a class="ob-link" href="https://docs.nav2.org/tutorials/docs/navigation2_with_stvl.html">Spatio-temporal voxel layer</a>
+      <a class="ob-link" href="https://docs.nav2.org/tutorials/docs/follow_dynamic_point.html">Dynamic obstacle following</a>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-top">
-      <span class="tag tag-code">Code</span>
-      <span class="card-title">Nav2 Smac Planner — modern global planner</span>
+  <div class="ob-card">
+    <div class="ob-card-top">
+      <span class="ob-tag ob-tag-paper">Paper</span>
+      <span class="ob-card-title">Macenski et al. — "Regulated Pure Pursuit for Robot Path Tracking" (2023)</span>
     </div>
-    <p class="card-desc">The current recommended global planner in Nav2, replacing the older NavFn. Supports SE2 and hybrid-A* planning for non-holonomic robots.</p>
-    <div class="links">
-      <a class="link" href="https://docs.nav2.org/configuration/packages/configuring-smac-planner.html">Smac config</a>
-      <a class="link" href="https://github.com/ros-navigation/navigation2/tree/main/nav2_smac_planner">Source code</a>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-top">
-      <span class="tag tag-video">Community</span>
-      <span class="card-title">Nav2 community — where to get help</span>
-    </div>
-    <p class="card-desc">When stuck, these are the fastest ways to get answers. The Nav2 Discord is especially active.</p>
-    <div class="links">
-      <a class="link" href="https://robotics.stackexchange.com/questions/tagged/nav2">ROS Stack Exchange</a>
-      <a class="link" href="https://discord.gg/rOs6WQnqxe">Nav2 Discord</a>
-      <a class="link" href="https://github.com/ros-navigation/navigation2/issues">GitHub issues</a>
-      <a class="link" href="https://answers.ros.org/">ROS Answers</a>
+    <p class="ob-card-desc">The RPP controller in Nav2 — a simpler and more robust alternative to DWB for many real-world use cases.</p>
+    <div class="ob-links">
+      <a class="ob-link" href="https://arxiv.org/abs/2305.20026">arXiv</a>
+      <a class="ob-link" href="https://docs.nav2.org/configuration/packages/configuring-regulated-pp.html">Nav2 RPP config</a>
     </div>
   </div>
 
-</main>
-
-<footer>
-  <div class="footer-inner">
-    Autonomous Mobile Robots — Intern Onboarding &nbsp;·&nbsp; ROS 2 · Nav2 · Gazebo
+  <div class="ob-card">
+    <div class="ob-card-top">
+      <span class="ob-tag ob-tag-code">Code</span>
+      <span class="ob-card-title">Nav2 Smac Planner — modern global planner</span>
+    </div>
+    <p class="ob-card-desc">The current recommended global planner in Nav2, replacing the older NavFn. Supports SE2 and hybrid-A* planning for non-holonomic robots.</p>
+    <div class="ob-links">
+      <a class="ob-link" href="https://docs.nav2.org/configuration/packages/configuring-smac-planner.html">Smac config</a>
+      <a class="ob-link" href="https://github.com/ros-navigation/navigation2/tree/main/nav2_smac_planner">Source code</a>
+    </div>
   </div>
-</footer>
 
-</body>
-</html>
+  <div class="ob-card">
+    <div class="ob-card-top">
+      <span class="ob-tag ob-tag-video">Community</span>
+      <span class="ob-card-title">Nav2 community — where to get help</span>
+    </div>
+    <p class="ob-card-desc">When stuck, these are the fastest ways to get answers. The Nav2 Discord is especially active.</p>
+    <div class="ob-links">
+      <a class="ob-link" href="https://robotics.stackexchange.com/questions/tagged/nav2">ROS Stack Exchange</a>
+      <a class="ob-link" href="https://discord.gg/rOs6WQnqxe">Nav2 Discord</a>
+      <a class="ob-link" href="https://github.com/ros-navigation/navigation2/issues">GitHub issues</a>
+      <a class="ob-link" href="https://answers.ros.org/">ROS Answers</a>
+    </div>
+  </div>
+
+</div><!-- #ob -->
