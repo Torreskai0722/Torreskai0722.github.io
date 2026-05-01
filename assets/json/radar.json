@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T00:51:19-04:00",
+  "updated_at": "2026-05-01T00:57:12-04:00",
   "mode": "daily",
   "items": [
     {
@@ -11,7 +11,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28196v1/2604.28196v1/x1.png",
       "score": 88.0,
       "category": "AI Models & Algorithms",
       "action": "Use for proposal",
@@ -31,7 +31,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28197v1/2604.28197v1/x1.png",
       "score": 83.0,
       "category": "Robotics & Embodied AI",
       "action": "Read",
@@ -51,7 +51,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28156v1/2604.28156v1/x1.png",
       "score": 83.0,
       "category": "Sensing, Perception & Materials",
       "action": "Use for proposal",
@@ -71,7 +71,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28192v1/2604.28192v1/x1.png",
       "score": 81.0,
       "category": "AI Models & Algorithms",
       "action": "Use for proposal",
@@ -91,7 +91,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28161v1/2604.28161v1/x1.png",
       "score": 74.0,
       "category": "Robotics & Embodied AI",
       "action": "Discuss with student",
@@ -131,7 +131,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28175v1/2604.28175v1/x1.png",
       "score": 68.0,
       "category": "Computing Systems & Hardware",
       "action": "Track",
@@ -151,7 +151,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28169v1/2604.28169v1/x2.jpg",
       "score": 62.0,
       "category": "AI Models & Algorithms",
       "action": "Track",
@@ -171,7 +171,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28139v1/2604.28139v1/figures/fig1.png",
       "score": 61.0,
       "category": "Testbeds, Datasets & Benchmarks",
       "action": "Track",
@@ -191,7 +191,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28193v1/2604.28193v1/x2.png",
       "score": 59.0,
       "category": "Sensing, Perception & Materials",
       "action": "Track",
@@ -211,7 +211,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28185v1/2604.28185v1/x1.png",
       "score": 53.0,
       "category": "AI Models & Algorithms",
       "action": "Discuss with student",
@@ -231,7 +231,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28182v1/2604.28182v1/x1.png",
       "score": 51.5,
       "category": "AI Models & Algorithms",
       "action": "Track",
@@ -251,7 +251,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28159v1/2604.28159v1/fig/main.drawio.png",
       "score": 51.5,
       "category": "AI Models & Algorithms",
       "action": "Track",
@@ -271,7 +271,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28148v1/2604.28148v1/4-Sensor_Design.png",
       "score": 51.5,
       "category": "Sensing, Perception & Materials",
       "action": "Track",
@@ -311,7 +311,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28173v1/2604.28173v1/x2.png",
       "score": 49.5,
       "category": "Sensing, Perception & Materials",
       "action": "Track",
@@ -371,7 +371,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28163v1/2604.28163v1/x1.png",
       "score": 48.5,
       "category": "AI Models & Algorithms",
       "action": "Track",
@@ -411,7 +411,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28180v1/2604.28180v1/x1.png",
       "score": 44.0,
       "category": "AI Models & Algorithms",
       "action": "Track",
@@ -431,7 +431,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28138v1/2604.28138v1/x1.png",
       "score": 44.0,
       "category": "Computing Systems & Hardware",
       "action": "Track",
@@ -451,7 +451,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "image_url": "https://arxiv.org/html/2604.28181v1/2604.28181v1/figures/overview.png",
       "score": 38.0,
       "category": "AI Models & Algorithms",
       "action": "Ignore",
