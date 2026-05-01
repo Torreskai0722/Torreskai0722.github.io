@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T01:10:28-04:00",
+  "updated_at": "2026-05-01T09:44:32-04:00",
   "mode": "daily",
   "items": [
     {
@@ -101,6 +101,26 @@
       "proposal_angle": "",
       "student_project": "This project could support student work on manipulation planning and robotics.",
       "rationale": "Strong relevance to manipulation in robotics and fits well with student projects."
+    },
+    {
+      "id": "hash:a23e4ab448f6e461",
+      "title": "Robotics Institute Launches Next Phase of Vision-Language-Navigation Challenge",
+      "link": "https://www.ri.cmu.edu/next-phase-of-vision-language-navigation-challenge/",
+      "date": "2026-05-01T13:00:46+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CMU Robotics Institute"
+      ],
+      "image_url": "https://www.ri.cmu.edu/app/uploads/2026/04/0.jpg",
+      "score": 72.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "The latest phase of the Vision-Language-Navigation Challenge aims to enhance robots' ability to understand and act on human instructions.",
+      "why_matters": "This challenge addresses a critical aspect of robotics, improving human-robot interaction and navigation capabilities.",
+      "connection": "The challenge aligns with Prof. Liu's interests in vision-language-action models and autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "This challenge could provide valuable insights for student projects focused on VLA models and real-world navigation.",
+      "rationale": "Strong relevance to vision-language-action models and student projects."
     },
     {
       "id": "arxiv:2604.28144",
