@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T09:44:32-04:00",
+  "updated_at": "2026-05-01T13:43:39-04:00",
   "mode": "daily",
   "items": [
     {
@@ -181,6 +181,26 @@
       "proposal_angle": "",
       "student_project": "This could support student projects on physics-aware learning and multimodal perception.",
       "rationale": "The paper's focus on physical realism aligns with the researcher's interests in autonomy and robotics."
+    },
+    {
+      "id": "hash:908a68ff62a4607c",
+      "title": "AI Processing of Earth Images Can Now Run In Space",
+      "link": "https://spectrum.ieee.org/ai-earth-observation-in-space",
+      "date": "2026-05-01T14:00:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — AI"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66662984&width=1200&height=600&coordinates=0%2C490%2C0%2C1163",
+      "score": 61.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "AI image processing onboard satellites enables real-time object classification from space.",
+      "why_matters": "This technology allows for timely insights from satellite data, crucial for applications like disaster response.",
+      "connection": "The use of AI for real-time insights aligns with Prof. Liu's interests in autonomous systems and perception.",
+      "proposal_angle": "This could enhance the cloud-edge collaborative inference proposal by integrating real-time satellite data processing.",
+      "student_project": "",
+      "rationale": "Relevant to real-time AI applications in autonomy."
     },
     {
       "id": "arxiv:2604.28139",
