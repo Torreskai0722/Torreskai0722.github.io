@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T16:42:26-04:00",
+  "updated_at": "2026-05-01T17:23:48-04:00",
   "mode": "daily",
   "items": [
     {
@@ -20,7 +20,15 @@
       "connection": "The focus on driving world models aligns with Prof. Liu's interests in end-to-end driving stacks and world models.",
       "proposal_angle": "This could enhance the NSF CSR proposal on predictable DNN inference by improving scene understanding.",
       "student_project": "The integration of scene understanding and prediction could support student projects on VLA models for driving.",
-      "rationale": "Strong alignment with ongoing proposals and significant advancements in driving world models."
+      "rationale": "Strong alignment with ongoing proposals and significant advancements in driving world models.",
+      "dimensions": {
+        "topical": 10.0,
+        "novelty": 8.0,
+        "proposal_value": 9.0,
+        "student_value": 8.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28197",
@@ -40,7 +48,15 @@
       "connection": "This work aligns with Prof. Liu's interests in multi-agent systems and real-time perception for autonomous robots.",
       "proposal_angle": "It could enhance the safety and interaction aspects of the NSF CSR proposal on DNN inference for autonomous vehicles.",
       "student_project": "The platform's focus on real-time perception and human behavior modeling fits well with student projects on multimodal fusion and perception.",
-      "rationale": "Strong relevance to multi-agent systems and real-time perception in autonomy."
+      "rationale": "Strong relevance to multi-agent systems and real-time perception in autonomy.",
+      "dimensions": {
+        "topical": 9.0,
+        "novelty": 8.0,
+        "proposal_value": 7.0,
+        "student_value": 8.0,
+        "testbed_value": 9.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28156",
@@ -60,7 +76,15 @@
       "connection": "This aligns with Prof. Liu's interests in tactile sensing and multimodal perception for autonomous systems.",
       "proposal_angle": "It could support the NSF CIRC proposal by enhancing tactile learning pipelines for cloud-edge-robot co-inference.",
       "student_project": "It fits well with student projects focused on sensing and multimodal fusion at the edge.",
-      "rationale": "Strong relevance to tactile sensing and autonomy, valuable for ongoing proposals."
+      "rationale": "Strong relevance to tactile sensing and autonomy, valuable for ongoing proposals.",
+      "dimensions": {
+        "topical": 9.0,
+        "novelty": 8.0,
+        "proposal_value": 7.0,
+        "student_value": 8.0,
+        "testbed_value": 9.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28192",
@@ -80,7 +104,15 @@
       "connection": "The paper's focus on VLA models aligns with Prof. Liu's research on foundation models for autonomy and reinforcement learning.",
       "proposal_angle": "The integration of latent reasoning could enhance the proposed NSF CSR project on predictable DNN inference for real-time autonomous vehicles.",
       "student_project": "The adaptive latent CoT mechanism could be explored in student projects focused on VLA foundation models for end-to-end driving.",
-      "rationale": "Strong alignment with research interests and potential to enhance ongoing proposals."
+      "rationale": "Strong alignment with research interests and potential to enhance ongoing proposals.",
+      "dimensions": {
+        "topical": 10.0,
+        "novelty": 8.0,
+        "proposal_value": 9.0,
+        "student_value": 8.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28161",
@@ -100,7 +132,15 @@
       "connection": "The focus on manipulation aligns with Prof. Liu's interests in mobile manipulation and dexterous manipulation.",
       "proposal_angle": "",
       "student_project": "This project could support student work on manipulation planning and robotics.",
-      "rationale": "Strong relevance to manipulation in robotics and fits well with student projects."
+      "rationale": "Strong relevance to manipulation in robotics and fits well with student projects.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 8.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "hash:a23e4ab448f6e461",
@@ -120,7 +160,15 @@
       "connection": "The challenge aligns with Prof. Liu's interests in vision-language-action models and autonomous systems.",
       "proposal_angle": "",
       "student_project": "This challenge could provide valuable insights for student projects focused on VLA models and real-world navigation.",
-      "rationale": "Strong relevance to vision-language-action models and student projects."
+      "rationale": "Strong relevance to vision-language-action models and student projects.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 8.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28144",
@@ -140,7 +188,43 @@
       "connection": "The work aligns with Prof. Liu's interests in reinforcement learning and autonomous systems.",
       "proposal_angle": "It could enhance the exploration strategies in the NSF CSR proposal on DNN inference for autonomous vehicles.",
       "student_project": "This could serve as a basis for student projects on reinforcement learning and exploration strategies.",
-      "rationale": "Relevant to reinforcement learning in autonomy, with potential applications in ongoing proposals."
+      "rationale": "Relevant to reinforcement learning in autonomy, with potential applications in ongoing proposals.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:686f24a68c3710fc",
+      "title": "Video Friday: Figure, 1X Ramp Up Humanoid Robot Production",
+      "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
+      "date": "2026-05-01T16:30:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Robotics"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66666641&width=1200&height=600&coordinates=0%2C125%2C0%2C125",
+      "score": 69.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Figure has begun full-scale production of humanoid robots for various applications.",
+      "why_matters": "This marks a significant advancement in humanoid robotics manufacturing and development.",
+      "connection": "The production of humanoid robots aligns with Prof. Liu's interests in autonomous mobile robots and real-time AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and potential applications in autonomy.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28175",
@@ -160,7 +244,15 @@
       "connection": "This work aligns with Prof. Liu's interest in real-time and predictable AI inference for safety-critical applications.",
       "proposal_angle": "It could support the NSF CSR proposal on predictable DNN inference by improving scheduling for latency-sensitive tasks.",
       "student_project": "The concepts could be relevant for a student project on real-time GPU scheduling for perception.",
-      "rationale": "Strong relevance to real-time AI inference in autonomous systems."
+      "rationale": "Strong relevance to real-time AI inference in autonomous systems.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 8.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "hash:7ce25f3d5fdaf9e5",
@@ -180,7 +272,15 @@
       "connection": "This work relates to Prof. Liu's interests in safe and assured autonomy and multi-agent systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to safety in multi-agent systems, aligning with ongoing research interests."
+      "rationale": "Relevant to safety in multi-agent systems, aligning with ongoing research interests.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28169",
@@ -201,11 +301,19 @@
       "connection": "The focus on physical consistency in generative models can inform the development of more realistic simulations for autonomous systems.",
       "proposal_angle": "",
       "student_project": "This could support student projects on physics-aware learning and multimodal perception.",
-      "rationale": "The paper's focus on physical realism aligns with the researcher's interests in autonomy and robotics."
+      "rationale": "The paper's focus on physical realism aligns with the researcher's interests in autonomy and robotics.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 8.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "hash:908a68ff62a4607c",
-      "title": "AI Processing of Earth Images Can Now Run In Space",
+      "title": "AI Processing of Earth Images Can Now Run in Space",
       "link": "https://spectrum.ieee.org/ai-earth-observation-in-space",
       "date": "2026-05-01T14:00:01+00:00",
       "type": "News",
@@ -221,7 +329,15 @@
       "connection": "The use of AI for real-time insights aligns with Prof. Liu's interests in autonomous systems and perception.",
       "proposal_angle": "This could enhance the cloud-edge collaborative inference proposal by integrating real-time satellite data processing.",
       "student_project": "",
-      "rationale": "Relevant to real-time AI applications in autonomy."
+      "rationale": "Relevant to real-time AI applications in autonomy.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28139",
@@ -242,7 +358,15 @@
       "connection": "The focus on evaluating agents aligns with Prof. Liu's interest in multi-agent systems and real-time AI inference.",
       "proposal_angle": "",
       "student_project": "This benchmark could support student projects on evaluating VLA models in dynamic environments.",
-      "rationale": "The benchmark's relevance to evaluating agent performance in autonomy systems is significant."
+      "rationale": "The benchmark's relevance to evaluating agent performance in autonomy systems is significant.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 8.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28193",
@@ -262,7 +386,15 @@
       "connection": "The paper's focus on 3D reconstruction relates to multimodal perception and sensor fusion in autonomous systems.",
       "proposal_angle": "",
       "student_project": "This work could inform student projects on perception under adverse conditions.",
-      "rationale": "Relevant to perception challenges in autonomy, with potential applications in student projects."
+      "rationale": "Relevant to perception challenges in autonomy, with potential applications in student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28185",
@@ -283,7 +415,15 @@
       "connection": "The focus on causal understanding and world modeling aligns with Prof. Liu's interests in world models and VLA models.",
       "proposal_angle": "",
       "student_project": "The exploration of intelligent visual generation could inform student projects on VLA models.",
-      "rationale": "The paper's focus on intelligent visual generation is relevant to ongoing research in autonomy."
+      "rationale": "The paper's focus on intelligent visual generation is relevant to ongoing research in autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28182",
@@ -303,7 +443,15 @@
       "connection": "The exploration hacking concept relates to reinforcement learning, which is relevant to Prof. Liu's work on VLA models and autonomous systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to RL and autonomy, but not directly applicable to current proposals or student projects."
+      "rationale": "Relevant to RL and autonomy, but not directly applicable to current proposals or student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28159",
@@ -323,7 +471,15 @@
       "connection": "The focus on image segmentation and topological features could relate to perception tasks in autonomous systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to AI models but not directly applicable to current thrusts."
+      "rationale": "Relevant to AI models but not directly applicable to current thrusts.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28148",
@@ -343,7 +499,15 @@
       "connection": "The work on thermal sensing could relate to multimodal perception in autonomous systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to sensing in autonomy, with potential applications in robotics."
+      "rationale": "Relevant to sensing in autonomy, with potential applications in robotics.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "hash:ffe7307791790dd1",
@@ -363,7 +527,15 @@
       "connection": "This aligns with Prof. Liu's interests in autonomous driving and safety in autonomous systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to autonomous vehicle regulations and safety oversight."
+      "rationale": "Relevant to autonomous vehicle regulations and safety oversight.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28173",
@@ -383,7 +555,15 @@
       "connection": "The hierarchical representation of human movements could inform multimodal perception in autonomous systems.",
       "proposal_angle": "",
       "student_project": "This could support student projects on multimodal perception and action recognition.",
-      "rationale": "Relevant for perception in robotics, with potential applications in autonomous systems."
+      "rationale": "Relevant for perception in robotics, with potential applications in autonomous systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 0.0,
+        "student_value": 5.0,
+        "testbed_value": 8.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "hash:67f64c97fb568c6d",
@@ -403,7 +583,15 @@
       "connection": "The focus on GPU kernels aligns with Prof. Liu's interest in real-time AI inference and AI accelerators.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to GPU scheduling and AI accelerators, but lacks direct application to autonomy."
+      "rationale": "Relevant to GPU scheduling and AI accelerators, but lacks direct application to autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "hash:100f7b4adf0b3543",
@@ -423,7 +611,15 @@
       "connection": "The growth in AI-driven robotics aligns with Prof. Liu's interests in autonomous mobile robots and AI models.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant industry update on AI's impact on robotics sales."
+      "rationale": "Relevant industry update on AI's impact on robotics sales.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28163",
@@ -443,7 +639,15 @@
       "connection": "The focus on sequential inference may relate to reinforcement learning and decision-making in autonomous systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to ML models but lacks direct connection to autonomy systems."
+      "rationale": "Relevant to ML models but lacks direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 8.0
+      }
     },
     {
       "id": "hash:7f83f8a0b7c77087",
@@ -463,7 +667,15 @@
       "connection": "The techniques discussed may relate to real-time AI inference for autonomous systems.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Relevant to computing systems but lacks direct connection to autonomy."
+      "rationale": "Relevant to computing systems but lacks direct connection to autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28180",
@@ -483,7 +695,15 @@
       "connection": "The adaptive wavelet-based PINN could enhance physics-aware learning in autonomy systems, though its direct application is unclear.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "The paper's focus on adaptive methods in neural networks may inform future work in physics-aware learning."
+      "rationale": "The paper's focus on adaptive methods in neural networks may inform future work in physics-aware learning.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28138",
@@ -503,7 +723,15 @@
       "connection": "The work relates to improving system reliability in autonomous agents, relevant to Prof. Liu's focus on safety and assured autonomy.",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "The paper addresses a relevant challenge in autonomous systems with potential implications for reliability."
+      "rationale": "The paper addresses a relevant challenge in autonomous systems with potential implications for reliability.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
     },
     {
       "id": "arxiv:2604.28181",
@@ -524,35 +752,51 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Limited relevance to autonomy systems and the researcher's focus."
+      "rationale": "Limited relevance to autonomy systems and the researcher's focus.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 2.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
     }
   ],
   "summary": {
     "headline": "Advancements in VLA Models and Tactile Sensing for Robotics",
-    "tldr": "Today's research highlights significant progress in vision-language-action models and tactile sensing technologies for robotics. Notable works include HERMES++ for 3D scene understanding and FlexiTac for scalable tactile sensing solutions.",
+    "tldr": "Today's research highlights significant strides in vision-language-action models and tactile sensing technologies for robotics. Notably, HERMES++ integrates 3D scene understanding for autonomous driving, while FlexiTac offers a scalable tactile sensing solution.",
     "themes": [
       {
-        "bullet": "Unified models for scene understanding enhance autonomous driving capabilities.",
-        "cite": "HERMES++: Toward a Unified Driving World Model"
-      },
-      {
-        "bullet": "Innovative tactile sensing solutions support advanced robotic manipulation.",
-        "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
-      },
-      {
-        "bullet": "Reinforcement learning techniques improve performance in VLA models.",
+        "bullet": "Integration of vision-language-action models enhances robotic manipulation capabilities.",
         "cite": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning"
       },
       {
-        "bullet": "New benchmarks are being established for evaluating real-world robotic workflows.",
-        "cite": "Claw-Eval-Live: A Live Agent Benchmark"
+        "bullet": "New tactile sensing solutions support advanced learning pipelines in robotics.",
+        "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
       },
       {
-        "bullet": "Research on AI agent interactions raises safety concerns in multi-agent systems.",
+        "bullet": "Emerging platforms for human-robot interaction leverage multi-camera setups.",
+        "cite": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction"
+      },
+      {
+        "bullet": "Challenges in safety and verification arise from AI agents interacting at scale.",
         "cite": "Red-teaming a network of agents"
+      },
+      {
+        "bullet": "New benchmarks are being developed for evaluating real-world agent workflows.",
+        "cite": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-01T20:31:58Z"
+    "generated_at": "2026-05-01T21:23:48Z"
+  },
+  "score_weights": {
+    "topical": 0.3,
+    "novelty": 0.2,
+    "proposal_value": 0.2,
+    "student_value": 0.15,
+    "testbed_value": 0.1,
+    "recency": 0.05
   }
 }
