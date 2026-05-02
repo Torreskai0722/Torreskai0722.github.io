@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T22:22:14-04:00",
+  "updated_at": "2026-05-02T09:38:50-04:00",
   "mode": "daily",
   "items": [
     {
@@ -673,6 +673,34 @@
         "novelty": 5.0,
         "proposal_value": 5.0,
         "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:b62c256725741ab5",
+      "title": "FAULHABER designs DualGear for autonomous logistics systems",
+      "link": "https://www.therobotreport.com/faulhaber-designs-dualgear-for-autonomous-logistics-systems/",
+      "date": "2026-05-02T12:35:49+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/faulhaber-featured-1536x997-1.jpg",
+      "score": 46.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "FAULHABER has designed DualGear for high performance in autonomous logistics applications.",
+      "why_matters": "This design could enhance efficiency in logistics, a key area for autonomous systems.",
+      "connection": "The development of high-performance components is relevant to Prof. Liu's work on autonomous mobile robots.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and autonomy, but lacks specific application details.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
         "testbed_value": 0.0,
         "recency": 10.0
       }
