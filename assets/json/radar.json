@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T09:38:50-04:00",
+  "updated_at": "2026-05-02T21:49:50-04:00",
   "mode": "daily",
   "items": [
     {
@@ -393,6 +393,34 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:dfed8a3004b22c94",
+      "title": "Phase stability regulator based on two dynamic parameters for autonomous mobile robots",
+      "link": "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/",
+      "date": "2026-05-02T15:18:33+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/AdobeStock_1969329045_02.jpg",
+      "score": 58.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "A phase regulator using two real-time signals can enhance the performance of autonomous mobile robots.",
+      "why_matters": "This technology could improve the stability and control of autonomous mobile robots in dynamic environments.",
+      "connection": "The focus on autonomous mobile robots aligns with Prof. Liu's research on mobile manipulation and autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "This could serve as a basis for a student project on improving control systems for autonomous robots.",
+      "rationale": "Relevant to robotics and could inform future research directions.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -793,31 +821,31 @@
   ],
   "summary": {
     "headline": "Advancements in VLA Models and Tactile Sensing for Robotics",
-    "tldr": "Today's research highlights significant progress in vision-language-action (VLA) models and tactile sensing technologies for robotics. Notably, HERMES++ integrates 3D scene understanding for autonomous driving, while FlexiTac offers a scalable tactile sensing solution.",
+    "tldr": "Today's research highlights significant strides in vision-language-action (VLA) models and tactile sensing technologies for robotics. Notably, HERMES++ integrates 3D scene understanding, while FlexiTac offers a scalable tactile sensing solution.",
     "themes": [
       {
-        "bullet": "Integration of 3D scene understanding with predictive modeling for autonomous driving.",
-        "cite": "HERMES++: Toward a Unified Driving World Model"
-      },
-      {
-        "bullet": "Development of tactile sensing solutions that enhance robotic interaction capabilities.",
-        "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
-      },
-      {
-        "bullet": "Advancements in reinforcement learning techniques for improved VLA model performance.",
+        "bullet": "Integration of VLA models with reinforcement learning for improved robotic manipulation.",
         "cite": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning"
       },
       {
-        "bullet": "New benchmarks for evaluating real-world workflows in robotic systems.",
-        "cite": "Claw-Eval-Live: A Live Agent Benchmark"
+        "bullet": "Development of low-cost tactile sensing solutions to enhance robotic learning capabilities.",
+        "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
       },
       {
-        "bullet": "Exploration of safety in multi-agent systems and their interactions at scale.",
+        "bullet": "Emerging platforms for real-time human-robot interaction using synchronized camera systems.",
+        "cite": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction"
+      },
+      {
+        "bullet": "New benchmarks and challenges aimed at enhancing robots' navigation and interaction abilities.",
+        "cite": "Vision-Language-Navigation Challenge"
+      },
+      {
+        "bullet": "Research on safety and performance in multi-agent systems underpins future autonomous applications.",
         "cite": "Red-teaming a network of agents"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-02T02:22:14Z"
+    "generated_at": "2026-05-03T01:49:50Z"
   },
   "score_weights": {
     "topical": 0.3,
