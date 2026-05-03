@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T21:49:50-04:00",
+  "updated_at": "2026-05-03T09:38:45-04:00",
   "mode": "daily",
   "items": [
     {
@@ -678,6 +678,34 @@
       }
     },
     {
+      "id": "hash:2461137acf1a1b03",
+      "title": "Closing the latency gap: Why physical AI requires edge-first architectures",
+      "link": "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/",
+      "date": "2026-05-03T12:00:44+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/latencygap-featured.jpg",
+      "score": 48.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "The article discusses the need for edge-first architectures in physical AI to meet industry demands.",
+      "why_matters": "Edge-first architectures can enhance the performance and safety of autonomous systems.",
+      "connection": "This aligns with Prof. Liu's interest in edge AI and real-time inference for autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to edge AI and real-time performance in autonomous systems.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:7f83f8a0b7c77087",
       "title": "Speed Up Unreal Engine NNE Inference with NVIDIA TensorRT for RTX Runtime",
       "link": "https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/",
@@ -783,6 +811,34 @@
       "dimensions": {
         "topical": 5.0,
         "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:e13efdcc9eef2221",
+      "title": "Why physical AI is the real manufacturing revolution",
+      "link": "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/",
+      "date": "2026-05-03T12:45:29+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/Fictiv_physAI.jpg",
+      "score": 40.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Physical AI aims to revolutionize manufacturing by addressing scaling challenges in robotics.",
+      "why_matters": "This article discusses the potential impact of physical AI on manufacturing processes.",
+      "connection": "The focus on robotics aligns with Prof. Liu's interests in autonomous systems and robotics.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and manufacturing, but lacks direct connection to autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 5.0,
         "proposal_value": 5.0,
         "student_value": 0.0,
         "testbed_value": 0.0,
