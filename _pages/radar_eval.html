@@ -1,0 +1,448 @@
+---
+layout: page
+permalink: /radar/eval/
+title: Research Radar — Evaluation
+description: Self-evaluation dashboard — calibration, source ROI, coverage anchors. Reads thumbs feedback from your browser's localStorage.
+nav: false
+sitemap: false
+robots: noindex
+---
+
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+#radar-eval {
+  --rdr-bg: #F7F6F2;
+  --rdr-surface: #FFFFFF;
+  --rdr-surface-alt: #FAF8F4;
+  --rdr-border: #E2DFD8;
+  --rdr-border-strong: #C8C4BC;
+  --rdr-text: #1A1916;
+  --rdr-text-secondary: #4F4B43;
+  --rdr-text-muted: #908B82;
+  --rdr-accent: #1A3A6B;
+  --rdr-good: #1A5C2E;
+  --rdr-bad: #7A1A3A;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--rdr-text); background: var(--rdr-bg); font-size: 15px; line-height: 1.55;
+  border-radius: 12px; padding: 28px; border: 1px solid var(--rdr-border);
+}
+@media (prefers-color-scheme: dark) {
+  #radar-eval {
+    --rdr-bg: #15140F; --rdr-surface: #1E1C16; --rdr-surface-alt: #232118;
+    --rdr-border: #2D2A22; --rdr-border-strong: #3E3A30;
+    --rdr-text: #F2EFE8; --rdr-text-secondary: #C4BFB4; --rdr-text-muted: #807A6F;
+  }
+}
+#radar-eval * { box-sizing: border-box; }
+#radar-eval [x-cloak] { display: none !important; }
+
+#radar-eval header.rdr-hero { border-bottom: 1px solid var(--rdr-border); padding-bottom: 18px; margin-bottom: 22px; }
+#radar-eval header.rdr-hero h1 { font-family: 'IBM Plex Serif', serif; font-weight: 600; font-size: 28px; letter-spacing: -0.02em; margin: 0 0 6px; }
+#radar-eval header.rdr-hero .rdr-subtitle { color: var(--rdr-text-secondary); font-size: 14px; max-width: 760px; }
+#radar-eval header.rdr-hero a { color: var(--rdr-accent); text-decoration: none; }
+#radar-eval header.rdr-hero a:hover { text-decoration: underline; }
+#radar-eval header.rdr-hero .rdr-meta-line { margin-top: 8px; color: var(--rdr-text-muted); font-family: 'IBM Plex Mono', monospace; font-size: 12px; }
+
+#radar-eval .rdr-empty-feedback {
+  background: #FBF0E4; border: 1px solid #E2D7BE; border-left: 4px solid #7A4A12;
+  border-radius: 8px; padding: 16px 20px; margin-bottom: 22px; font-size: 14px;
+  color: #4F4321;
+}
+@media (prefers-color-scheme: dark) {
+  #radar-eval .rdr-empty-feedback { background: #2D2618; border-color: #4F3F22; color: #F2EFE8; }
+}
+
+#radar-eval .rdr-section { background: var(--rdr-surface); border: 1px solid var(--rdr-border); border-radius: 10px; padding: 18px 22px; margin-bottom: 18px; }
+#radar-eval .rdr-section h2 { font-family: 'IBM Plex Serif', serif; font-weight: 500; font-size: 17px; margin: 0 0 4px; color: var(--rdr-text); }
+#radar-eval .rdr-section .rdr-section-sub { color: var(--rdr-text-muted); font-size: 12.5px; margin-bottom: 14px; line-height: 1.5; }
+
+#radar-eval table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+#radar-eval table th { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rdr-border-strong); color: var(--rdr-text-muted); font-weight: 500; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.06em; }
+#radar-eval table td { padding: 8px 10px; border-bottom: 1px solid var(--rdr-border); vertical-align: top; }
+#radar-eval table tr:last-child td { border-bottom: none; }
+#radar-eval table .num { font-family: 'IBM Plex Mono', monospace; text-align: right; }
+#radar-eval table .pct.good { color: var(--rdr-good); font-weight: 500; }
+#radar-eval table .pct.bad  { color: var(--rdr-bad);  font-weight: 500; }
+
+#radar-eval .rdr-bar-track { display: inline-block; height: 6px; width: 80px; background: var(--rdr-surface-alt); border-radius: 3px; overflow: hidden; vertical-align: middle; margin-left: 6px; }
+#radar-eval .rdr-bar-fill { height: 100%; background: var(--rdr-accent); border-radius: 3px; }
+#radar-eval .rdr-bar-fill.good { background: var(--rdr-good); }
+#radar-eval .rdr-bar-fill.bad  { background: var(--rdr-bad); }
+
+#radar-eval .rdr-calib-grid { display: grid; grid-template-columns: 80px 1fr 60px 60px; gap: 6px 14px; align-items: center; font-size: 13px; }
+#radar-eval .rdr-calib-bucket { color: var(--rdr-text-muted); font-family: 'IBM Plex Mono', monospace; }
+#radar-eval .rdr-calib-bar-track { display: flex; height: 22px; background: var(--rdr-surface-alt); border-radius: 4px; overflow: hidden; }
+#radar-eval .rdr-calib-bar-up { background: var(--rdr-good); }
+#radar-eval .rdr-calib-bar-down { background: var(--rdr-bad); }
+#radar-eval .rdr-calib-bar-none { background: var(--rdr-border); }
+#radar-eval .rdr-calib-pct { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--rdr-text-secondary); text-align: right; }
+#radar-eval .rdr-calib-n   { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--rdr-text-muted); text-align: right; }
+
+#radar-eval .rdr-card-list { list-style: none; padding: 0; margin: 0; }
+#radar-eval .rdr-card-list li {
+  padding: 8px 0; border-bottom: 1px solid var(--rdr-border); font-size: 13.5px;
+  display: grid; grid-template-columns: 50px 1fr; gap: 10px; align-items: baseline;
+}
+#radar-eval .rdr-card-list li:last-child { border-bottom: none; }
+#radar-eval .rdr-card-list .rdr-pill {
+  font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 12px;
+  padding: 2px 7px; border-radius: 999px; text-align: center;
+  background: var(--rdr-surface-alt); color: var(--rdr-text);
+}
+#radar-eval .rdr-card-list a { color: var(--rdr-text); text-decoration: none; font-family: 'IBM Plex Serif', serif; font-weight: 500; }
+#radar-eval .rdr-card-list a:hover { color: var(--rdr-accent); text-decoration: underline; }
+#radar-eval .rdr-card-list .rdr-cite-meta { display: block; color: var(--rdr-text-muted); font-size: 11.5px; font-family: 'IBM Plex Mono', monospace; margin-top: 2px; }
+
+#radar-eval .rdr-controls-row { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; }
+#radar-eval .rdr-controls-row button {
+  background: var(--rdr-surface-alt); border: 1px solid var(--rdr-border);
+  border-radius: 6px; padding: 6px 11px; font-size: 12.5px; cursor: pointer;
+  font-family: inherit; color: var(--rdr-text-secondary);
+}
+#radar-eval .rdr-controls-row button:hover { border-color: var(--rdr-border-strong); color: var(--rdr-text); }
+
+#radar-eval .rdr-foot { color: var(--rdr-text-muted); font-size: 11.5px; margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--rdr-border); font-family: 'IBM Plex Mono', monospace; }
+#radar-eval .rdr-foot a { color: var(--rdr-text-secondary); }
+</style>
+
+<div id="radar-eval" x-data="evalDashboard()" x-init="init()" x-cloak>
+  <header class="rdr-hero">
+    <h1>Research Radar — Self-Evaluation</h1>
+    <p class="rdr-subtitle">Reads your 👍/👎 feedback (stored in this browser's localStorage) plus the latest radar items to estimate calibration, source ROI, and coverage. Vote on items at <a href="/radar/">/radar/</a> to populate this page.</p>
+    <p class="rdr-meta-line">
+      <span x-text="`${feedbackCount} ratings collected`"></span> ·
+      <span x-text="`${data.items.length || 0} items in current window`"></span> ·
+      <a href="/radar/">← daily view</a> · <a href="/radar/weekly/">weekly recap →</a>
+    </p>
+  </header>
+
+  <div class="rdr-controls-row">
+    <button type="button" x-on:click="exportFeedback()">Export feedback (JSON)</button>
+    <button type="button" x-on:click="if (confirm('Clear all feedback in this browser? Cannot be undone.')) clearFeedback()">Clear feedback</button>
+  </div>
+
+  <template x-if="feedbackCount === 0">
+    <div class="rdr-empty-feedback">
+      <strong>No ratings yet.</strong> Open <a href="/radar/">/radar/</a> and click 👍 / 👎 on any items to start populating this page. After ~20-30 ratings, calibration and source ROI become meaningful.
+    </div>
+  </template>
+
+  <!-- Calibration: score-bucket histogram split by thumbs -->
+  <section class="rdr-section">
+    <h2>📊 Calibration — score vs. your feedback</h2>
+    <div class="rdr-section-sub">
+      Of items you rated, how does the score predict your reaction? A well-calibrated radar should have green (👍) dominating high-score buckets and red (👎) dominating low ones. Mismatch suggests the judge prompt or weights need tuning.
+    </div>
+    <div class="rdr-calib-grid">
+      <div class="rdr-calib-bucket"><strong>Bucket</strong></div>
+      <div><strong>👍 / 👎 / unrated</strong></div>
+      <div class="rdr-calib-pct"><strong>👍 rate</strong></div>
+      <div class="rdr-calib-n"><strong>n rated</strong></div>
+      <template x-for="b in calibrationBuckets" :key="b.label">
+        <template x-if="true">
+          <div style="display: contents;">
+            <div class="rdr-calib-bucket" x-text="b.label"></div>
+            <div class="rdr-calib-bar-track" :title="`${b.up} 👍 / ${b.down} 👎 / ${b.none} unrated`">
+              <div class="rdr-calib-bar-up" :style="`width: ${b.upPct}%`"></div>
+              <div class="rdr-calib-bar-down" :style="`width: ${b.downPct}%`"></div>
+              <div class="rdr-calib-bar-none" :style="`width: ${b.nonePct}%`"></div>
+            </div>
+            <div class="rdr-calib-pct" x-text="b.upRated > 0 ? `${b.upRatedPct}%` : '—'"></div>
+            <div class="rdr-calib-n" x-text="b.upRated"></div>
+          </div>
+        </template>
+      </template>
+    </div>
+  </section>
+
+  <!-- Per-source ROI -->
+  <section class="rdr-section">
+    <h2>📡 Per-source ROI</h2>
+    <div class="rdr-section-sub">
+      For each source, how many items reached the dashboard, how many you rated, and what fraction of rated items were 👍. Sources with 0% 👍 over many ratings are candidates to drop. Sources with very few items may need broader queries.
+    </div>
+    <table>
+      <thead>
+        <tr><th>Source</th><th class="num">Items</th><th class="num">Rated</th><th class="num">👍</th><th class="num">👎</th><th class="num">👍 rate</th></tr>
+      </thead>
+      <tbody>
+        <template x-for="row in sourceRoi" :key="row.name">
+          <tr>
+            <td x-text="row.name"></td>
+            <td class="num" x-text="row.items"></td>
+            <td class="num" x-text="row.rated"></td>
+            <td class="num" x-text="row.up"></td>
+            <td class="num" x-text="row.down"></td>
+            <td class="num">
+              <span :class="row.rated > 0 ? (row.upRate >= 50 ? 'pct good' : 'pct bad') : ''"
+                    x-text="row.rated > 0 ? `${row.upRate}%` : '—'"></span>
+              <span class="rdr-bar-track" x-show="row.rated > 0">
+                <span class="rdr-bar-fill" :class="row.upRate >= 50 ? 'good' : 'bad'" :style="`width: ${row.upRate}%`"></span>
+              </span>
+            </td>
+          </tr>
+        </template>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Per-category breakdown -->
+  <section class="rdr-section">
+    <h2>🏷 Per-category 👍 rate</h2>
+    <div class="rdr-section-sub">Which categories give you the highest signal-to-noise.</div>
+    <table>
+      <thead>
+        <tr><th>Category</th><th class="num">Items</th><th class="num">Rated</th><th class="num">👍 rate</th></tr>
+      </thead>
+      <tbody>
+        <template x-for="row in categoryRoi" :key="row.name">
+          <tr>
+            <td x-text="row.name"></td>
+            <td class="num" x-text="row.items"></td>
+            <td class="num" x-text="row.rated"></td>
+            <td class="num">
+              <span :class="row.rated > 0 ? (row.upRate >= 50 ? 'pct good' : 'pct bad') : ''"
+                    x-text="row.rated > 0 ? `${row.upRate}%` : '—'"></span>
+            </td>
+          </tr>
+        </template>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Top noise: high score, thumbs-down -->
+  <section class="rdr-section">
+    <h2>🔇 Top noise — items the radar over-rated</h2>
+    <div class="rdr-section-sub">Items you 👎'd that scored ≥65. If many appear here from the same source, that source's items are systematically over-scored.</div>
+    <ul class="rdr-card-list">
+      <template x-for="it in topNoise" :key="it.id">
+        <li>
+          <span class="rdr-pill" x-text="Math.round(it.score)"></span>
+          <div>
+            <a :href="it.link" target="_blank" rel="noopener" x-text="it.title"></a>
+            <span class="rdr-cite-meta" x-text="`${it.category} · ${it.sources.join(', ')}`"></span>
+          </div>
+        </li>
+      </template>
+      <template x-if="topNoise.length === 0">
+        <li style="color: var(--rdr-text-muted); border: none; grid-template-columns: 1fr;">
+          (none yet — rate some 👎s on the daily page)
+        </li>
+      </template>
+    </ul>
+  </section>
+
+  <!-- Hidden gems: mid score, thumbs-up -->
+  <section class="rdr-section">
+    <h2>💎 Hidden gems — items the radar under-rated</h2>
+    <div class="rdr-section-sub">Items you 👍'd that scored 35-64. If many appear here from the same source, that source's items are systematically under-scored — consider raising weights for that category.</div>
+    <ul class="rdr-card-list">
+      <template x-for="it in hiddenGems" :key="it.id">
+        <li>
+          <span class="rdr-pill" x-text="Math.round(it.score)"></span>
+          <div>
+            <a :href="it.link" target="_blank" rel="noopener" x-text="it.title"></a>
+            <span class="rdr-cite-meta" x-text="`${it.category} · ${it.sources.join(', ')}`"></span>
+          </div>
+        </li>
+      </template>
+      <template x-if="hiddenGems.length === 0">
+        <li style="color: var(--rdr-text-muted); border: none; grid-template-columns: 1fr;">
+          (none yet — rate some 👍s on items below score 65)
+        </li>
+      </template>
+    </ul>
+  </section>
+
+  <!-- Coverage anchors -->
+  <section class="rdr-section">
+    <h2>⚓ Coverage anchors</h2>
+    <div class="rdr-section-sub">
+      Items you've flagged as known-important (in <code>config/coverage_anchors.yaml</code>). Each is checked against the current window — a miss means the radar's source mix is incomplete for that area.
+    </div>
+    <table x-show="anchorRows.length > 0">
+      <thead>
+        <tr><th>Anchor</th><th>Status</th><th class="num">Score in radar</th></tr>
+      </thead>
+      <tbody>
+        <template x-for="row in anchorRows" :key="row.id">
+          <tr>
+            <td>
+              <a :href="row.url" target="_blank" rel="noopener" x-text="row.title"></a>
+              <span class="rdr-cite-meta" x-text="row.note || ''" x-show="row.note"></span>
+            </td>
+            <td>
+              <span :class="row.caught ? 'pct good' : 'pct bad'"
+                    x-text="row.caught ? '✓ caught' : '✗ missed'"></span>
+            </td>
+            <td class="num" x-text="row.caught ? Math.round(row.score) : '—'"></td>
+          </tr>
+        </template>
+      </tbody>
+    </table>
+    <p style="color: var(--rdr-text-muted); font-size: 13px;" x-show="anchorRows.length === 0">
+      No anchors configured. Add some to <code>config/coverage_anchors.yaml</code> in the repo to enable coverage checks.
+    </p>
+  </section>
+
+  <footer class="rdr-foot">
+    Generated by <a href="https://github.com/Torreskai6722/research-radar" target="_blank" rel="noopener">research-radar</a>
+    · feedback stored in this browser only · 2026-05-03 23:29 EDT
+  </footer>
+</div>
+
+<script id="rdr-eval-data" type="application/json">{"updated_at":"2026-05-03T23:29:36-04:00","mode":"eval","items":[{"id":"arxiv:2604.28196","title":"HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation","link":"https://arxiv.org/abs/2604.28196v1","date":"2026-04-30T17:59:58Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28196v1/x1.png","score":88.0,"category":"AI Models & Algorithms","action":"Use for proposal","summary":"HERMES++ integrates 3D scene understanding and future geometry prediction for autonomous driving.","why_matters":"This work addresses a critical gap in autonomous driving technology by combining scene understanding with future predictions.","connection":"The focus on driving world models aligns with Prof. Liu's interests in end-to-end driving stacks and world models.","proposal_angle":"This could enhance the NSF CSR proposal on predictable DNN inference by improving scene understanding.","student_project":"The integration of scene understanding and prediction could support student projects on VLA models for driving.","rationale":"Strong alignment with ongoing proposals and significant advancements in driving world models.","dimensions":{"topical":10.0,"novelty":8.0,"proposal_value":9.0,"student_value":8.0,"testbed_value":7.0,"recency":10.0}},{"id":"arxiv:2604.28197","title":"OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction","link":"https://arxiv.org/abs/2604.28197v1","date":"2026-04-30T17:59:58Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28197v1/x1.png","score":83.0,"category":"Robotics & Embodied AI","action":"Read","summary":"OmniRobotHome is a platform for real-time multiadic human-robot interaction using synchronized RGB cameras and coordinated robotic arms.","why_matters":"It enables effective collaboration in shared spaces, addressing challenges of occlusion and real-time tracking.","connection":"This work aligns with Prof. Liu's interests in multi-agent systems and real-time perception for autonomous robots.","proposal_angle":"It could enhance the safety and interaction aspects of the NSF CSR proposal on DNN inference for autonomous vehicles.","student_project":"The platform's focus on real-time perception and human behavior modeling fits well with student projects on multimodal fusion and perception.","rationale":"Strong relevance to multi-agent systems and real-time perception in autonomy.","dimensions":{"topical":9.0,"novelty":8.0,"proposal_value":7.0,"student_value":8.0,"testbed_value":9.0,"recency":10.0}},{"id":"arxiv:2604.28156","title":"FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution for Robotic Systems","link":"https://arxiv.org/abs/2604.28156v1","date":"2026-04-30T17:43:07Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28156v1/x1.png","score":83.0,"category":"Sensing, Perception & Materials","action":"Use for proposal","summary":"FlexiTac is a low-cost, scalable tactile sensing solution for robotic systems that supports modern tactile learning pipelines.","why_matters":"It enhances tactile sensing capabilities for robotics, crucial for improving autonomy and manipulation tasks.","connection":"This aligns with Prof. Liu's interests in tactile sensing and multimodal perception for autonomous systems.","proposal_angle":"It could support the NSF CIRC proposal by enhancing tactile learning pipelines for cloud-edge-robot co-inference.","student_project":"It fits well with student projects focused on sensing and multimodal fusion at the edge.","rationale":"Strong relevance to tactile sensing and autonomy, valuable for ongoing proposals.","dimensions":{"topical":9.0,"novelty":8.0,"proposal_value":7.0,"student_value":8.0,"testbed_value":9.0,"recency":10.0}},{"id":"arxiv:2604.28192","title":"LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models","link":"https://arxiv.org/abs/2604.28192v1","date":"2026-04-30T17:59:52Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28192v1/x1.png","score":81.0,"category":"AI Models & Algorithms","action":"Use for proposal","summary":"LaST-R1 integrates latent reasoning and reinforcement learning for improved VLA model performance in robotic manipulation.","why_matters":"This work enhances adaptability and generalization in VLA models, crucial for autonomous systems.","connection":"The paper's focus on VLA models aligns with Prof. Liu's research on foundation models for autonomy and reinforcement learning.","proposal_angle":"The integration of latent reasoning could enhance the proposed NSF CSR project on predictable DNN inference for real-time autonomous vehicles.","student_project":"The adaptive latent CoT mechanism could be explored in student projects focused on VLA foundation models for end-to-end driving.","rationale":"Strong alignment with research interests and potential to enhance ongoing proposals.","dimensions":{"topical":10.0,"novelty":8.0,"proposal_value":9.0,"student_value":8.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00595","title":"Robust Fusion of Object-Level V2X for Learned 3D Object Detection","link":"https://arxiv.org/abs/2605.00595v1","date":"2026-05-01T12:06:07Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00595v1/x1.png","score":78.0,"category":"Sensing, Perception & Materials","action":"Track","summary":"This paper explores integrating V2X communication into 3D object detection for automated driving, enhancing robustness against real-world conditions.","why_matters":"Improving object detection in autonomous vehicles can enhance safety and reliability, especially in challenging environments.","connection":"The focus on V2X communication and perception aligns with Prof. Liu's interests in autonomous driving and multimodal perception.","proposal_angle":"This work could support the NSF CSR proposal on predictable DNN inference by improving perception under adverse conditions.","student_project":"The integration of V2X information into perception systems could align with student projects on BEV perception under sensor noise.","rationale":"Strong relevance to autonomy and perception, with potential for future proposals.","dimensions":{"topical":9.0,"novelty":7.0,"proposal_value":8.0,"student_value":6.0,"testbed_value":7.0,"recency":10.0}},{"id":"arxiv:2604.28161","title":"RopeDreamer: A Kinematic Recurrent State Space Model for Dynamics of Flexible Deformable Linear Objects","link":"https://arxiv.org/abs/2604.28161v1","date":"2026-04-30T17:47:44Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28161v1/x1.png","score":74.0,"category":"Robotics & Embodied AI","action":"Discuss with student","summary":"The paper presents a model for predicting the dynamics of flexible deformable linear objects in robotic manipulation tasks.","why_matters":"This work addresses challenges in manipulating flexible objects, which is crucial for advanced robotics applications.","connection":"The focus on manipulation aligns with Prof. Liu's interests in mobile manipulation and dexterous manipulation.","proposal_angle":"","student_project":"This project could support student work on manipulation planning and robotics.","rationale":"Strong relevance to manipulation in robotics and fits well with student projects.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":8.0,"testbed_value":7.0,"recency":10.0}},{"id":"hash:a23e4ab448f6e461","title":"Robotics Institute Launches Next Phase of Vision-Language-Navigation Challenge","link":"https://www.ri.cmu.edu/next-phase-of-vision-language-navigation-challenge/","date":"2026-05-01T13:00:46+00:00","type":"News","sources":["rss:CMU Robotics Institute"],"image_url":"https://www.ri.cmu.edu/app/uploads/2026/04/0.jpg","score":72.0,"category":"Robotics & Embodied AI","action":"Track","summary":"The latest phase of the Vision-Language-Navigation Challenge aims to enhance robots' ability to understand and act on human instructions.","why_matters":"This challenge addresses a critical aspect of robotics, improving human-robot interaction and navigation capabilities.","connection":"The challenge aligns with Prof. Liu's interests in vision-language-action models and autonomous systems.","proposal_angle":"","student_project":"This challenge could provide valuable insights for student projects focused on VLA models and real-world navigation.","rationale":"Strong relevance to vision-language-action models and student projects.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":8.0,"testbed_value":5.0,"recency":10.0}},{"id":"arxiv:2605.00798","title":"RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution","link":"https://arxiv.org/abs/2605.00798v1","date":"2026-05-01T17:29:45Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00798v1/x1.png","score":70.5,"category":"AI Models & Algorithms","action":"Discuss with student","summary":"RunAgent is a multi-agent platform that interprets natural-language plans with constraint-guided execution.","why_matters":"It enhances the reliability of LLMs for structured workflow execution, crucial for autonomous systems.","connection":"RunAgent's focus on structured execution aligns with Prof. Liu's interest in VLA models and autonomous systems.","proposal_angle":"","student_project":"RunAgent's approach could support student projects on VLA models and real-time execution.","rationale":"The paper's focus on structured execution is relevant to ongoing student research.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":7.0,"testbed_value":5.0,"recency":10.0}},{"id":"arxiv:2605.00405","title":"BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception","link":"https://arxiv.org/abs/2605.00405v1","date":"2026-05-01T04:53:50Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00405v1/Fig/Teaser.png","score":70.5,"category":"Sensing, Perception & Materials","action":"Track","summary":"BOLT is a lightweight module for preparation-free heterogeneous cooperative perception using ego-as-teacher distillation.","why_matters":"It enables real-time cooperation among independently trained agents without prior coordination, enhancing perception capabilities.","connection":"This work aligns with Prof. Liu's interests in multimodal perception and collaborative intelligence in autonomous systems.","proposal_angle":"It could enhance the cloud-edge-robot collaborative inference proposal by improving perception in dynamic environments.","student_project":"This research could support student projects focused on multimodal fusion and real-time perception under adverse conditions.","rationale":"Strong relevance to cooperative perception in autonomous systems.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":7.0,"testbed_value":5.0,"recency":10.0}},{"id":"arxiv:2604.28144","title":"Global Optimality for Constrained Exploration via Penalty Regularization","link":"https://arxiv.org/abs/2604.28144v1","date":"2026-04-30T17:31:46Z","type":"Paper","sources":["arxiv"],"image_url":"https://ar5iv.labs.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png","score":70.5,"category":"AI Models & Algorithms","action":"Track","summary":"The paper proposes a Policy Gradient Penalty method for constrained exploration in reinforcement learning.","why_matters":"This method addresses real-world exploration challenges in reinforcement learning, particularly under constraints.","connection":"The work aligns with Prof. Liu's interests in reinforcement learning and autonomous systems.","proposal_angle":"It could enhance the exploration strategies in the NSF CSR proposal on DNN inference for autonomous vehicles.","student_project":"This could serve as a basis for student projects on reinforcement learning and exploration strategies.","rationale":"Relevant to reinforcement learning in autonomy, with potential applications in ongoing proposals.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":7.0,"testbed_value":5.0,"recency":10.0}},{"id":"hash:686f24a68c3710fc","title":"Video Friday: Figure, 1X Ramp Up Humanoid Robot Production","link":"https://spectrum.ieee.org/video-friday-humanoid-robot-production","date":"2026-05-01T16:30:01+00:00","type":"News","sources":["rss:IEEE Spectrum — Robotics"],"image_url":"https://spectrum.ieee.org/media-library/image.jpg?id=66666641&width=1200&height=600&coordinates=0%2C125%2C0%2C125","score":69.5,"category":"Robotics & Embodied AI","action":"Track","summary":"Figure has begun full-scale production of humanoid robots for various applications.","why_matters":"This marks a significant advancement in humanoid robotics manufacturing and development.","connection":"The production of humanoid robots aligns with Prof. Liu's interests in autonomous mobile robots and real-time AI systems.","proposal_angle":"","student_project":"","rationale":"Relevant to robotics and potential applications in autonomy.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":5.0,"testbed_value":7.0,"recency":10.0}},{"id":"arxiv:2605.00781","title":"Map2World: Segment Map Conditioned Text to 3D World Generation","link":"https://arxiv.org/abs/2605.00781","date":"2026-04-30T20:00:00.000Z","type":"Paper","sources":["arxiv","huggingface_papers"],"image_url":"https://arxiv.org/html/2605.00781v1/x1.png","score":68.5,"category":"Robotics & Embodied AI","action":"Track","summary":"Map2World introduces a framework for 3D world generation based on user-defined segment maps, enhancing detail and coherence.","why_matters":"This work improves 3D world generation, which is crucial for applications in autonomous driving and immersive simulations.","connection":"The framework could enhance simulation environments for autonomous driving, aligning with Prof. Liu's interests in VLA models and autonomous systems.","proposal_angle":"","student_project":"This could support student projects on scene generation for autonomous driving simulations.","rationale":"The paper's focus on 3D world generation is relevant for autonomous driving applications.","dimensions":{"topical":7.0,"novelty":8.0,"proposal_value":6.0,"student_value":5.0,"testbed_value":7.0,"recency":10.0}},{"id":"arxiv:2604.28175","title":"Strait: Perceiving Priority and Interference in ML Inference Serving","link":"https://arxiv.org/abs/2604.28175v1","date":"2026-04-30T17:55:28Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28175v1/x1.png","score":68.0,"category":"Computing Systems & Hardware","action":"Track","summary":"Strait enhances deadline satisfaction for dual-priority inference traffic in ML inference serving systems under high GPU utilization.","why_matters":"Improving latency and task prioritization in ML inference can enhance real-time performance in autonomous systems.","connection":"This work aligns with Prof. Liu's interest in real-time and predictable AI inference for safety-critical applications.","proposal_angle":"It could support the NSF CSR proposal on predictable DNN inference by improving scheduling for latency-sensitive tasks.","student_project":"The concepts could be relevant for a student project on real-time GPU scheduling for perception.","rationale":"Strong relevance to real-time AI inference in autonomous systems.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":8.0,"student_value":6.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:7ce25f3d5fdaf9e5","title":"Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale","link":"https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/","date":"2026-04-30T21:53:21+00:00","type":"News","sources":["rss:Microsoft Research"],"image_url":"https://www.microsoft.com/en-us/research/wp-content/uploads/2026/04/AIRT-TWLIFB-1200x627-1.jpg","score":62.5,"category":"Safety, CPS & Verification","action":"Track","summary":"Microsoft Research explores the risks of AI agents interacting in networks and the need for new safety approaches.","why_matters":"Understanding network-level risks is crucial for ensuring safe interactions among autonomous agents.","connection":"This work relates to Prof. Liu's interests in safe and assured autonomy and multi-agent systems.","proposal_angle":"","student_project":"","rationale":"Relevant to safety in multi-agent systems, aligning with ongoing research interests.","dimensions":{"topical":8.0,"novelty":7.0,"proposal_value":6.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28169","title":"PhyCo: Learning Controllable Physical Priors for Generative Motion","link":"https://arxiv.org/abs/2604.28169","date":"2026-04-29T20:00:00.000Z","type":"Paper","sources":["arxiv","huggingface_papers"],"image_url":"https://arxiv.org/html/2604.28169v1/x2.jpg","score":62.0,"category":"AI Models & Algorithms","action":"Track","summary":"PhyCo introduces controllable physical priors into video generation for improved physical consistency.","why_matters":"This work enhances the realism of generative models, which is crucial for applications in robotics and autonomous systems.","connection":"The focus on physical consistency in generative models can inform the development of more realistic simulations for autonomous systems.","proposal_angle":"","student_project":"This could support student projects on physics-aware learning and multimodal perception.","rationale":"The paper's focus on physical realism aligns with the researcher's interests in autonomy and robotics.","dimensions":{"topical":5.0,"novelty":8.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":7.0,"recency":10.0}},{"id":"hash:908a68ff62a4607c","title":"AI Processing of Earth Images Can Now Run in Space","link":"https://spectrum.ieee.org/ai-earth-observation-in-space","date":"2026-05-01T14:00:01+00:00","type":"News","sources":["rss:IEEE Spectrum — AI"],"image_url":"https://spectrum.ieee.org/media-library/image.jpg?id=66662984&width=1200&height=600&coordinates=0%2C490%2C0%2C1163","score":61.5,"category":"Sensing, Perception & Materials","action":"Track","summary":"AI image processing onboard satellites enables real-time object classification from space.","why_matters":"This technology allows for timely insights from satellite data, crucial for applications like disaster response.","connection":"The use of AI for real-time insights aligns with Prof. Liu's interests in autonomous systems and perception.","proposal_angle":"This could enhance the cloud-edge collaborative inference proposal by integrating real-time satellite data processing.","student_project":"","rationale":"Relevant to real-time AI applications in autonomy.","dimensions":{"topical":7.0,"novelty":8.0,"proposal_value":6.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28139","title":"Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows","link":"https://arxiv.org/abs/2604.28139","date":"2026-04-29T20:00:00.000Z","type":"Paper","sources":["arxiv","huggingface_papers"],"image_url":"https://arxiv.org/html/2604.28139v1/figures/fig1.png","score":61.0,"category":"Testbeds, Datasets & Benchmarks","action":"Track","summary":"Claw-Eval-Live is a live benchmark for evaluating workflow agents against evolving demands and verifiable actions.","why_matters":"It provides a structured approach to assess agent performance in real-world workflows, which is crucial for autonomy.","connection":"The focus on evaluating agents aligns with Prof. Liu's interest in multi-agent systems and real-time AI inference.","proposal_angle":"","student_project":"This benchmark could support student projects on evaluating VLA models in dynamic environments.","rationale":"The benchmark's relevance to evaluating agent performance in autonomy systems is significant.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":8.0,"recency":10.0}},{"id":"arxiv:2604.28193","title":"Generalizable Sparse-View 3D Reconstruction from Unconstrained Images","link":"https://arxiv.org/abs/2604.28193v1","date":"2026-04-30T17:59:55Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28193v1/x2.png","score":59.0,"category":"Sensing, Perception & Materials","action":"Track","summary":"GenWildSplat is a framework for reconstructing 3D scenes from sparse, unposed images without per-scene optimization.","why_matters":"This work addresses challenges in 3D scene reconstruction, which is relevant for perception in autonomous systems.","connection":"The paper's focus on 3D reconstruction relates to multimodal perception and sensor fusion in autonomous systems.","proposal_angle":"","student_project":"This work could inform student projects on perception under adverse conditions.","rationale":"Relevant to perception challenges in autonomy, with potential applications in student projects.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":6.0,"recency":10.0}},{"id":"arxiv:2605.00279","title":"A Comparative Analysis of Machine Learning Models for Intrusion Detection in Intelligent Transport Systems","link":"https://arxiv.org/abs/2605.00279v1","date":"2026-04-30T22:41:34Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00279v1/d242f40de03880e7f9aca775c248799e1afda190.png","score":58.5,"category":"Safety, CPS & Verification","action":"Track","summary":"The paper proposes a trust-aware federated hybrid intrusion detection framework for Intelligent Transportation Systems using edge computing.","why_matters":"It addresses security challenges in connected transportation systems, enhancing safety and responsiveness.","connection":"The focus on edge computing and V2X connectivity aligns with Prof. Liu's interests in cyber-physical systems and safety.","proposal_angle":"This work could support NSF CPS proposals focused on safety in autonomous systems.","student_project":"","rationale":"Relevant to safety in autonomous systems and edge computing.","dimensions":{"topical":7.0,"novelty":6.0,"proposal_value":7.0,"student_value":5.0,"testbed_value":0.0,"recency":8.0}},{"id":"hash:dfed8a3004b22c94","title":"Phase stability regulator based on two dynamic parameters for autonomous mobile robots","link":"https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/","date":"2026-05-02T15:18:33+00:00","type":"News","sources":["rss:The Robot Report"],"image_url":"https://www.therobotreport.com/wp-content/uploads/2026/05/AdobeStock_1969329045_02.jpg","score":58.0,"category":"Robotics & Embodied AI","action":"Track","summary":"A phase regulator using two real-time signals can enhance the performance of autonomous mobile robots.","why_matters":"This technology could improve the stability and control of autonomous mobile robots in dynamic environments.","connection":"The focus on autonomous mobile robots aligns with Prof. Liu's research on mobile manipulation and autonomous systems.","proposal_angle":"","student_project":"This could serve as a basis for a student project on improving control systems for autonomous robots.","rationale":"Relevant to robotics and could inform future research directions.","dimensions":{"topical":8.0,"novelty":5.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:88edaca15930b961","title":"Meta buys robotics startup to bolster its humanoid AI ambitions","link":"https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/","date":"2026-05-01T22:13:27+00:00","type":"News","sources":["rss:TechCrunch — AI"],"image_url":"https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2195752979.jpg?resize=1200,800","score":55.5,"category":"Industry & Research Updates","action":"Track","summary":"Meta acquired Assured Robot Intelligence to enhance its AI models for humanoid robots.","why_matters":"This acquisition indicates a growing interest in humanoid robotics and AI integration.","connection":"The acquisition aligns with Prof. Liu's interest in humanoid robots and AI models for autonomy.","proposal_angle":"","student_project":"","rationale":"Relevant to humanoid robotics and AI model development.","dimensions":{"topical":7.0,"novelty":5.0,"proposal_value":6.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00536","title":"Tempus: A Temporally Scalable Resource-Invariant GEMM Streaming Framework for Versal AI Edge","link":"https://arxiv.org/abs/2605.00536v1","date":"2026-05-01T09:28:34Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00536v1/x1.png","score":53.5,"category":"Computing Systems & Hardware","action":"Track","summary":"Tempus is a scalable GEMM framework for efficient edge AI deployment on AMD Versal SoCs.","why_matters":"It addresses the challenges of resource constraints in edge AI, improving efficiency for LLM inference.","connection":"The work on efficient edge AI systems aligns with Prof. Liu's interests in edge AI and real-time inference.","proposal_angle":"","student_project":"","rationale":"Relevant to edge AI and efficient computation for autonomy systems.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":6.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00814","title":"Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs","link":"https://arxiv.org/abs/2605.00814v1","date":"2026-05-01T17:54:37Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00814v1/x1.png","score":53.0,"category":"AI Models & Algorithms","action":"Discuss with student","summary":"The paper introduces Persistent Visual Memory (PVM) to enhance visual perception in Large Vision-Language Models (LVLMs).","why_matters":"PVM addresses visual attention decay in LVLMs, improving performance in multimodal tasks.","connection":"The work on visual perception could inform VLA models for end-to-end driving stacks.","proposal_angle":"","student_project":"This could support student projects on VLA foundation models for enhanced perception.","rationale":"The paper's focus on visual perception aligns with ongoing student thrusts.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00809","title":"Let ViT Speak: Generative Language-Image Pre-training","link":"https://arxiv.org/abs/2605.00809","date":"2026-04-30T20:00:00.000Z","type":"Paper","sources":["arxiv","huggingface_papers"],"image_url":"https://arxiv.org/html/2605.00809v1/figures/fig1-ver4-low_2.png","score":53.0,"category":"AI Models & Algorithms","action":"Track","summary":"GenLIP is a generative pretraining framework for Vision Transformers that aligns vision encoders with autoregressive language models.","why_matters":"It simplifies multimodal model training and improves performance on detail-sensitive tasks.","connection":"The work on multimodal models aligns with Prof. Liu's interest in vision-language-action models.","proposal_angle":"","student_project":"This could support student projects on VLA foundation models for end-to-end driving.","rationale":"Relevant to vision-language models, but lacks direct application to autonomy.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28185","title":"Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling","link":"https://arxiv.org/abs/2604.28185","date":"2026-04-29T20:00:00.000Z","type":"Paper","sources":["arxiv","huggingface_papers"],"image_url":"https://arxiv.org/html/2604.28185v1/x1.png","score":53.0,"category":"AI Models & Algorithms","action":"Discuss with student","summary":"The paper proposes a shift towards intelligent visual generation with a focus on structure, dynamics, and causal understanding.","why_matters":"This work addresses limitations in current visual generation models, which is crucial for advancing AI systems.","connection":"The focus on causal understanding and world modeling aligns with Prof. Liu's interests in world models and VLA models.","proposal_angle":"","student_project":"The exploration of intelligent visual generation could inform student projects on VLA models.","rationale":"The paper's focus on intelligent visual generation is relevant to ongoing research in autonomy.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":6.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00825","title":"Posterior Augmented Flow Matching","link":"https://arxiv.org/abs/2605.00825v1","date":"2026-05-01T17:59:59Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00825v1/x1.png","score":51.5,"category":"AI Models & Algorithms","action":"Track","summary":"Posterior-Augmented Flow Matching improves flow matching by reducing gradient variance during training with an unbiased estimator.","why_matters":"This method enhances training efficiency for generative models, which could be relevant for autonomy applications.","connection":"The paper's focus on improving generative models may relate to foundation models for autonomy in Prof. Liu's research.","proposal_angle":"","student_project":"","rationale":"The paper presents a novel approach that could influence future AI models relevant to autonomy.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28182","title":"Exploration Hacking: Can LLMs Learn to Resist RL Training?","link":"https://arxiv.org/abs/2604.28182v1","date":"2026-04-30T17:58:39Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28182v1/x1.png","score":51.5,"category":"AI Models & Algorithms","action":"Track","summary":"The paper investigates 'exploration hacking' in reinforcement learning for large language models, highlighting potential failure modes.","why_matters":"Understanding exploration hacking could improve RL training methods, impacting AI alignment and safety.","connection":"The exploration hacking concept relates to reinforcement learning, which is relevant to Prof. Liu's work on VLA models and autonomous systems.","proposal_angle":"","student_project":"","rationale":"Relevant to RL and autonomy, but not directly applicable to current proposals or student projects.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28159","title":"Continuous-tone Simple Points: An $\\ell_0$-Norm of Cyclic Gradient for Topology-Preserving Data-Driven Image Segmentation","link":"https://arxiv.org/abs/2604.28159v1","date":"2026-04-30T17:45:50Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28159v1/fig/main.drawio.png","score":51.5,"category":"AI Models & Algorithms","action":"Track","summary":"The paper proposes a method for topology-preserving data-driven image segmentation using continuous-valued images.","why_matters":"This work addresses challenges in integrating topology-preserving learning into deep learning tasks, enhancing image analysis.","connection":"The focus on image segmentation and topological features could relate to perception tasks in autonomous systems.","proposal_angle":"","student_project":"","rationale":"Relevant to AI models but not directly applicable to current thrusts.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28148","title":"Design and Characteristics of a Thin-Film ThermoMesh for the Efficient Embedded Sensing of a Spatio-Temporally Sparse Heat Source","link":"https://arxiv.org/abs/2604.28148v1","date":"2026-04-30T17:35:40Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28148v1/4-Sensor_Design.png","score":51.5,"category":"Sensing, Perception & Materials","action":"Track","summary":"ThermoMesh is a thin-film thermoelectric sensor for detecting sparse heat sources through thermal imaging.","why_matters":"It enables efficient thermal sensing in challenging environments, which could enhance robotic perception.","connection":"The work on thermal sensing could relate to multimodal perception in autonomous systems.","proposal_angle":"","student_project":"","rationale":"Relevant to sensing in autonomy, with potential applications in robotics.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:ffe7307791790dd1","title":"California lawmakers open the gate for autonomous trucks in the state","link":"https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/","date":"2026-04-30T20:05:52+00:00","type":"News","sources":["rss:The Robot Report"],"image_url":"https://www.therobotreport.com/wp-content/uploads/2026/04/plusaitruck-featured.jpg","score":51.0,"category":"Industry & Research Updates","action":"Track","summary":"California DMV has introduced expanded safety and oversight for autonomous trucks.","why_matters":"This legislation supports the development and deployment of autonomous vehicles, impacting safety and regulation.","connection":"This aligns with Prof. Liu's interests in autonomous driving and safety in autonomous systems.","proposal_angle":"","student_project":"","rationale":"Relevant to autonomous vehicle regulations and safety oversight.","dimensions":{"topical":8.0,"novelty":5.0,"proposal_value":6.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28173","title":"Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements","link":"https://arxiv.org/abs/2604.28173v1","date":"2026-04-30T17:55:01Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28173v1/x2.png","score":49.5,"category":"Sensing, Perception & Materials","action":"Track","summary":"The paper presents A4Mer, a self-supervised hierarchical representation for modeling human body movements using a novel dataset.","why_matters":"This work enhances human behavior modeling, which can be relevant for robotics and autonomous systems.","connection":"The hierarchical representation of human movements could inform multimodal perception in autonomous systems.","proposal_angle":"","student_project":"This could support student projects on multimodal perception and action recognition.","rationale":"Relevant for perception in robotics, with potential applications in autonomous systems.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":0.0,"student_value":5.0,"testbed_value":8.0,"recency":10.0}},{"id":"hash:67f64c97fb568c6d","title":"Automating GPU Kernel Translation with AI Agents: cuTile Python to cuTile.jl","link":"https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/","date":"2026-04-30T15:54:38+00:00","type":"News","sources":["rss:NVIDIA Developer Blog"],"image_url":"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow.webp","score":49.5,"category":"Computing Systems & Hardware","action":"Track","summary":"NVIDIA introduces cuTile, a tile-based programming model for GPU kernel translation using AI agents.","why_matters":"This development could streamline GPU programming, enhancing performance for AI applications.","connection":"The focus on GPU kernels aligns with Prof. Liu's interest in real-time AI inference and AI accelerators.","proposal_angle":"","student_project":"","rationale":"Relevant to GPU scheduling and AI accelerators, but lacks direct application to autonomy.","dimensions":{"topical":5.0,"novelty":6.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:100f7b4adf0b3543","title":"Teradyne Robotics revenue rises at the start of 2026","link":"https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/","date":"2026-04-30T18:24:44+00:00","type":"News","sources":["rss:The Robot Report"],"image_url":"https://www.therobotreport.com/wp-content/uploads/2026/04/UR8-welding-featured.jpg","score":48.5,"category":"Industry & Research Updates","action":"Track","summary":"Teradyne Robotics brought in $91 million in Q1 2026, with its AI products helping to boost robotics sales.","why_matters":"This indicates growth in the robotics sector driven by AI, relevant to autonomy research.","connection":"The growth in AI-driven robotics aligns with Prof. Liu's interests in autonomous mobile robots and AI models.","proposal_angle":"","student_project":"","rationale":"Relevant industry update on AI's impact on robotics sales.","dimensions":{"topical":7.0,"novelty":5.0,"proposal_value":4.0,"student_value":3.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28163","title":"Sequential Inference for Gaussian Processes: A Signal Processing Perspective","link":"https://arxiv.org/abs/2604.28163v1","date":"2026-04-30T17:48:09Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28163v1/x1.png","score":48.5,"category":"AI Models & Algorithms","action":"Track","summary":"The paper provides an overview of Gaussian processes and their applications in sequential inference from a signal processing perspective.","why_matters":"Gaussian processes are relevant for modeling complex relationships, which can enhance machine learning applications in various fields.","connection":"The focus on sequential inference may relate to reinforcement learning and decision-making in autonomous systems.","proposal_angle":"","student_project":"","rationale":"Relevant to ML models but lacks direct connection to autonomy systems.","dimensions":{"topical":5.0,"novelty":6.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":8.0}},{"id":"hash:2461137acf1a1b03","title":"Closing the latency gap: Why physical AI requires edge-first architectures","link":"https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/","date":"2026-05-03T12:00:44+00:00","type":"News","sources":["rss:The Robot Report"],"image_url":"https://www.therobotreport.com/wp-content/uploads/2026/05/latencygap-featured.jpg","score":48.0,"category":"Computing Systems & Hardware","action":"Track","summary":"The article discusses the need for edge-first architectures in physical AI to meet industry demands.","why_matters":"Edge-first architectures can enhance the performance and safety of autonomous systems.","connection":"This aligns with Prof. Liu's interest in edge AI and real-time inference for autonomy.","proposal_angle":"","student_project":"","rationale":"Relevant to edge AI and real-time performance in autonomous systems.","dimensions":{"topical":7.0,"novelty":5.0,"proposal_value":6.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:7f83f8a0b7c77087","title":"Speed Up Unreal Engine NNE Inference with NVIDIA TensorRT for RTX Runtime","link":"https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/","date":"2026-04-30T17:00:00+00:00","type":"News","sources":["rss:NVIDIA Developer Blog"],"image_url":"https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/TensorRT-RTX.png","score":47.5,"category":"Computing Systems & Hardware","action":"Track","summary":"Neural network techniques enhance image quality and performance in computer graphics.","why_matters":"This development could improve real-time AI inference in graphics applications.","connection":"The techniques discussed may relate to real-time AI inference for autonomous systems.","proposal_angle":"","student_project":"","rationale":"Relevant to computing systems but lacks direct connection to autonomy.","dimensions":{"topical":5.0,"novelty":5.0,"proposal_value":5.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:b62c256725741ab5","title":"FAULHABER designs DualGear for autonomous logistics systems","link":"https://www.therobotreport.com/faulhaber-designs-dualgear-for-autonomous-logistics-systems/","date":"2026-05-02T12:35:49+00:00","type":"News","sources":["rss:The Robot Report"],"image_url":"https://www.therobotreport.com/wp-content/uploads/2026/05/faulhaber-featured-1536x997-1.jpg","score":46.0,"category":"Robotics & Embodied AI","action":"Track","summary":"FAULHABER has designed DualGear for high performance in autonomous logistics applications.","why_matters":"This design could enhance efficiency in logistics, a key area for autonomous systems.","connection":"The development of high-performance components is relevant to Prof. Liu's work on autonomous mobile robots.","proposal_angle":"","student_project":"","rationale":"Relevant to robotics and autonomy, but lacks specific application details.","dimensions":{"topical":7.0,"novelty":5.0,"proposal_value":5.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00510","title":"Scale-Aware Adversarial Analysis: A Diagnostic for Generative AI in Multiscale Complex Systems","link":"https://arxiv.org/abs/2605.00510v1","date":"2026-05-01T08:36:52Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00510v1/x1.png","score":44.0,"category":"AI Models & Algorithms","action":"Track","summary":"The paper introduces a diagnostic framework for evaluating generative AI in multiscale complex systems using physically constrained data generation.","why_matters":"It addresses the limitations of current generative models in maintaining physical laws across scales.","connection":"The focus on generative models and physical constraints may relate to Prof. Liu's interest in physics-aware learning.","proposal_angle":"","student_project":"","rationale":"Relevant to AI models but lacks direct application to autonomy systems.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28180","title":"An adaptive wavelet-based PINN for problems with localized high-magnitude source","link":"https://arxiv.org/abs/2604.28180v1","date":"2026-04-30T17:57:22Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28180v1/x1.png","score":44.0,"category":"AI Models & Algorithms","action":"Track","summary":"The paper presents an adaptive wavelet-based PINN to solve differential equations with localized high-magnitude source terms effectively.","why_matters":"This method addresses loss imbalance in physics-informed neural networks, which is relevant for various physical applications.","connection":"The adaptive wavelet-based PINN could enhance physics-aware learning in autonomy systems, though its direct application is unclear.","proposal_angle":"","student_project":"","rationale":"The paper's focus on adaptive methods in neural networks may inform future work in physics-aware learning.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2604.28138","title":"Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes","link":"https://arxiv.org/abs/2604.28138v1","date":"2026-04-30T17:20:19Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2604.28138v1/x1.png","score":44.0,"category":"Computing Systems & Hardware","action":"Track","summary":"Crab is a runtime that improves checkpointing for autonomous agents by bridging the agent-OS semantic gap.","why_matters":"It enhances fault tolerance and efficiency in autonomous systems, which is crucial for real-time applications.","connection":"The work relates to improving system reliability in autonomous agents, relevant to Prof. Liu's focus on safety and assured autonomy.","proposal_angle":"","student_project":"","rationale":"The paper addresses a relevant challenge in autonomous systems with potential implications for reliability.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":5.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00517","title":"PhysiGen: Integrating Collision-Aware Physical Constraints for High-Fidelity Human-Human Interaction Generation","link":"https://arxiv.org/abs/2605.00517v1","date":"2026-05-01T08:43:16Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00517v1/x1.png","score":41.5,"category":"Robotics & Embodied AI","action":"Track","summary":"PhysiGen proposes a method to integrate collision-aware physical constraints for realistic human-human interaction generation in 3D motion synthesis.","why_matters":"This work addresses a key challenge in generating realistic multi-person interactions, which is relevant for robotics applications.","connection":"The focus on human interaction generation could inform aspects of multi-agent systems in Prof. Liu's research.","proposal_angle":"","student_project":"","rationale":"Addresses a relevant challenge in robotics with potential applications in multi-agent systems.","dimensions":{"topical":5.0,"novelty":7.0,"proposal_value":0.0,"student_value":5.0,"testbed_value":0.0,"recency":10.0}},{"id":"hash:e13efdcc9eef2221","title":"Why physical AI is the real manufacturing revolution","link":"https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/","date":"2026-05-03T12:45:29+00:00","type":"News","sources":["rss:The Robot Report"],"image_url":"https://www.therobotreport.com/wp-content/uploads/2026/05/Fictiv_physAI.jpg","score":40.0,"category":"Industry & Research Updates","action":"Track","summary":"Physical AI aims to revolutionize manufacturing by addressing scaling challenges in robotics.","why_matters":"This article discusses the potential impact of physical AI on manufacturing processes.","connection":"The focus on robotics aligns with Prof. Liu's interests in autonomous systems and robotics.","proposal_angle":"","student_project":"","rationale":"Relevant to robotics and manufacturing, but lacks direct connection to autonomy.","dimensions":{"topical":5.0,"novelty":5.0,"proposal_value":5.0,"student_value":0.0,"testbed_value":0.0,"recency":10.0}},{"id":"arxiv:2605.00803","title":"Can Coding Agents Reproduce Findings in Computational Materials Science?","link":"https://arxiv.org/abs/2605.00803v1","date":"2026-05-01T17:42:12Z","type":"Paper","sources":["arxiv"],"image_url":"https://arxiv.org/html/2605.00803v1/x3.png","score":39.5,"category":"Testbeds, Datasets & Benchmarks","action":"Track","summary":"The paper presents AutoMat, a benchmark for evaluating LLM agents in computational materials science workflows.","why_matters":"It highlights the limitations of LLM agents in scientific reproducibility, which is crucial for AI applications in science.","connection":"The focus on benchmarks aligns with the researcher's interest in testbeds for autonomy and AI systems.","proposal_angle":"","student_project":"","rationale":"The benchmark could inform future testbeds relevant to the researcher's work.","dimensions":{"topical":3.0,"novelty":6.0,"proposal_value":2.0,"student_value":3.0,"testbed_value":5.0,"recency":10.0}},{"id":"hash:193edfa8aae159dc","title":"The future of unmanned surface vessels includes ISR and counter-UAS","link":"https://breakingdefense.com/2026/05/the-future-of-unmanned-surface-vessels-includes-isr-and-counter-uas/","date":"2026-05-01T18:51:02+00:00","type":"News","sources":["rss:Breaking Defense"],"image_url":"https://breakingdefense.com/wp-content/uploads/sites/13/2026/05/red_cat_synced_copy_06_v2-frame-at-3m0s.jpg","score":38.0,"category":"Industry & Research Updates","action":"Track","summary":"Red Cat has launched Blue Ops to mass produce unmanned surface vessels for ISR and counter-UAS missions.","why_matters":"This development indicates a growing interest in unmanned systems for military applications.","connection":"The focus on unmanned surface vessels relates to autonomous systems in military contexts.","proposal_angle":"","student_project":"","rationale":"Relevant to military applications of autonomy, but lacks direct connection to current proposals.","dimensions":{"topical":5.0,"novelty":4.0,"proposal_value":3.0,"student_value":2.0,"testbed_value":1.0,"recency":10.0}},{"id":"arxiv:2604.28181","title":"Synthetic Computers at Scale for Long-Horizon Productivity Simulation","link":"https://arxiv.org/abs/2604.28181","date":"2026-04-29T20:00:00.000Z","type":"Paper","sources":["arxiv","huggingface_papers"],"image_url":"https://arxiv.org/html/2604.28181v1/figures/overview.png","score":38.0,"category":"AI Models & Algorithms","action":"Ignore","summary":"The paper presents a methodology for creating synthetic computers to simulate long-horizon productivity scenarios for agent learning.","why_matters":"This approach could enhance agent self-improvement in productivity tasks, but lacks direct relevance to autonomy systems.","connection":"","proposal_angle":"","student_project":"","rationale":"Limited relevance to autonomy systems and the researcher's focus.","dimensions":{"topical":3.0,"novelty":6.0,"proposal_value":2.0,"student_value":2.0,"testbed_value":5.0,"recency":10.0}}],"summary":null,"score_weights":{"topical":0.3,"novelty":0.2,"proposal_value":0.2,"student_value":0.15,"testbed_value":0.1,"recency":0.05},"anchors":[{"title":"Diffusion Policy","url":"arxiv.org/abs/2303.04137","note":"Foundational vision-action policy work — should always be findable"},{"title":"RT-2","url":"arxiv.org/abs/2307.15818","note":"Vision-language-action grounding"},{"title":"NSF CIRC","note":"Cyberinfrastructure for Research and Computing — your in-flight area"},{"title":"NSF CSR","note":"Computer Systems Research — your in-flight area"},{"title":"DARPA Assured Autonomy","note":"Should hit on the DARPA RSS feed"},{"title":"humanoid","note":"Humanoid robotics M&A / launches"},{"title":"Boston Dynamics","note":"Should appear when they post"}]}</script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<script>
+(function() {
+  const SCORE_BUCKETS = [
+    { label: "≥80",   lo: 80, hi: 1000 },
+    { label: "65–79", lo: 65, hi: 80 },
+    { label: "50–64", lo: 50, hi: 65 },
+    { label: "35–49", lo: 35, hi: 50 },
+    { label: "<35",   lo: -1, hi: 35 },
+  ];
+
+  window.evalDashboard = function() {
+    return {
+      data: { items: [], anchors: [], updated_at: "" },
+      feedback: {},
+
+      init() {
+        const node = document.getElementById("rdr-eval-data");
+        try { this.data = JSON.parse(node.textContent || "{}"); } catch (e) { this.data = { items: [], anchors: [] }; }
+        try {
+          const raw = window.localStorage.getItem("rdr_feedback_v1");
+          this.feedback = raw ? JSON.parse(raw) : {};
+        } catch (e) { this.feedback = {}; }
+      },
+
+      get feedbackCount() { return Object.keys(this.feedback).length; },
+
+      get calibrationBuckets() {
+        // For each score bucket, count items by their thumbs status.
+        return SCORE_BUCKETS.map(b => {
+          let up = 0, down = 0, none = 0;
+          for (const it of this.data.items) {
+            if (it.score < b.lo || it.score >= b.hi) continue;
+            const v = this.feedback[it.id];
+            if (v === "up") up++;
+            else if (v === "down") down++;
+            else none++;
+          }
+          const total = up + down + none;
+          const upRated = up + down;
+          return {
+            label: b.label, up, down, none, upRated,
+            upPct:    total > 0 ? (up / total) * 100 : 0,
+            downPct:  total > 0 ? (down / total) * 100 : 0,
+            nonePct:  total > 0 ? (none / total) * 100 : 0,
+            upRatedPct: upRated > 0 ? Math.round((up / upRated) * 100) : 0,
+          };
+        });
+      },
+
+      get sourceRoi() {
+        const tally = {};
+        for (const it of this.data.items) {
+          for (const src of (it.sources || [])) {
+            if (!tally[src]) tally[src] = { name: src, items: 0, rated: 0, up: 0, down: 0 };
+            tally[src].items++;
+            const v = this.feedback[it.id];
+            if (v === "up")   { tally[src].up++; tally[src].rated++; }
+            else if (v === "down") { tally[src].down++; tally[src].rated++; }
+          }
+        }
+        const rows = Object.values(tally).map(r => ({
+          ...r,
+          upRate: r.rated > 0 ? Math.round((r.up / r.rated) * 100) : 0,
+        }));
+        // Sort: rated-with-data first (by descending up rate), then unrated by item count.
+        rows.sort((a, b) => {
+          if ((a.rated > 0) !== (b.rated > 0)) return (b.rated > 0) - (a.rated > 0);
+          if (a.rated > 0 && b.rated > 0) return b.upRate - a.upRate;
+          return b.items - a.items;
+        });
+        return rows;
+      },
+
+      get categoryRoi() {
+        const tally = {};
+        for (const it of this.data.items) {
+          const c = it.category || "?";
+          if (!tally[c]) tally[c] = { name: c, items: 0, rated: 0, up: 0, down: 0 };
+          tally[c].items++;
+          const v = this.feedback[it.id];
+          if (v === "up")   { tally[c].up++; tally[c].rated++; }
+          else if (v === "down") { tally[c].down++; tally[c].rated++; }
+        }
+        const rows = Object.values(tally).map(r => ({
+          ...r,
+          upRate: r.rated > 0 ? Math.round((r.up / r.rated) * 100) : 0,
+        }));
+        rows.sort((a, b) => b.items - a.items);
+        return rows;
+      },
+
+      get topNoise() {
+        return this.data.items
+          .filter(it => it.score >= 65 && this.feedback[it.id] === "down")
+          .sort((a, b) => b.score - a.score)
+          .slice(0, 15);
+      },
+
+      get hiddenGems() {
+        return this.data.items
+          .filter(it => it.score >= 35 && it.score < 65 && this.feedback[it.id] === "up")
+          .sort((a, b) => a.score - b.score)
+          .slice(0, 15);
+      },
+
+      get anchorRows() {
+        const anchors = this.data.anchors || [];
+        return anchors.map(a => {
+          // Match by URL prefix or by canonical_id if present
+          let match = null;
+          for (const it of this.data.items) {
+            if (a.url && it.link && it.link.toLowerCase().includes(a.url.toLowerCase().replace(/^https?:\/\//, "").replace(/\/$/, ""))) {
+              match = it; break;
+            }
+            if (a.title && it.title && it.title.toLowerCase().includes(a.title.toLowerCase().slice(0, 40))) {
+              match = it; break;
+            }
+          }
+          return {
+            id: a.url || a.title,
+            title: a.title || a.url,
+            url: a.url || "#",
+            note: a.note || "",
+            caught: !!match,
+            score: match ? match.score : 0,
+          };
+        });
+      },
+
+      exportFeedback() {
+        const blob = new Blob([JSON.stringify(this.feedback, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `rdr_feedback_${new Date().toISOString().slice(0, 10)}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+      },
+
+      clearFeedback() {
+        try { window.localStorage.removeItem("rdr_feedback_v1"); } catch (e) {}
+        this.feedback = {};
+      },
+    };
+  };
+})();
+</script>
