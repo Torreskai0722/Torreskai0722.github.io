@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T21:51:17-04:00",
+  "updated_at": "2026-05-03T22:54:24-04:00",
   "mode": "daily",
   "items": [
     {
@@ -199,6 +199,34 @@
       }
     },
     {
+      "id": "arxiv:2605.00798",
+      "title": "RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution",
+      "link": "https://arxiv.org/abs/2605.00798v1",
+      "date": "2026-05-01T17:29:45Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00798v1/x1.png",
+      "score": 70.5,
+      "category": "AI Models & Algorithms",
+      "action": "Discuss with student",
+      "summary": "RunAgent is a multi-agent platform that interprets natural-language plans with constraint-guided execution.",
+      "why_matters": "It enhances the reliability of LLMs for structured workflow execution, crucial for autonomous systems.",
+      "connection": "RunAgent's focus on structured execution aligns with Prof. Liu's interest in VLA models and autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "RunAgent's approach could support student projects on VLA models and real-time execution.",
+      "rationale": "The paper's focus on structured execution is relevant to ongoing student research.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00405",
       "title": "BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception",
       "link": "https://arxiv.org/abs/2605.00405v1",
@@ -289,6 +317,7 @@
       "date": "2026-04-30T20:00:00.000Z",
       "type": "Paper",
       "sources": [
+        "arxiv",
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.00781v1/x1.png",
@@ -537,6 +566,34 @@
       }
     },
     {
+      "id": "hash:88edaca15930b961",
+      "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+      "link": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "date": "2026-05-01T22:13:27+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2195752979.jpg?resize=1200,800",
+      "score": 55.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Meta acquired Assured Robot Intelligence to enhance its AI models for humanoid robots.",
+      "why_matters": "This acquisition indicates a growing interest in humanoid robotics and AI integration.",
+      "connection": "The acquisition aligns with Prof. Liu's interest in humanoid robots and AI models for autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to humanoid robotics and AI model development.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00536",
       "title": "Tempus: A Temporally Scalable Resource-Invariant GEMM Streaming Framework for Versal AI Edge",
       "link": "https://arxiv.org/abs/2605.00536v1",
@@ -565,12 +622,41 @@
       }
     },
     {
+      "id": "arxiv:2605.00814",
+      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
+      "link": "https://arxiv.org/abs/2605.00814v1",
+      "date": "2026-05-01T17:54:37Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00814v1/x1.png",
+      "score": 53.0,
+      "category": "AI Models & Algorithms",
+      "action": "Discuss with student",
+      "summary": "The paper introduces Persistent Visual Memory (PVM) to enhance visual perception in Large Vision-Language Models (LVLMs).",
+      "why_matters": "PVM addresses visual attention decay in LVLMs, improving performance in multimodal tasks.",
+      "connection": "The work on visual perception could inform VLA models for end-to-end driving stacks.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on VLA foundation models for enhanced perception.",
+      "rationale": "The paper's focus on visual perception aligns with ongoing student thrusts.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00809",
       "title": "Let ViT Speak: Generative Language-Image Pre-training",
       "link": "https://arxiv.org/abs/2605.00809",
       "date": "2026-04-30T20:00:00.000Z",
       "type": "Paper",
       "sources": [
+        "arxiv",
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.00809v1/figures/fig1-ver4-low_2.png",
@@ -617,6 +703,34 @@
         "novelty": 7.0,
         "proposal_value": 5.0,
         "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00825",
+      "title": "Posterior Augmented Flow Matching",
+      "link": "https://arxiv.org/abs/2605.00825v1",
+      "date": "2026-05-01T17:59:59Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00825v1/x1.png",
+      "score": 51.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "Posterior-Augmented Flow Matching improves flow matching by reducing gradient variance during training with an unbiased estimator.",
+      "why_matters": "This method enhances training efficiency for generative models, which could be relevant for autonomy applications.",
+      "connection": "The paper's focus on improving generative models may relate to foundation models for autonomy in Prof. Liu's research.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The paper presents a novel approach that could influence future AI models relevant to autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
         "testbed_value": 0.0,
         "recency": 10.0
       }
@@ -1070,6 +1184,62 @@
       }
     },
     {
+      "id": "arxiv:2605.00803",
+      "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
+      "link": "https://arxiv.org/abs/2605.00803v1",
+      "date": "2026-05-01T17:42:12Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00803v1/x3.png",
+      "score": 39.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "The paper presents AutoMat, a benchmark for evaluating LLM agents in computational materials science workflows.",
+      "why_matters": "It highlights the limitations of LLM agents in scientific reproducibility, which is crucial for AI applications in science.",
+      "connection": "The focus on benchmarks aligns with the researcher's interest in testbeds for autonomy and AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The benchmark could inform future testbeds relevant to the researcher's work.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:193edfa8aae159dc",
+      "title": "The future of unmanned surface vessels includes ISR and counter-UAS",
+      "link": "https://breakingdefense.com/2026/05/the-future-of-unmanned-surface-vessels-includes-isr-and-counter-uas/",
+      "date": "2026-05-01T18:51:02+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Breaking Defense"
+      ],
+      "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/05/red_cat_synced_copy_06_v2-frame-at-3m0s.jpg",
+      "score": 38.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Red Cat has launched Blue Ops to mass produce unmanned surface vessels for ISR and counter-UAS missions.",
+      "why_matters": "This development indicates a growing interest in unmanned systems for military applications.",
+      "connection": "The focus on unmanned surface vessels relates to autonomous systems in military contexts.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to military applications of autonomy, but lacks direct connection to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 1.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.28181",
       "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
       "link": "https://arxiv.org/abs/2604.28181",
@@ -1101,31 +1271,31 @@
   ],
   "summary": {
     "headline": "Advancements in VLA Models and Tactile Sensing for Robotics",
-    "tldr": "Today's research highlights significant progress in vision-language-action models and tactile sensing technologies, crucial for enhancing robotic interaction and autonomy. Notable works include HERMES++ for driving world models and FlexiTac for scalable tactile sensing solutions.",
+    "tldr": "Today's research emphasizes the integration of vision-language-action models with tactile sensing solutions for enhanced robotic interaction and manipulation. Notable works include HERMES++ for driving world models and FlexiTac for scalable tactile sensing.",
     "themes": [
       {
-        "bullet": "Integration of VLA models enhances robotic manipulation capabilities.",
-        "cite": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning"
+        "bullet": "Unified models for scene understanding and future prediction in autonomous driving.",
+        "cite": "HERMES++: Toward a Unified Driving World Model"
       },
       {
-        "bullet": "Development of low-cost tactile sensing solutions supports modern robotic systems.",
+        "bullet": "Innovative tactile sensing solutions support modern robotic learning pipelines.",
         "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
       },
       {
-        "bullet": "Robustness in 3D object detection is improved through V2X communication.",
+        "bullet": "Reinforcement learning enhances VLA model performance in robotic tasks.",
+        "cite": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning"
+      },
+      {
+        "bullet": "V2X communication improves robustness in 3D object detection for automated driving.",
         "cite": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection"
       },
       {
-        "bullet": "Real-time multiadic human-robot interaction platforms are advancing.",
-        "cite": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction"
-      },
-      {
-        "bullet": "Exploration of cooperative perception techniques for heterogeneous systems.",
-        "cite": "BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception"
+        "bullet": "New frameworks for 3D world generation enhance robotic navigation capabilities.",
+        "cite": "Map2World: Segment Map Conditioned Text to 3D World Generation"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-04T01:51:17Z"
+    "generated_at": "2026-05-04T02:54:24Z"
   },
   "score_weights": {
     "topical": 0.3,
