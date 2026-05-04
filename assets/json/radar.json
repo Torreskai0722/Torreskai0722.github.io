@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T09:38:45-04:00",
+  "updated_at": "2026-05-03T21:51:17-04:00",
   "mode": "daily",
   "items": [
     {
@@ -115,6 +115,34 @@
       }
     },
     {
+      "id": "arxiv:2605.00595",
+      "title": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection",
+      "link": "https://arxiv.org/abs/2605.00595v1",
+      "date": "2026-05-01T12:06:07Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00595v1/x1.png",
+      "score": 78.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "This paper explores integrating V2X communication into 3D object detection for automated driving, enhancing robustness against real-world conditions.",
+      "why_matters": "Improving object detection in autonomous vehicles can enhance safety and reliability, especially in challenging environments.",
+      "connection": "The focus on V2X communication and perception aligns with Prof. Liu's interests in autonomous driving and multimodal perception.",
+      "proposal_angle": "This work could support the NSF CSR proposal on predictable DNN inference by improving perception under adverse conditions.",
+      "student_project": "The integration of V2X information into perception systems could align with student projects on BEV perception under sensor noise.",
+      "rationale": "Strong relevance to autonomy and perception, with potential for future proposals.",
+      "dimensions": {
+        "topical": 9.0,
+        "novelty": 7.0,
+        "proposal_value": 8.0,
+        "student_value": 6.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.28161",
       "title": "RopeDreamer: A Kinematic Recurrent State Space Model for Dynamics of Flexible Deformable Linear Objects",
       "link": "https://arxiv.org/abs/2604.28161v1",
@@ -171,6 +199,34 @@
       }
     },
     {
+      "id": "arxiv:2605.00405",
+      "title": "BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception",
+      "link": "https://arxiv.org/abs/2605.00405v1",
+      "date": "2026-05-01T04:53:50Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00405v1/Fig/Teaser.png",
+      "score": 70.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "BOLT is a lightweight module for preparation-free heterogeneous cooperative perception using ego-as-teacher distillation.",
+      "why_matters": "It enables real-time cooperation among independently trained agents without prior coordination, enhancing perception capabilities.",
+      "connection": "This work aligns with Prof. Liu's interests in multimodal perception and collaborative intelligence in autonomous systems.",
+      "proposal_angle": "It could enhance the cloud-edge-robot collaborative inference proposal by improving perception in dynamic environments.",
+      "student_project": "This research could support student projects focused on multimodal fusion and real-time perception under adverse conditions.",
+      "rationale": "Strong relevance to cooperative perception in autonomous systems.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.28144",
       "title": "Global Optimality for Constrained Exploration via Penalty Regularization",
       "link": "https://arxiv.org/abs/2604.28144v1",
@@ -220,6 +276,34 @@
       "dimensions": {
         "topical": 8.0,
         "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00781",
+      "title": "Map2World: Segment Map Conditioned Text to 3D World Generation",
+      "link": "https://arxiv.org/abs/2605.00781",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00781v1/x1.png",
+      "score": 68.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Map2World introduces a framework for 3D world generation based on user-defined segment maps, enhancing detail and coherence.",
+      "why_matters": "This work improves 3D world generation, which is crucial for applications in autonomous driving and immersive simulations.",
+      "connection": "The framework could enhance simulation environments for autonomous driving, aligning with Prof. Liu's interests in VLA models and autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on scene generation for autonomous driving simulations.",
+      "rationale": "The paper's focus on 3D world generation is relevant for autonomous driving applications.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
         "proposal_value": 6.0,
         "student_value": 5.0,
         "testbed_value": 7.0,
@@ -397,6 +481,34 @@
       }
     },
     {
+      "id": "arxiv:2605.00279",
+      "title": "A Comparative Analysis of Machine Learning Models for Intrusion Detection in Intelligent Transport Systems",
+      "link": "https://arxiv.org/abs/2605.00279v1",
+      "date": "2026-04-30T22:41:34Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00279v1/d242f40de03880e7f9aca775c248799e1afda190.png",
+      "score": 58.5,
+      "category": "Safety, CPS & Verification",
+      "action": "Track",
+      "summary": "The paper proposes a trust-aware federated hybrid intrusion detection framework for Intelligent Transportation Systems using edge computing.",
+      "why_matters": "It addresses security challenges in connected transportation systems, enhancing safety and responsiveness.",
+      "connection": "The focus on edge computing and V2X connectivity aligns with Prof. Liu's interests in cyber-physical systems and safety.",
+      "proposal_angle": "This work could support NSF CPS proposals focused on safety in autonomous systems.",
+      "student_project": "",
+      "rationale": "Relevant to safety in autonomous systems and edge computing.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 7.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "hash:dfed8a3004b22c94",
       "title": "Phase stability regulator based on two dynamic parameters for autonomous mobile robots",
       "link": "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/",
@@ -418,6 +530,62 @@
       "dimensions": {
         "topical": 8.0,
         "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00536",
+      "title": "Tempus: A Temporally Scalable Resource-Invariant GEMM Streaming Framework for Versal AI Edge",
+      "link": "https://arxiv.org/abs/2605.00536v1",
+      "date": "2026-05-01T09:28:34Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00536v1/x1.png",
+      "score": 53.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "Tempus is a scalable GEMM framework for efficient edge AI deployment on AMD Versal SoCs.",
+      "why_matters": "It addresses the challenges of resource constraints in edge AI, improving efficiency for LLM inference.",
+      "connection": "The work on efficient edge AI systems aligns with Prof. Liu's interests in edge AI and real-time inference.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to edge AI and efficient computation for autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00809",
+      "title": "Let ViT Speak: Generative Language-Image Pre-training",
+      "link": "https://arxiv.org/abs/2605.00809",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00809v1/figures/fig1-ver4-low_2.png",
+      "score": 53.0,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "GenLIP is a generative pretraining framework for Vision Transformers that aligns vision encoders with autoregressive language models.",
+      "why_matters": "It simplifies multimodal model training and improves performance on detail-sensitive tasks.",
+      "connection": "The work on multimodal models aligns with Prof. Liu's interest in vision-language-action models.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on VLA foundation models for end-to-end driving.",
+      "rationale": "Relevant to vision-language models, but lacks direct application to autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 0.0,
@@ -762,6 +930,34 @@
       }
     },
     {
+      "id": "arxiv:2605.00510",
+      "title": "Scale-Aware Adversarial Analysis: A Diagnostic for Generative AI in Multiscale Complex Systems",
+      "link": "https://arxiv.org/abs/2605.00510v1",
+      "date": "2026-05-01T08:36:52Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00510v1/x1.png",
+      "score": 44.0,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "The paper introduces a diagnostic framework for evaluating generative AI in multiscale complex systems using physically constrained data generation.",
+      "why_matters": "It addresses the limitations of current generative models in maintaining physical laws across scales.",
+      "connection": "The focus on generative models and physical constraints may relate to Prof. Liu's interest in physics-aware learning.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI models but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.28180",
       "title": "An adaptive wavelet-based PINN for problems with localized high-magnitude source",
       "link": "https://arxiv.org/abs/2604.28180v1",
@@ -813,6 +1009,34 @@
         "novelty": 7.0,
         "proposal_value": 5.0,
         "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00517",
+      "title": "PhysiGen: Integrating Collision-Aware Physical Constraints for High-Fidelity Human-Human Interaction Generation",
+      "link": "https://arxiv.org/abs/2605.00517v1",
+      "date": "2026-05-01T08:43:16Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00517v1/x1.png",
+      "score": 41.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "PhysiGen proposes a method to integrate collision-aware physical constraints for realistic human-human interaction generation in 3D motion synthesis.",
+      "why_matters": "This work addresses a key challenge in generating realistic multi-person interactions, which is relevant for robotics applications.",
+      "connection": "The focus on human interaction generation could inform aspects of multi-agent systems in Prof. Liu's research.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Addresses a relevant challenge in robotics with potential applications in multi-agent systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 0.0,
+        "student_value": 5.0,
         "testbed_value": 0.0,
         "recency": 10.0
       }
@@ -877,31 +1101,31 @@
   ],
   "summary": {
     "headline": "Advancements in VLA Models and Tactile Sensing for Robotics",
-    "tldr": "Today's research highlights significant strides in vision-language-action (VLA) models and tactile sensing technologies for robotics. Notably, HERMES++ integrates 3D scene understanding, while FlexiTac offers a scalable tactile sensing solution.",
+    "tldr": "Today's research highlights significant progress in vision-language-action models and tactile sensing technologies, crucial for enhancing robotic interaction and autonomy. Notable works include HERMES++ for driving world models and FlexiTac for scalable tactile sensing solutions.",
     "themes": [
       {
-        "bullet": "Integration of VLA models with reinforcement learning for improved robotic manipulation.",
+        "bullet": "Integration of VLA models enhances robotic manipulation capabilities.",
         "cite": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning"
       },
       {
-        "bullet": "Development of low-cost tactile sensing solutions to enhance robotic learning capabilities.",
+        "bullet": "Development of low-cost tactile sensing solutions supports modern robotic systems.",
         "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
       },
       {
-        "bullet": "Emerging platforms for real-time human-robot interaction using synchronized camera systems.",
+        "bullet": "Robustness in 3D object detection is improved through V2X communication.",
+        "cite": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection"
+      },
+      {
+        "bullet": "Real-time multiadic human-robot interaction platforms are advancing.",
         "cite": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction"
       },
       {
-        "bullet": "New benchmarks and challenges aimed at enhancing robots' navigation and interaction abilities.",
-        "cite": "Vision-Language-Navigation Challenge"
-      },
-      {
-        "bullet": "Research on safety and performance in multi-agent systems underpins future autonomous applications.",
-        "cite": "Red-teaming a network of agents"
+        "bullet": "Exploration of cooperative perception techniques for heterogeneous systems.",
+        "cite": "BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-03T01:49:50Z"
+    "generated_at": "2026-05-04T01:51:17Z"
   },
   "score_weights": {
     "topical": 0.3,
