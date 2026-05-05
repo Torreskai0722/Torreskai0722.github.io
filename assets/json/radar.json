@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T09:49:02-04:00",
+  "updated_at": "2026-05-04T21:55:12-04:00",
   "mode": "daily",
   "items": [
     {
@@ -56,6 +56,34 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:eadcd2add5fb37fa",
+      "title": "iRobot Founder Wants to Put a Robotic Familiar Into Your Home",
+      "link": "https://spectrum.ieee.org/familiar-machines-and-magic",
+      "date": "2026-05-04T17:30:02+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Robotics"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/a-woman-doing-yoga-on-a-mat-smiles-at-a-white-animal-like-robot-beside-her.jpg?id=66675847&width=1200&height=600&coordinates=0%2C194%2C0%2C57",
+      "score": 60.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Familiar Machines & Magic announces a quadruped robot designed for human-robot interaction with advanced multimodal capabilities.",
+      "why_matters": "This robot represents advancements in human-robot interaction and edge AI, relevant for future applications.",
+      "connection": "The robot's multimodal capabilities and real-time interaction align with Prof. Liu's interests in edge AI and collaborative systems.",
+      "proposal_angle": "",
+      "student_project": "This project could inform student work on real-time AI interactions and edge AI deployment.",
+      "rationale": "The robot's innovative design and capabilities are relevant to ongoing research in robotics and AI systems.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 4.0,
         "recency": 10.0
       }
     },
@@ -138,6 +166,34 @@
         "topical": 6.0,
         "novelty": 5.0,
         "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:fd9c1837e24424e2",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "date": "2026-05-04T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:OpenAI Blog"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5LQivcsFcndtRl4EsbtnOC/c548a54b9bbe11c0b4d9de714f800b30/Voice_AI___SEO_card.png?w=1600&amp;h=900&amp;fit=fill",
+      "score": 47.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "OpenAI rebuilt its WebRTC stack to enable low-latency voice AI for real-time conversations at scale.",
+      "why_matters": "This development showcases advancements in low-latency systems, relevant for real-time AI applications.",
+      "connection": "The focus on low-latency systems aligns with Prof. Liu's interest in real-time DNN inference for safety-critical applications.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "Relevant to real-time systems, but lacks direct ties to autonomy proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
         "student_value": 5.0,
         "testbed_value": 0.0,
         "recency": 10.0
@@ -256,6 +312,62 @@
       }
     },
     {
+      "id": "hash:6d367d29a54197f2",
+      "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "link": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "date": "2026-05-04T21:53:21+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1251294592.jpg?w=1024",
+      "score": 43.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more.",
+      "why_matters": "Cerebras' IPO could impact funding and partnerships in AI hardware, relevant for future proposals.",
+      "connection": "Cerebras' advancements in AI hardware could influence the development of AI accelerators relevant to Prof. Liu's research.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Cerebras' IPO could signal shifts in AI hardware funding and partnerships.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:dc13898b66410f5e",
+      "title": "How AI Will Reshape Computer Systems by 2035: A Jeffersonian Dinner in San Francisco about Our 10,000x Future",
+      "link": "https://www.sigarch.org/how-ai-will-reshape-computer-systems-by-2035-a-jeffersonian-dinner-in-san-francisco-about-our-10000x-future/",
+      "date": "2026-05-04T14:00:06+00:00",
+      "type": "News",
+      "sources": [
+        "rss:ACM SIGARCH"
+      ],
+      "image_url": "https://www.sigarch.org/wp-content/uploads/2026/04/Screenshot-2026-04-30-at-3.55.21-PM.png",
+      "score": 42.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "A discussion on the future impact of AI on computer systems by 2035.",
+      "why_matters": "It highlights industry perspectives on AI's transformative potential in computing.",
+      "connection": "The insights could inform proposals related to AI systems and hardware co-design.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant industry insights on AI's future impact on systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:193edfa8aae159dc",
       "title": "The future of unmanned surface vessels includes ISR and counter-UAS",
       "link": "https://breakingdefense.com/2026/05/the-future-of-unmanned-surface-vessels-includes-isr-and-counter-uas/",
@@ -280,6 +392,62 @@
         "proposal_value": 3.0,
         "student_value": 2.0,
         "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:0dbe57088dc6365b",
+      "title": "Firewalls won’t protect GEOINT companies. Cyber resilience will, if we act now.",
+      "link": "https://breakingdefense.com/2026/05/firewalls-wont-protect-geoint-companies-cyber-resilience-will-if-we-act-now/",
+      "date": "2026-05-04T18:15:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Breaking Defense"
+      ],
+      "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/9470452-e1776792291439.jpg",
+      "score": 38.0,
+      "category": "Safety, CPS & Verification",
+      "action": "Track",
+      "summary": "GEOINT providers need resilient models to maintain operations during cyberattacks.",
+      "why_matters": "Cyber resilience is crucial for maintaining operational integrity in the face of increasing cyber threats.",
+      "connection": "The focus on cyber resilience aligns with the researcher's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety and resilience in autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:3852b8fe9a20cac6",
+      "title": "ABB Robotics launches OmniVance autonomous surface finishing cell",
+      "link": "https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/",
+      "date": "2026-05-04T17:03:38+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/ABB_Robotics_Omnivance_Coll_Surface_Finishing_Cell-featured.jpg",
+      "score": 38.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "ABB Robotics launched the OmniVance Collaborative Surface Finishing Cell to automate sanding and polishing tasks.",
+      "why_matters": "This development showcases advancements in robotic automation for industrial applications.",
+      "connection": "The launch of this robotic cell relates to the broader field of robotics and autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics but lacks direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 1.0,
         "recency": 10.0
       }
     },
@@ -341,32 +509,32 @@
     }
   ],
   "summary": {
-    "headline": "Advancements in Tactile Sensing and Edge Architectures for Robotics",
-    "tldr": "Today's research highlights the importance of tactile sensing in robotics and the need for edge-first architectures to reduce latency in collaborative robots. Notable developments include DAIMON Robotics' tactile dataset and discussions on edge-first designs for physical AI.",
+    "headline": "Edge Architectures and Multimodal Perception Drive Robotics Advances",
+    "tldr": "Today's research highlights the growing importance of edge-first architectures for robotics, particularly in enhancing multimodal perception and real-time interactions. Innovations like the Daimon-Infinity dataset and Ouster's REV8 OS sensors are pivotal in advancing tactile and visual capabilities.",
     "themes": [
       {
-        "bullet": "Emergence of tactile sensing datasets enhances physical interaction capabilities in robotics.",
-        "cite": "DAIMON Robotics Wants to Give Robot Hands a Sense of Touch"
-      },
-      {
-        "bullet": "Edge-first architectures are critical for minimizing latency in collaborative robotic systems.",
+        "bullet": "Edge-first architectures are crucial for collaborative robotics development.",
         "cite": "Closing the latency gap: Why physical AI requires edge-first architectures"
       },
       {
-        "bullet": "Innovations in sensor technology, like Ouster's native-color lidar, support advanced perception.",
+        "bullet": "High-resolution tactile sensing is becoming integral for physical AI applications.",
+        "cite": "DAIMON Robotics Wants to Give Robot Hands a Sense of Touch"
+      },
+      {
+        "bullet": "Native color lidar improves multimodal perception for autonomous systems.",
         "cite": "Ouster releases REV8 OS sensor family with native-color lidar"
       },
       {
-        "bullet": "Integration of real-time signals can improve performance in autonomous mobile robots.",
-        "cite": "Phase stability regulator based on two dynamic parameters for autonomous mobile robots"
+        "bullet": "Advancements in multimodal capabilities enhance human-robot interaction.",
+        "cite": "iRobot Founder Wants to Put a Robotic Familiar Into Your Home"
       },
       {
-        "bullet": "The role of AI in logistics is evolving with new hardware solutions for autonomy.",
+        "bullet": "Real-time performance is essential for autonomous logistics and robotics.",
         "cite": "FAULHABER designs DualGear for autonomous logistics systems"
       }
     ],
-    "n_items": 12,
-    "generated_at": "2026-05-04T13:49:02Z"
+    "n_items": 15,
+    "generated_at": "2026-05-05T01:55:12Z"
   },
   "score_weights": {
     "topical": 0.3,
