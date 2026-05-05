@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T11:14:14-04:00",
+  "updated_at": "2026-05-05T11:23:44-04:00",
   "mode": "daily",
   "items": [
     {
@@ -145,6 +145,34 @@
       }
     },
     {
+      "id": "arxiv:2604.28197",
+      "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
+      "link": "https://arxiv.org/abs/2604.28197v1",
+      "date": "2026-04-30T17:59:58Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28197v1/x1.png",
+      "score": 70.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "OmniRobotHome is a platform for real-time, occlusion-robust human-robot interaction in shared environments.",
+      "why_matters": "This platform addresses the challenges of multiadic collaboration in real homes, enhancing human-robot interaction.",
+      "connection": "The focus on real-time perception and safety aligns with Prof. Liu's interests in safety-critical AI and latency mitigation.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Strong relevance to multi-robot systems and real-time perception challenges.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 9.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00405",
       "title": "BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception",
       "link": "https://arxiv.org/abs/2605.00405v1",
@@ -163,6 +191,90 @@
       "proposal_angle": "It could enhance the cloud-edge-robot co-inference proposal by improving perception collaboration.",
       "student_project": "This aligns with student thrusts on real-time perception and collaborative inference.",
       "rationale": "The paper presents innovative methods for cooperative perception relevant to ongoing student projects.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28175",
+      "title": "Strait: Perceiving Priority and Interference in ML Inference Serving",
+      "link": "https://arxiv.org/abs/2604.28175v1",
+      "date": "2026-04-30T17:55:28Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28175v1/x1.png",
+      "score": 69.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "Strait enhances deadline satisfaction for dual-priority inference traffic in ML inference serving systems under high GPU utilization.",
+      "why_matters": "It addresses latency and prioritization issues in ML inference, crucial for safety-critical applications.",
+      "connection": "This work aligns with Prof. Liu's focus on real-time DNN inference and GPU scheduling for safety-critical AI.",
+      "proposal_angle": "It could enhance the latency-bounded inference scheduling proposed for autonomous vehicles.",
+      "student_project": "It fits well with the thrust on real-time GPU scheduling for autonomy perception.",
+      "rationale": "Strong relevance to real-time inference scheduling and safety-critical systems.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 8.0,
+        "student_value": 7.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27472",
+      "title": "PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations",
+      "link": "https://arxiv.org/abs/2604.27472v1",
+      "date": "2026-04-30T06:14:02Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27472v1/x1.png",
+      "score": 69.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "PRTS is a VLA model that enhances robotic control through goal-conditioned reinforcement learning and intrinsic goal reachability awareness.",
+      "why_matters": "This approach improves execution success and planning in robotics, which is crucial for autonomous systems.",
+      "connection": "The focus on goal-conditioned learning aligns with Prof. Liu's interests in real-time AI and autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "This work could inform student projects on cloud-edge collaborative inference for VLA models.",
+      "rationale": "The paper's focus on goal-conditioned learning is relevant to ongoing student research.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00059",
+      "title": "Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction",
+      "link": "https://arxiv.org/abs/2605.00059v1",
+      "date": "2026-04-30T02:56:29Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00059v1/Framework_Diagram.png",
+      "score": 69.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "Dynamic-TD3 is a DRL framework for UAV path planning that enforces safety constraints while improving maneuverability in dynamic environments.",
+      "why_matters": "This work addresses safety in autonomous drone navigation, crucial for real-world applications.",
+      "connection": "The focus on safety and performance in UAVs aligns with Prof. Liu's interests in safety-critical AI and real-time systems.",
+      "proposal_angle": "This could inform the NSF CPS proposal on safety-critical systems in autonomous vehicles.",
+      "student_project": "The focus on UAV navigation and safety could align with student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "The paper's focus on safety in UAVs is relevant to ongoing student projects.",
       "dimensions": {
         "topical": 7.0,
         "novelty": 8.0,
@@ -201,6 +313,90 @@
       }
     },
     {
+      "id": "arxiv:2604.27267",
+      "title": "From Prompt to Physical Actuation: Holistic Threat Modeling of LLM-Enabled Robotic Systems",
+      "link": "https://arxiv.org/abs/2604.27267v1",
+      "date": "2026-04-29T23:44:07Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27267v1/x1.png",
+      "score": 66.5,
+      "category": "Safety, CPS & Verification",
+      "action": "Discuss with student",
+      "summary": "This paper models threat interactions in LLM-enabled robotic systems across perception, planning, and actuation pipelines.",
+      "why_matters": "It addresses critical safety concerns in integrating LLMs with robotics, highlighting potential vulnerabilities.",
+      "connection": "The focus on safety and verification aligns with Prof. Liu's interests in assured AI for safety-critical systems.",
+      "proposal_angle": "This work could inform proposals related to assured autonomy and safety in AI systems.",
+      "student_project": "The analysis of threat modeling could support student projects on real-time safety in AI systems.",
+      "rationale": "The paper's focus on safety in LLM-enabled robotics aligns well with ongoing student thrusts.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28156",
+      "title": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution for Robotic Systems",
+      "link": "https://arxiv.org/abs/2604.28156v1",
+      "date": "2026-04-30T17:43:07Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28156v1/x1.png",
+      "score": 66.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Discuss with student",
+      "summary": "FlexiTac is a low-cost, scalable tactile sensing solution for robotic systems that supports modern tactile learning pipelines.",
+      "why_matters": "It provides a practical solution for enhancing tactile sensing in robotics, which is crucial for autonomy.",
+      "connection": "The tactile sensing solution aligns with Prof. Liu's interests in robust perception pipelines and edge AI deployment.",
+      "proposal_angle": "",
+      "student_project": "The project could support student work on sensing and multimodal fusion at the edge.",
+      "rationale": "Relevant for enhancing tactile perception in autonomous systems.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 8.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28196",
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "link": "https://arxiv.org/abs/2604.28196v1",
+      "date": "2026-04-30T17:59:58Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28196v1/x1.png",
+      "score": 65.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "HERMES++ integrates 3D scene understanding and future geometry prediction for autonomous driving.",
+      "why_matters": "This model addresses a critical gap in autonomous driving technology by combining scene understanding with future predictions.",
+      "connection": "The focus on scene understanding and prediction aligns with Prof. Liu's interests in real-time perception and autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The integration of scene understanding and prediction is relevant for safety-critical AI applications.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:e93f8938f4b5cfe3",
       "title": "Ouster releases REV8 OS sensor family with native-color lidar",
       "link": "https://www.therobotreport.com/ouster-releases-rev8-os-family-native-color-lidar-sensors/",
@@ -222,6 +418,62 @@
       "dimensions": {
         "topical": 7.0,
         "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27118",
+      "title": "PALCAS: A Priority-Aware Intelligent Lane Change Advisory System for Autonomous Vehicles using Federated Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2604.27118v1",
+      "date": "2026-04-29T19:10:53Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27118v1/x1.png",
+      "score": 64.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "PALCAS is a federated reinforcement learning system for intelligent lane change advisories in autonomous vehicles.",
+      "why_matters": "It enhances lane change decision-making for AVs, improving safety and efficiency.",
+      "connection": "The focus on safety and efficiency aligns with Prof. Liu's interests in real-time AI for autonomous systems.",
+      "proposal_angle": "It could inform aspects of the in-flight proposal on predictable DNN inference for autonomous vehicles.",
+      "student_project": "The project could support student work on real-time GPU scheduling for autonomy perception.",
+      "rationale": "Relevant to autonomy systems and aligns with student thrusts.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00416",
+      "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "link": "https://arxiv.org/abs/2605.00416",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00416v1/x1.png",
+      "score": 63.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "The paper presents a framework for continual post-training of generalist robot policies using fleet-scale reinforcement learning.",
+      "why_matters": "This approach addresses real-world challenges in deploying generalist robot policies, enhancing their adaptability and performance.",
+      "connection": "The focus on reinforcement learning for robot policies aligns with the researcher's interests in multi-agent autonomy and real-time systems.",
+      "proposal_angle": "",
+      "student_project": "This work could inform student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "The paper's focus on fleet-scale learning is relevant to robotics and aligns with ongoing student projects.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 7.0,
@@ -481,6 +733,90 @@
       }
     },
     {
+      "id": "arxiv:2605.00691",
+      "title": "Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization",
+      "link": "https://arxiv.org/abs/2605.00691",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00691v1/x1.png",
+      "score": 57.0,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "The paper presents LAC-MAS, a framework for improving distributed black-box consensus optimization using adaptive mechanisms and large language models.",
+      "why_matters": "It addresses challenges in multi-agent systems, enhancing coordination and efficiency in optimization tasks.",
+      "connection": "The focus on multi-agent systems and optimization could intersect with Prof. Liu's interests in collaborative computing and real-time systems.",
+      "proposal_angle": "",
+      "student_project": "This work could inform student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "The paper's focus on multi-agent optimization aligns with collaborative computing interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 5.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28192",
+      "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
+      "link": "https://arxiv.org/abs/2604.28192v1",
+      "date": "2026-04-30T17:59:52Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28192v1/x1.png",
+      "score": 57.0,
+      "category": "AI Models & Algorithms",
+      "action": "Discuss with student",
+      "summary": "LaST-R1 integrates latent reasoning with reinforcement learning for improved VLA model performance in robotic manipulation tasks.",
+      "why_matters": "This work enhances adaptability and robustness in robotic systems, which is crucial for real-world applications.",
+      "connection": "The focus on VLA models intersects with Prof. Liu's interests in real-time AI and multi-agent autonomy.",
+      "proposal_angle": "",
+      "student_project": "This paper's focus on adaptive reasoning could inform student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "The integration of reasoning and control aligns with ongoing student thrusts.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28193",
+      "title": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images",
+      "link": "https://arxiv.org/abs/2604.28193v1",
+      "date": "2026-04-30T17:59:55Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28193v1/x2.png",
+      "score": 56.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "GenWildSplat is a framework for 3D reconstruction from sparse, unposed images that achieves real-time inference without per-scene optimization.",
+      "why_matters": "This work addresses challenges in 3D scene reconstruction, which is relevant for perception in autonomous systems.",
+      "connection": "The focus on real-time inference and generalization under varying conditions aligns with the researcher's interests in latency-critical perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to perception challenges in autonomy, with potential applications in real-time systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "arxiv:2605.02886",
       "title": "CityOS: Privacy Architecture for Urban Sensing",
       "link": "https://arxiv.org/abs/2605.02886v1",
@@ -505,6 +841,62 @@
         "proposal_value": 5.0,
         "student_value": 4.0,
         "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28161",
+      "title": "RopeDreamer: A Kinematic Recurrent State Space Model for Dynamics of Flexible Deformable Linear Objects",
+      "link": "https://arxiv.org/abs/2604.28161v1",
+      "date": "2026-04-30T17:47:44Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28161v1/x1.png",
+      "score": 56.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "The paper presents a model for predicting the dynamics of flexible deformable linear objects in robotic manipulation tasks.",
+      "why_matters": "This work addresses challenges in robotic manipulation of flexible objects, which is crucial for real-world applications.",
+      "connection": "The focus on robotic manipulation aligns with Prof. Liu's interests in autonomous systems and real-time inference.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "The paper's focus on manipulation dynamics is relevant to robotics and aligns with student research interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 4.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28138",
+      "title": "Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes",
+      "link": "https://arxiv.org/abs/2604.28138v1",
+      "date": "2026-04-30T17:20:19Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28138v1/x1.png",
+      "score": 56.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Discuss with student",
+      "summary": "Crab is a runtime that improves checkpointing for autonomous agents by bridging the agent-OS semantic gap.",
+      "why_matters": "It enhances fault tolerance and efficiency in autonomous systems, which is crucial for safety-critical applications.",
+      "connection": "The work relates to real-time scheduling and fault tolerance in AI systems, aligning with Prof. Liu's focus on safety-critical AI.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on real-time GPU scheduling and fault tolerance in AI systems.",
+      "rationale": "The paper addresses checkpointing in autonomous systems, relevant to safety and efficiency.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -594,6 +986,35 @@
       }
     },
     {
+      "id": "arxiv:2604.28139",
+      "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+      "link": "https://arxiv.org/abs/2604.28139",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28139v1/figures/fig1.png",
+      "score": 55.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "Claw-Eval-Live is a live benchmark for evaluating LLM agents in evolving workflows.",
+      "why_matters": "It addresses the challenge of evaluating agents against changing workflow demands.",
+      "connection": "The focus on evaluating agent performance in real-world tasks aligns with the researcher's interest in safety-critical AI systems.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on real-time evaluation of AI agents in collaborative workflows.",
+      "rationale": "Relevant for benchmarking AI systems in real-world applications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:8e85a9be4b7b7bbf",
       "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
       "link": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
@@ -619,6 +1040,90 @@
         "student_value": 0.0,
         "testbed_value": 0.0,
         "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00347",
+      "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2605.00347",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00347v1/x1.png",
+      "score": 54.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "The paper presents Odysseus, a framework for training vision-language models in long-horizon decision-making tasks using reinforcement learning.",
+      "why_matters": "This work advances the capabilities of VLMs in interactive settings, which could influence future AI applications.",
+      "connection": "The focus on decision-making and reinforcement learning intersects with Prof. Liu's interests in real-time AI and systems for autonomy.",
+      "proposal_angle": "",
+      "student_project": "The reinforcement learning approach could align with student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "Relevant to decision-making in AI, but lacks direct systems implications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27578",
+      "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction",
+      "link": "https://arxiv.org/abs/2604.27578",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27578v1/x1.png",
+      "score": 54.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Discuss with student",
+      "summary": "World2Minecraft converts real-world scenes into structured Minecraft environments for improved occupancy prediction and embodied AI research.",
+      "why_matters": "This work provides a customizable platform for embodied AI, enhancing simulation environments for perception tasks.",
+      "connection": "The focus on occupancy prediction and simulation environments aligns with the researcher's interest in robust perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "This project could support student work on occupancy prediction and simulation for real-time AI applications.",
+      "rationale": "The dataset and simulation platform could enhance student projects on perception and AI systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.26593",
+      "title": "PiGGO: Physics-Guided Learnable Graph Kalman Filters for Virtual Sensing of Nonlinear Dynamic Structures under Uncertainty",
+      "link": "https://arxiv.org/abs/2604.26593v1",
+      "date": "2026-04-29T12:22:08Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.26593v1/_figs/ss-trans-model.png",
+      "score": 54.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "The PiGGO framework enables online virtual sensing and state estimation for nonlinear systems using a physics-informed graph-based approach.",
+      "why_matters": "This work addresses challenges in state estimation for complex systems, which is crucial for reliable autonomy.",
+      "connection": "The focus on state estimation and uncertainty aligns with Prof. Liu's interests in safety-critical AI and real-time systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to state estimation in autonomy, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 4.0,
+        "recency": 8.0
       }
     },
     {
@@ -763,6 +1268,62 @@
       }
     },
     {
+      "id": "arxiv:2604.27711",
+      "title": "ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control",
+      "link": "https://arxiv.org/abs/2604.27711",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27711v1/figs/Intro.png",
+      "score": 51.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "ExoActor is a framework for generating humanoid behaviors through third-person video generation to model interaction dynamics.",
+      "why_matters": "It offers a new approach to humanoid control, potentially enhancing interaction-rich behaviors in robotics.",
+      "connection": "The work relates to autonomous systems by addressing humanoid control, which is relevant for real-time AI applications.",
+      "proposal_angle": "",
+      "student_project": "This could align with student projects on multi-agent autonomy or robotics behavior modeling.",
+      "rationale": "The framework's focus on humanoid control aligns with student interests in robotics and autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 3.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27351",
+      "title": "Heterogeneous Scientific Foundation Model Collaboration",
+      "link": "https://arxiv.org/abs/2604.27351",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27351v1/x1.png",
+      "score": 51.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "Eywa is a framework that integrates language models with domain-specific foundation models for enhanced reasoning across scientific domains.",
+      "why_matters": "It extends the capabilities of AI systems beyond language, potentially improving decision-making in various scientific fields.",
+      "connection": "The integration of language models with specialized models could inform real-time inference strategies in safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The framework's interdisciplinary approach may influence future AI model applications in autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.02832",
       "title": "HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems",
       "link": "https://arxiv.org/abs/2605.02832v1",
@@ -819,6 +1380,34 @@
       }
     },
     {
+      "id": "arxiv:2604.27945",
+      "title": "CRS-LLM: Cooperative Beam Prediction with a GPT-Style Backbone and Switch-Gated Fusion",
+      "link": "https://arxiv.org/abs/2604.27945v1",
+      "date": "2026-04-30T14:43:25Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27945v1/x1.png",
+      "score": 50.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "CRS-LLM proposes a cooperative beam prediction framework for V2X scenarios using a GPT-style backbone.",
+      "why_matters": "This work addresses challenges in beam tracking for V2X communication, which is crucial for autonomous systems.",
+      "connection": "The focus on V2X communication relates to Prof. Liu's interests in autonomous driving and multi-agent autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to V2X communication in autonomous systems, but lacks direct systems implications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "arxiv:2605.02867",
       "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
       "link": "https://arxiv.org/abs/2605.02867v1",
@@ -869,6 +1458,34 @@
         "topical": 5.0,
         "novelty": 7.0,
         "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:67f64c97fb568c6d",
+      "title": "Automating GPU Kernel Translation with AI Agents: cuTile Python to cuTile.jl",
+      "link": "https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/",
+      "date": "2026-04-30T15:54:38+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow.webp",
+      "score": 49.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "NVIDIA introduces cuTile, a tile-based programming model for automating GPU kernel translation using AI agents.",
+      "why_matters": "This development could streamline GPU programming, impacting real-time AI workloads.",
+      "connection": "The focus on GPU kernel automation aligns with Prof. Liu's interests in GPU scheduling and hardware/software co-design.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to GPU scheduling and hardware co-design interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
         "student_value": 5.0,
         "testbed_value": 0.0,
         "recency": 10.0
@@ -1043,6 +1660,62 @@
       }
     },
     {
+      "id": "arxiv:2604.28148",
+      "title": "Design and Characteristics of a Thin-Film ThermoMesh for the Efficient Embedded Sensing of a Spatio-Temporally Sparse Heat Source",
+      "link": "https://arxiv.org/abs/2604.28148v1",
+      "date": "2026-04-30T17:35:40Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28148v1/4-Sensor_Design.png",
+      "score": 46.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "ThermoMesh is a thin-film thermoelectric sensor for detecting sparse heat sources with high sensitivity and accuracy.",
+      "why_matters": "This technology could enhance thermal sensing in environments where traditional methods fail.",
+      "connection": "The work on embedded thermal sensing could intersect with Prof. Liu's interests in sensing and perception for autonomy.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on sensor fusion and multimodal perception at the edge.",
+      "rationale": "Relevant for sensing applications in safety-critical AI systems.",
+      "dimensions": {
+        "topical": 4.0,
+        "novelty": 7.0,
+        "proposal_value": 3.0,
+        "student_value": 5.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:c8b0bec81eba5f80",
+      "title": "XELA Robotics adds enhancements to uSkin sensor family ahead of Robotics Summit",
+      "link": "https://www.therobotreport.com/xela-robotics-adds-2-enhancements-uskin-sensor-family-ahead-robotics-summit/",
+      "date": "2026-04-29T21:33:09+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/Magnetic_Interference_Compensation_Demo-featured.jpg",
+      "score": 45.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "XELA Robotics will showcase its latest sensor technology at the Robotics Summit & Expo in May 2026.",
+      "why_matters": "The enhancements to the uSkin sensor family could improve sensing capabilities in robotics.",
+      "connection": "The advancements in sensor technology relate to Prof. Liu's interests in sensing and perception for autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "The sensor enhancements could align with student projects focused on multimodal perception and sensing at the edge.",
+      "rationale": "Relevant to sensing advancements in robotics, but lacks direct proposal implications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 5.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:88edaca15930b961",
       "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
       "link": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
@@ -1067,6 +1740,90 @@
         "proposal_value": 4.0,
         "student_value": 3.0,
         "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27818",
+      "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
+      "link": "https://arxiv.org/abs/2604.27818",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27818v1/x1.png",
+      "score": 44.0,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "MASCing enables flexible reconfiguration of Mixture-of-Experts models for safety scenarios without retraining.",
+      "why_matters": "It addresses safety challenges in AI models, which is crucial for real-time applications.",
+      "connection": "The focus on safety and reconfiguration aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety in AI models, but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:c5d4c07bafbde087",
+      "title": "AI evals are becoming the new compute bottleneck",
+      "link": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "date": "2026-04-29T16:45:09+00:00",
+      "type": "News",
+      "sources": [
+        "rss:HuggingFace Blog"
+      ],
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png",
+      "score": 44.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "AI evaluations are increasingly becoming a bottleneck in compute resources.",
+      "why_matters": "Understanding compute bottlenecks is crucial for optimizing AI systems.",
+      "connection": "This relates to the researcher's focus on optimizing AI workloads and inference scheduling.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to compute challenges in AI systems, but lacks direct application to autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:a96f84b1e95b5347",
+      "title": "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
+      "link": "https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/",
+      "date": "2026-04-29T16:41:57+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory.webp",
+      "score": 44.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "AI factories are emerging as the next wave of enterprise productivity through agentic AI systems.",
+      "why_matters": "AI factories represent a significant shift in enterprise productivity, leveraging AI for automation and reasoning.",
+      "connection": "The focus on AI factories aligns with Prof. Liu's interest in AI systems and their deployment in real-time environments.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to industry trends impacting AI systems and potential future proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -1155,6 +1912,34 @@
       }
     },
     {
+      "id": "arxiv:2604.28173",
+      "title": "Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements",
+      "link": "https://arxiv.org/abs/2604.28173v1",
+      "date": "2026-04-30T17:55:01Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28173v1/x2.png",
+      "score": 42.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "A4Mer learns a hierarchical representation of human body movements using self-supervised methods and introduces a new dataset for action recognition tasks.",
+      "why_matters": "This work advances human behavior modeling, which could inform robotics and autonomous systems but lacks direct relevance to the researcher's focus.",
+      "connection": "The hierarchical representation of movements could potentially enhance perception pipelines in autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to perception but not directly aligned with autonomy systems focus.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00769",
       "title": "Voltage Ride-Through in Large Loads- A Dual PQ Approach",
       "link": "https://arxiv.org/abs/2605.00769v1",
@@ -1179,6 +1964,91 @@
         "proposal_value": 5.0,
         "student_value": 0.0,
         "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:7f83f8a0b7c77087",
+      "title": "Speed Up Unreal Engine NNE Inference with NVIDIA TensorRT for RTX Runtime",
+      "link": "https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/",
+      "date": "2026-04-30T17:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/TensorRT-RTX.png",
+      "score": 42.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "Neural network techniques enhance image quality and performance in Unreal Engine using NVIDIA TensorRT.",
+      "why_matters": "This could improve real-time graphics performance, relevant for AI applications in robotics.",
+      "connection": "The focus on neural networks and performance aligns with Prof. Liu's interest in AI accelerators and real-time systems.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on GPU scheduling and performance optimization.",
+      "rationale": "Relevant to GPU scheduling and performance in AI systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:f6dc1c9060f9c917",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "date": "2026-04-29T15:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:OpenAI Blog"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7uKjDcPGzOUdai1xJ3ADrz/e546afb6069a32f56d346a53c1093c74/Frame__5_.png?w=1600&amp;h=900&amp;fit=fill",
+      "score": 42.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "why_matters": "This development indicates a significant investment in AI infrastructure, which could impact future AI applications.",
+      "connection": "The focus on compute infrastructure aligns with Prof. Liu's interests in hardware/software co-design for inference.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI infrastructure but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28169",
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "link": "https://arxiv.org/abs/2604.28169",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28169v1/x2.jpg",
+      "score": 41.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "PhyCo introduces controllable physical priors into video generation for improved physical consistency.",
+      "why_matters": "This work enhances generative models' realism, which could benefit simulations in robotics.",
+      "connection": "While the focus is on video generation, the principles of physical consistency could inform robotics and perception systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The paper's focus on physical consistency could have implications for robotics and perception.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 5.0,
         "recency": 10.0
       }
     },
@@ -1262,6 +2132,91 @@
         "novelty": 4.0,
         "proposal_value": 3.0,
         "student_value": 2.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:df4fde8ec44c8f73",
+      "title": "Project CETI deploys autonomous underwater gliders to better observe sperm whales",
+      "link": "https://www.therobotreport.com/project-ceti-deploys-autonomous-underwater-gliders-better-observe-sperm-whales/",
+      "date": "2026-04-29T13:37:15+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/Photo-05_Photo-by-©-Project-CETI_David-Gruber-featured.jpg",
+      "score": 39.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Project CETI has deployed a new underwater glider that can monitor whales for longer than previous methods.",
+      "why_matters": "This project enhances monitoring capabilities for marine life using autonomous systems.",
+      "connection": "The use of autonomous gliders relates to robotics and embodied AI, though it lacks direct ties to the researcher's primary focus.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics but lacks direct application to the researcher's core interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 3.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:100f7b4adf0b3543",
+      "title": "Teradyne Robotics revenue rises at the start of 2026",
+      "link": "https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/",
+      "date": "2026-04-30T18:24:44+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/UR8-welding-featured.jpg",
+      "score": 38.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Teradyne Robotics brought in $91 million in Q1 2026, with its AI products helping to boost robotics sales.",
+      "why_matters": "This revenue increase indicates a growing market for AI-enabled robotics, which could influence future funding and research directions.",
+      "connection": "The revenue growth in AI products aligns with the researcher's interest in AI systems for robotics and autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Industry revenue growth may signal opportunities for future research and funding.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 3.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28185",
+      "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+      "link": "https://arxiv.org/abs/2604.28185",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.28185v1/x1.png",
+      "score": 38.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "The paper discusses a shift towards intelligent visual generation models that incorporate structure, dynamics, and causal understanding.",
+      "why_matters": "It highlights the limitations of current visual generation models and proposes a new taxonomy for improvement.",
+      "connection": "The focus on intelligent visual generation may intersect with Prof. Liu's interests in real-time AI and perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to safety-critical AI and autonomy systems.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
         "testbed_value": 2.0,
         "recency": 10.0
       }
@@ -1463,6 +2418,62 @@
       }
     },
     {
+      "id": "hash:58025902d54564d7",
+      "title": "Google’s Gemini AI assistant is hitting the road in millions of vehicles",
+      "link": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+      "date": "2026-04-30T17:46:54+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Gemini-google-vehicles.jpeg?w=1200",
+      "score": 38.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Google is integrating its Gemini AI assistant into millions of vehicles to enhance the driving experience.",
+      "why_matters": "This move indicates a significant shift towards advanced AI in automotive applications.",
+      "connection": "The integration of AI in vehicles aligns with the researcher's interests in autonomous systems and real-time AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to industry trends in AI for autonomous vehicles.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 1.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:e1853f13b81225a2",
+      "title": "Schaeffler plans to deploy 1,000 Hexagon humanoids by 2032",
+      "link": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/",
+      "date": "2026-04-29T17:53:26+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/AEON-hexagon-featured.jpg",
+      "score": 38.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Schaeffler is investing in humanoid robots through partnerships to deploy 1,000 Hexagon humanoids by 2032.",
+      "why_matters": "This investment indicates a growing trend in humanoid robotics for production applications.",
+      "connection": "The deployment of humanoid robots could intersect with Prof. Liu's interests in autonomous systems and robotics.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and potential future trends in autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 1.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.01725",
       "title": "Motion-Aware Caching for Efficient Autoregressive Video Generation",
       "link": "https://arxiv.org/abs/2605.01725",
@@ -1519,6 +2530,119 @@
       }
     },
     {
+      "id": "arxiv:2605.00809",
+      "title": "Let ViT Speak: Generative Language-Image Pre-training",
+      "link": "https://arxiv.org/abs/2605.00809",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00809v1/figures/fig1-ver4-low_2.png",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "GenLIP is a generative pretraining framework for Vision Transformers that aligns vision encoders with language modeling objectives.",
+      "why_matters": "It offers a new approach to multimodal learning, but lacks direct relevance to autonomy systems.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to the researcher's focus on safety-critical AI and real-time systems.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.00323",
+      "title": "Online Self-Calibration Against Hallucination in Vision-Language Models",
+      "link": "https://arxiv.org/abs/2605.00323",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00323v1/x1.png",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "OSCAR is a framework that improves hallucination handling in Vision-Language Models through online self-calibration and preference optimization.",
+      "why_matters": "It addresses hallucinations in AI models, which is crucial for reliable AI applications.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Focus is on systems and safety-critical applications, not pure model improvements.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28130",
+      "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+      "link": "https://arxiv.org/abs/2604.28130",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.28130.png",
+      "score": 36.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Ignore",
+      "summary": "This paper presents an end-to-end framework for motion capture that jointly optimizes joint positions and rotations from monocular video.",
+      "why_matters": "It improves motion capture efficiency and robustness, which could benefit robotics applications.",
+      "connection": "While it relates to robotics, it lacks a direct connection to the researcher's focus on safety-critical AI and real-time inference.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to safety-critical AI and real-time systems.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:fa11852f28dd79a8",
+      "title": "Launchpad Build AI offers MLM to speed industrial automation design",
+      "link": "https://www.therobotreport.com/launchpad-build-ai-offers-manufacturing-language-model-industrial-automation/",
+      "date": "2026-04-30T14:00:02+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/MLM_Launchpad-copy.jpg",
+      "score": 36.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Launchpad Build AI's Manufacturing Language Model aims to enhance industrial automation design using various input formats.",
+      "why_matters": "This development could influence automation processes in manufacturing, relevant to AI and robotics.",
+      "connection": "The focus on automation aligns with Prof. Liu's interests in AI systems and robotics.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to automation but lacks direct connection to current proposals or student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 0.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "arxiv:2605.00803",
       "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
       "link": "https://arxiv.org/abs/2605.00803v1",
@@ -1548,32 +2672,32 @@
     }
   ],
   "summary": {
-    "headline": "Advancements in V2X and Edge AI for Robust Perception",
-    "tldr": "Today's research highlights the integration of V2X communication in 3D object detection and the development of scalable edge AI frameworks. Papers like 'Robust Fusion of Object-Level V2X' and 'Tempus' showcase efforts to enhance real-time perception in safety-critical applications.",
+    "headline": "Advancements in V2X and Tactile Sensing for Robotics",
+    "tldr": "Today's research highlights significant strides in V2X communication for robust object detection and the development of tactile sensing technologies for robotics. Papers like 'Robust Fusion of Object-Level V2X' and 'FlexiTac' showcase the integration of advanced sensing capabilities in real-world applications.",
     "themes": [
       {
-        "bullet": "Enhanced robustness in perception through V2X integration.",
+        "bullet": "Integration of V2X communication enhances real-world object detection robustness.",
         "cite": "Robust Fusion of Object-Level V2X"
       },
       {
-        "bullet": "Focus on low-latency, resource-efficient edge AI solutions.",
+        "bullet": "Emerging tactile sensing technologies are improving robotic interaction capabilities.",
+        "cite": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution"
+      },
+      {
+        "bullet": "Efficient edge AI deployment frameworks are crucial for latency-sensitive applications.",
         "cite": "Tempus: A Temporally Scalable Resource-Invariant GEMM"
       },
       {
-        "bullet": "Emerging datasets for tactile sensing in robotics.",
-        "cite": "DAIMON Robotics Wants to Give Robot Hands"
+        "bullet": "Holistic threat modeling is essential for LLM-enabled robotic systems.",
+        "cite": "From Prompt to Physical Actuation"
       },
       {
-        "bullet": "Development of action reasoning models for real-world applications.",
-        "cite": "MolmoAct2: Action Reasoning Models"
-      },
-      {
-        "bullet": "Trust-aware frameworks for intrusion detection in transport systems.",
-        "cite": "A Comparative Analysis of Machine Learning Models"
+        "bullet": "Real-time human-robot interaction platforms are advancing shared environment applications.",
+        "cite": "OmniRobotHome: A Multi-Camera Platform"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-05T15:14:14Z"
+    "generated_at": "2026-05-05T15:23:44Z"
   },
   "score_weights": {
     "topical": 0.3,
