@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T13:16:56-04:00",
+  "updated_at": "2026-05-05T13:22:48-04:00",
   "mode": "daily",
   "items": [
     {
@@ -649,6 +649,34 @@
       }
     },
     {
+      "id": "hash:cfb3dbde00f9bde3",
+      "title": "How to Build Vision AI Pipelines Using NVIDIA DeepStream Coding Agents",
+      "link": "https://developer.nvidia.com/blog/how-to-build-vision-ai-pipelines-using-deepstream-coding-agents/",
+      "date": "2026-04-16T15:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080.webp",
+      "score": 63.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "The article discusses building real-time vision AI applications using NVIDIA DeepStream coding agents.",
+      "why_matters": "It addresses challenges in developing real-time vision AI applications, relevant for edge AI deployment.",
+      "connection": "This aligns with Prof. Liu's interests in real-time AI systems and edge AI deployment.",
+      "proposal_angle": "It could inform the cloud-edge collaborative inference proposal by enhancing vision AI pipelines.",
+      "student_project": "The content is suitable for a student project focused on real-time GPU scheduling for perception.",
+      "rationale": "Relevant to edge AI and real-time systems, with practical applications for ongoing projects.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00416",
       "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
       "link": "https://arxiv.org/abs/2605.00416",
@@ -842,6 +870,34 @@
         "student_value": 6.0,
         "testbed_value": 5.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:b9a95519a7887b06",
+      "title": "Optical Fiber Networks Can Keep Rail Networks Safe",
+      "link": "https://spectrum.ieee.org/distributed-acoustic-sensing-trains-railways",
+      "date": "2026-04-16T15:02:45+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — AI"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=65515236&width=1200&height=600&coordinates=0%2C139%2C0%2C111",
+      "score": 61.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Discuss with student",
+      "summary": "Researchers developed a distributed acoustic sensing system using fiber optics to enhance railway safety monitoring.",
+      "why_matters": "This approach could improve safety monitoring in transportation systems using existing infrastructure.",
+      "connection": "The use of AI models for safety monitoring aligns with Prof. Liu's interest in real-time AI systems.",
+      "proposal_angle": "",
+      "student_project": "This project could relate to real-time sensing and multimodal fusion at the edge.",
+      "rationale": "The integration of AI in safety monitoring is relevant to ongoing research interests.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
       }
     },
     {
@@ -1492,6 +1548,34 @@
       }
     },
     {
+      "id": "hash:abe2c9aa3bac60bf",
+      "title": "Gradient-based Planning for World Models at Longer Horizons",
+      "link": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
+      "date": "2026-04-20T09:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:BAIR Blog (Berkeley)"
+      ],
+      "image_url": "https://bair.berkeley.edu/static/blog/grasp/pusht_zoomout.gif",
+      "score": 55.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "GRASP is a gradient-based planner for learned dynamics that enhances long-horizon planning in world models.",
+      "why_matters": "It addresses challenges in using predictive models for control and planning, which is crucial for autonomous systems.",
+      "connection": "The work on world models could inform real-time planning strategies in Prof. Liu's research on safety-critical AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to autonomy systems and addresses planning challenges.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:8e85a9be4b7b7bbf",
       "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
       "link": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
@@ -2082,6 +2166,34 @@
       }
     },
     {
+      "id": "hash:af807fbf5337bf30",
+      "title": "Video Friday: Digit Learns to Deadlift",
+      "link": "https://spectrum.ieee.org/robot-learning",
+      "date": "2026-04-17T15:00:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Robotics"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=65564472&width=1200&height=600&coordinates=0%2C110%2C0%2C110",
+      "score": 50.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Digit learns to deadlift, enhancing its coordination and actuator resilience through simulation training.",
+      "why_matters": "This showcases advancements in robot training methodologies and hardware capabilities.",
+      "connection": "The focus on real-world problem solving and coordination aligns with Prof. Liu's interests in robotics and safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "Relevant to robotics and aligns with safety-critical AI interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.02867",
       "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
       "link": "https://arxiv.org/abs/2605.02867v1",
@@ -2278,6 +2390,34 @@
       }
     },
     {
+      "id": "hash:f5e310a805d1cd9d",
+      "title": "Full-Stack Optimizations for Agentic Inference with NVIDIA Dynamo",
+      "link": "https://developer.nvidia.com/blog/full-stack-optimizations-for-agentic-inference-with-nvidia-dynamo/",
+      "date": "2026-04-17T22:52:47+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/inference-press-dynamo-gtc26-4960950-1920x1080-1.webp",
+      "score": 49.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "NVIDIA Dynamo enables coding agents to write production code at scale, significantly increasing efficiency.",
+      "why_matters": "This development highlights advancements in AI-driven coding, which could impact software development processes.",
+      "connection": "The focus on agentic inference aligns with Prof. Liu's interest in AI systems and real-time performance.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI systems but lacks direct application to autonomy or current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.26779",
       "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
       "link": "https://arxiv.org/abs/2604.26779",
@@ -2442,6 +2582,34 @@
         "proposal_value": 6.0,
         "student_value": 0.0,
         "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:860163d5855b1201",
+      "title": "Light-activated gel could impact wearables, soft robotics, and more",
+      "link": "https://news.mit.edu/2026/light-activated-gel-could-impact-wearables-soft-robotics-more-0416",
+      "date": "2026-04-16T21:10:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:MIT News — Robotics"
+      ],
+      "image_url": "https://news.mit.edu/sites/default/files/images/202604/Figure%20for%20MIT%20news-Xu%20Liu_0.png",
+      "score": 48.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "MIT advances ionotronics, enabling data transfer through ions, impacting wearables and soft robotics.",
+      "why_matters": "This work could enhance the integration of electronics with biological systems, relevant for soft robotics.",
+      "connection": "The development of new materials for soft robotics could intersect with Prof. Liu's interests in robotics and sensing.",
+      "proposal_angle": "",
+      "student_project": "This could inspire projects on novel materials for sensing in robotics.",
+      "rationale": "Relevant to materials for robotics, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 2.0,
         "recency": 10.0
       }
     },
@@ -2974,6 +3142,34 @@
         "proposal_value": 3.0,
         "student_value": 4.0,
         "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:be2bc4923c79e4e1",
+      "title": "Build a More Secure, Always-On Local AI Agent with OpenClaw and NVIDIA NemoClaw",
+      "link": "https://developer.nvidia.com/blog/build-a-secure-always-on-local-ai-agent-with-nvidia-nemoclaw-and-openclaw/",
+      "date": "2026-04-17T18:59:12+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Claw-DGX-Spark.webp",
+      "score": 44.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Agents are evolving into long-running autonomous assistants that can perform multi-step workflows.",
+      "why_matters": "This development highlights the trend towards more capable local AI agents, which could impact various applications.",
+      "connection": "The focus on autonomous agents aligns with Prof. Liu's interest in real-time AI and edge AI deployment.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to the evolution of AI agents, but lacks direct systems implications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -4118,6 +4314,34 @@
       "proposal_angle": "",
       "student_project": "",
       "rationale": "Relevant for understanding federal AI policy impacts on safety-critical systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:7f7ccb624c6498fa",
+      "title": "Stop Asking Whether to Regulate AI—Start Asking What It’s For",
+      "link": "https://cset.georgetown.edu/article/stop-asking-whether-to-regulate-ai-start-asking-what-its-for-opinion/",
+      "date": "2026-04-20T16:00:51+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CSET (Georgetown)"
+      ],
+      "image_url": "https://cset.georgetown.edu/wp-content/uploads/US-Government-CSET-News.png",
+      "score": 38.0,
+      "category": "Funding & Programs",
+      "action": "Track",
+      "summary": "The article discusses the importance of focusing on the purpose of AI innovation rather than just regulation.",
+      "why_matters": "It highlights a shift in AI policy discourse that could influence future funding and regulatory frameworks.",
+      "connection": "The discussion on AI regulation and purpose aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI policy, which may impact funding opportunities.",
       "dimensions": {
         "topical": 5.0,
         "novelty": 4.0,
