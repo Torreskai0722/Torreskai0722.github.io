@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T11:30:00-04:00",
+  "updated_at": "2026-05-05T13:16:56-04:00",
   "mode": "daily",
   "items": [
     {
@@ -733,6 +733,34 @@
       }
     },
     {
+      "id": "hash:144a77c3ccb826b3",
+      "title": "How to Build In-Vehicle AI Agents with NVIDIA: From Cloud to Car",
+      "link": "https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/",
+      "date": "2026-05-05T16:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
+      "score": 62.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The article discusses the transition to multimodal AI systems in automotive cockpits.",
+      "why_matters": "This shift could enhance user interaction and safety in autonomous vehicles.",
+      "connection": "The focus on multimodal AI systems aligns with Prof. Liu's interests in real-time AI for safety-critical applications.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on cloud-edge collaborative inference for VLA models.",
+      "rationale": "Relevant to autonomy systems and aligns with ongoing research interests.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:ffe7307791790dd1",
       "title": "California lawmakers open the gate for autonomous trucks in the state",
       "link": "https://www.therobotreport.com/california-lawmakers-open-gate-autonomous-trucks-state/",
@@ -813,6 +841,35 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 5.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:29a582de146b3a64",
+      "title": "GPU Renters Are Playing a Silicon Lottery",
+      "link": "https://spectrum.ieee.org/gpu-performance-comparison",
+      "date": "2026-04-23T18:06:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — AI",
+        "rss:IEEE Spectrum — Semiconductors"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=65854697&width=1200&height=600&coordinates=0%2C36%2C0%2C164",
+      "score": 60.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "Research reveals significant performance variability in cloud GPU rentals, impacting AI workloads.",
+      "why_matters": "Understanding GPU performance variability is crucial for optimizing AI inference in cloud environments.",
+      "connection": "This relates to Prof. Liu's focus on GPU scheduling and inference serving in safety-critical AI systems.",
+      "proposal_angle": "Insights on GPU performance could inform proposals related to cloud-edge collaborative inference.",
+      "student_project": "This topic could support student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "Relevant insights on GPU performance variability for AI systems and inference scheduling.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
         "recency": 8.0
       }
     },
@@ -925,6 +982,34 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:4c8a1ddf3982b3e9",
+      "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+      "link": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+      "date": "2026-04-22T12:00:42+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Research"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/google-cloud-nvidia.jpg",
+      "score": 59.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "NVIDIA and Google Cloud collaborate to advance agentic and physical AI for production use.",
+      "why_matters": "This collaboration could enhance the deployment of AI systems in real-world applications.",
+      "connection": "The collaboration aligns with Prof. Liu's interests in cloud-edge coordination and AI systems deployment.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to cloud-edge AI deployment and industry trends.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 5.0,
         "recency": 10.0
       }
     },
@@ -1237,6 +1322,34 @@
       }
     },
     {
+      "id": "hash:dcf1175385413449",
+      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
+      "link": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
+      "date": "2026-05-05T16:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Microsoft Research"
+      ],
+      "image_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/NSDI2026-BlogHeroFeature-1400x788-1.jpg",
+      "score": 55.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems intersecting with AI.",
+      "why_matters": "This work highlights advancements in distributed systems that could enhance AI applications.",
+      "connection": "The focus on large-scale distributed systems aligns with Prof. Liu's interests in cloud-edge coordination and AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to distributed systems and AI, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:2461137acf1a1b03",
       "title": "Closing the latency gap: Why physical AI requires edge-first architectures",
       "link": "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/",
@@ -1347,6 +1460,34 @@
         "proposal_value": 4.0,
         "student_value": 5.0,
         "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:009f681db02e81e3",
+      "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
+      "link": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
+      "date": "2026-04-20T23:01:04+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp",
+      "score": 55.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "The article discusses maximizing memory efficiency for deploying larger AI models on NVIDIA Jetson devices.",
+      "why_matters": "Improving memory efficiency is crucial for deploying AI models in real-time applications, especially in edge computing.",
+      "connection": "This aligns with Prof. Liu's focus on edge AI deployment and hardware/software co-design for inference.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to edge AI deployment and memory efficiency for real-time systems.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -1491,6 +1632,34 @@
       }
     },
     {
+      "id": "hash:f25f5d862469055d",
+      "title": "Scaling the AI-Ready Data Center with NVIDIA RTX PRO 4500 Blackwell Server Edition and NVIDIA vGPU 20",
+      "link": "https://developer.nvidia.com/blog/scaling-the-ai-ready-data-center-with-nvidia-rtx-pro-4500-blackwell-server-edition-and-nvidia-vgpu-20/",
+      "date": "2026-04-22T20:30:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/nvidia-blackwell-gpu.webp",
+      "score": 54.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "NVIDIA's new RTX PRO 4500 Blackwell Server Edition enhances AI integration in enterprise applications.",
+      "why_matters": "This development could improve AI infrastructure for real-time applications.",
+      "connection": "The new hardware aligns with Prof. Liu's focus on AI accelerators and systems for autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI hardware advancements impacting autonomy systems.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:a23e4ab448f6e461",
       "title": "Robotics Institute Launches Next Phase of Vision-Language-Navigation Challenge",
       "link": "https://www.ri.cmu.edu/next-phase-of-vision-language-navigation-challenge/",
@@ -1571,6 +1740,63 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:c2ce3792ba1af5dc",
+      "title": "AI Agent Designs a RISC-V CPU Core From Scratch",
+      "link": "https://spectrum.ieee.org/ai-chip-design",
+      "date": "2026-04-22T11:00:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — AI",
+        "rss:IEEE Spectrum — Semiconductors"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=65519356&width=1200&height=600&coordinates=0%2C21%2C0%2C479",
+      "score": 53.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "Verkor.io claims to have designed a RISC-V CPU core entirely by an AI agent.",
+      "why_matters": "This showcases advancements in AI-driven chip design, potentially impacting hardware for AI systems.",
+      "connection": "The development of AI-designed hardware could influence AI accelerators and co-design efforts in Prof. Liu's research.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI hardware design and potential implications for AI systems.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:bd0ea4f103c0415f",
+      "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
+      "link": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
+      "date": "2026-04-24T16:30:02+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Robotics"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=65961797&width=1200&height=600&coordinates=0%2C121%2C0%2C121",
+      "score": 52.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "The video showcases various robotics advancements, including a robot competing in ping-pong and a novel monocycle robot.",
+      "why_matters": "These developments highlight the progress in robotics and AI's application in competitive environments.",
+      "connection": "The advancements in robotics relate to Prof. Liu's interests in autonomous systems and real-time performance.",
+      "proposal_angle": "",
+      "student_project": "The ping-pong robot competition could inspire projects on real-time control and perception in robotics.",
+      "rationale": "Relevant to robotics and AI applications, with potential implications for student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 5.0,
         "recency": 10.0
       }
     },
@@ -2024,6 +2250,34 @@
       }
     },
     {
+      "id": "hash:4b83c36f2a460ee6",
+      "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints",
+      "link": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/",
+      "date": "2026-04-24T23:29:56+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/ai-model-representation-2.webp",
+      "score": 49.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "DeepSeek launched its fourth generation of models aimed at efficient AI model representation.",
+      "why_matters": "These models could enhance GPU-accelerated endpoints for AI applications.",
+      "connection": "The focus on efficient AI model representation aligns with Prof. Liu's interests in AI accelerators and hardware/software co-design.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to hardware acceleration and efficiency in AI systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.26779",
       "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
       "link": "https://arxiv.org/abs/2604.26779",
@@ -2049,6 +2303,34 @@
         "student_value": 5.0,
         "testbed_value": 0.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:d08b84425f426316",
+      "title": "Building for the Rising Complexity of Agentic Systems with Extreme Co-Design",
+      "link": "https://developer.nvidia.com/blog/building-for-the-rising-complexity-of-agentic-systems-with-extreme-co-design/",
+      "date": "2026-05-05T15:52:15+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
+      "score": 48.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The article discusses the evolution of generative AI towards more complex agentic systems requiring extreme co-design.",
+      "why_matters": "It highlights the shift in AI systems design, which could influence future research directions.",
+      "connection": "The focus on agentic systems may intersect with Prof. Liu's interests in real-time AI and collaborative computing.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to evolving AI systems, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
       }
     },
     {
@@ -2136,6 +2418,34 @@
       }
     },
     {
+      "id": "hash:ca721eca330cd010",
+      "title": "Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move",
+      "link": "https://spectrum.ieee.org/chinese-robots-us-ban",
+      "date": "2026-04-22T12:00:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Robotics"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=65566471&width=1200&height=600&coordinates=0%2C250%2C0%2C250",
+      "score": 48.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The American Security Robotics Act proposes to limit U.S. government use of Chinese ground robots for national security reasons.",
+      "why_matters": "This legislation reflects growing U.S. concerns about tech security related to Chinese robotics.",
+      "connection": "The proposed ban on Chinese robots aligns with safety and security concerns in AI-enabled autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to U.S. tech sovereignty and implications for robotics in defense.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:fd9c1837e24424e2",
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
@@ -2210,6 +2520,90 @@
       "proposal_angle": "",
       "student_project": "",
       "rationale": "Relevant to computing systems, with potential implications for AI workload performance.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:c822fcc6b96e864d",
+      "title": "Federated Learning Without the Refactoring Overhead Using NVIDIA FLARE",
+      "link": "https://developer.nvidia.com/blog/federated-learning-without-the-refactoring-overhead-using-nvidia-flare/",
+      "date": "2026-04-24T15:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2023/06/connected-healthcare-facilities-graphic.jpg",
+      "score": 47.5,
+      "category": "Funding & Programs",
+      "action": "Track",
+      "summary": "Federated learning is now a practical solution for handling valuable but immovable data.",
+      "why_matters": "Federated learning addresses data privacy and accessibility challenges in AI applications.",
+      "connection": "Federated learning could enhance edge AI deployment strategies by enabling data utilization without centralization.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to edge AI and data handling, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:17a5e052c7ac3827",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "link": "https://deepmind.google/blog/decoupled-diloco/",
+      "date": "2026-04-22T10:20:03+00:00",
+      "type": "News",
+      "sources": [
+        "rss:DeepMind Blog"
+      ],
+      "image_url": "",
+      "score": 47.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "Decoupled DiLoCo presents a new approach for resilient and distributed AI training.",
+      "why_matters": "This approach could enhance the robustness of AI systems, which is crucial for safety-critical applications.",
+      "connection": "The focus on resilient AI training may intersect with Prof. Liu's interests in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to distributed AI training, but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:fd7f561baee6d1e7",
+      "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
+      "link": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
+      "date": "2026-04-20T22:52:15+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp",
+      "score": 47.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "Reinforcement learning is evolving with end-to-end FP8 precision for high-throughput training.",
+      "why_matters": "This advancement in RL training could enhance AI model performance but lacks direct relevance to autonomy systems.",
+      "connection": "The focus on reinforcement learning may intersect with Prof. Liu's interests in real-time AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI models but lacks direct application to autonomy systems.",
       "dimensions": {
         "topical": 5.0,
         "novelty": 6.0,
@@ -2388,6 +2782,34 @@
       }
     },
     {
+      "id": "hash:641cd3b73f106e4a",
+      "title": "OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
+      "link": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+      "date": "2026-04-23T18:57:55+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Research"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png",
+      "score": 44.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "OpenAI's Codex is now powered by GPT-5.5 on NVIDIA's infrastructure, enhancing developer workflows and knowledge work.",
+      "why_matters": "This development showcases advancements in AI models that could influence future applications in various fields.",
+      "connection": "The integration of advanced AI models like GPT-5.5 could impact real-time AI applications in autonomy systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI models but lacks direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.27818",
       "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
       "link": "https://arxiv.org/abs/2604.27818",
@@ -2524,6 +2946,34 @@
         "proposal_value": 5.0,
         "student_value": 0.0,
         "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:daa07dc427838ad2",
+      "title": "The USC Professor Who Pioneered Socially Assistive Robotics",
+      "link": "https://spectrum.ieee.org/socially-assistive-robotics",
+      "date": "2026-04-20T18:00:02+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Robotics"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/a-smiling-blonde-woman-poses-with-a-humanoid-robotic-torso-wearing-a-usc-sweatshirt.jpg?id=65574156&width=1200&height=600&coordinates=0%2C250%2C0%2C250",
+      "score": 44.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Maja Matarić developed socially assistive robots to provide therapy and care through social interactions.",
+      "why_matters": "This work highlights the potential of robotics in mental health support, relevant to autonomy applications.",
+      "connection": "The focus on socially assistive robotics intersects with Prof. Liu's interest in autonomous systems and safety-critical applications.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and autonomy, but lacks direct systems implications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 5.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 2.0,
         "recency": 10.0
       }
     },
@@ -2809,6 +3259,34 @@
       }
     },
     {
+      "id": "hash:b5a04248b920b6c4",
+      "title": "Learning Long-Term Motion Embeddings for Efficient Kinematics Generation",
+      "link": "https://machinelearning.apple.com/research/long-term-motion-embeddings",
+      "date": "2026-04-24T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 41.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "The research focuses on efficient generation of long, realistic motions using learned long-term motion embeddings.",
+      "why_matters": "This work could enhance motion prediction in robotics, but lacks direct relevance to autonomy systems.",
+      "connection": "The focus on motion generation relates to robotics, but does not directly address the autonomy systems agenda.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on motion generation in robotics.",
+      "rationale": "Relevant to robotics but not directly applicable to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 0.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.02834",
       "title": "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition",
       "link": "https://arxiv.org/abs/2605.02834v1",
@@ -2862,6 +3340,62 @@
         "student_value": 5.0,
         "testbed_value": 0.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:73a0651525fa6bb5",
+      "title": "Human drivers keep crashing into Waymos",
+      "link": "https://www.understandingai.org/p/human-drivers-keep-crashing-into-454",
+      "date": "2026-04-22T22:49:44+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Understanding AI (Tim Lee)"
+      ],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!NeE0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F057758dd-2480-42e8-836b-366bb41f87e7_1000x562.png",
+      "score": 40.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Waymo's biggest mistakes occurred when its vehicles stopped in inappropriate locations.",
+      "why_matters": "This highlights challenges in autonomous vehicle safety and human interaction.",
+      "connection": "The issues raised relate to safety-critical AI and real-time decision-making in autonomous systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety and operational challenges in autonomous vehicles.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 3.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:371aef60100ffdef",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "date": "2026-04-22T10:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:OpenAI Blog"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&amp;h=900&amp;fit=fill",
+      "score": 40.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "The article discusses improvements in model latency using WebSockets and caching in the Codex agent loop.",
+      "why_matters": "Improving model latency can enhance real-time performance in AI systems.",
+      "connection": "This relates to Prof. Liu's interest in latency-critical perception pipelines and real-time AI systems.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on latency mitigation for edge DNN inference.",
+      "rationale": "Relevant to latency improvements in AI systems, but lacks direct application to proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
       }
     },
     {
@@ -2977,6 +3511,62 @@
       }
     },
     {
+      "id": "hash:fec23d6f20344979",
+      "title": "ABB Robotics launches PoWa cobot family targeting industrial tasks",
+      "link": "https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/",
+      "date": "2026-04-25T13:00:56+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/ABB-powa-family-featured.jpg",
+      "score": 39.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "ABB Robotics launches a new family of cobots aimed at industrial tasks.",
+      "why_matters": "This development addresses a gap in the market for collaborative robots.",
+      "connection": "The new cobots could potentially enhance collaborative robotics in autonomy systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics but lacks direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.23426",
+      "title": "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
+      "link": "https://arxiv.org/abs/2604.23426",
+      "date": "2026-04-24T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.23426v1/ardic1.png",
+      "score": 39.0,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "The paper presents methods to enhance privacy and communication efficiency in federated learning using adaptive quantization and differential privacy.",
+      "why_matters": "Improving federated learning can enhance data privacy and efficiency, which is crucial for AI applications.",
+      "connection": "The focus on privacy and efficiency in federated learning has implications for real-time AI systems, though it lacks direct relevance to autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to autonomy systems and current proposals.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 2.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "hash:100f7b4adf0b3543",
       "title": "Teradyne Robotics revenue rises at the start of 2026",
       "link": "https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/",
@@ -3087,6 +3677,62 @@
         "student_value": 3.0,
         "testbed_value": 5.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2604.21523",
+      "title": "Seeing Isn't Believing: Uncovering Blind Spots in Evaluator Vision-Language Models",
+      "link": "https://arxiv.org/abs/2604.21523",
+      "date": "2026-04-22T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.21523v1/figures/hero.png",
+      "score": 38.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "This paper evaluates the reliability of Vision-Language Models in image-to-text and text-to-image tasks, revealing significant blind spots.",
+      "why_matters": "Understanding the limitations of VLMs is crucial for their effective deployment in AI systems.",
+      "connection": "The findings on VLM reliability could inform safety-critical AI systems, but the focus is not directly aligned with autonomy systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to the autonomy systems focus.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:82a05dcb4c2be21e",
+      "title": "One-way attack drones under the spotlight at SAHA 2026",
+      "link": "https://breakingdefense.com/2026/05/one-way-attack-drones-under-the-spotlight-at-saha-2026/",
+      "date": "2026-05-05T16:32:41+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Breaking Defense"
+      ],
+      "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/05/f1c55591-a482-43b6-b4be-ad15ea9fe2af.jpg",
+      "score": 38.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Turkish firms showcased two naval vessels and three aerial systems at the SAHA 2026 exposition.",
+      "why_matters": "This event highlights advancements in drone technology, relevant for military applications.",
+      "connection": "The focus on aerial systems may intersect with Prof. Liu's interests in autonomous mobile robots and safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Event showcases relevant advancements in drone technology for military applications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 1.0,
+        "recency": 10.0
       }
     },
     {
@@ -3650,6 +4296,34 @@
       }
     },
     {
+      "id": "hash:6fb2791cdf884404",
+      "title": "The United States Is Repeating Its Silicon Mistake with Gallium Nitride",
+      "link": "https://warontherocks.com/cogs-of-war/the-united-states-is-repeating-its-silicon-mistake-with-gallium-nitride/",
+      "date": "2026-04-21T08:00:13+00:00",
+      "type": "News",
+      "sources": [
+        "rss:War on the Rocks"
+      ],
+      "image_url": "https://warontherocks.com/wp-content/uploads/2026/04/54277783994_bf7d9b45a6_o-1.jpg?v=1776719315",
+      "score": 37.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The U.S. faces a critical reliance on gallium, essential for future microchips, amid export bans from China.",
+      "why_matters": "This situation highlights vulnerabilities in semiconductor supply chains crucial for AI and autonomy technologies.",
+      "connection": "The article discusses semiconductor supply chains, relevant to hardware/software co-design for inference in autonomy systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Supply chain issues impact AI hardware development, relevant for future proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "arxiv:2605.00517",
       "title": "PhysiGen: Integrating Collision-Aware Physical Constraints for High-Fidelity Human-Human Interaction Generation",
       "link": "https://arxiv.org/abs/2605.00517v1",
@@ -3791,6 +4465,62 @@
       }
     },
     {
+      "id": "arxiv:2604.22868",
+      "title": "Probing Visual Planning in Image Editing Models",
+      "link": "https://arxiv.org/abs/2604.22868",
+      "date": "2026-04-22T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.22868v1/x1.png",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "This paper introduces an editing-as-reasoning paradigm for visual planning in image editing models.",
+      "why_matters": "It addresses computational inefficiencies in visual planning, which is relevant for AI systems.",
+      "connection": "The focus on visual reasoning may intersect with the researcher’s interests in perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to autonomy systems and safety-critical AI.",
+      "dimensions": {
+        "topical": 2.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:1d0697263041190a",
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "link": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "date": "2026-05-05T17:00:40+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Research"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
+      "score": 36.0,
+      "category": "Industry & Research Updates",
+      "action": "Ignore",
+      "summary": "NVIDIA and ServiceNow are developing autonomous AI agents for enterprise environments to perform complex tasks.",
+      "why_matters": "This partnership highlights advancements in AI capabilities for enterprise applications, but lacks direct relevance to autonomy systems.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to the researcher's focus on safety-critical AI and autonomy systems.",
+      "dimensions": {
+        "topical": 4.0,
+        "novelty": 5.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:fa11852f28dd79a8",
       "title": "Launchpad Build AI offers MLM to speed industrial automation design",
       "link": "https://www.therobotreport.com/launchpad-build-ai-offers-manufacturing-language-model-industrial-automation/",
@@ -3827,7 +4557,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.23758.png",
+      "image_url": "https://arxiv.org/html/2604.23758v1/x1.png",
       "score": 35.5,
       "category": "Sensing, Perception & Materials",
       "action": "Ignore",
@@ -3855,7 +4585,7 @@
       "sources": [
         "rss:HuggingFace Blog"
       ],
-      "image_url": "",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence.png",
       "score": 35.5,
       "category": "AI Models & Algorithms",
       "action": "Ignore",
@@ -3872,6 +4602,34 @@
         "student_value": 3.0,
         "testbed_value": 1.0,
         "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:f16e9f503525902d",
+      "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
+      "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/",
+      "date": "2026-04-26T13:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/04/ghostrobotics-featured.jpg",
+      "score": 35.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Gavin Kenneally will share lessons from 10 years of deploying quadruped robots at the Robotics Summit.",
+      "why_matters": "Insights from a decade of legged robot deployment could inform future robotics developments.",
+      "connection": "The focus on quadruped robots relates to the broader field of robotics and embodied AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant insights on robotics but limited direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 3.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 2.0,
+        "recency": 8.0
       }
     },
     {
