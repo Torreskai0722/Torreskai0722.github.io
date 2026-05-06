@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T13:22:48-04:00",
+  "updated_at": "2026-05-05T21:54:45-04:00",
   "mode": "daily",
   "items": [
     {
@@ -1042,6 +1042,34 @@
       }
     },
     {
+      "id": "arxiv:2604.09408",
+      "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+      "link": "https://arxiv.org/abs/2604.09408",
+      "date": "2026-04-28T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.09408v1/x1.png",
+      "score": 59.0,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Discuss with student",
+      "summary": "HiL-Bench measures agents' ability to know when to ask for help in ambiguous situations.",
+      "why_matters": "It highlights a critical gap in agent performance that could impact real-world applications.",
+      "connection": "The focus on agent decision-making aligns with Prof. Liu's interest in safety-critical AI and real-time systems.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on real-time decision-making in autonomy systems.",
+      "rationale": "The benchmark's focus on decision-making is relevant to safety-critical AI applications.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:4c8a1ddf3982b3e9",
       "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
       "link": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
@@ -1126,6 +1154,34 @@
       }
     },
     {
+      "id": "arxiv:2605.03941",
+      "title": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+      "link": "https://arxiv.org/abs/2605.03941",
+      "date": "2026-05-04T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.03941v1/x1.png",
+      "score": 57.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "The paper proposes iWorld-Bench, a benchmark for evaluating interactive world models in perception and action.",
+      "why_matters": "This benchmark addresses the need for standardized evaluation of world models, crucial for advancing AGI.",
+      "connection": "The focus on interactive world models aligns with the researcher's interest in multi-agent autonomy and perception.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on evaluating perception capabilities in autonomy systems.",
+      "rationale": "The benchmark is relevant for testing models in autonomy, though not directly aligned with current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 8.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.02844",
       "title": "(POSTER) From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
       "link": "https://arxiv.org/abs/2605.02844v1",
@@ -1144,6 +1200,34 @@
       "proposal_angle": "",
       "student_project": "The methodology could support student projects on edge AI deployment and workflow optimization.",
       "rationale": "The paper's focus on sensor applications is relevant to ongoing student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 7.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2605.02291",
+      "title": "A Hybrid Approach for Closing the Sim2real Appearance Gap in Game Engine Synthetic Datasets",
+      "link": "https://arxiv.org/abs/2605.02291",
+      "date": "2026-05-03T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.02291v1/flowchart_small_2.png",
+      "score": 57.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Discuss with student",
+      "summary": "The paper proposes a hybrid approach to enhance the photorealism of synthetic datasets for real-world applications.",
+      "why_matters": "Improving synthetic dataset realism can enhance training for AI systems deployed in real-world scenarios.",
+      "connection": "The work relates to enhancing perception pipelines for autonomous systems by improving dataset quality.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on robust perception pipelines and multimodal fusion.",
+      "rationale": "The hybrid approach could inform student projects on improving dataset realism for autonomy.",
       "dimensions": {
         "topical": 5.0,
         "novelty": 6.0,
@@ -1604,6 +1688,34 @@
       }
     },
     {
+      "id": "hash:6ec4e54f22c0926a",
+      "title": "Tutor Intelligence builds Data Factory to train robot AI in the real world",
+      "link": "https://www.therobotreport.com/tutor-intelligence-builds-data-factory-to-train-robot-ai-in-the-real-world/",
+      "date": "2026-05-05T20:04:24+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/Tutor_DF1.jpg",
+      "score": 54.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Tutor Intelligence is operating 100 Sonny semi-humanoid robots to train AI in real-world environments.",
+      "why_matters": "This initiative could enhance real-world training for robotic AI systems.",
+      "connection": "The focus on training robots aligns with Prof. Liu's interests in autonomous systems and real-time AI.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on real-time AI training for robotics.",
+      "rationale": "Relevant to robotics and real-world AI training, with potential for student involvement.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 5.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00347",
       "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
       "link": "https://arxiv.org/abs/2605.00347",
@@ -1768,6 +1880,62 @@
         "proposal_value": 5.0,
         "student_value": 5.0,
         "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:b9f3a4506cf7cc75",
+      "title": "DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute",
+      "link": "https://cset.georgetown.edu/article/dod-expands-its-classified-ai-work-with-8-companies-excluding-anthropic-amid-ongoing-dispute/",
+      "date": "2026-05-01T21:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CSET (Georgetown)"
+      ],
+      "image_url": "https://cset.georgetown.edu/wp-content/uploads/CSET-NEWS-PENTAGON-1-scaled.webp",
+      "score": 53.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The Pentagon is expanding its classified AI efforts with eight companies, excluding Anthropic, amid ongoing disputes.",
+      "why_matters": "This expansion indicates a significant shift in military AI integration and partnerships.",
+      "connection": "The focus on AI capabilities aligns with the researcher's interest in safety-critical AI for defense systems.",
+      "proposal_angle": "This could inform proposals related to real-time AI for defense systems under ONR/AFOSR/ARO.",
+      "student_project": "",
+      "rationale": "Relevant to military AI integration and potential funding opportunities.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 5.0,
+        "proposal_value": 7.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:9289c608a5c52117",
+      "title": "US military reaches deals with 7 tech companies to use their AI on classified systems",
+      "link": "https://cset.georgetown.edu/article/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/",
+      "date": "2026-05-01T21:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CSET (Georgetown)"
+      ],
+      "image_url": "https://cset.georgetown.edu/wp-content/uploads/CSET-NEWS-PENTAGON-scaled.webp",
+      "score": 53.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The Pentagon has agreements with seven tech companies to integrate AI into classified military systems.",
+      "why_matters": "This expansion of AI in military operations could influence future defense-related AI proposals.",
+      "connection": "The agreements align with Prof. Liu's interests in real-time AI for safety-critical systems and military applications.",
+      "proposal_angle": "This could inform proposals related to real-time AI for defense systems under ONR or AFOSR.",
+      "student_project": "",
+      "rationale": "Relevant to military applications of AI, impacting future funding and proposal strategies.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 5.0,
+        "proposal_value": 7.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -2642,6 +2810,34 @@
       }
     },
     {
+      "id": "arxiv:2605.01428",
+      "title": "Hallucinations Undermine Trust; Metacognition is a Way Forward",
+      "link": "https://arxiv.org/abs/2605.01428",
+      "date": "2026-05-01T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.01428v1/x1.png",
+      "score": 47.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "The paper discusses how metacognition can help LLMs manage hallucinations and improve trustworthiness.",
+      "why_matters": "Understanding and managing hallucinations in AI is crucial for safety-critical applications.",
+      "connection": "The focus on trust and uncertainty in AI aligns with the researcher's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Addresses trust issues in AI, relevant to safety-critical systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:b81e740992293d15",
       "title": "Top 10 robotics stories of April 2026",
       "link": "https://www.therobotreport.com/top-10-robotics-stories-april-2026/",
@@ -2810,6 +3006,34 @@
       }
     },
     {
+      "id": "hash:c067ce9b372c7669",
+      "title": "WaiV Robotics emerges from stealth to help drones take off and land at sea",
+      "link": "https://www.therobotreport.com/waiv-robotics-emerges-from-stealth-help-drones-take-off-land-at-sea/",
+      "date": "2026-05-05T21:15:39+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/WaiV-Platform-Studio-Large-featured.jpg",
+      "score": 46.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "WaiV Robotics has secured $7.5 million to develop a drone landing system for maritime operations.",
+      "why_matters": "This development could enhance drone capabilities in challenging environments like sea operations.",
+      "connection": "The focus on drone technology aligns with Prof. Liu's interest in autonomous systems and robotics.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to autonomy systems but lacks direct connection to current proposals or student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.02841",
       "title": "TRACE: Temporal Reasoning over Context and Evidence for Activity Recognition in Smart Homes",
       "link": "https://arxiv.org/abs/2605.02841v1",
@@ -2890,6 +3114,34 @@
         "proposal_value": 3.0,
         "student_value": 5.0,
         "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:c08578dcb8ce682f",
+      "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
+      "link": "https://machinelearning.apple.com/research/stochastic-kv-routing",
+      "date": "2026-05-05T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 44.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "This work proposes a method to optimize memory requirements for caching Key-Values in transformer language models.",
+      "why_matters": "Optimizing memory usage can improve efficiency in AI model serving, which is relevant for real-time applications.",
+      "connection": "The focus on optimizing memory for AI models relates to Prof. Liu's interests in hardware/software co-design for inference.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI model efficiency, but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -3398,6 +3650,34 @@
       }
     },
     {
+      "id": "arxiv:2605.03596",
+      "title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+      "link": "https://arxiv.org/abs/2605.03596",
+      "date": "2026-05-04T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.03596v1/x1.png",
+      "score": 41.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "Workspace-Bench evaluates AI agents on tasks involving large-scale file dependencies in realistic workspaces.",
+      "why_matters": "This benchmark addresses a gap in evaluating AI agents' performance in real-world scenarios.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Benchmarking AI agents in realistic scenarios could inform future systems research.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.28169",
       "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
       "link": "https://arxiv.org/abs/2604.28169",
@@ -3423,6 +3703,34 @@
         "proposal_value": 2.0,
         "student_value": 3.0,
         "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27776",
+      "title": "WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments",
+      "link": "https://arxiv.org/abs/2604.27776",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2604.27776v1/x1.png",
+      "score": 41.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "WindowsWorld is a benchmark for assessing GUI agents in complex multi-application workflows.",
+      "why_matters": "It addresses the need for evaluating AI agents in real-world, multi-application scenarios.",
+      "connection": "The benchmark could inform the development of more robust AI systems for autonomy applications.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The benchmark has potential applications in evaluating AI systems for real-world tasks.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 7.0,
         "recency": 10.0
       }
     },
@@ -4152,6 +4460,34 @@
         "proposal_value": 3.0,
         "student_value": 2.0,
         "testbed_value": 1.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:b0e7d5c93d9cf1dd",
+      "title": "The AI arms race’s sneakiest tactic",
+      "link": "https://cset.georgetown.edu/article/the-ai-arms-races-sneakiest-tactic/",
+      "date": "2026-04-29T21:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CSET (Georgetown)"
+      ],
+      "image_url": "https://cset.georgetown.edu/wp-content/uploads/CSET-NEWS-AI-Superpowers.png",
+      "score": 38.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The article discusses concerns over China's use of distillation techniques to replicate U.S. AI capabilities and the national security implications.",
+      "why_matters": "This issue highlights the competitive landscape of AI and its implications for national security.",
+      "connection": "The topic relates to the broader implications of AI technology in safety-critical systems and national security.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to national security implications of AI, which may influence funding and proposal strategies.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
