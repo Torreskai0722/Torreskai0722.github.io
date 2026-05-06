@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T21:54:45-04:00",
+  "updated_at": "2026-05-06T09:49:44-04:00",
   "mode": "daily",
   "items": [
     {
@@ -229,6 +229,34 @@
       }
     },
     {
+      "id": "arxiv:2605.01371",
+      "title": "ESARBench: A Benchmark for Agentic UAV Embodied Search and Rescue",
+      "link": "https://arxiv.org/abs/2605.01371",
+      "date": "2026-05-01T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.01371v1/x1.png",
+      "score": 70.5,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "ESARBench is a benchmark for evaluating MLLM-driven UAVs in embodied search and rescue tasks.",
+      "why_matters": "It provides a comprehensive evaluation framework for UAVs in critical rescue operations.",
+      "connection": "The focus on UAVs and real-world scenarios aligns with Prof. Liu's interests in autonomous systems and safety-critical applications.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "High relevance as a benchmark for UAVs in safety-critical scenarios.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 9.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2604.28197",
       "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
       "link": "https://arxiv.org/abs/2604.28197v1",
@@ -421,6 +449,34 @@
         "proposal_value": 8.0,
         "student_value": 6.0,
         "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:dcce2527e3f427dc",
+      "title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
+      "link": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+      "date": "2026-05-06T11:30:20+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Research"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/ethernet-press-spectrum-x-corp-blog-1920x1080-1.jpg",
+      "score": 66.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "NVIDIA Spectrum-X Ethernet infrastructure is designed to support the demands of advanced AI networking technology.",
+      "why_matters": "This technology is crucial for high-performance AI systems, impacting real-time data processing and collaboration.",
+      "connection": "The focus on advanced networking aligns with Prof. Liu's interest in cloud-edge coordination and AI accelerators.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI networking for real-time systems and edge AI deployment.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 4.0,
         "recency": 10.0
       }
     },
@@ -1070,6 +1126,34 @@
       }
     },
     {
+      "id": "arxiv:2605.00891",
+      "title": "X2SAM: Any Segmentation in Images and Videos",
+      "link": "https://arxiv.org/abs/2605.00891",
+      "date": "2026-04-26T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.00891v1/x1.png",
+      "score": 59.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "X2SAM is a unified segmentation MLLM for images and videos that supports interactive visual prompts.",
+      "why_matters": "It enhances segmentation capabilities in AI systems, which is crucial for real-time perception in autonomous applications.",
+      "connection": "The paper's focus on segmentation aligns with the researcher's interest in latency-critical perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "The project could fit into the thrust on sensing and multimodal fusion at the edge.",
+      "rationale": "Relevant for perception in autonomous systems and aligns with student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:4c8a1ddf3982b3e9",
       "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
       "link": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
@@ -1122,6 +1206,34 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.01466",
+      "title": "SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion",
+      "link": "https://arxiv.org/abs/2605.01466",
+      "date": "2026-05-01T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.01466v1/x1.png",
+      "score": 58.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Discuss with student",
+      "summary": "SplAttN improves point cloud completion by using Gaussian Splatting for better cross-modal connections.",
+      "why_matters": "This method enhances multi-modal learning, which is crucial for perception in autonomous systems.",
+      "connection": "The paper's focus on point cloud completion relates to the researcher's interest in robust perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "This work could inform student projects on multimodal perception and robust pipelines.",
+      "rationale": "The paper's advancements in perception are relevant to ongoing student research.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 5.0,
         "recency": 10.0
       }
     },
@@ -1347,6 +1459,63 @@
         "student_value": 5.0,
         "testbed_value": 6.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:7fee3b6eeed72024",
+      "title": "Ten Technology Enablers Shaping the Future of 6G Wireless",
+      "link": "https://content.knowledgehub.wiley.com/ten-key-enablers-for-6g-wireless-communications/",
+      "date": "2026-05-06T10:00:02+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — AI",
+        "rss:IEEE Spectrum — Semiconductors"
+      ],
+      "image_url": "https://content.knowledgehub.wiley.com/wp-content/uploads/2026/04/6G_1500x400-500x133.jpg",
+      "score": 56.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The article discusses ten technological components that will define 6G wireless networks, including AI/ML and reconfigurable intelligent surfaces.",
+      "why_matters": "These technologies could enhance communication and sensing capabilities, impacting future AI and robotics systems.",
+      "connection": "The focus on AI/ML and low-latency communication aligns with Prof. Liu's interests in edge AI deployment and real-time systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to future AI and robotics systems, especially in communication and sensing.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.04003",
+      "title": "Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing",
+      "link": "https://arxiv.org/abs/2605.04003v1",
+      "date": "2026-05-05T17:24:53Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04003v1/x1.png",
+      "score": 56.0,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "MAKA is a multi-agent decision-support architecture that enhances risk-aware human decision-making in CNC machining through improved tool execution and traceability.",
+      "why_matters": "It provides a framework for risk-aware decision-making in manufacturing, which could inform safety-critical AI applications.",
+      "connection": "The focus on risk-aware decision-making aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The architecture's focus on safety and decision support is relevant to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
       }
     },
     {
@@ -1884,6 +2053,34 @@
       }
     },
     {
+      "id": "arxiv:2605.04044",
+      "title": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D",
+      "link": "https://arxiv.org/abs/2605.04044v1",
+      "date": "2026-05-05T17:58:53Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04044v1/x2.png",
+      "score": 53.0,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "UniCorrn is a unified correspondence model for geometric matching across 2D and 3D tasks using shared weights and Transformer attention.",
+      "why_matters": "This work advances 3D vision tasks, which could enhance perception systems in autonomous applications.",
+      "connection": "The focus on geometric matching may support perception pipelines in autonomous systems, aligning with the researcher's interests.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on latency-critical perception pipelines by improving 3D vision capabilities.",
+      "rationale": "Relevant to perception in autonomy, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:b9f3a4506cf7cc75",
       "title": "DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute",
       "link": "https://cset.georgetown.edu/article/dod-expands-its-classified-ai-work-with-8-companies-excluding-anthropic-amid-ongoing-dispute/",
@@ -2025,6 +2222,62 @@
       }
     },
     {
+      "id": "arxiv:2605.03042",
+      "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+      "link": "https://arxiv.org/abs/2605.03042",
+      "date": "2026-05-03T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.03042v1/x2.png",
+      "score": 52.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "ARIS is an open-source research harness for coordinating autonomous research workflows through adversarial collaboration among models.",
+      "why_matters": "It addresses the challenges of ensuring evidence-based claims in long-horizon research workflows.",
+      "connection": "The focus on autonomous research workflows could intersect with Prof. Liu's interests in AI systems and safety-critical applications.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The paper presents a novel approach to autonomous research, relevant but not directly aligned with core autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.02801",
+      "title": "Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces",
+      "link": "https://arxiv.org/abs/2605.02801",
+      "date": "2026-05-03T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.02801.png",
+      "score": 52.5,
+      "category": "AI Models & Algorithms",
+      "action": "Discuss with student",
+      "summary": "This paper explores reinforcement learning for coordinating LLM-based multi-agent systems through orchestration traces.",
+      "why_matters": "It addresses the optimization of multi-agent interactions, which is relevant for collaborative AI systems.",
+      "connection": "The focus on multi-agent systems could intersect with Prof. Liu's interests in collaborative computing and autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The paper's focus on multi-agent systems may inspire student projects on collaborative AI.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:bd0ea4f103c0415f",
       "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
       "link": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
@@ -2049,6 +2302,34 @@
         "proposal_value": 4.0,
         "student_value": 5.0,
         "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.03992",
+      "title": "HyParLyVe: Hyperplane Partitioning for Neural Lyapunov Verification",
+      "link": "https://arxiv.org/abs/2605.03992v1",
+      "date": "2026-05-05T17:13:32Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.03992v1/figures/hidden_neurons.png",
+      "score": 51.5,
+      "category": "Safety, CPS & Verification",
+      "action": "Track",
+      "summary": "HyParLyVe is a novel algorithm for verifying neural Lyapunov candidates using hyperplane arrangements.",
+      "why_matters": "This work could enhance verification methods for safety-critical AI systems.",
+      "connection": "The focus on verification aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety verification in autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -2156,6 +2437,34 @@
       "proposal_angle": "",
       "student_project": "",
       "rationale": "The paper's focus on visual perception could intersect with autonomy systems, warranting further exploration.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.28123",
+      "title": "Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL",
+      "link": "https://arxiv.org/abs/2604.28123",
+      "date": "2026-04-30T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://ar5iv.labs.arxiv.org/html/2604.28123/assets/x1.png",
+      "score": 51.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "PRISM introduces a three-stage pipeline to mitigate distributional drift in multimodal reinforcement learning.",
+      "why_matters": "It addresses challenges in multimodal reasoning, which could impact AI systems' performance.",
+      "connection": "The focus on multimodal reasoning could intersect with Prof. Liu's interests in latency-critical perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to multimodal AI but lacks direct systems implications.",
       "dimensions": {
         "topical": 5.0,
         "novelty": 7.0,
@@ -2386,6 +2695,62 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 0.0,
+        "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2605.04019",
+      "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
+      "link": "https://arxiv.org/abs/2605.04019v1",
+      "date": "2026-05-05T17:43:52Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04019v1/figures/airt-platform-analytics-charts.png",
+      "score": 49.5,
+      "category": "Safety, CPS & Verification",
+      "action": "Track",
+      "summary": "The paper introduces an AI red teaming agent that streamlines the workflow for probing AI systems for vulnerabilities.",
+      "why_matters": "It addresses the critical need for efficient security testing in AI systems, which is vital for safety-critical applications.",
+      "connection": "The focus on safety vulnerabilities aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety-critical AI but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.03986",
+      "title": "From Intent to Execution: Composing Agentic Workflows with Agent Recommendation",
+      "link": "https://arxiv.org/abs/2605.03986v1",
+      "date": "2026-05-05T17:08:26Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.03986v1/x1.png",
+      "score": 49.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "This paper presents a framework for automating the creation of multi-agent systems using AI agents.",
+      "why_matters": "Automating multi-agent system composition can enhance efficiency and scalability in AI applications.",
+      "connection": "The focus on multi-agent systems intersects with Prof. Liu's interests in collaborative computing and autonomy.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The framework's automation aspect aligns with collaborative AI systems, relevant to ongoing research.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 3.0,
         "recency": 8.0
       }
     },
@@ -3090,6 +3455,34 @@
       }
     },
     {
+      "id": "arxiv:2605.04045",
+      "title": "Audio-Visual Intelligence in Large Foundation Models",
+      "link": "https://arxiv.org/abs/2605.04045v1",
+      "date": "2026-05-05T17:59:16Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 45.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "This survey reviews Audio-Visual Intelligence in large foundation models, covering tasks from understanding to generation and interaction.",
+      "why_matters": "It consolidates a rapidly expanding field into a coherent framework, aiding future research.",
+      "connection": "The focus on multimodal perception could intersect with the researcher’s interests in latency-critical perception pipelines.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to multimodal perception but lacks direct systems implications.",
+      "dimensions": {
+        "topical": 4.0,
+        "novelty": 7.0,
+        "proposal_value": 3.0,
+        "student_value": 5.0,
+        "testbed_value": 2.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "hash:c8b0bec81eba5f80",
       "title": "XELA Robotics adds enhancements to uSkin sensor family ahead of Robotics Summit",
       "link": "https://www.therobotreport.com/xela-robotics-adds-2-enhancements-uskin-sensor-family-ahead-robotics-summit/",
@@ -3538,6 +3931,34 @@
       }
     },
     {
+      "id": "hash:9ad5546325e95870",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "link": "https://openai.com/index/mrc-supercomputer-networking",
+      "date": "2026-05-05T10:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:OpenAI Blog"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/NSCNpuBUrt6RGqH5vxTT5/424808cad42085d2f79adcb86566ae04/SEO.png?w=1600&amp;h=900&amp;fit=fill",
+      "score": 42.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "OpenAI introduces MRC, a new networking protocol to enhance resilience and performance in large-scale AI training clusters.",
+      "why_matters": "This protocol could improve the efficiency of AI training, which is relevant for real-time AI systems.",
+      "connection": "The development of MRC could support the infrastructure needed for edge-cloud coordination in AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI infrastructure but lacks direct application to current proposals or student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00769",
       "title": "Voltage Ride-Through in Large Loads- A Dual PQ Approach",
       "link": "https://arxiv.org/abs/2605.00769v1",
@@ -3731,6 +4152,34 @@
         "proposal_value": 2.0,
         "student_value": 3.0,
         "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2604.27488",
+      "title": "Skills-Coach: A Self-Evolving Skill Optimizer via Training-Free GRPO",
+      "link": "https://arxiv.org/abs/2604.27488",
+      "date": "2026-04-29T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://ar5iv.labs.arxiv.org/html/2604.27488/assets/x1.png",
+      "score": 41.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "Skills-Coach is an automated framework for enhancing skill evolution in LLM-based agents through diverse task generation and optimization.",
+      "why_matters": "It could improve the adaptability of LLMs, but lacks direct relevance to autonomy systems.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to autonomy systems and current research focus.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 5.0,
         "recency": 10.0
       }
     },
@@ -4212,6 +4661,62 @@
       }
     },
     {
+      "id": "hash:9387361085ef0d76",
+      "title": "America needs next-gen solutions to counter modern air and missile threats",
+      "link": "https://breakingdefense.com/2026/05/america-needs-next-gen-solutions-to-counter-modern-air-and-missile-threats/",
+      "date": "2026-05-06T13:03:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Breaking Defense"
+      ],
+      "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/28187_T3TRK_Image-02_FINAL-scaled.jpg",
+      "score": 38.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "The article discusses the need for advanced sensing and interception capabilities to counter modern air and missile threats.",
+      "why_matters": "It highlights the importance of advanced technologies in national defense.",
+      "connection": "The focus on advanced sensing aligns with the researcher's interest in real-time perception systems for safety-critical applications.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to national defense and sensing technologies, but lacks direct application to current projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.04039",
+      "title": "Safety and accuracy follow different scaling laws in clinical large language models",
+      "link": "https://arxiv.org/abs/2605.04039v1",
+      "date": "2026-05-05T17:57:19Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04039v1/x1.png",
+      "score": 38.0,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "The paper introduces a framework for measuring safety in clinical LLMs across various deployment conditions.",
+      "why_matters": "It highlights the importance of safety in clinical AI applications, which is critical for real-world deployment.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant for understanding safety benchmarks in AI, though not directly aligned with autonomy systems.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 2.0,
+        "student_value": 2.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:82a05dcb4c2be21e",
       "title": "One-way attack drones under the spotlight at SAHA 2026",
       "link": "https://breakingdefense.com/2026/05/one-way-attack-drones-under-the-spotlight-at-saha-2026/",
@@ -4688,6 +5193,34 @@
       }
     },
     {
+      "id": "arxiv:2605.04035",
+      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
+      "link": "https://arxiv.org/abs/2605.04035v1",
+      "date": "2026-05-05T17:55:01Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04035v1/x1.png",
+      "score": 37.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Ignore",
+      "summary": "HeadsUp is a method for reconstructing high-quality 3D Gaussian heads from multi-camera setups using an efficient encoder-decoder architecture.",
+      "why_matters": "This work advances 3D reconstruction techniques but lacks direct relevance to autonomy systems.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to autonomy systems and current research focus.",
+      "dimensions": {
+        "topical": 2.0,
+        "novelty": 8.0,
+        "proposal_value": 2.0,
+        "student_value": 2.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.01725",
       "title": "Motion-Aware Caching for Efficient Autoregressive Video Generation",
       "link": "https://arxiv.org/abs/2605.01725",
@@ -4881,6 +5414,62 @@
         "student_value": 0.0,
         "testbed_value": 0.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2605.03999",
+      "title": "RD-ViT: Recurrent-Depth Vision Transformer for Semantic Segmentation with Reduced Data Dependence Extending the Recurrent-Depth Transformer Architecture to Dense Prediction",
+      "link": "https://arxiv.org/abs/2605.03999v1",
+      "date": "2026-05-05T17:21:18Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "RD-ViT is a Recurrent-Depth Vision Transformer that improves segmentation accuracy with reduced data dependence.",
+      "why_matters": "It offers a novel approach to segmentation tasks, potentially improving efficiency in AI models.",
+      "connection": "The focus on segmentation models has limited relevance to Prof. Liu's emphasis on real-time inference and systems-level concerns.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to autonomy systems and safety-critical applications.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.02134",
+      "title": "Video Generation with Predictive Latents",
+      "link": "https://arxiv.org/abs/2605.02134",
+      "date": "2026-05-03T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.02134v1/x1.png",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "The Predictive Video VAE improves video generation by enhancing latent space with predictive learning for better temporal coherence.",
+      "why_matters": "This work addresses challenges in video generative modeling, which could have implications for AI systems requiring temporal understanding.",
+      "connection": "While the paper focuses on video generation, it lacks direct relevance to Prof. Liu's autonomy systems agenda.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to safety-critical AI and autonomy systems.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
       }
     },
     {
@@ -5193,6 +5782,34 @@
       }
     },
     {
+      "id": "arxiv:2605.03983",
+      "title": "Implementing True MPI Sessions and Evaluating MPI Initialization Scalability",
+      "link": "https://arxiv.org/abs/2605.03983v1",
+      "date": "2026-05-05T17:06:10Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 35.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Ignore",
+      "summary": "The paper discusses implementing true MPI Sessions for improved scalability in exascale systems.",
+      "why_matters": "True MPI Sessions could enhance scalability in distributed computing, relevant for high-performance AI systems.",
+      "connection": "The focus on scalability in distributed systems may indirectly support Prof. Liu's interests in cloud-edge coordination.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited direct relevance to autonomy systems and current research thrusts.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00803",
       "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
       "link": "https://arxiv.org/abs/2605.00803v1",
@@ -5223,31 +5840,31 @@
   ],
   "summary": {
     "headline": "Focus on Robustness and Efficiency in Edge AI Systems",
-    "tldr": "Today's research emphasizes enhancing robustness and efficiency in edge AI systems, particularly in real-time applications. Key papers like 'Exact, Efficient, and Reliable Multi-Objective and Multi-Constrained IoT Workflow Scheduling' and 'Strait: Perceiving Priority and Interference in ML Inference Serving' highlight the importance of scheduling and resource management in safety-critical environments.",
+    "tldr": "Today's research emphasizes enhancing robustness and efficiency in edge AI systems, particularly for real-time applications. Papers like 'Tempus' and 'Strait' address critical challenges in latency and resource management.",
     "themes": [
       {
-        "bullet": "Multi-objective scheduling approaches are crucial for optimizing latency and reliability in edge-cloud systems.",
-        "cite": "Exact, Efficient, and Reliable Multi-Objective and Multi-Constrained IoT Workflow Scheduling"
+        "bullet": "Advancements in multi-modal fusion for improved perception in dynamic environments.",
+        "cite": "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion"
       },
       {
-        "bullet": "Robustness in perception systems is enhanced through V2X communication and multi-modal fusion techniques.",
-        "cite": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection"
+        "bullet": "New frameworks for efficient edge AI deployment highlight resource management.",
+        "cite": "Tempus: A Temporally Scalable Resource-Invariant GEMM"
       },
       {
-        "bullet": "Efficient resource management in ML inference serving is vital for meeting deadlines under high utilization.",
-        "cite": "Strait: Perceiving Priority and Interference in ML Inference Serving"
+        "bullet": "Robustness in V2X communication enhances real-world object detection capabilities.",
+        "cite": "Robust Fusion of Object-Level V2X"
       },
       {
-        "bullet": "Real-time human-robot interaction platforms are advancing with multi-camera systems for better occlusion handling.",
-        "cite": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction"
+        "bullet": "Innovative benchmarks for evaluating UAVs in search and rescue tasks.",
+        "cite": "ESARBench: A Benchmark for Agentic UAV"
       },
       {
-        "bullet": "New frameworks are emerging for lightweight cooperative perception in dynamic environments.",
-        "cite": "BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception"
+        "bullet": "Closed-loop frameworks for mobile manipulation improve interaction in dynamic settings.",
+        "cite": "ANCHOR: A Physically Grounded Closed-Loop Framework"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-05T15:30:00Z"
+    "generated_at": "2026-05-06T13:49:44Z"
   },
   "score_weights": {
     "topical": 0.3,
