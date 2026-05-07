@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T09:49:44-04:00",
+  "updated_at": "2026-05-06T21:54:53-04:00",
   "mode": "daily",
   "items": [
     {
@@ -789,6 +789,34 @@
       }
     },
     {
+      "id": "hash:6134a95d73eb48cb",
+      "title": "SpaceX may spend up to $119B on ‘Terafab’ chip factory in Texas",
+      "link": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "date": "2026-05-06T17:23:08+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-1240619050.jpg?resize=1200,800",
+      "score": 62.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "SpaceX plans a $119 billion advanced semiconductor manufacturing facility in Texas.",
+      "why_matters": "This investment could significantly impact AI hardware development and availability.",
+      "connection": "The chip factory aligns with Prof. Liu's interest in AI accelerators and hardware/software co-design for inference.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI hardware advancements impacting autonomy systems.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:fb4c06bec099cd8b",
       "title": "Pentagon clears 8 tech firms to deploy their AI on its classified networks",
       "link": "https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/",
@@ -897,6 +925,34 @@
         "proposal_value": 5.0,
         "student_value": 6.0,
         "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:9e339c7d7e4266bd",
+      "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+      "link": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "date": "2026-05-06T15:46:38+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/Genesis-AI-Rubiks-Cube-Solve-A-Cam.jpg?resize=1200,675",
+      "score": 61.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Genesis AI has raised $105 million to develop foundational AI for robotics and showcased robotic hands performing complex tasks.",
+      "why_matters": "This startup's advancements in robotics could influence future AI applications and collaborations.",
+      "connection": "The focus on foundational AI for robotics aligns with Prof. Liu's interests in autonomous systems and robotics.",
+      "proposal_angle": "",
+      "student_project": "The development of robotic hands performing complex tasks could relate to student projects on real-time perception and control.",
+      "rationale": "The startup's focus on robotics and AI aligns with ongoing research interests.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 5.0,
         "recency": 10.0
       }
     },
@@ -1631,6 +1687,34 @@
       }
     },
     {
+      "id": "hash:2619b69c05b3c688",
+      "title": "SpecMD: A Comprehensive Study on Speculative Expert Prefetching",
+      "link": "https://machinelearning.apple.com/research/specmd-expert-prefetching",
+      "date": "2026-05-06T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 55.5,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "SpecMD is a framework for benchmarking expert caching policies on various hardware configurations in Mixture-of-Experts models.",
+      "why_matters": "Understanding caching policies can improve the performance of AI models, which is crucial for real-time applications.",
+      "connection": "The work relates to hardware-centric caching policies, which can impact DNN inference performance in safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on hardware-aware model design and co-design.",
+      "rationale": "The framework's focus on caching policies is relevant for optimizing DNN inference in autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:dcf1175385413449",
       "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
       "link": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
@@ -2306,6 +2390,34 @@
       }
     },
     {
+      "id": "hash:5c00956345a89e00",
+      "title": "From Where Things Are to What They’re For: Benchmarking Spatial–Functional Intelligence for Multimodal LLMs",
+      "link": "https://machinelearning.apple.com/research/spatial",
+      "date": "2026-05-06T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 52.0,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "The Spatial-Functional Intelligence Benchmark (SFI-Bench) evaluates higher-order cognitive abilities in multimodal agents using video-based questions.",
+      "why_matters": "This benchmark could enhance understanding of multimodal LLMs, relevant for developing robust AI systems.",
+      "connection": "The focus on multimodal intelligence may intersect with Prof. Liu's interests in perception and AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Benchmarking multimodal intelligence is relevant for future AI systems research.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.03992",
       "title": "HyParLyVe: Hyperplane Partitioning for Neural Lyapunov Verification",
       "link": "https://arxiv.org/abs/2605.03992v1",
@@ -2554,6 +2666,34 @@
         "novelty": 6.0,
         "proposal_value": 5.0,
         "student_value": 4.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:036624b7e7d59a3b",
+      "title": "Genesis AI introduces GENE-26.5 model for more dexterous robot manipulation",
+      "link": "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/",
+      "date": "2026-05-06T13:26:44+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/Cooking-A-Cam-copy.jpg",
+      "score": 50.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Genesis AI's GENE-26.5 model enhances robot manipulation dexterity using an advanced data engine and proprietary robotic hand.",
+      "why_matters": "This model could improve robotic manipulation capabilities, relevant for various applications.",
+      "connection": "The focus on dexterous manipulation aligns with Prof. Liu's interest in robotics and autonomy systems.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on robotics and manipulation systems.",
+      "rationale": "Relevant to robotics and aligns with ongoing research interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
         "testbed_value": 3.0,
         "recency": 10.0
       }
@@ -3511,6 +3651,34 @@
       }
     },
     {
+      "id": "hash:e96ce86d1f31b224",
+      "title": "Microsoft, Google and xAI will let the government test their AI models before launch",
+      "link": "https://cset.georgetown.edu/article/microsoft-google-and-xai-will-let-the-government-test-their-ai-models-before-launch/",
+      "date": "2026-05-05T21:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CSET (Georgetown)"
+      ],
+      "image_url": "https://cset.georgetown.edu/wp-content/uploads/CSET-NEWS-CLAUDE-AI-scaled.webp",
+      "score": 45.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Microsoft, Google, and xAI will allow the U.S. government to test their AI models for security risks before launch.",
+      "why_matters": "This initiative addresses national security concerns related to AI deployment.",
+      "connection": "The agreements relate to safety and verification of AI systems, which aligns with Prof. Liu's focus on assured AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety-critical AI and government oversight.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 5.0,
+        "proposal_value": 6.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:c08578dcb8ce682f",
       "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
       "link": "https://machinelearning.apple.com/research/stochastic-kv-routing",
@@ -3618,6 +3786,34 @@
         "novelty": 6.0,
         "proposal_value": 4.0,
         "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:bf296f61d652aebc",
+      "title": "Chip Fab-in-a-Box Could Democratize Semiconductors",
+      "link": "https://spectrum.ieee.org/inchfab",
+      "date": "2026-05-06T14:00:01+00:00",
+      "type": "News",
+      "sources": [
+        "rss:IEEE Spectrum — Semiconductors"
+      ],
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66685881&width=1200&height=600&coordinates=0%2C120%2C0%2C268",
+      "score": 44.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "InchFab offers compact semiconductor fabrication systems to democratize chip manufacturing.",
+      "why_matters": "This innovation could lower barriers for chip development, impacting AI hardware availability.",
+      "connection": "The development of smaller, cost-effective chip fabs could support AI accelerators and hardware co-design efforts.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to hardware advancements for AI systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
         "testbed_value": 0.0,
         "recency": 10.0
       }
@@ -4324,6 +4520,34 @@
       }
     },
     {
+      "id": "hash:a53cb01d710e2736",
+      "title": "1X begins production of NEO humanoids in California facility",
+      "link": "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/",
+      "date": "2026-05-06T14:23:13+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/1x-qa-inspects-neo-featured.jpg",
+      "score": 40.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "1X has launched full-scale production at its 'NEO factory,' bringing humanoid robot manufacturing to the U.S.",
+      "why_matters": "This marks a significant step in domestic humanoid robot production.",
+      "connection": "The production of humanoid robots could intersect with Prof. Liu's interests in robotics and autonomy systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and potential future applications in autonomy.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:371aef60100ffdef",
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
       "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
@@ -4657,6 +4881,34 @@
         "proposal_value": 2.0,
         "student_value": 3.0,
         "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:92d41439b6a803cc",
+      "title": "AI boom pushes Samsung to $1T",
+      "link": "https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+      "date": "2026-05-06T13:54:09+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/Samsung-logo.webp?resize=1200,799",
+      "score": 38.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Samsung's valuation reached $1 trillion due to increased demand for AI-driven chips.",
+      "why_matters": "This reflects the growing importance of AI in the semiconductor industry.",
+      "connection": "The news highlights the significance of AI accelerators, relevant to Prof. Liu's research on hardware/software co-design.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to industry trends impacting AI hardware and funding opportunities.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
