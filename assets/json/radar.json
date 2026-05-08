@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T22:26:13-04:00",
+  "updated_at": "2026-05-08T10:36:12-04:00",
   "mode": "daily",
   "items": [
     {
@@ -369,6 +369,34 @@
       }
     },
     {
+      "id": "arxiv:2605.06222",
+      "title": "When to Trust Imagination: Adaptive Action Execution for World Action Models",
+      "link": "https://arxiv.org/abs/2605.06222",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06222v1/x1.png",
+      "score": 69.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "The paper presents a method for adaptive action execution in World Action Models, enhancing reliability in robotic manipulation.",
+      "why_matters": "This work improves the efficiency and responsiveness of robotic actions, crucial for real-world applications.",
+      "connection": "The focus on adaptive execution aligns with Prof. Liu's interest in real-time systems and safety-critical AI.",
+      "proposal_angle": "",
+      "student_project": "This aligns with student thrusts on real-time GPU scheduling and latency mitigation for edge DNN inference.",
+      "rationale": "The paper's focus on adaptive execution is relevant to ongoing student projects.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 8.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.03269",
       "title": "RLDX-1 Technical Report",
       "link": "https://arxiv.org/abs/2605.03269",
@@ -555,6 +583,34 @@
       "proposal_angle": "This could enhance the sensing capabilities in the NSF CSR proposal on DNN inference for autonomous vehicles.",
       "student_project": "This research could inform student projects on multimodal perception and sensor fusion at the edge.",
       "rationale": "Relevant to sensing advancements for safety-critical AI in autonomous systems.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 6.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.04647",
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+      "link": "https://arxiv.org/abs/2605.04647",
+      "date": "2026-05-05T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04647v1/figs/rd2_teaser.png",
+      "score": 68.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "ReflectDrive-2 is a discrete diffusion planner for autonomous driving that enables in-place trajectory revision through reinforcement learning.",
+      "why_matters": "This work enhances trajectory planning for autonomous vehicles, improving efficiency and safety in real-time applications.",
+      "connection": "The focus on real-time trajectory planning aligns with Prof. Liu's interests in latency-critical perception pipelines and autonomous driving.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Strong relevance to real-time autonomous driving and trajectory planning.",
       "dimensions": {
         "topical": 8.0,
         "novelty": 7.0,
@@ -1350,6 +1406,34 @@
       }
     },
     {
+      "id": "arxiv:2605.04956",
+      "title": "KernelBench-X: A Comprehensive Benchmark for Evaluating LLM-Generated GPU Kernels",
+      "link": "https://arxiv.org/abs/2605.04956",
+      "date": "2026-05-05T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04956v1/x1.png",
+      "score": 61.0,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "KernelBench-X is a benchmark for evaluating LLM-generated GPU kernels across various tasks.",
+      "why_matters": "It addresses the efficiency and correctness of LLM-generated kernels, which is crucial for optimizing AI workloads.",
+      "connection": "The findings could inform GPU scheduling and model-serving infrastructure for real-time AI systems.",
+      "proposal_angle": "",
+      "student_project": "This could support student projects on hardware-aware model design and GPU scheduling.",
+      "rationale": "Benchmarking LLM-generated kernels is relevant for optimizing inference in AI systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 8.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.00279",
       "title": "A Comparative Analysis of Machine Learning Models for Intrusion Detection in Intelligent Transport Systems",
       "link": "https://arxiv.org/abs/2605.00279v1",
@@ -1767,6 +1851,34 @@
         "proposal_value": 4.0,
         "student_value": 5.0,
         "testbed_value": 8.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:83f2fccae134b315",
+      "title": "Havelsan unveils Barkan 3 unmanned ground vehicle, to be part of autonomous swarm",
+      "link": "https://breakingdefense.com/2026/05/havelsan-unveils-barkan-3-unmanned-ground-vehicle-to-be-part-of-autonomous-swarm/",
+      "date": "2026-05-08T14:06:07+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Breaking Defense"
+      ],
+      "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/05/barkan-3-scaled.jpg",
+      "score": 57.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Havelsan unveiled the Barkan 3 unmanned ground vehicle, part of an autonomous swarm and an AI-enabled combat management system.",
+      "why_matters": "This development highlights advancements in autonomous systems and AI integration in military applications.",
+      "connection": "The Barkan 3's focus on autonomy aligns with Prof. Liu's interests in real-time AI and collaborative systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to autonomy systems and military applications.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 3.0,
         "recency": 10.0
       }
     },
@@ -4411,11 +4523,12 @@
     {
       "id": "arxiv:2605.04045",
       "title": "Audio-Visual Intelligence in Large Foundation Models",
-      "link": "https://arxiv.org/abs/2605.04045v1",
-      "date": "2026-05-05T17:59:16Z",
+      "link": "https://arxiv.org/abs/2605.04045",
+      "date": "2026-05-04T20:00:00.000Z",
       "type": "Paper",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "huggingface_papers"
       ],
       "image_url": "",
       "score": 45.5,
@@ -5053,6 +5166,34 @@
       }
     },
     {
+      "id": "arxiv:2605.06643",
+      "title": "Are We Making Progress in Multimodal Domain Generalization? A Comprehensive Benchmark Study",
+      "link": "https://arxiv.org/abs/2605.06643",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06643v1/x1.png",
+      "score": 42.0,
+      "category": "Testbeds, Datasets & Benchmarks",
+      "action": "Track",
+      "summary": "MMDG-Bench standardizes evaluation for Multimodal Domain Generalization across diverse tasks and datasets.",
+      "why_matters": "It provides a comprehensive benchmark for assessing model robustness in multimodal settings.",
+      "connection": "The focus on robustness and evaluation protocols could inform safety-critical AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant benchmark for multimodal robustness, but limited direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 6.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 7.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:9ad5546325e95870",
       "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
       "link": "https://openai.com/index/mrc-supercomputer-networking",
@@ -5414,6 +5555,34 @@
         "proposal_value": 3.0,
         "student_value": 2.0,
         "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:5a6c1b941746ce2d",
+      "title": "QNX to bring hands-on demonstrations and new research to the Robotics Summit",
+      "link": "https://www.therobotreport.com/qnx-brings-hands-on-demonstrations-new-research-2026-robotics-summit/",
+      "date": "2026-05-08T12:45:52+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/qnx-featured.jpg",
+      "score": 40.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "QNX will showcase hands-on demonstrations and new research at the Robotics Summit.",
+      "why_matters": "This event may highlight advancements in robotics relevant to industry applications.",
+      "connection": "QNX's focus on robotics could intersect with Prof. Liu's interests in real-time systems and safety-critical AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Event may provide insights into industry trends relevant to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 3.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 2.0,
         "recency": 10.0
       }
     },
@@ -5780,6 +5949,34 @@
         "student_value": 4.0,
         "testbed_value": 2.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "hash:fa068d7d660ca909",
+      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
+      "link": "https://machinelearning.apple.com/research/gaussian-head-reconstruction",
+      "date": "2026-05-08T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 38.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Ignore",
+      "summary": "HeadsUp is a method for reconstructing high-quality 3D Gaussian heads from multi-camera setups using an encoder-decoder architecture.",
+      "why_matters": "This method could enhance 3D modeling but lacks direct relevance to autonomy systems.",
+      "connection": "The work involves 3D reconstruction, which could intersect with perception in autonomous systems, but is not directly aligned.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to the researcher's focus on real-time AI and autonomy.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 2.0,
+        "recency": 10.0
       }
     },
     {
@@ -6876,6 +7073,34 @@
       }
     },
     {
+      "id": "arxiv:2605.04451",
+      "title": "RemoteZero: Geospatial Reasoning with Zero Human Annotations",
+      "link": "https://arxiv.org/abs/2605.04451",
+      "date": "2026-05-05T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.04451v1/x2.png",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "RemoteZero introduces a box-supervision-free framework for geospatial reasoning, enabling self-evolution from unlabeled remote sensing data.",
+      "why_matters": "This work advances autonomous geospatial reasoning without human annotations, but lacks direct relevance to autonomy systems.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to the researcher's focus on safety-critical AI and real-time inference.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.03999",
       "title": "RD-ViT: Recurrent-Depth Vision Transformer for Semantic Segmentation with Reduced Data Dependence Extending the Recurrent-Depth Transformer Architecture to Dense Prediction",
       "link": "https://arxiv.org/abs/2605.03999v1",
@@ -7327,31 +7552,31 @@
   ],
   "summary": {
     "headline": "Safety and Robustness in Autonomous Systems Take Center Stage",
-    "tldr": "Today's research highlights advancements in safety-critical systems and robust perception for autonomous vehicles. Key papers focus on uncertainty monitoring in ADAS and multi-objective scheduling for edge-cloud systems.",
+    "tldr": "Today's research emphasizes safety and reliability in autonomous systems, particularly through advanced perception and scheduling techniques. Notable works include a proactive camera reliability framework and multi-objective scheduling for edge-cloud systems.",
     "themes": [
       {
-        "bullet": "Proactive safety measures for perception systems are gaining traction.",
-        "cite": "Safety-Critical Camera Reliability Monitoring for ADAS"
+        "bullet": "Proactive safety measures for perception systems are critical for ADAS.",
+        "cite": "Safety-Critical Camera Reliability Monitoring"
       },
       {
-        "bullet": "Multi-objective scheduling approaches are essential for optimizing edge-cloud workflows.",
-        "cite": "Exact, Efficient, and Reliable Multi-Objective and Multi-Constrained IoT Workflow Scheduling"
+        "bullet": "Optimizing scheduling in edge-cloud systems enhances reliability and performance.",
+        "cite": "Multi-Objective and Multi-Constrained IoT Workflow Scheduling"
       },
       {
-        "bullet": "Robustness in perception through V2X integration is a critical focus.",
-        "cite": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection"
+        "bullet": "Robustness in object detection is enhanced through V2X communication integration.",
+        "cite": "Robust Fusion of Object-Level V2X"
       },
       {
-        "bullet": "Real-time interaction frameworks are evolving for dynamic environments.",
-        "cite": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction"
+        "bullet": "Real-time action execution models leverage video diffusion for efficiency.",
+        "cite": "Unified 4D World Action Modeling"
       },
       {
-        "bullet": "Innovative frameworks for mobile manipulation are addressing home service challenges.",
-        "cite": "ANCHOR: A Physically Grounded Closed-Loop Framework for Robust Home-Service Mobile Manipulation"
+        "bullet": "Closed-loop frameworks improve robustness in dynamic home environments.",
+        "cite": "ANCHOR: A Physically Grounded Closed-Loop Framework"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-08T02:26:13Z"
+    "generated_at": "2026-05-08T14:36:12Z"
   },
   "score_weights": {
     "topical": 0.3,
