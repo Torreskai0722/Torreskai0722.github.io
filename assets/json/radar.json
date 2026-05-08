@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T11:23:13-04:00",
+  "updated_at": "2026-05-08T13:34:15-04:00",
   "mode": "daily",
   "items": [
     {
@@ -1995,6 +1995,34 @@
       }
     },
     {
+      "id": "arxiv:2605.06628",
+      "title": "LiVeAction: a Lightweight, Versatile, and Asymmetric Neural Codec Design for Real-time Operation",
+      "link": "https://arxiv.org/abs/2605.06628v1",
+      "date": "2026-05-07T17:42:38Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06628v1/x1.png",
+      "score": 57.0,
+      "category": "Computing Systems & Hardware",
+      "action": "Track",
+      "summary": "LiVeAction introduces a lightweight neural codec for efficient data compression in resource-constrained environments.",
+      "why_matters": "This codec could enhance data handling in AI systems with limited bandwidth and power.",
+      "connection": "The work on neural codecs may support edge AI deployment and on-device inference in Prof. Liu's research.",
+      "proposal_angle": "",
+      "student_project": "This could align with student projects on real-time GPU scheduling for autonomy perception.",
+      "rationale": "The codec's focus on efficiency aligns with edge AI deployment interests.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.06593",
       "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
       "link": "https://arxiv.org/abs/2605.06593v1",
@@ -2272,6 +2300,34 @@
         "student_value": 5.0,
         "testbed_value": 6.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2605.06630",
+      "title": "Quantifying Trade-Offs Between Stability and Goal-Obfuscation",
+      "link": "https://arxiv.org/abs/2605.06630v1",
+      "date": "2026-05-07T17:43:51Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 56.0,
+      "category": "Safety, CPS & Verification",
+      "action": "Discuss with student",
+      "summary": "The paper explores intent privacy in safety-critical autonomy using Bayesian inference and control barrier functions.",
+      "why_matters": "It addresses privacy concerns in autonomous systems, which is crucial for safety in adversarial environments.",
+      "connection": "The focus on safety-critical autonomy aligns with Prof. Liu's interests in assured AI and cyber-physical systems.",
+      "proposal_angle": "",
+      "student_project": "This could inform student projects on safety and privacy in real-time AI systems.",
+      "rationale": "Relevant to safety in autonomy, with potential implications for student research.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
       }
     },
     {
@@ -3793,6 +3849,62 @@
       }
     },
     {
+      "id": "hash:2e9722e8e0afad85",
+      "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+      "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+      "date": "2026-05-08T09:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:BAIR Blog (Berkeley)"
+      ],
+      "image_url": "https://bair.berkeley.edu/static/blog/adaptive-parallel-reasoning/cover.png",
+      "score": 49.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "The article discusses adaptive parallel reasoning for efficient inference scaling in reasoning models.",
+      "why_matters": "This approach could improve inference efficiency, which is crucial for real-time AI applications.",
+      "connection": "The focus on efficient inference aligns with Prof. Liu's interest in real-time DNN inference for safety-critical AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to inference efficiency, but lacks direct application to current proposals or student projects.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.06639",
+      "title": "Recursive Agent Optimization",
+      "link": "https://arxiv.org/abs/2605.06639v1",
+      "date": "2026-05-07T17:49:09Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 49.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "Recursive Agent Optimization (RAO) trains agents to delegate tasks recursively for improved efficiency and generalization.",
+      "why_matters": "This approach could enhance the efficiency of AI systems, but its direct application to autonomy is unclear.",
+      "connection": "The paper's focus on task delegation may relate to multi-agent autonomy, but lacks direct systems implications.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The concept of recursive agents is interesting but lacks direct relevance to safety-critical AI systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.04019",
       "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
       "link": "https://arxiv.org/abs/2605.04019v1",
@@ -4293,6 +4405,34 @@
         "proposal_value": 3.0,
         "student_value": 4.0,
         "testbed_value": 2.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:3bed6943956f0b07",
+      "title": "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
+      "link": "https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/",
+      "date": "2026-05-08T15:59:16+00:00",
+      "type": "News",
+      "sources": [
+        "rss:NVIDIA Developer Blog"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
+      "score": 47.5,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "NVIDIA Dynamo introduces multi-turn agentic harness support for structured interactions in AI systems.",
+      "why_matters": "This development could enhance interactive AI systems, relevant for real-time applications.",
+      "connection": "The focus on structured interactions may relate to Prof. Liu's interests in real-time AI and collaborative computing.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to interactive AI systems, but lacks direct connection to autonomy-focused proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 6.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
         "recency": 10.0
       }
     },
@@ -4886,6 +5026,34 @@
       }
     },
     {
+      "id": "arxiv:2605.06647",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "link": "https://arxiv.org/abs/2605.06647v1",
+      "date": "2026-05-07T17:54:29Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06647v1/x1.png",
+      "score": 44.0,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "SIRA compresses multi-round exploratory search into a single retrieval action using LLM cognition and corpus statistics.",
+      "why_matters": "This approach could enhance retrieval efficiency in AI systems, impacting real-time applications.",
+      "connection": "The paper's focus on retrieval efficiency could relate to real-time DNN inference for safety-critical AI.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to AI efficiency but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 0.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:bf296f61d652aebc",
       "title": "Chip Fab-in-a-Box Could Democratize Semiconductors",
       "link": "https://spectrum.ieee.org/inchfab",
@@ -5284,6 +5452,7 @@
       "date": "2026-05-06T20:00:00.000Z",
       "type": "Paper",
       "sources": [
+        "arxiv",
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06643v1/x1.png",
@@ -5893,6 +6062,34 @@
         "student_value": 4.0,
         "testbed_value": 0.0,
         "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:40f62ff11a4ec238",
+      "title": "How coupling stiffness and misalignment compensation impact servo performance",
+      "link": "https://www.therobotreport.com/how-coupling-stiffness-and-misalignment-compensation-impact-servo-performance/",
+      "date": "2026-05-08T16:29:18+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/gam-couplings-all.jpg",
+      "score": 39.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "The article discusses how coupling stiffness and misalignment affect servo performance in robotic systems.",
+      "why_matters": "Understanding servo performance is crucial for improving the accuracy and longevity of robotic systems.",
+      "connection": "This item relates to robotics and embodied AI, which are secondary interests of the researcher.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics but lacks direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 3.0,
+        "proposal_value": 4.0,
+        "student_value": 3.0,
+        "testbed_value": 2.0,
+        "recency": 8.0
       }
     },
     {
@@ -6905,6 +7102,34 @@
       }
     },
     {
+      "id": "hash:437b9e2e28018591",
+      "title": "The “people’s airline” and the enterprise AI gold rush",
+      "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+      "date": "2026-05-08T15:46:17+00:00",
+      "type": "News",
+      "sources": [
+        "rss:TechCrunch — AI"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200",
+      "score": 37.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Companies are aggressively pursuing enterprise AI, with significant investments and joint ventures emerging.",
+      "why_matters": "This trend indicates a growing market for AI tools, which could influence future funding and research directions.",
+      "connection": "The focus on enterprise AI may impact funding opportunities relevant to Prof. Liu's proposals.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant industry movements could inform future proposal strategies.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:3e564d77839f4a85",
       "title": "Apple Workshop on Privacy-Preserving Machine Learning & AI 2026",
       "link": "https://machinelearning.apple.com/updates/ppml-2026",
@@ -7182,6 +7407,34 @@
         "student_value": 0.0,
         "testbed_value": 0.0,
         "recency": 8.0
+      }
+    },
+    {
+      "id": "arxiv:2605.06477",
+      "title": "GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs",
+      "link": "https://arxiv.org/abs/2605.06477",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06477v1/images/GeoStack.png",
+      "score": 36.5,
+      "category": "AI Models & Algorithms",
+      "action": "Ignore",
+      "summary": "GeoStack is a framework for composing domain experts in Vision-Language Models while mitigating catastrophic forgetting.",
+      "why_matters": "It addresses knowledge composition challenges in AI models, which is relevant but not directly aligned with autonomy systems.",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Limited relevance to autonomy systems and current research focus.",
+      "dimensions": {
+        "topical": 3.0,
+        "novelty": 7.0,
+        "proposal_value": 2.0,
+        "student_value": 3.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
       }
     },
     {
