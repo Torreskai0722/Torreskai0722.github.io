@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T13:34:15-04:00",
+  "updated_at": "2026-05-08T16:53:57-04:00",
   "mode": "daily",
   "items": [
     {
@@ -3260,6 +3260,34 @@
       }
     },
     {
+      "id": "hash:cdcb52b93e5347be",
+      "title": "Velox: Learning Representations of 4D Geometry and Appearance",
+      "link": "https://machinelearning.apple.com/research/velox",
+      "date": "2026-05-08T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 52.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "Velox is a framework for learning representations of 4D objects from dynamic point clouds.",
+      "why_matters": "It aids in efficiently capturing object geometry and appearance, which could benefit perception systems.",
+      "connection": "The work relates to perception and representation, which are relevant for real-time AI systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to perception but lacks direct application to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 4.0,
+        "student_value": 5.0,
+        "testbed_value": 3.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.05756",
       "title": "MaMi-HOI: Harmonizing Global Kinematics and Local Geometry for Human-Object Interaction Generation",
       "link": "https://arxiv.org/abs/2605.05756v1",
@@ -3368,6 +3396,34 @@
         "proposal_value": 4.0,
         "student_value": 5.0,
         "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:17103584be0cc010",
+      "title": "CMU Researchers Develop AI System to Help Prevent Airport Collisions",
+      "link": "https://www.ri.cmu.edu/cmu-researchers-develop-ai-system-to-help-prevent-airport-collisions/",
+      "date": "2026-05-08T17:37:27+00:00",
+      "type": "News",
+      "sources": [
+        "rss:CMU Robotics Institute"
+      ],
+      "image_url": "https://www.ri.cmu.edu/app/uploads/2026/05/World2Rules-Feature-Image.png",
+      "score": 52.0,
+      "category": "Safety, CPS & Verification",
+      "action": "Track",
+      "summary": "World2Rules learns risky aircraft behavior patterns to enhance airport safety.",
+      "why_matters": "This AI system could improve safety in critical environments like airports.",
+      "connection": "The focus on safety aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety-critical AI applications in autonomous systems.",
+      "dimensions": {
+        "topical": 6.0,
+        "novelty": 5.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 3.0,
         "recency": 10.0
       }
     },
@@ -4770,6 +4826,34 @@
         "student_value": 5.0,
         "testbed_value": 2.0,
         "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:dc3530c620907dbd",
+      "title": "Nyobolt raises funding to bring fast charging to more robots",
+      "link": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
+      "date": "2026-05-08T17:29:37+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/Symbot-Nyobolt-featured.jpg",
+      "score": 46.0,
+      "category": "Industry & Research Updates",
+      "action": "Track",
+      "summary": "Nyobolt has raised funding to enhance fast charging capabilities for robots.",
+      "why_matters": "This funding could improve robot performance and efficiency, impacting the robotics field.",
+      "connection": "The focus on fast charging aligns with the need for efficient power systems in autonomous robots.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and potential implications for autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 5.0,
+        "student_value": 4.0,
+        "testbed_value": 3.0,
+        "recency": 8.0
       }
     },
     {
@@ -7130,6 +7214,34 @@
       }
     },
     {
+      "id": "hash:90ec1ffb8918518f",
+      "title": "Running Codex safely at OpenAI",
+      "link": "https://openai.com/index/running-codex-safely",
+      "date": "2026-05-08T12:30:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:OpenAI Blog"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6Z5UXg0cKSYxr2RGkNkMCl/3087a1569ea42e3aab6b3e4decd1b140/Frame4.png?w=1600&amp;h=900&amp;fit=fill",
+      "score": 37.0,
+      "category": "Safety, CPS & Verification",
+      "action": "Track",
+      "summary": "OpenAI discusses secure operations of Codex using sandboxing and telemetry for safe coding agent adoption.",
+      "why_matters": "This approach highlights safety measures in AI systems, relevant for autonomy and compliance.",
+      "connection": "The focus on safety aligns with Prof. Liu's interest in assured AI for safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to safety in AI systems, but lacks direct application to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:3e564d77839f4a85",
       "title": "Apple Workshop on Privacy-Preserving Machine Learning & AI 2026",
       "link": "https://machinelearning.apple.com/updates/ppml-2026",
@@ -7971,7 +8083,21 @@
     "n_items": 15,
     "generated_at": "2026-05-08T15:23:06Z"
   },
-  "podcast": null,
+  "podcast": {
+    "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-08.mp3",
+    "rel_path": "podcast/2026-05-08.mp3",
+    "title": "Research Radar — Fri May 08: Advancements in Safety and Robustness for Autonomous Systems",
+    "pub_date": "2026-05-08T16:53:21.287582-04:00",
+    "duration_sec": 151,
+    "size_bytes": 3957120,
+    "word_count": 415,
+    "char_count": 3152,
+    "voice": "onyx",
+    "headline": "Advancements in Safety and Robustness for Autonomous Systems",
+    "summary_text": "Today's research highlights significant strides in safety-critical systems for autonomous vehicles, particularly in camera reliability and V2X communication. Papers like 'Safety-Critical Camera Reliability Monitoring for ADAS' and 'Multi-Robot Coordination in V2X Environments' showcase the integration of advanced monitoring and communication techniques.",
+    "episode_key": "0a0623b78dc1c1d426123dbe6dde22e2",
+    "version": "podcast.v1"
+  },
   "score_weights": {
     "topical": 0.3,
     "novelty": 0.2,
