@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T10:36:12-04:00",
+  "updated_at": "2026-05-08T11:23:13-04:00",
   "mode": "daily",
   "items": [
     {
@@ -257,6 +257,62 @@
       }
     },
     {
+      "id": "arxiv:2605.06662",
+      "title": "Multi-Robot Coordination in V2X Environments",
+      "link": "https://arxiv.org/abs/2605.06662v1",
+      "date": "2026-05-07T17:58:48Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06662v1/x1.png",
+      "score": 70.5,
+      "category": "Robotics & Embodied AI",
+      "action": "Discuss with student",
+      "summary": "The paper presents a V2X communication framework for decentralized multi-robot coordination in urban traffic environments.",
+      "why_matters": "It enhances robot cooperation in safety-critical scenarios, integrating non-V2X users for improved traffic safety.",
+      "connection": "This work aligns with Prof. Liu's interests in multi-agent autonomy and safety-critical systems.",
+      "proposal_angle": "It could inform proposals related to cooperative driving and multi-agent autonomy in urban settings.",
+      "student_project": "The framework could support student projects on real-time coordination and safety in autonomous systems.",
+      "rationale": "Strong relevance to multi-agent autonomy and safety in urban environments.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.05541",
+      "title": "Real-world Latency Analysis of Vehicular Visible Light Communication with Multiple LED Transmitters and an Event-Based Camera",
+      "link": "https://arxiv.org/abs/2605.05541v1",
+      "date": "2026-05-07T00:42:37Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.05541v1/tx-and-rx.png",
+      "score": 70.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Discuss with student",
+      "summary": "This work presents an event-camera-based VLC system addressing latency and multi-transmitter reception for V2X applications.",
+      "why_matters": "It enhances communication in vehicular networks, crucial for safety and efficiency in autonomous systems.",
+      "connection": "The focus on latency and perception aligns with Prof. Liu's interests in real-time AI and safety-critical systems.",
+      "proposal_angle": "It could support the NSF CSR proposal on latency-bounded inference for autonomous vehicles.",
+      "student_project": "The work's focus on latency and perception could inform student projects on tail-latency mitigation for edge DNN inference.",
+      "rationale": "Relevant to real-time perception and communication in autonomous systems.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 7.0,
+        "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "arxiv:2605.05182",
       "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
       "link": "https://arxiv.org/abs/2605.05182v1",
@@ -393,6 +449,34 @@
         "proposal_value": 6.0,
         "student_value": 7.0,
         "testbed_value": 5.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.05071",
+      "title": "Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity",
+      "link": "https://arxiv.org/abs/2605.05071v1",
+      "date": "2026-05-06T16:07:26Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 69.5,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "The paper presents VIBE, a hybrid model-based architecture for real-time double-directional mmWave beam management using camera sensing for V2X connectivity.",
+      "why_matters": "This work addresses critical challenges in V2X communication, enhancing connectivity for autonomous systems.",
+      "connection": "The focus on real-time communication and sensing aligns with Prof. Liu's interests in latency-critical perception pipelines and edge AI deployment.",
+      "proposal_angle": "The findings could support the in-flight proposal on predictable DNN inference by improving communication reliability in autonomous vehicles.",
+      "student_project": "The project could inform student work on real-time GPU scheduling for autonomy perception by enhancing communication strategies.",
+      "rationale": "Strong relevance to V2X connectivity and real-time systems for autonomy.",
+      "dimensions": {
+        "topical": 8.0,
+        "novelty": 7.0,
+        "proposal_value": 6.0,
+        "student_value": 5.0,
+        "testbed_value": 7.0,
         "recency": 10.0
       }
     },
@@ -870,6 +954,34 @@
         "proposal_value": 6.0,
         "student_value": 5.0,
         "testbed_value": 4.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "arxiv:2605.05897",
+      "title": "Generating Roadside LiDAR Datasets from Vehicle-Side Datasets via Novel View Synthesis",
+      "link": "https://arxiv.org/abs/2605.05897v1",
+      "date": "2026-05-07T09:10:18Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.05897v1/x1.png",
+      "score": 65.0,
+      "category": "Sensing, Perception & Materials",
+      "action": "Track",
+      "summary": "The paper presents a framework for generating roadside LiDAR datasets from vehicle-side data to enhance roadside perception models.",
+      "why_matters": "It addresses the challenge of limited roadside LiDAR datasets, crucial for improving traffic safety and perception.",
+      "connection": "This work aligns with the researcher's interest in sensor fusion and perception for autonomous systems.",
+      "proposal_angle": "It could support the NSF CPS proposal by enhancing data availability for safety-critical perception stacks.",
+      "student_project": "The framework could be a basis for student projects focused on multimodal perception and data generation.",
+      "rationale": "Relevant for enhancing perception datasets in autonomous systems.",
+      "dimensions": {
+        "topical": 7.0,
+        "novelty": 6.0,
+        "proposal_value": 5.0,
+        "student_value": 6.0,
+        "testbed_value": 8.0,
         "recency": 10.0
       }
     },
@@ -6793,6 +6905,34 @@
       }
     },
     {
+      "id": "hash:3e564d77839f4a85",
+      "title": "Apple Workshop on Privacy-Preserving Machine Learning & AI 2026",
+      "link": "https://machinelearning.apple.com/updates/ppml-2026",
+      "date": "2026-05-08T00:00:00+00:00",
+      "type": "News",
+      "sources": [
+        "rss:Apple ML Research"
+      ],
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 37.0,
+      "category": "Funding & Programs",
+      "action": "Track",
+      "summary": "Apple hosted a workshop on privacy-preserving techniques in AI to enhance user privacy.",
+      "why_matters": "Privacy in AI is crucial as technology becomes more integrated into daily life.",
+      "connection": "The focus on privacy aligns with the need for assured AI in safety-critical systems.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to privacy in AI, but lacks direct connection to autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 4.0,
+        "proposal_value": 3.0,
+        "student_value": 2.0,
+        "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
       "id": "hash:f1acd3dec66496b0",
       "title": "Five architects of the AI economy explain where the wheels are coming off",
       "link": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
@@ -7551,33 +7691,34 @@
     }
   ],
   "summary": {
-    "headline": "Safety and Robustness in Autonomous Systems Take Center Stage",
-    "tldr": "Today's research emphasizes safety and reliability in autonomous systems, particularly through advanced perception and scheduling techniques. Notable works include a proactive camera reliability framework and multi-objective scheduling for edge-cloud systems.",
+    "headline": "Advancements in Safety and Robustness for Autonomous Systems",
+    "tldr": "Today's research highlights significant strides in safety-critical systems for autonomous vehicles, particularly in camera reliability and V2X communication. Papers like 'Safety-Critical Camera Reliability Monitoring for ADAS' and 'Multi-Robot Coordination in V2X Environments' showcase the integration of advanced monitoring and communication techniques.",
     "themes": [
       {
-        "bullet": "Proactive safety measures for perception systems are critical for ADAS.",
-        "cite": "Safety-Critical Camera Reliability Monitoring"
+        "bullet": "Proactive safety measures for perception systems in autonomous vehicles are gaining focus.",
+        "cite": "Safety-Critical Camera Reliability Monitoring for ADAS"
       },
       {
-        "bullet": "Optimizing scheduling in edge-cloud systems enhances reliability and performance.",
-        "cite": "Multi-Objective and Multi-Constrained IoT Workflow Scheduling"
+        "bullet": "Robustness in V2X communication is crucial for enhancing real-world object detection.",
+        "cite": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection"
       },
       {
-        "bullet": "Robustness in object detection is enhanced through V2X communication integration.",
-        "cite": "Robust Fusion of Object-Level V2X"
+        "bullet": "Multi-robot coordination frameworks are evolving to improve urban traffic management.",
+        "cite": "Multi-Robot Coordination in V2X Environments"
       },
       {
-        "bullet": "Real-time action execution models leverage video diffusion for efficiency.",
-        "cite": "Unified 4D World Action Modeling"
+        "bullet": "Latency analysis in communication systems is critical for real-time applications.",
+        "cite": "Real-world Latency Analysis of Vehicular Visible Light Communication"
       },
       {
-        "bullet": "Closed-loop frameworks improve robustness in dynamic home environments.",
-        "cite": "ANCHOR: A Physically Grounded Closed-Loop Framework"
+        "bullet": "New benchmarks are being established for evaluating UAV capabilities in search and rescue.",
+        "cite": "ESARBench: A Benchmark for Agentic UAV Embodied Search and Rescue"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-08T14:36:12Z"
+    "generated_at": "2026-05-08T15:23:06Z"
   },
+  "podcast": null,
   "score_weights": {
     "topical": 0.3,
     "novelty": 0.2,
