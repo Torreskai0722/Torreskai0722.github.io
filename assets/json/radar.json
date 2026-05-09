@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T16:53:57-04:00",
+  "updated_at": "2026-05-08T21:54:18-04:00",
   "mode": "daily",
   "items": [
     {
@@ -3737,6 +3737,34 @@
       }
     },
     {
+      "id": "arxiv:2605.06663",
+      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+      "link": "https://arxiv.org/abs/2605.06663",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06663v1/x3.png",
+      "score": 50.5,
+      "category": "AI Models & Algorithms",
+      "action": "Track",
+      "summary": "EMO is a Mixture-of-Experts model that enables modular, memory-efficient deployment of large, sparse models.",
+      "why_matters": "It offers a path to improve efficiency in deploying large models, which is crucial for real-time applications.",
+      "connection": "The focus on modularity and efficiency could intersect with Prof. Liu's interests in real-time DNN inference and edge AI deployment.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "The paper's focus on modularity in large models aligns with efficiency needs in autonomy systems.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 7.0,
+        "proposal_value": 5.0,
+        "student_value": 5.0,
+        "testbed_value": 0.0,
+        "recency": 8.0
+      }
+    },
+    {
       "id": "hash:036624b7e7d59a3b",
       "title": "Genesis AI introduces GENE-26.5 model for more dexterous robot manipulation",
       "link": "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/",
@@ -5106,6 +5134,34 @@
         "proposal_value": 4.0,
         "student_value": 3.0,
         "testbed_value": 0.0,
+        "recency": 10.0
+      }
+    },
+    {
+      "id": "hash:85528a9962e3f8eb",
+      "title": "Why traditional robotics data collection is obsolete and what replaces it",
+      "link": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/",
+      "date": "2026-05-08T22:40:04+00:00",
+      "type": "News",
+      "sources": [
+        "rss:The Robot Report"
+      ],
+      "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/05/episode-243-featured.jpg",
+      "score": 44.0,
+      "category": "Robotics & Embodied AI",
+      "action": "Track",
+      "summary": "Eric Chan discusses Rhoda AI's innovative approach to robotics using video data for scalable, efficient learning.",
+      "why_matters": "This article highlights a shift in robotics data collection methods, which could impact future research and applications.",
+      "connection": "The focus on innovative data collection methods may intersect with Prof. Liu's interests in autonomous systems and perception.",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Relevant to robotics and data collection methods, but lacks direct ties to current proposals.",
+      "dimensions": {
+        "topical": 5.0,
+        "novelty": 5.0,
+        "proposal_value": 3.0,
+        "student_value": 4.0,
+        "testbed_value": 2.0,
         "recency": 10.0
       }
     },
@@ -8087,11 +8143,11 @@
     "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-08.mp3",
     "rel_path": "podcast/2026-05-08.mp3",
     "title": "Research Radar — Fri May 08: Advancements in Safety and Robustness for Autonomous Systems",
-    "pub_date": "2026-05-08T16:53:21.287582-04:00",
-    "duration_sec": 151,
-    "size_bytes": 3957120,
-    "word_count": 415,
-    "char_count": 3152,
+    "pub_date": "2026-05-08T21:53:35.636203-04:00",
+    "duration_sec": 141,
+    "size_bytes": 3684000,
+    "word_count": 387,
+    "char_count": 2967,
     "voice": "onyx",
     "headline": "Advancements in Safety and Robustness for Autonomous Systems",
     "summary_text": "Today's research highlights significant strides in safety-critical systems for autonomous vehicles, particularly in camera reliability and V2X communication. Papers like 'Safety-Critical Camera Reliability Monitoring for ADAS' and 'Multi-Robot Coordination in V2X Environments' showcase the integration of advanced monitoring and communication techniques.",
