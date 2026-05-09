@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T00:02:38-04:00",
+  "updated_at": "2026-05-09T09:44:22-04:00",
   "mode": "trending",
   "items": [
     {
@@ -69,40 +69,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "33k↓ · 167♡"
-    },
-    {
-      "id": "hash:fd09df50b49f7b9f",
-      "title": "z-lab/Qwen3.6-27B-DFlash",
-      "link": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash",
-      "date": "2026-04-23T10:15:06.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:model"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/z-lab/Qwen3.6-27B-DFlash.png",
-      "score": 84.3,
-      "category": "Projects & Models",
-      "action": "Read",
-      "summary": "text-generation",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 30k↓ · 268♡",
-      "dimensions": {},
-      "popularity_score": 84.3,
-      "popularity_signals": {
-        "hf_downloads": 30478,
-        "hf_likes": 268,
-        "hf_trending_score": 67.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 30.97,
-        "hf_likes": 27.97,
-        "hf_trending_score": 50.63
-      },
-      "n_platforms": 1,
-      "trending_caption": "30k↓ · 268♡"
     },
     {
       "id": "hash:5a300cd092227457",
@@ -244,7 +210,7 @@
       "id": "hash:b48940b96db331dc",
       "title": "onyx-dot-app/onyx",
       "link": "https://github.com/onyx-dot-app/onyx",
-      "date": "2026-05-09T02:45:51Z",
+      "date": "2026-05-09T10:26:25Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -308,7 +274,7 @@
       "id": "hash:881241129435c2ab",
       "title": "labring/FastGPT",
       "link": "https://github.com/labring/FastGPT",
-      "date": "2026-05-09T03:30:39Z",
+      "date": "2026-05-09T08:13:01Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -404,7 +370,7 @@
       "id": "hash:2b1622c80544af02",
       "title": "sgl-project/sglang",
       "link": "https://github.com/sgl-project/sglang",
-      "date": "2026-05-09T03:46:59Z",
+      "date": "2026-05-09T13:41:49Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -436,7 +402,7 @@
       "id": "hash:4cb2c60d8635d504",
       "title": "langfuse/langfuse",
       "link": "https://github.com/langfuse/langfuse",
-      "date": "2026-05-08T23:08:27Z",
+      "date": "2026-05-09T08:36:28Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -468,7 +434,7 @@
       "id": "hash:0f8fcf0b5953d33d",
       "title": "openai/openai-agents-python",
       "link": "https://github.com/openai/openai-agents-python",
-      "date": "2026-05-09T03:55:10Z",
+      "date": "2026-05-09T12:08:29Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -500,7 +466,7 @@
       "id": "hash:924d5db653e75771",
       "title": "mlflow/mlflow",
       "link": "https://github.com/mlflow/mlflow",
-      "date": "2026-05-09T03:33:09Z",
+      "date": "2026-05-09T10:33:49Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -532,7 +498,7 @@
       "id": "hash:e331b0c9453cb1bf",
       "title": "usestrix/strix",
       "link": "https://github.com/usestrix/strix",
-      "date": "2026-05-08T09:40:12Z",
+      "date": "2026-05-09T07:46:43Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -564,7 +530,7 @@
       "id": "hash:b1c661c4825f2ee9",
       "title": "shap/shap",
       "link": "https://github.com/shap/shap",
-      "date": "2026-05-08T06:47:23Z",
+      "date": "2026-05-09T06:21:21Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -692,7 +658,7 @@
       "id": "hash:b1058518d80001e8",
       "title": "PaddlePaddle/Paddle",
       "link": "https://github.com/PaddlePaddle/Paddle",
-      "date": "2026-05-09T03:33:29Z",
+      "date": "2026-05-09T12:28:13Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -756,7 +722,7 @@
       "id": "hash:4bdfa6eb6218ce7e",
       "title": "Tencent/ncnn",
       "link": "https://github.com/Tencent/ncnn",
-      "date": "2026-05-09T03:48:42Z",
+      "date": "2026-05-09T08:32:03Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -788,7 +754,7 @@
       "id": "hash:3d7deb1f4a6f901f",
       "title": "huggingface/datasets",
       "link": "https://github.com/huggingface/datasets",
-      "date": "2026-05-07T17:43:29Z",
+      "date": "2026-05-09T13:16:36Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -820,7 +786,7 @@
       "id": "hash:942b8d414815ae15",
       "title": "onnx/onnx",
       "link": "https://github.com/onnx/onnx",
-      "date": "2026-05-09T03:51:28Z",
+      "date": "2026-05-09T11:02:23Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -852,7 +818,7 @@
       "id": "hash:c826449d217f5f24",
       "title": "microsoft/onnxruntime",
       "link": "https://github.com/microsoft/onnxruntime",
-      "date": "2026-05-09T01:59:11Z",
+      "date": "2026-05-09T12:47:29Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -911,40 +877,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "19k★"
-    },
-    {
-      "id": "hash:7e9536ebbc2120ff",
-      "title": "apptek-com/apptek_callcenter_dialogues (dataset)",
-      "link": "https://huggingface.co/datasets/apptek-com/apptek_callcenter_dialogues",
-      "date": "2026-04-23T08:30:06.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/apptek-com/apptek_callcenter_dialogues.png",
-      "score": 60.7,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "AppTek Call-Center Dialogues: A Multi-Accent Long-Form Benchmark for English ASR\n\t\n\nAppTek Call-Center Dialogues is a long-form conversational speech dataset for automatic speech recognition (ASR), featuring diverse English accents \nacro…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 2k↓ · 27♡",
-      "dimensions": {},
-      "popularity_score": 60.7,
-      "popularity_signals": {
-        "hf_downloads": 2644,
-        "hf_likes": 27,
-        "hf_trending_score": 24.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 23.64,
-        "hf_likes": 16.66,
-        "hf_trending_score": 38.63
-      },
-      "n_platforms": 1,
-      "trending_caption": "2k↓ · 27♡"
     },
     {
       "id": "hash:9569f5463495b661",
@@ -1016,7 +948,7 @@
       "id": "hash:3e5c198b11630661",
       "title": "ArduPilot/ardupilot",
       "link": "https://github.com/ArduPilot/ardupilot",
-      "date": "2026-05-08T22:44:20Z",
+      "date": "2026-05-09T11:41:19Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1144,7 +1076,7 @@
       "id": "hash:603bb789cd4adf76",
       "title": "carla-simulator/carla",
       "link": "https://github.com/carla-simulator/carla",
-      "date": "2026-05-08T17:07:17Z",
+      "date": "2026-05-09T09:58:10Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1176,7 +1108,7 @@
       "id": "hash:f0fe01b9989d7dcb",
       "title": "NVIDIA/TensorRT-LLM",
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
-      "date": "2026-05-09T03:09:28Z",
+      "date": "2026-05-09T13:05:55Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1237,6 +1169,38 @@
       "trending_caption": "11k★"
     },
     {
+      "id": "hash:207a97991189d206",
+      "title": "autowarefoundation/autoware",
+      "link": "https://github.com/autowarefoundation/autoware",
+      "date": "2026-05-09T12:09:05Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/20454841ba1612c2eb5163e9f468080b1fcbe55429ccd31a4035eb7d874d2b2b/autowarefoundation/autoware",
+      "score": 57.6,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Autoware - the world's leading open-source software project for autonomous driving",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 11k★",
+      "dimensions": {},
+      "popularity_score": 57.6,
+      "popularity_signals": {
+        "github_stars": 11557,
+        "github_forks": 3625,
+        "github_pushed_at": "2026-05-05T15:52:48Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 74.84
+      },
+      "n_platforms": 1,
+      "trending_caption": "11k★"
+    },
+    {
       "id": "hash:06f4b4c98b984db8",
       "title": "ludwig-ai/ludwig",
       "link": "https://github.com/ludwig-ai/ludwig",
@@ -1264,38 +1228,6 @@
       },
       "popularity_contributions": {
         "github_stars": 74.93
-      },
-      "n_platforms": 1,
-      "trending_caption": "11k★"
-    },
-    {
-      "id": "hash:207a97991189d206",
-      "title": "autowarefoundation/autoware",
-      "link": "https://github.com/autowarefoundation/autoware",
-      "date": "2026-05-05T15:52:48Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/20454841ba1612c2eb5163e9f468080b1fcbe55429ccd31a4035eb7d874d2b2b/autowarefoundation/autoware",
-      "score": 57.6,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Autoware - the world's leading open-source software project for autonomous driving",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 11k★",
-      "dimensions": {},
-      "popularity_score": 57.6,
-      "popularity_signals": {
-        "github_stars": 11557,
-        "github_forks": 3625,
-        "github_pushed_at": "2026-05-05T15:52:48Z"
-      },
-      "popularity_contributions": {
-        "github_stars": 74.84
       },
       "n_platforms": 1,
       "trending_caption": "11k★"
@@ -1336,7 +1268,7 @@
       "id": "hash:934e668cb52b3780",
       "title": "wandb/wandb",
       "link": "https://github.com/wandb/wandb",
-      "date": "2026-05-08T22:17:18Z",
+      "date": "2026-05-09T06:48:02Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1400,7 +1332,7 @@
       "id": "hash:2ab8f1b4337fefda",
       "title": "cupy/cupy",
       "link": "https://github.com/cupy/cupy",
-      "date": "2026-05-08T17:42:19Z",
+      "date": "2026-05-09T12:36:52Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1464,7 +1396,7 @@
       "id": "hash:20748d7b31be8a72",
       "title": "rapidsai/cudf",
       "link": "https://github.com/rapidsai/cudf",
-      "date": "2026-05-09T01:06:11Z",
+      "date": "2026-05-09T13:40:45Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1488,6 +1420,38 @@
       },
       "popularity_contributions": {
         "github_stars": 73.38
+      },
+      "n_platforms": 1,
+      "trending_caption": "9k★"
+    },
+    {
+      "id": "hash:1eb4648a5511a41e",
+      "title": "OpenPipe/ART",
+      "link": "https://github.com/OpenPipe/ART",
+      "date": "2026-05-09T05:35:38Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/946178371/65bbf38b-59ea-4662-832b-2a7aa30ea51c",
+      "score": 56.3,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more!",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 9k★",
+      "dimensions": {},
+      "popularity_score": 56.3,
+      "popularity_signals": {
+        "github_stars": 9429,
+        "github_forks": 826,
+        "github_pushed_at": "2026-05-08T19:14:39Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 73.21
       },
       "n_platforms": 1,
       "trending_caption": "9k★"
@@ -1520,38 +1484,6 @@
       },
       "popularity_contributions": {
         "github_stars": 73.2
-      },
-      "n_platforms": 1,
-      "trending_caption": "9k★"
-    },
-    {
-      "id": "hash:1eb4648a5511a41e",
-      "title": "OpenPipe/ART",
-      "link": "https://github.com/OpenPipe/ART",
-      "date": "2026-05-08T19:14:39Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://repository-images.githubusercontent.com/946178371/65bbf38b-59ea-4662-832b-2a7aa30ea51c",
-      "score": 56.3,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more!",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 9k★",
-      "dimensions": {},
-      "popularity_score": 56.3,
-      "popularity_signals": {
-        "github_stars": 9429,
-        "github_forks": 826,
-        "github_pushed_at": "2026-05-08T19:14:39Z"
-      },
-      "popularity_contributions": {
-        "github_stars": 73.21
       },
       "n_platforms": 1,
       "trending_caption": "9k★"
@@ -1656,7 +1588,7 @@
       "id": "hash:1bfa929801a2e14f",
       "title": "isaac-sim/IsaacLab",
       "link": "https://github.com/isaac-sim/IsaacLab",
-      "date": "2026-05-08T20:38:58Z",
+      "date": "2026-05-09T07:06:15Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1720,7 +1652,7 @@
       "id": "hash:8e3c03378fb5a0f9",
       "title": "rllm-org/rllm",
       "link": "https://github.com/rllm-org/rllm",
-      "date": "2026-05-09T00:15:38Z",
+      "date": "2026-05-09T07:53:04Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1744,6 +1676,38 @@
       },
       "popularity_contributions": {
         "github_stars": 68.88
+      },
+      "n_platforms": 1,
+      "trending_caption": "5k★"
+    },
+    {
+      "id": "hash:4307e740305789fa",
+      "title": "inclusionAI/AReaL",
+      "link": "https://github.com/inclusionAI/AReaL",
+      "date": "2026-05-09T13:39:33Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/dbe2e2b63862e188bd53497a2dc7ffeee06aa8635fe69b61f16b0fd6c4b2a5d2/inclusionAI/AReaL",
+      "score": 52.6,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 5k★",
+      "dimensions": {},
+      "popularity_score": 52.6,
+      "popularity_signals": {
+        "github_stars": 5150,
+        "github_forks": 493,
+        "github_pushed_at": "2026-05-08T14:40:02Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 68.38
       },
       "n_platforms": 1,
       "trending_caption": "5k★"
@@ -1776,38 +1740,6 @@
       },
       "popularity_contributions": {
         "github_stars": 68.34
-      },
-      "n_platforms": 1,
-      "trending_caption": "5k★"
-    },
-    {
-      "id": "hash:4307e740305789fa",
-      "title": "inclusionAI/AReaL",
-      "link": "https://github.com/inclusionAI/AReaL",
-      "date": "2026-05-08T14:40:02Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/dbe2e2b63862e188bd53497a2dc7ffeee06aa8635fe69b61f16b0fd6c4b2a5d2/inclusionAI/AReaL",
-      "score": 52.6,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 5k★",
-      "dimensions": {},
-      "popularity_score": 52.6,
-      "popularity_signals": {
-        "github_stars": 5150,
-        "github_forks": 493,
-        "github_pushed_at": "2026-05-08T14:40:02Z"
-      },
-      "popularity_contributions": {
-        "github_stars": 68.38
       },
       "n_platforms": 1,
       "trending_caption": "5k★"
@@ -1850,7 +1782,7 @@
       "id": "hash:29f2087d2d616a01",
       "title": "newton-physics/newton",
       "link": "https://github.com/newton-physics/newton",
-      "date": "2026-05-08T23:51:07Z",
+      "date": "2026-05-09T13:24:23Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1882,7 +1814,7 @@
       "id": "hash:88163fa077a98238",
       "title": "cactus-compute/cactus",
       "link": "https://github.com/cactus-compute/cactus",
-      "date": "2026-05-07T16:05:05Z",
+      "date": "2026-05-09T12:22:00Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1946,7 +1878,7 @@
       "id": "hash:86c5656f295f64a9",
       "title": "MichaelGrupp/evo",
       "link": "https://github.com/MichaelGrupp/evo",
-      "date": "2026-05-08T23:45:41Z",
+      "date": "2026-05-09T11:47:15Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2010,7 +1942,7 @@
       "id": "hash:82002a9519c10ce0",
       "title": "RobotLocomotion/drake",
       "link": "https://github.com/RobotLocomotion/drake",
-      "date": "2026-05-09T03:43:22Z",
+      "date": "2026-05-09T10:51:54Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2108,7 +2040,7 @@
       "id": "hash:ad5b9737c99c0d34",
       "title": "MRPT/mrpt",
       "link": "https://github.com/MRPT/mrpt",
-      "date": "2026-05-07T10:37:04Z",
+      "date": "2026-05-09T07:31:20Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2140,7 +2072,7 @@
       "id": "hash:b4fb5cfa5bd435de",
       "title": "leofan90/Awesome-World-Models",
       "link": "https://github.com/leofan90/Awesome-World-Models",
-      "date": "2026-05-08T02:43:55Z",
+      "date": "2026-05-09T09:50:03Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2204,7 +2136,7 @@
       "id": "hash:a63ee6c5ae7d86f2",
       "title": "ShisatoYano/AutonomousVehicleControlBeginnersGuide",
       "link": "https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide",
-      "date": "2026-05-08T07:58:59Z",
+      "date": "2026-05-09T10:58:16Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2463,6 +2395,40 @@
       "trending_caption": "55↓ · 11♡"
     },
     {
+      "id": "hash:7d2be04490818461",
+      "title": "sequelbox/Tachibana4-DeepSeek-V4-Pro (dataset)",
+      "link": "https://huggingface.co/datasets/sequelbox/Tachibana4-DeepSeek-V4-Pro",
+      "date": "2026-05-06T21:47:35.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/sequelbox/Tachibana4-DeepSeek-V4-Pro.png",
+      "score": 40.7,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Click here to support our open-source dataset and model releases - help us speed up our release schedule!\nTachibana 4 is an agentic coding dataset, testing the limits of DeepSeek-V4-Pro's coding skills:\n\nQuestions prioritize real-world,…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 56↓ · 10♡",
+      "dimensions": {},
+      "popularity_score": 40.7,
+      "popularity_signals": {
+        "hf_downloads": 56,
+        "hf_likes": 10,
+        "hf_trending_score": 10.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 12.13,
+        "hf_likes": 11.99,
+        "hf_trending_score": 28.77
+      },
+      "n_platforms": 1,
+      "trending_caption": "56↓ · 10♡"
+    },
+    {
       "id": "hash:ec9ce925f1e7ab36",
       "title": "sipeed/MaixPy",
       "link": "https://github.com/sipeed/MaixPy",
@@ -2562,7 +2528,7 @@
       "id": "hash:bcd83bb8969e7cd5",
       "title": "autowarefoundation/AWSIM",
       "link": "https://github.com/autowarefoundation/AWSIM",
-      "date": "2026-05-07T08:39:04Z",
+      "date": "2026-05-09T08:30:41Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3299,7 +3265,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06664v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3355,7 +3321,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06660v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3383,7 +3349,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06656v1/full_score_spread.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3411,7 +3377,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06654v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3495,7 +3461,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06640v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3551,7 +3517,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06637v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3579,7 +3545,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06632v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3635,7 +3601,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06629v1/feature_select.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3691,7 +3657,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.06607v1/x1.png",
       "score": 12.8,
       "category": "Papers",
       "action": "Track",
@@ -3803,8 +3769,8 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
-      "score": 12.8,
+      "image_url": "https://arxiv.org/html/2605.06140v1/x1.png",
+      "score": 12.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Generative modeling of physical systems, such as molecules, requires learning distributions that are invariant under global symmetries, such as rotations in three-dimensional space. Equivariant diffusion and flow matching models can inco…",
@@ -3814,10 +3780,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.8,
+      "popularity_score": 12.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 16.64
+        "recent_paper": 15.57
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3832,7 +3798,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05897v1/x1.png",
-      "score": 12.8,
+      "score": 12.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Intelligent Transportation Systems (ITS) require reliable environmental perception to support safe and efficient transportation. With the rapid development of Vehicle-to-everything (V2X), roadside perception has become an effective means…",
@@ -3842,10 +3808,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.8,
+      "popularity_score": 12.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 16.64
+        "recent_paper": 15.57
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3859,8 +3825,8 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
-      "score": 12.8,
+      "image_url": "https://arxiv.org/html/2605.05876v1/x1.png",
+      "score": 12.0,
       "category": "Papers",
       "action": "Track",
       "summary": "We present 3D Surface Splatting (3DSS), the first differentiable surface splatting renderer for physically-based inverse rendering from multi-view images. Our central insight is that the surface separation problem at the heart of surface…",
@@ -3870,10 +3836,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.8,
+      "popularity_score": 12.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 16.64
+        "recent_paper": 15.57
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3888,7 +3854,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05861v1/x1.png",
-      "score": 12.8,
+      "score": 12.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Future networking systems are envisioned to become part of an agentic AI-native ecosystem in which a vast number of heterogeneous and specialized AI agents cooperate seamlessly to fulfill complex user requirements in real time. However,…",
@@ -3898,10 +3864,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.8,
+      "popularity_score": 12.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 16.64
+        "recent_paper": 15.57
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3916,7 +3882,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05756v1/geometric_dilution_final.png",
-      "score": 12.8,
+      "score": 12.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Generating realistic 3D Human-Object Interactions (HOI) is a fundamental task for applications ranging from embodied AI to virtual content creation, which requires harmonizing high-level semantic intent with strict low-level physical con…",
@@ -3926,10 +3892,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.8,
+      "popularity_score": 12.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 16.64
+        "recent_paper": 15.57
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3944,7 +3910,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05748v1/image_OBJ.png",
-      "score": 12.8,
+      "score": 12.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Explainable Artificial Intelligence (XAI) is increasingly rec ognized as essential for deploying machine learning systems in safety critical environments. In Automatic Target Recognition (ATR), where models operate on image, video, radar…",
@@ -3954,10 +3920,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.8,
+      "popularity_score": 12.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 16.64
+        "recent_paper": 15.57
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3971,7 +3937,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05636v1/figure/teaser.jpg",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4055,7 +4021,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.05922.png",
+      "image_url": "https://arxiv.org/html/2605.05922v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4084,7 +4050,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06665.png",
+      "image_url": "https://arxiv.org/html/2605.06665v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4112,7 +4078,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06548.png",
+      "image_url": "https://arxiv.org/html/2605.06548v1/x2.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4168,7 +4134,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06130.png",
+      "image_url": "https://arxiv.org/html/2605.06130v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4197,7 +4163,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06651.png",
+      "image_url": "https://arxiv.org/html/2605.06651v1/assets/comath_org_chart.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4226,7 +4192,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06638.png",
+      "image_url": "https://arxiv.org/html/2605.06638v1/figures/searchRL_newnew.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4254,7 +4220,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06507.png",
+      "image_url": "https://arxiv.org/html/2605.06507v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4310,7 +4276,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06196.png",
+      "image_url": "https://arxiv.org/html/2605.06196v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4338,7 +4304,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06216.png",
+      "image_url": "https://arxiv.org/html/2605.06216v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4367,7 +4333,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06652.png",
+      "image_url": "https://arxiv.org/html/2605.06652v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4452,7 +4418,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06376.png",
+      "image_url": "https://arxiv.org/html/2605.06376v1/x2.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4480,7 +4446,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06200.png",
+      "image_url": "https://arxiv.org/html/2605.06200v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4508,7 +4474,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06356.png",
+      "image_url": "https://arxiv.org/html/2605.06356v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4536,7 +4502,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.05566.png",
+      "image_url": "https://arxiv.org/html/2605.05566v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4705,7 +4671,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05206v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4845,7 +4811,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05176v1/figs/scaling_results_nover8heads_all_models_n.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4929,7 +4895,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05164v1/x1.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4957,7 +4923,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05161v1/figures/waldo_method_overview.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -4985,7 +4951,7 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05159v1/assets/pipeline-diagram-psk.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
@@ -5070,7 +5036,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04777v1/images/overall-v1.jpg",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Autonomous Earth Observation (EO) agents are transitioning from passive perception to complex, multi-step task execution. However, current architectures that integrate planning and execution within a single model often struggle with comb…",
@@ -5080,10 +5046,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5097,8 +5063,8 @@
       "sources": [
         "arxiv"
       ],
-      "image_url": "",
-      "score": 12.0,
+      "image_url": "https://arxiv.org/html/2605.04692v1/figs/DT-PT.png",
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "In this paper, we study second-order lag consensus in multi-agent cyber-physical networks subject to random noise and input failures, within a framework modeling the interactions and perceptions between physical twins and digital twins.…",
@@ -5108,10 +5074,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5126,7 +5092,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04528v1/src/full_structure.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Mechanical equipment forms the critical backbone of modern industrial production, yet domain shift severely limits the generalization of deep learning based fault diagnosis models across different equipment and operating conditions.Inspi…",
@@ -5136,10 +5102,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5154,7 +5120,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05204v1/x1.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -5212,7 +5178,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "",
+      "image_url": "https://arxiv.org/html/2605.05166v1/x1.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -5269,7 +5235,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.03314.png",
+      "image_url": "https://arxiv.org/html/2605.03314v1/x1.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -5297,7 +5263,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04461.png",
+      "image_url": "https://arxiv.org/html/2605.04461v1/fig/pipeline.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -5325,7 +5291,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04569.png",
+      "image_url": "https://arxiv.org/html/2605.04569v1/x2.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -5353,7 +5319,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04916.png",
+      "image_url": "https://arxiv.org/html/2605.04916v1/x1.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -5409,7 +5375,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04637.png",
+      "image_url": "https://arxiv.org/html/2605.04637v1/x1.png",
       "score": 11.0,
       "category": "Papers",
       "action": "Track",
@@ -7479,46 +7445,46 @@
     }
   ],
   "summary": {
-    "headline": "Focus on AI Agent Interaction and Model Serving Frameworks",
-    "tldr": "Today's research highlights a significant emphasis on AI agent interaction datasets and frameworks for serving large language models. The AgentTrove dataset and various model-serving platforms reflect a growing interest in enhancing agentic capabilities and efficient model deployment.",
+    "headline": "Focus on AI Agent Frameworks and Datasets Grows",
+    "tldr": "Today's research highlights a surge in AI agent frameworks and datasets, emphasizing the need for robust interaction models. Notable projects include AgentTrove and FastGPT, which enhance the capabilities of AI systems in real-world applications.",
     "themes": [
       {
-        "bullet": "Emergence of extensive datasets for agentic interactions.",
-        "cite": "AgentTrove"
+        "bullet": "Emerging frameworks for AI agents facilitate multi-agent workflows and integration.",
+        "cite": "openai/openai-agents-python"
       },
       {
-        "bullet": "Development of frameworks for efficient LLM and multimodal model serving.",
-        "cite": "sglang"
+        "bullet": "Large datasets like AgentTrove support the development of agentic interactions.",
+        "cite": "open-thoughts/AgentTrove"
       },
       {
-        "bullet": "Integration of advanced features into AI chat platforms.",
-        "cite": "onyx"
+        "bullet": "Platforms like FastGPT offer comprehensive tools for AI model orchestration.",
+        "cite": "labring/FastGPT"
       },
       {
-        "bullet": "Focus on tools for building and managing AI agents.",
-        "cite": "Composio"
+        "bullet": "Growing interest in any-to-any models for versatile AI applications.",
+        "cite": "google/gemma-4-31B-it-assistant"
       },
       {
-        "bullet": "Growing interest in any-to-any model capabilities.",
-        "cite": "gemma-4-31B-it-assistant"
+        "bullet": "Focus on scalable serving frameworks for large language models.",
+        "cite": "sgl-project/sglang"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-09T04:01:42Z"
+    "generated_at": "2026-05-09T13:43:26Z"
   },
   "podcast": {
     "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-09.mp3",
     "rel_path": "podcast/2026-05-09.mp3",
-    "title": "Research Radar — Sat May 09: Focus on AI Agent Interaction and Model Serving Frameworks",
-    "pub_date": "2026-05-09T00:01:42.418788-04:00",
-    "duration_sec": 138,
-    "size_bytes": 3463680,
-    "word_count": 380,
-    "char_count": 2700,
+    "title": "Research Radar — Sat May 09: Focus on AI Agent Frameworks and Datasets Grows",
+    "pub_date": "2026-05-09T09:43:26.584553-04:00",
+    "duration_sec": 141,
+    "size_bytes": 3521280,
+    "word_count": 389,
+    "char_count": 2781,
     "voice": "onyx",
-    "headline": "Focus on AI Agent Interaction and Model Serving Frameworks",
-    "summary_text": "Today's research highlights a significant emphasis on AI agent interaction datasets and frameworks for serving large language models. The AgentTrove dataset and various model-serving platforms reflect a growing interest in enhancing agentic capabilities and efficient model deployment.",
-    "episode_key": "819d94f15d0e5ef47d157b39a5e2ccaf",
+    "headline": "Focus on AI Agent Frameworks and Datasets Grows",
+    "summary_text": "Today's research highlights a surge in AI agent frameworks and datasets, emphasizing the need for robust interaction models. Notable projects include AgentTrove and FastGPT, which enhance the capabilities of AI systems in real-world applications.",
+    "episode_key": "d7871830cb8fe8e3afe98bc9cac78194",
     "version": "podcast.v1"
   },
   "score_weights": {},

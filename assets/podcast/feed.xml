@@ -6,18 +6,18 @@
     <atom:link href="https://liangkai.org/assets/podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily ~6-minute audio briefing of the autonomy-systems research radar. Generated automatically; voice is OpenAI TTS.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 May 2026 00:02:38 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 09:44:22 -0400</lastBuildDate>
     <itunes:author>Prof. Liangkai Liu</itunes:author>
     <itunes:summary>Daily ~6-minute audio briefing of the autonomy-systems research radar.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"/>
     <item>
-      <title>Research Radar — Sat May 09: Focus on AI Agent Interaction and Model Serving Frameworks</title>
-      <description>Today's research highlights a significant emphasis on AI agent interaction datasets and frameworks for serving large language models. The AgentTrove dataset and various model-serving platforms reflect a growing interest in enhancing agentic capabilities and efficient model deployment.</description>
-      <pubDate>Sat, 09 May 2026 00:01:42 -0400</pubDate>
-      <enclosure url="https://liangkai.org/assets/podcast/2026-05-09.mp3" length="3463680" type="audio/mpeg"/>
+      <title>Research Radar — Sat May 09: Focus on AI Agent Frameworks and Datasets Grows</title>
+      <description>Today's research highlights a surge in AI agent frameworks and datasets, emphasizing the need for robust interaction models. Notable projects include AgentTrove and FastGPT, which enhance the capabilities of AI systems in real-world applications.</description>
+      <pubDate>Sat, 09 May 2026 09:43:26 -0400</pubDate>
+      <enclosure url="https://liangkai.org/assets/podcast/2026-05-09.mp3" length="3521280" type="audio/mpeg"/>
       <guid isPermaLink="false">research-radar-2026-05-09</guid>
-      <itunes:duration>138</itunes:duration>
+      <itunes:duration>141</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
