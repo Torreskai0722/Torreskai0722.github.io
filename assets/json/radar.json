@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T23:37:40-04:00",
+  "updated_at": "2026-05-08T23:52:27-04:00",
   "mode": "trending",
   "items": [
     {
@@ -137,40 +137,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "22k↓ · 94♡"
-    },
-    {
-      "id": "hash:abf3048e6d2d90aa",
-      "title": "sensenova/SenseNova-U1-8B-MoT",
-      "link": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "date": "2026-04-22T04:43:54.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:model"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sensenova/SenseNova-U1-8B-MoT.png",
-      "score": 81.2,
-      "category": "Projects & Models",
-      "action": "Read",
-      "summary": "any-to-any",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 2k↓ · 203♡",
-      "dimensions": {},
-      "popularity_score": 81.2,
-      "popularity_signals": {
-        "hf_downloads": 2947,
-        "hf_likes": 203,
-        "hf_trending_score": 97.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 23.97,
-        "hf_likes": 26.59,
-        "hf_trending_score": 55.02
-      },
-      "n_platforms": 1,
-      "trending_caption": "2k↓ · 203♡"
     },
     {
       "id": "hash:0bdb6f3c1381e48e",
@@ -883,10 +849,170 @@
       "trending_caption": "35k★"
     },
     {
+      "id": "hash:b48940b96db331dc",
+      "title": "onyx-dot-app/onyx",
+      "link": "https://github.com/onyx-dot-app/onyx",
+      "date": "2026-05-09T02:45:51Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/633262635/dca37acb-de40-4b62-9238-f06ff265241a",
+      "score": 63.3,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 29k★",
+      "dimensions": {},
+      "popularity_score": 63.3,
+      "popularity_signals": {
+        "github_stars": 29204,
+        "github_forks": 3932,
+        "github_pushed_at": "2026-05-09T02:45:51Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 82.26
+      },
+      "n_platforms": 1,
+      "trending_caption": "29k★"
+    },
+    {
+      "id": "hash:127790b7bcd09a15",
+      "title": "dmlc/xgboost",
+      "link": "https://github.com/dmlc/xgboost",
+      "date": "2026-05-05T09:52:03Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/657e506dfd3d2ff6924ff10286905f666e399fdeec4dd2b3cb462814a6d4e8f0/dmlc/xgboost",
+      "score": 63.1,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 28k★",
+      "dimensions": {},
+      "popularity_score": 63.1,
+      "popularity_signals": {
+        "github_stars": 28356,
+        "github_forks": 8868,
+        "github_pushed_at": "2026-05-05T09:52:03Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 82.02
+      },
+      "n_platforms": 1,
+      "trending_caption": "28k★"
+    },
+    {
+      "id": "hash:881241129435c2ab",
+      "title": "labring/FastGPT",
+      "link": "https://github.com/labring/FastGPT",
+      "date": "2026-05-09T03:30:39Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/935e2d883688f941375bf1fe3a36a6fd293246265d23e3ff0b98dd0b0cb133b7/labring/FastGPT",
+      "score": 63.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy comp…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 27k★",
+      "dimensions": {},
+      "popularity_score": 63.0,
+      "popularity_signals": {
+        "github_stars": 27952,
+        "github_forks": 7080,
+        "github_pushed_at": "2026-05-09T03:30:39Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.91
+      },
+      "n_platforms": 1,
+      "trending_caption": "27k★"
+    },
+    {
+      "id": "hash:2c0207e6b7d3d809",
+      "title": "ComposioHQ/composio",
+      "link": "https://github.com/ComposioHQ/composio",
+      "date": "2026-05-08T23:46:29Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/dd7c499e3646189bf530d550f5395051e8e67079bd139659fae5b06d7c1df33c/ComposioHQ/composio",
+      "score": 63.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 28k★",
+      "dimensions": {},
+      "popularity_score": 63.0,
+      "popularity_signals": {
+        "github_stars": 28122,
+        "github_forks": 4552,
+        "github_pushed_at": "2026-05-08T23:46:29Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.95
+      },
+      "n_platforms": 1,
+      "trending_caption": "28k★"
+    },
+    {
+      "id": "hash:34b310bd26571d6e",
+      "title": "microsoft/semantic-kernel",
+      "link": "https://github.com/microsoft/semantic-kernel",
+      "date": "2026-05-08T19:32:52Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/607289185/402ae401-d650-438a-bc04-780afb58b560",
+      "score": 63.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 27k★",
+      "dimensions": {},
+      "popularity_score": 63.0,
+      "popularity_signals": {
+        "github_stars": 27862,
+        "github_forks": 4592,
+        "github_pushed_at": "2026-05-08T19:32:52Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.88
+      },
+      "n_platforms": 1,
+      "trending_caption": "27k★"
+    },
+    {
       "id": "hash:2b1622c80544af02",
       "title": "sgl-project/sglang",
       "link": "https://github.com/sgl-project/sglang",
-      "date": "2026-05-09T03:26:01Z",
+      "date": "2026-05-09T03:46:59Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -913,6 +1039,358 @@
       },
       "n_platforms": 1,
       "trending_caption": "27k★"
+    },
+    {
+      "id": "hash:4cb2c60d8635d504",
+      "title": "langfuse/langfuse",
+      "link": "https://github.com/langfuse/langfuse",
+      "date": "2026-05-08T23:08:27Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/642497346/7753f7ee-40e3-4e93-84dc-fbf0487c7fb4",
+      "score": 62.8,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 26k★",
+      "dimensions": {},
+      "popularity_score": 62.8,
+      "popularity_signals": {
+        "github_stars": 26846,
+        "github_forks": 2719,
+        "github_pushed_at": "2026-05-08T23:08:27Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.58
+      },
+      "n_platforms": 1,
+      "trending_caption": "26k★"
+    },
+    {
+      "id": "hash:0f8fcf0b5953d33d",
+      "title": "openai/openai-agents-python",
+      "link": "https://github.com/openai/openai-agents-python",
+      "date": "2026-05-09T03:48:48Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/2fecb507076c4ad83b780726c04c2238e7a80a8dcb7f6898fbf06e396908f337/openai/openai-agents-python",
+      "score": 62.6,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "A lightweight, powerful framework for multi-agent workflows",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 26k★",
+      "dimensions": {},
+      "popularity_score": 62.6,
+      "popularity_signals": {
+        "github_stars": 26086,
+        "github_forks": 4004,
+        "github_pushed_at": "2026-05-09T03:48:48Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.35
+      },
+      "n_platforms": 1,
+      "trending_caption": "26k★"
+    },
+    {
+      "id": "hash:924d5db653e75771",
+      "title": "mlflow/mlflow",
+      "link": "https://github.com/mlflow/mlflow",
+      "date": "2026-05-09T03:33:09Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/136202695/beb114fb-3a2d-42bc-b7e0-cc7825d5be22",
+      "score": 62.5,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.5,
+      "popularity_signals": {
+        "github_stars": 25831,
+        "github_forks": 5698,
+        "github_pushed_at": "2026-05-09T03:33:09Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.27
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
+      "id": "hash:e331b0c9453cb1bf",
+      "title": "usestrix/strix",
+      "link": "https://github.com/usestrix/strix",
+      "date": "2026-05-08T09:40:12Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/b5d5e7c5ff584fe72a7e4395b3637877df11f0f4de2d5bcbda85387b107b1431/usestrix/strix",
+      "score": 62.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.4,
+      "popularity_signals": {
+        "github_stars": 25138,
+        "github_forks": 2791,
+        "github_pushed_at": "2026-05-08T09:40:12Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.06
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
+      "id": "hash:b1c661c4825f2ee9",
+      "title": "shap/shap",
+      "link": "https://github.com/shap/shap",
+      "date": "2026-05-08T06:47:23Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/6cd5b2dcb4b986741007677e7cb72c043912086f643dcdd9036da93b45924482/shap/shap",
+      "score": 62.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "A game theoretic approach to explain the output of any machine learning model.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.4,
+      "popularity_signals": {
+        "github_stars": 25399,
+        "github_forks": 3724,
+        "github_pushed_at": "2026-05-08T06:47:23Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.14
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
+      "id": "hash:80a80acaec57a71e",
+      "title": "AlexsJones/llmfit",
+      "link": "https://github.com/AlexsJones/llmfit",
+      "date": "2026-05-06T09:35:35Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/4a4ee80a1276d858862946e5532088ffc8f299c4e527d34bb1d6f0885daf021d/AlexsJones/llmfit",
+      "score": 62.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.4,
+      "popularity_signals": {
+        "github_stars": 25529,
+        "github_forks": 1520,
+        "github_pushed_at": "2026-05-06T09:35:35Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.18
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
+      "id": "hash:d1f9d3d4f12c4fd3",
+      "title": "deepset-ai/haystack",
+      "link": "https://github.com/deepset-ai/haystack",
+      "date": "2026-05-08T14:27:54Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/221654678/23b1cde8-4a33-45f4-8b0b-0686221c8126",
+      "score": 62.3,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scal…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.3,
+      "popularity_signals": {
+        "github_stars": 25127,
+        "github_forks": 2774,
+        "github_pushed_at": "2026-05-08T14:27:54Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.05
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
+      "id": "hash:4ee68de0f3ced2ea",
+      "title": "harvard-edge/cs249r_book",
+      "link": "https://github.com/harvard-edge/cs249r_book",
+      "date": "2026-05-08T22:58:22Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/f6167b8f5cc046f071df25c7091f8607ce091d37fc41a77e65ea22fd656a9773/harvard-edge/cs249r_book",
+      "score": 62.1,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Machine Learning Systems",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 24k★",
+      "dimensions": {},
+      "popularity_score": 62.1,
+      "popularity_signals": {
+        "github_stars": 24128,
+        "github_forks": 2889,
+        "github_pushed_at": "2026-05-08T22:58:22Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 80.73
+      },
+      "n_platforms": 1,
+      "trending_caption": "24k★"
+    },
+    {
+      "id": "hash:b1058518d80001e8",
+      "title": "PaddlePaddle/Paddle",
+      "link": "https://github.com/PaddlePaddle/Paddle",
+      "date": "2026-05-09T03:33:29Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/b8e846b5bd00ce83c7b0c98207c2daa22eeae15142ecacb81d113f49f4e16212/PaddlePaddle/Paddle",
+      "score": 62.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 23k★",
+      "dimensions": {},
+      "popularity_score": 62.0,
+      "popularity_signals": {
+        "github_stars": 23878,
+        "github_forks": 5989,
+        "github_pushed_at": "2026-05-09T03:33:29Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 80.65
+      },
+      "n_platforms": 1,
+      "trending_caption": "23k★"
+    },
+    {
+      "id": "hash:aafa6512fa2551e6",
+      "title": "pyg-team/pytorch_geometric",
+      "link": "https://github.com/pyg-team/pytorch_geometric",
+      "date": "2026-05-04T20:08:04Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/a9f40c261ecd5df1cb7944e47b8d37d4cfd91aea527432b4c0f4534ba52d1664/pyg-team/pytorch_geometric",
+      "score": 62.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Graph Neural Network Library for PyTorch",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 23k★",
+      "dimensions": {},
+      "popularity_score": 62.0,
+      "popularity_signals": {
+        "github_stars": 23732,
+        "github_forks": 3983,
+        "github_pushed_at": "2026-05-04T20:08:04Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 80.6
+      },
+      "n_platforms": 1,
+      "trending_caption": "23k★"
+    },
+    {
+      "id": "hash:4bdfa6eb6218ce7e",
+      "title": "Tencent/ncnn",
+      "link": "https://github.com/Tencent/ncnn",
+      "date": "2026-05-09T03:48:42Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/22ff1ac548b81d8af8628a3ed9efd848c6fc20a73bbb51ed7b41a5395c579b7f/Tencent/ncnn",
+      "score": 61.9,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 23k★",
+      "dimensions": {},
+      "popularity_score": 61.9,
+      "popularity_signals": {
+        "github_stars": 23201,
+        "github_forks": 4420,
+        "github_pushed_at": "2026-05-09T03:48:42Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 80.42
+      },
+      "n_platforms": 1,
+      "trending_caption": "23k★"
     },
     {
       "id": "hash:3d7deb1f4a6f901f",
@@ -945,6 +1423,70 @@
       },
       "n_platforms": 1,
       "trending_caption": "21k★"
+    },
+    {
+      "id": "hash:942b8d414815ae15",
+      "title": "onnx/onnx",
+      "link": "https://github.com/onnx/onnx",
+      "date": "2026-05-09T01:31:07Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/2801d7a5d4b2a5757994980aec882a10800a4f5204b386b336fbfb42e0ab49e4/onnx/onnx",
+      "score": 61.2,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Open standard for machine learning interoperability",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 20k★",
+      "dimensions": {},
+      "popularity_score": 61.2,
+      "popularity_signals": {
+        "github_stars": 20786,
+        "github_forks": 3928,
+        "github_pushed_at": "2026-05-09T01:31:07Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 79.54
+      },
+      "n_platforms": 1,
+      "trending_caption": "20k★"
+    },
+    {
+      "id": "hash:c826449d217f5f24",
+      "title": "microsoft/onnxruntime",
+      "link": "https://github.com/microsoft/onnxruntime",
+      "date": "2026-05-09T01:59:11Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/156939672/37b1cb00-864b-11eb-8220-76153935f7da",
+      "score": 61.1,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 20k★",
+      "dimensions": {},
+      "popularity_score": 61.1,
+      "popularity_signals": {
+        "github_stars": 20443,
+        "github_forks": 3896,
+        "github_pushed_at": "2026-05-09T01:59:11Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 79.4
+      },
+      "n_platforms": 1,
+      "trending_caption": "20k★"
     },
     {
       "id": "hash:5392d6df66fe03c5",
@@ -1011,6 +1553,38 @@
       },
       "n_platforms": 1,
       "trending_caption": "2k↓ · 27♡"
+    },
+    {
+      "id": "hash:9569f5463495b661",
+      "title": "cvat-ai/cvat",
+      "link": "https://github.com/cvat-ai/cvat",
+      "date": "2026-05-08T22:09:07Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/139156354/cd9b3435-498b-4412-87c7-00e5e0a5d64c",
+      "score": 59.5,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotatio…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 15k★",
+      "dimensions": {},
+      "popularity_score": 59.5,
+      "popularity_signals": {
+        "github_stars": 15797,
+        "github_forks": 3667,
+        "github_pushed_at": "2026-05-08T22:09:07Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 77.34
+      },
+      "n_platforms": 1,
+      "trending_caption": "15k★"
     },
     {
       "id": "hash:36cb0029f2a2adf4",
@@ -1109,6 +1683,38 @@
       },
       "n_platforms": 1,
       "trending_caption": "15k★"
+    },
+    {
+      "id": "hash:0245878e5a6e394b",
+      "title": "davisking/dlib",
+      "link": "https://github.com/davisking/dlib",
+      "date": "2026-05-07T00:12:44Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/a43b00804597a3695eab506300d3f7024a93907176054fddc26eb302893734b0/davisking/dlib",
+      "score": 58.9,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "A toolkit for making real world machine learning and data analysis applications in C++",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 14k★",
+      "dimensions": {},
+      "popularity_score": 58.9,
+      "popularity_signals": {
+        "github_stars": 14378,
+        "github_forks": 3453,
+        "github_pushed_at": "2026-05-07T00:12:44Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 76.59
+      },
+      "n_platforms": 1,
+      "trending_caption": "14k★"
     },
     {
       "id": "hash:a662fd20dd3c9b2d",
@@ -1239,6 +1845,38 @@
       "trending_caption": "11k★"
     },
     {
+      "id": "hash:06f4b4c98b984db8",
+      "title": "ludwig-ai/ludwig",
+      "link": "https://github.com/ludwig-ai/ludwig",
+      "date": "2026-05-08T07:50:20Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/163346054/d1465280-6a9c-11e9-9e5e-c65cb5e74c01",
+      "score": 57.6,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Low-code framework for building custom LLMs, neural networks, and other AI models",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 11k★",
+      "dimensions": {},
+      "popularity_score": 57.6,
+      "popularity_signals": {
+        "github_stars": 11691,
+        "github_forks": 1218,
+        "github_pushed_at": "2026-05-08T07:50:20Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 74.93
+      },
+      "n_platforms": 1,
+      "trending_caption": "11k★"
+    },
+    {
       "id": "hash:207a97991189d206",
       "title": "autowarefoundation/autoware",
       "link": "https://github.com/autowarefoundation/autoware",
@@ -1311,7 +1949,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://repository-images.githubusercontent.com/86031674/540ed980-2e9b-11eb-9fe4-779589f0cc63",
       "score": 57.3,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1343,7 +1981,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://repository-images.githubusercontent.com/3659275/d699c900-09fd-11ea-979b-f7ec34791fcc",
       "score": 57.3,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1375,7 +2013,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/ebdd150e8895683540018abf97b30422e09026bc5dd42f4d626199725d468f5f/cupy/cupy",
       "score": 57.2,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1407,7 +2045,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/fcde6a32ee3d6289bd0375b81b710a49f4071202885d05bab6999d27fc62eb42/NVIDIA/cutlass",
       "score": 56.5,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1439,7 +2077,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/e29b2b882cad6c00db0bc4d55e15b96f3b00968b4637c753b106401b09043b6f/rapidsai/cudf",
       "score": 56.4,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1471,7 +2109,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/835bffe491d9054dd8d74f88f9d6127bc8ba2a8d09701689dddc448f2d69fb78/replicate/cog",
       "score": 56.3,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1503,7 +2141,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://repository-images.githubusercontent.com/946178371/65bbf38b-59ea-4662-832b-2a7aa30ea51c",
       "score": 56.3,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1535,7 +2173,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/2ed0db35aa04bf3be63d651e131e147b7189fb3673198c98ec72366402fde5ca/OpenRLHF/OpenRLHF",
       "score": 56.3,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1559,6 +2197,38 @@
       "trending_caption": "9k★"
     },
     {
+      "id": "hash:8b5fa7f4e5284c5f",
+      "title": "catboost/catboost",
+      "link": "https://github.com/catboost/catboost",
+      "date": "2026-05-08T21:55:12Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/504de0659d2c6ce48d2c04ec5e2f3962091933493b0793f6481d158e5ac5f300/catboost/catboost",
+      "score": 56.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 8k★",
+      "dimensions": {},
+      "popularity_score": 56.0,
+      "popularity_signals": {
+        "github_stars": 8936,
+        "github_forks": 1286,
+        "github_pushed_at": "2026-05-08T21:55:12Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 72.78
+      },
+      "n_platforms": 1,
+      "trending_caption": "8k★"
+    },
+    {
       "id": "hash:0922bbb402af22fc",
       "title": "VowpalWabbit/vowpal_wabbit",
       "link": "https://github.com/VowpalWabbit/vowpal_wabbit",
@@ -1567,7 +2237,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/3053efe912a7d027b8b7ddf4dd2e1a9946614dbd55468de94f7879839d93f9ac/VowpalWabbit/vowpal_wabbit",
       "score": 55.8,
       "category": "Projects & Models",
       "action": "Discuss with student",
@@ -1599,7 +2269,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://repository-images.githubusercontent.com/567038244/f2137db8-ef81-4a1e-b948-019c4b6040d8",
       "score": 54.6,
       "category": "Projects & Models",
       "action": "Track",
@@ -1631,7 +2301,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://repository-images.githubusercontent.com/537666394/a3a8482b-6060-45f4-b332-5a6863962191",
       "score": 53.2,
       "category": "Projects & Models",
       "action": "Track",
@@ -1655,6 +2325,102 @@
       "trending_caption": "5k★"
     },
     {
+      "id": "hash:8e3c03378fb5a0f9",
+      "title": "rllm-org/rllm",
+      "link": "https://github.com/rllm-org/rllm",
+      "date": "2026-05-09T00:15:38Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/9177f2badced43cb1d0283aaf28232de1631dfe6c7e37fb82aa8fe46a5c18a22/rllm-org/rllm",
+      "score": 53.0,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Democratizing Reinforcement Learning for LLMs",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 5k★",
+      "dimensions": {},
+      "popularity_score": 53.0,
+      "popularity_signals": {
+        "github_stars": 5483,
+        "github_forks": 555,
+        "github_pushed_at": "2026-05-09T00:15:38Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 68.88
+      },
+      "n_platforms": 1,
+      "trending_caption": "5k★"
+    },
+    {
+      "id": "hash:9178197c03cf0e8b",
+      "title": "InternLM/xtuner",
+      "link": "https://github.com/InternLM/xtuner",
+      "date": "2026-05-09T03:16:41Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/1244fa9b7e0292f6ada03ade1da1eba81606cdc175d0f0bc1492ccbf285dc1ac/InternLM/xtuner",
+      "score": 52.6,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "A Next-Generation Training Engine Built for Ultra-Large MoE Models",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 5k★",
+      "dimensions": {},
+      "popularity_score": 52.6,
+      "popularity_signals": {
+        "github_stars": 5127,
+        "github_forks": 420,
+        "github_pushed_at": "2026-05-09T03:16:41Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 68.34
+      },
+      "n_platforms": 1,
+      "trending_caption": "5k★"
+    },
+    {
+      "id": "hash:4307e740305789fa",
+      "title": "inclusionAI/AReaL",
+      "link": "https://github.com/inclusionAI/AReaL",
+      "date": "2026-05-08T14:40:02Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/dbe2e2b63862e188bd53497a2dc7ffeee06aa8635fe69b61f16b0fd6c4b2a5d2/inclusionAI/AReaL",
+      "score": 52.6,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 5k★",
+      "dimensions": {},
+      "popularity_score": 52.6,
+      "popularity_signals": {
+        "github_stars": 5150,
+        "github_forks": 493,
+        "github_pushed_at": "2026-05-08T14:40:02Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 68.38
+      },
+      "n_platforms": 1,
+      "trending_caption": "5k★"
+    },
+    {
       "id": "hash:fc8a309d8cec9b45",
       "title": "r0b0tlab/deepseek-hermes-reasoning-traces (dataset)",
       "link": "https://huggingface.co/datasets/r0b0tlab/deepseek-hermes-reasoning-traces",
@@ -1663,7 +2429,7 @@
       "sources": [
         "huggingface_trending:dataset"
       ],
-      "image_url": "",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/r0b0tlab/deepseek-hermes-reasoning-traces.png",
       "score": 52.4,
       "category": "Projects & Models",
       "action": "Track",
@@ -1697,7 +2463,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/edd9dd90440833cb4b4afb5f7ec158d1137a2356f901da3457bd84dcdf5caa97/newton-physics/newton",
       "score": 52.2,
       "category": "Projects & Models",
       "action": "Track",
@@ -1729,7 +2495,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/6552e53b2fac72eef7efce8585084ffff8a65a5076ac74fdff0da3190818dfd6/cactus-compute/cactus",
       "score": 52.1,
       "category": "Projects & Models",
       "action": "Track",
@@ -1761,7 +2527,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://repository-images.githubusercontent.com/156228018/862fe880-86b5-11e9-8cf3-77234b5b0398",
       "score": 51.5,
       "category": "Projects & Models",
       "action": "Track",
@@ -1780,6 +2546,38 @@
       },
       "popularity_contributions": {
         "github_stars": 67.01
+      },
+      "n_platforms": 1,
+      "trending_caption": "4k★"
+    },
+    {
+      "id": "hash:86c5656f295f64a9",
+      "title": "MichaelGrupp/evo",
+      "link": "https://github.com/MichaelGrupp/evo",
+      "date": "2026-05-08T23:45:41Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "",
+      "score": 51.4,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Python package for the evaluation of odometry and SLAM",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 4k★",
+      "dimensions": {},
+      "popularity_score": 51.4,
+      "popularity_signals": {
+        "github_stars": 4210,
+        "github_forks": 791,
+        "github_pushed_at": "2026-05-08T23:45:41Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 66.76
       },
       "n_platforms": 1,
       "trending_caption": "4k★"
@@ -1812,6 +2610,38 @@
       },
       "popularity_contributions": {
         "github_stars": 66.81
+      },
+      "n_platforms": 1,
+      "trending_caption": "4k★"
+    },
+    {
+      "id": "hash:82002a9519c10ce0",
+      "title": "RobotLocomotion/drake",
+      "link": "https://github.com/RobotLocomotion/drake",
+      "date": "2026-05-09T03:43:22Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "",
+      "score": 51.1,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Model-based design and verification for robotics.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 4k★",
+      "dimensions": {},
+      "popularity_score": 51.1,
+      "popularity_signals": {
+        "github_stars": 4023,
+        "github_forks": 1366,
+        "github_pushed_at": "2026-05-09T03:43:22Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 66.4
       },
       "n_platforms": 1,
       "trending_caption": "4k★"
@@ -3042,46 +3872,46 @@
     }
   ],
   "summary": {
-    "headline": "Dominance of AI Model Development Projects Today",
-    "tldr": "Today's focus is heavily on various AI model projects, particularly in text generation and assistant capabilities. Notable mentions include 'google/gemma-4-31B-it-assistant' and 'z-lab/Qwen3.6-27B-DFlash'.",
+    "headline": "Focus on AI Model Development Dominates Today's Research",
+    "tldr": "Today's research landscape is heavily centered around the development of large AI models and frameworks, with multiple projects like 'google/gemma-4-31B-it-assistant' and 'huggingface/transformers' leading the charge. These advancements highlight the ongoing push for accessible and versatile AI systems.",
     "themes": [
       {
-        "bullet": "Strong emphasis on any-to-any model capabilities across multiple projects.",
+        "bullet": "Multiple projects emphasize the creation of versatile AI assistants.",
         "cite": "google/gemma-4-31B-it-assistant"
       },
       {
-        "bullet": "Text generation models are prevalent, indicating a trend in natural language processing advancements.",
-        "cite": "z-lab/Qwen3.6-27B-DFlash"
+        "bullet": "Frameworks for model training and deployment are gaining traction.",
+        "cite": "huggingface/transformers"
       },
       {
-        "bullet": "Open-source frameworks like TensorFlow continue to support the AI development ecosystem.",
+        "bullet": "Open-source initiatives are expanding access to AI development tools.",
         "cite": "tensorflow/tensorflow"
       },
       {
-        "bullet": "Emerging platforms for agent engineering and interaction traces highlight a shift towards practical AI applications.",
+        "bullet": "Large datasets for agentic interactions are being made available.",
         "cite": "open-thoughts/AgentTrove"
       },
       {
-        "bullet": "User-friendly AI interfaces are becoming increasingly important for accessibility in AI tools.",
+        "bullet": "Focus on user-friendly interfaces for AI interaction is increasing.",
         "cite": "open-webui/open-webui"
       }
     ],
     "n_items": 15,
-    "generated_at": "2026-05-09T03:36:59Z"
+    "generated_at": "2026-05-09T03:51:48Z"
   },
   "podcast": {
     "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-08.mp3",
     "rel_path": "podcast/2026-05-08.mp3",
-    "title": "Research Radar — Fri May 08: Dominance of AI Model Development Projects Today",
-    "pub_date": "2026-05-08T23:36:59.573720-04:00",
-    "duration_sec": 130,
-    "size_bytes": 3373440,
-    "word_count": 357,
-    "char_count": 2676,
+    "title": "Research Radar — Fri May 08: Focus on AI Model Development Dominates Today's Research",
+    "pub_date": "2026-05-08T23:51:48.607287-04:00",
+    "duration_sec": 124,
+    "size_bytes": 3045600,
+    "word_count": 341,
+    "char_count": 2426,
     "voice": "onyx",
-    "headline": "Dominance of AI Model Development Projects Today",
-    "summary_text": "Today's focus is heavily on various AI model projects, particularly in text generation and assistant capabilities. Notable mentions include 'google/gemma-4-31B-it-assistant' and 'z-lab/Qwen3.6-27B-DFlash'.",
-    "episode_key": "bff8929aa38490ade1ffcb2bf308408c",
+    "headline": "Focus on AI Model Development Dominates Today's Research",
+    "summary_text": "Today's research landscape is heavily centered around the development of large AI models and frameworks, with multiple projects like 'google/gemma-4-31B-it-assistant' and 'huggingface/transformers' leading the charge. These advancements highlight the ongoing push for accessible and versatile AI systems.",
+    "episode_key": "c80f494be68e704165671045898fee0d",
     "version": "podcast.v1"
   },
   "score_weights": {},
