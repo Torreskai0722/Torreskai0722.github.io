@@ -1,0 +1,15 @@
+{
+  "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-10.mp3",
+  "rel_path": "podcast/2026-05-10.mp3",
+  "title": "Research Radar — Sun May 10: Focus on AI Agent Frameworks and Interaction Datasets",
+  "pub_date": "2026-05-10T09:46:22.066745-04:00",
+  "duration_sec": 141,
+  "size_bytes": 3499680,
+  "word_count": 388,
+  "char_count": 2806,
+  "voice": "onyx",
+  "headline": "Focus on AI Agent Frameworks and Interaction Datasets",
+  "summary_text": "Today's research highlights a surge in open-source frameworks for AI agents, emphasizing interaction and collaboration capabilities. Notably, the AgentTrove dataset offers extensive data for training agentic models.",
+  "episode_key": "23d0238bc516ed73c1cfa7b9e651f04e",
+  "version": "podcast.v1"
+}
