@@ -1,0 +1,13 @@
+The focus on AI platforms and LLM integration is growing, with a notable surge in open-source frameworks aimed at enhancing observability and performance in AI systems. 
+
+First up is Zyphra's ZAYA1-8B, a new model that's gaining traction on Hugging Face. ZAYA1-8B is designed to optimize performance for various AI applications, particularly in natural language processing. This model's architecture is tuned for efficiency, which can be crucial for real-time inference scenarios, especially in safety-critical systems like autonomous vehicles. For your work on predictable DNN inference, I'd flag this as a potential reference for exploring how model design impacts real-time performance and safety.
+
+Next, onyx-dot-app's Onyx platform is making waves as an open-source AI platform that integrates seamlessly with any LLM. It offers advanced features for AI chat applications, which could be beneficial for developing multimodal AI systems. The ability to work with various LLMs allows for flexibility in deployment, which is essential for edge AI applications where resource constraints are a concern. This could tie into your interests in cloud-edge coordination and on-device inference, especially in scenarios requiring low-latency interactions.
+
+Lastly, there's sgl-project's SGLang, a high-performance serving framework specifically designed for large language models and multimodal applications. This framework emphasizes observability and performance, which are critical for managing LLM workflows in production environments. For your NSF CIRC proposal, understanding how SGLang facilitates efficient model serving could provide insights into optimizing inference pipelines under contention, especially in collaborative computing environments.
+
+In quick hits, check out the following: gemma-4-31B-it-DFlash for text generation capabilities; ComposioHQ's Composio, which supports tool management for AI agents; Microsoft's Semantic Kernel for integrating LLMs into applications; and mlflow's platform for managing AI workflows, which is crucial for production-ready applications. 
+
+On the funding front, there's notable interest from DARPA in advancing AI orchestration frameworks, which aligns with the current trend of integrating LLMs into broader AI systems. This could have implications for future research directions and funding opportunities in your area.
+
+That's the radar for today.
