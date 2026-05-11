@@ -1,0 +1,15 @@
+{
+  "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-11.mp3",
+  "rel_path": "podcast/2026-05-11.mp3",
+  "title": "Research Radar — Mon May 11: Focus on AI Platforms and LLM Integration Grows",
+  "pub_date": "2026-05-11T10:08:31.371937-04:00",
+  "duration_sec": 119,
+  "size_bytes": 3020160,
+  "word_count": 326,
+  "char_count": 2399,
+  "voice": "onyx",
+  "headline": "Focus on AI Platforms and LLM Integration Grows",
+  "summary_text": "Today's research highlights a surge in open-source AI platforms and frameworks designed for integrating large language models (LLMs) into applications. Projects like 'mlflow/mlflow' and 'sgl-project/sglang' exemplify the trend towards enhanced observability and performance in AI systems.",
+  "episode_key": "703f5b9d77306901e89c38b4ac304c23",
+  "version": "podcast.v1"
+}
