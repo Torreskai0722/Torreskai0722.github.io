@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T09:47:02-04:00",
+  "updated_at": "2026-05-10T22:00:45-04:00",
   "mode": "trending",
   "items": [
     {
@@ -108,7 +108,7 @@
       "id": "hash:b48940b96db331dc",
       "title": "onyx-dot-app/onyx",
       "link": "https://github.com/onyx-dot-app/onyx",
-      "date": "2026-05-10T10:31:06Z",
+      "date": "2026-05-11T01:29:37Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -169,6 +169,38 @@
       "trending_caption": "28k★"
     },
     {
+      "id": "hash:881241129435c2ab",
+      "title": "labring/FastGPT",
+      "link": "https://github.com/labring/FastGPT",
+      "date": "2026-05-10T15:53:20Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/935e2d883688f941375bf1fe3a36a6fd293246265d23e3ff0b98dd0b0cb133b7/labring/FastGPT",
+      "score": 63.0,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy comp…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 27k★",
+      "dimensions": {},
+      "popularity_score": 63.0,
+      "popularity_signals": {
+        "github_stars": 27952,
+        "github_forks": 7080,
+        "github_pushed_at": "2026-05-09T03:30:39Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 81.91
+      },
+      "n_platforms": 1,
+      "trending_caption": "27k★"
+    },
+    {
       "id": "hash:2c0207e6b7d3d809",
       "title": "ComposioHQ/composio",
       "link": "https://github.com/ComposioHQ/composio",
@@ -199,38 +231,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "28k★"
-    },
-    {
-      "id": "hash:881241129435c2ab",
-      "title": "labring/FastGPT",
-      "link": "https://github.com/labring/FastGPT",
-      "date": "2026-05-09T15:41:06Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/935e2d883688f941375bf1fe3a36a6fd293246265d23e3ff0b98dd0b0cb133b7/labring/FastGPT",
-      "score": 63.0,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy comp…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 27k★",
-      "dimensions": {},
-      "popularity_score": 63.0,
-      "popularity_signals": {
-        "github_stars": 27952,
-        "github_forks": 7080,
-        "github_pushed_at": "2026-05-09T03:30:39Z"
-      },
-      "popularity_contributions": {
-        "github_stars": 81.91
-      },
-      "n_platforms": 1,
-      "trending_caption": "27k★"
     },
     {
       "id": "hash:34b310bd26571d6e",
@@ -268,7 +268,7 @@
       "id": "hash:2b1622c80544af02",
       "title": "sgl-project/sglang",
       "link": "https://github.com/sgl-project/sglang",
-      "date": "2026-05-10T13:44:58Z",
+      "date": "2026-05-11T01:53:34Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -300,7 +300,7 @@
       "id": "hash:4cb2c60d8635d504",
       "title": "langfuse/langfuse",
       "link": "https://github.com/langfuse/langfuse",
-      "date": "2026-05-09T08:36:28Z",
+      "date": "2026-05-10T20:49:14Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -332,7 +332,7 @@
       "id": "hash:0f8fcf0b5953d33d",
       "title": "openai/openai-agents-python",
       "link": "https://github.com/openai/openai-agents-python",
-      "date": "2026-05-10T08:34:31Z",
+      "date": "2026-05-10T23:21:38Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -364,7 +364,7 @@
       "id": "hash:924d5db653e75771",
       "title": "mlflow/mlflow",
       "link": "https://github.com/mlflow/mlflow",
-      "date": "2026-05-10T10:33:15Z",
+      "date": "2026-05-11T01:55:41Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -396,7 +396,7 @@
       "id": "hash:80a80acaec57a71e",
       "title": "AlexsJones/llmfit",
       "link": "https://github.com/AlexsJones/llmfit",
-      "date": "2026-05-09T20:05:37Z",
+      "date": "2026-05-10T14:06:49Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -524,7 +524,7 @@
       "id": "hash:4ee68de0f3ced2ea",
       "title": "harvard-edge/cs249r_book",
       "link": "https://github.com/harvard-edge/cs249r_book",
-      "date": "2026-05-10T13:38:43Z",
+      "date": "2026-05-11T00:02:28Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -748,7 +748,7 @@
       "id": "hash:c826449d217f5f24",
       "title": "microsoft/onnxruntime",
       "link": "https://github.com/microsoft/onnxruntime",
-      "date": "2026-05-09T12:47:29Z",
+      "date": "2026-05-10T22:15:40Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -844,7 +844,7 @@
       "id": "hash:3e5c198b11630661",
       "title": "ArduPilot/ardupilot",
       "link": "https://github.com/ArduPilot/ardupilot",
-      "date": "2026-05-10T01:43:43Z",
+      "date": "2026-05-10T23:20:40Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -940,7 +940,7 @@
       "id": "hash:a662fd20dd3c9b2d",
       "title": "vosen/ZLUDA",
       "link": "https://github.com/vosen/ZLUDA",
-      "date": "2026-05-04T16:48:07Z",
+      "date": "2026-05-10T21:46:14Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1004,7 +1004,7 @@
       "id": "hash:f0fe01b9989d7dcb",
       "title": "NVIDIA/TensorRT-LLM",
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
-      "date": "2026-05-10T12:25:28Z",
+      "date": "2026-05-11T01:53:52Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1292,7 +1292,7 @@
       "id": "hash:20748d7b31be8a72",
       "title": "rapidsai/cudf",
       "link": "https://github.com/rapidsai/cudf",
-      "date": "2026-05-10T10:15:00Z",
+      "date": "2026-05-11T00:28:39Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1420,7 +1420,7 @@
       "id": "hash:8b5fa7f4e5284c5f",
       "title": "catboost/catboost",
       "link": "https://github.com/catboost/catboost",
-      "date": "2026-05-09T14:21:26Z",
+      "date": "2026-05-10T21:05:11Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1484,7 +1484,7 @@
       "id": "hash:bc045074e38e928b",
       "title": "LMCache/LMCache",
       "link": "https://github.com/LMCache/LMCache",
-      "date": "2026-05-10T10:03:17Z",
+      "date": "2026-05-11T00:42:21Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1604,6 +1604,38 @@
       },
       "popularity_contributions": {
         "github_stars": 68.88
+      },
+      "n_platforms": 1,
+      "trending_caption": "5k★"
+    },
+    {
+      "id": "hash:b5a09fc5781c558d",
+      "title": "google-deepmind/open_spiel",
+      "link": "https://github.com/google-deepmind/open_spiel",
+      "date": "2026-05-09T19:08:19Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/0a6e43bd8485c6d3cac1b7f1794242ba4bf7c778883ddaf3da82c2c01561ad58/google-deepmind/open_spiel",
+      "score": 52.7,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 5k★",
+      "dimensions": {},
+      "popularity_score": 52.7,
+      "popularity_signals": {
+        "github_stars": 5200,
+        "github_forks": 1129,
+        "github_pushed_at": "2026-05-09T19:08:19Z"
+      },
+      "popularity_contributions": {
+        "github_stars": 68.45
       },
       "n_platforms": 1,
       "trending_caption": "5k★"
@@ -1870,7 +1902,7 @@
       "id": "hash:82002a9519c10ce0",
       "title": "RobotLocomotion/drake",
       "link": "https://github.com/RobotLocomotion/drake",
-      "date": "2026-05-10T13:38:27Z",
+      "date": "2026-05-11T00:51:46Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1966,7 +1998,7 @@
       "id": "hash:f4459fe473327cb5",
       "title": "Farama-Foundation/HighwayEnv",
       "link": "https://github.com/Farama-Foundation/HighwayEnv",
-      "date": "2026-05-10T02:47:07Z",
+      "date": "2026-05-10T20:17:18Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2032,7 +2064,7 @@
       "id": "hash:ad5b9737c99c0d34",
       "title": "MRPT/mrpt",
       "link": "https://github.com/MRPT/mrpt",
-      "date": "2026-05-09T07:31:20Z",
+      "date": "2026-05-10T19:19:23Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2773,10 +2805,42 @@
       "trending_caption": "120pts"
     },
     {
+      "id": "hash:e046c94f49a853db",
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "date": "2026-05-10T21:16:58+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "https://cdn.mos.cms.futurecdn.net/KHUetaXQbsmm6z9m5g5Pne-2560-80.jpg",
+      "score": 32.6,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 141pts",
+      "dimensions": {},
+      "popularity_score": 32.6,
+      "popularity_signals": {
+        "hn_points": 141,
+        "hn_comments": 66
+      },
+      "popularity_contributions": {
+        "hn_points": 29.73,
+        "hn_comments": 12.61
+      },
+      "n_platforms": 1,
+      "trending_caption": "141pts"
+    },
+    {
       "id": "hash:f1daf7f75aaf75cf",
       "title": "xybrid-ai/xybrid",
       "link": "https://github.com/xybrid-ai/xybrid",
-      "date": "2026-05-10T12:59:43Z",
+      "date": "2026-05-10T21:08:32Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3285,19 +3349,19 @@
       "trending_caption": "30pts"
     },
     {
-      "id": "arxiv:2605.06667",
-      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
-      "link": "https://arxiv.org/abs/2605.06667v1",
-      "date": "2026-05-07T17:59:58Z",
+      "id": "arxiv:2605.07370",
+      "title": "MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation",
+      "link": "https://arxiv.org/abs/2605.07370v1",
+      "date": "2026-05-08T07:27:10Z",
       "type": "Paper",
       "sources": [
         "arxiv"
       ],
-      "image_url": "https://arxiv.org/html/2605.06667v1/x1.png",
+      "image_url": "https://arxiv.org/html/2605.07370v1/assets/multivehiclefleet.png",
       "score": 12.0,
       "category": "Papers",
       "action": "Track",
-      "summary": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot method for video generation that joint…",
+      "summary": "V2X can warn an autonomous vehicle about hazards beyond line-of-sight, but it also brings uncertainty: messages may be delayed, dropped, or even forged. Meanwhile, map knowledge may change during a trip, forcing the vehicle to replan und…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -3308,6 +3372,118 @@
       "popularity_signals": {},
       "popularity_contributions": {
         "recent_paper": 15.57
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.05558",
+      "title": "Who Prices Cognitive Labor in the Age of Agents? Compute-Anchored Wages",
+      "link": "https://arxiv.org/abs/2605.05558",
+      "date": "2026-05-07T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.05558.png",
+      "score": 11.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "A natural intuition about the economics of AI agents is that, because agents can be replicated at very low marginal cost, agent labor may be supplied highly elastically, placing downward pressure on cognitive-labor wages when it closely…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 11.0,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 14.33
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.07363",
+      "title": "MISA: Mixture of Indexer Sparse Attention for Long-Context LLM Inference",
+      "link": "https://arxiv.org/abs/2605.07363",
+      "date": "2026-05-07T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07363v1/x1.png",
+      "score": 11.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "DeepSeek Sparse Attention (DSA) sets the state of the art for fine-grained inference-time sparse attention by introducing a learned token-wise indexer that scores every prefix token and selects the most relevant ones for the main attenti…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 11.0,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 14.33
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.06833",
+      "title": "PAMPOS: Causal Transformer-based Trajectory Prediction for Attack-Agnostic Misbehavior Detection in V2X Networks",
+      "link": "https://arxiv.org/abs/2605.06833v1",
+      "date": "2026-05-07T18:38:15Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06833v1/x1.png",
+      "score": 11.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Misbehavior detection in Vehicle-to-Everything (V2X) networks is a second line of defense against insider falsification attacks that cryptographic mechanisms alone cannot address. Existing learning-based Misbehavior Detection Schemes (MD…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 11.0,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 14.33
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.06667",
+      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
+      "link": "https://arxiv.org/abs/2605.06667v1",
+      "date": "2026-05-07T17:59:58Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06667v1/x1.png",
+      "score": 11.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot method for video generation that joint…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 11.0,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3322,7 +3498,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06664v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "GUI grounding is a critical capability for enabling GUI agents to execute tasks such as clicking and dragging. However, in complex scenarios like the ScreenSpot-Pro benchmark, existing models often suffer from suboptimal performance. Uti…",
@@ -3332,10 +3508,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3350,7 +3526,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06662v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "This paper presents a Vehicle-to-Everything (V2X) communication framework that enables decentralized cooperation among social robots operating in complex urban traffic environments. Building on ETSI Cooperative Awareness and Maneuver Coo…",
@@ -3360,10 +3536,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3378,7 +3554,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06660v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential component for advancing LLM training and en…",
@@ -3388,10 +3564,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3406,7 +3582,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06656v1/full_score_spread.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Ranking LLMs via pairwise human feedback underpins current leaderboards for open-ended tasks, such as creative writing and problem-solving. We analyze ~89K comparisons in 116 languages from 52 LLMs from Arena, and show that the best-fit…",
@@ -3416,10 +3592,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3434,7 +3610,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06654v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Optimizers play an important role in both pretraining and finetuning stages when training large language models (LLMs). In this paper, we present an observation that full finetuning with the same optimizer as in pretraining achieves a be…",
@@ -3444,10 +3620,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3462,7 +3638,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06647v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Retrieval-augmented agents are increasingly the interface to large organizational knowledge bases, yet most still treat retrieval as a black box: they issue exploratory queries, inspect returned snippets, and iteratively reformulate unti…",
@@ -3472,10 +3648,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3490,7 +3666,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Venn-Abers predictors are probabilistic predictors that enjoy appealing properties of validity, but their major limitation is that they are applicable only to the case of binary classification, with a recent extension to bounded regressi…",
@@ -3500,10 +3676,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3518,7 +3694,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06640v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "*Concept-based explanations* offer a promising approach for explaining the predictions of deep neural networks in terms of high-level, human-understandable concepts. However, existing methods either do not establish a causal connection b…",
@@ -3528,10 +3704,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3546,7 +3722,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "We introduce Recursive Agent Optimization (RAO), a reinforcement learning approach for training recursive agents: agents that can spawn and delegate sub-tasks to new instantiations of themselves recursively. Recursive agents implement an…",
@@ -3556,10 +3732,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3574,7 +3750,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06637v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Although person re-identification has made impressive progress, occlusion caused by obstacles remains an unsettled issue in real applications. The difficulty lies in the mismatch between incomplete occluded samples and holistic identity…",
@@ -3584,10 +3760,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3602,7 +3778,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06632v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Supervised fine-tuning (SFT) induces new behaviors in large language models, yet imposes no structural constraint on how these behaviors are distributed within the model. Existing behavior interpretation methods, such as circuit attribut…",
@@ -3612,10 +3788,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3630,7 +3806,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Safety-critical autonomy in adversarial settings demands more than Lyapunov stability of tracking error signals. An agent executing a goal-directed trajectory is intrinsically legible to a passive observer running online Bayesian inferen…",
@@ -3640,10 +3816,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3658,7 +3834,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06629v1/feature_select.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Classical generative adversarial networks (GANs) have been applied to generate adversarial network traffic capable of attacking intrusion detection systems, but they suffer from shortcomings such as the need for large amounts of high-dim…",
@@ -3668,10 +3844,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3686,7 +3862,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06628v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Modern sensors generate rich, high-fidelity data, yet applications operating on wearable or remote sensing devices remain constrained by bandwidth and power budgets. Standardized codecs such as JPEG and MPEG achieve efficient trade-offs…",
@@ -3696,10 +3872,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3714,7 +3890,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06607v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Recent LLM-based agents have closed substantial portions of the scientific discovery loop in software-only machine-learning research, in chemistry, and in biology. Extending the same loop to high-fidelity physical simulators is harder, b…",
@@ -3724,10 +3900,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3742,7 +3918,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06593v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Retargeting human kinematic reference motion onto a robot's morphology remains a formidable challenge. Existing methods often produce physical inconsistencies, such as foot sliding, self-collisions, or dynamically infeasible motions, whi…",
@@ -3752,10 +3928,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3763,14 +3939,14 @@
     {
       "id": "arxiv:2605.06483",
       "title": "ReasonSTL: Bridging Natural Language and Signal Temporal Logic via Tool-Augmented Process-Rewarded Learning",
-      "link": "https://arxiv.org/abs/2605.06483v1",
+      "link": "https://arxiv.org/abs/2605.06483v2",
       "date": "2026-05-07T16:07:30Z",
       "type": "Paper",
       "sources": [
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06483v1/pic/shown.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Signal Temporal Logic (STL) is an expressive formal language for specifying spatio-temporal requirements over real-valued, real-time signals. It has been widely used for the verification and synthesis of autonomous systems and cyber-phys…",
@@ -3780,10 +3956,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -3798,7 +3974,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.06311v1/x1.png",
-      "score": 12.0,
+      "score": 11.0,
       "category": "Papers",
       "action": "Track",
       "summary": "Reliable simulation evaluation of robot manipulation policies serves as a high-fidelity proxy for real-world performance. Although existing benchmarks cover a wide range of task categories, they lack visual realism, creating a large doma…",
@@ -3808,10 +3984,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 12.0,
+      "popularity_score": 11.0,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 15.57
+        "recent_paper": 14.33
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4022,7 +4198,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05541v1/tx-and-rx.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Event cameras offer high temporal resolution, low latency, and wide dynamic range, making them promising receivers for visible light communication (VLC) in vehicle-to-everything (V2X) applications. This work presents an event-camera-base…",
@@ -4032,10 +4208,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4050,7 +4226,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05439v1/figures/teaser/haze_fog/haze_fog_s0p0.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Reliable camera input is essential for safety-critical ADAS perception, but most monitoring approaches detect sensor failures only after downstream performance has degraded. We propose a proactive camera reliability monitoring framework…",
@@ -4060,10 +4236,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4078,7 +4254,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05922v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Recent advances in generative video models are increasingly driven by post-training and test-time scaling, both of which critically depend on the quality of video reward models (RMs). An ideal reward model should predict accurate rewards…",
@@ -4088,10 +4264,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4107,7 +4283,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06665v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assum…",
@@ -4117,10 +4293,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4135,7 +4311,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06548v1/x2.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Large language models have achieved remarkable success under the autoregressive paradigm, yet high-quality text generation need not be tied to a fixed left-to-right order. Existing alternatives still struggle to jointly achieve generatio…",
@@ -4145,10 +4321,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4163,7 +4339,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06614v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "LLM-based agents are increasingly deployed to handle streaming tasks, yet they often remain one-off problem solvers that fail to learn from past interactions. Reusable skills distilled from experience provide a natural substrate for self…",
@@ -4173,10 +4349,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4191,7 +4367,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06130v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "A persistent skill library allows language model agents to reuse successful strategies across tasks. Maintaining such a library requires three coupled capabilities. The agent selects a relevant skill, utilizes it during execution, and di…",
@@ -4201,10 +4377,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4220,7 +4396,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06651v1/assets/comath_org_chart.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support for the exploratory and iterative re…",
@@ -4230,10 +4406,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4249,7 +4425,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06638v1/figures/searchRL_newnew.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. We int…",
@@ -4259,10 +4435,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4277,7 +4453,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06507v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Reinforcement learning fine-tuning has become the dominant approach for aligning diffusion models with human preferences. However, assessing images is intrinsically a multi-dimensional task, and multiple evaluation criteria need to be op…",
@@ -4287,10 +4463,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4305,7 +4481,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05724v1/figures/overview_specialist_swarm_v5.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We study auto research as a closed empirical loop driven by external measurement. Each submitted trial carries a hypothesis, an executable code edit, an evaluator-owned outcome, and feedback that shapes the next proposal. The output is n…",
@@ -4315,10 +4491,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4333,7 +4509,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06196v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Large language models (LLMs) are routinely prompted to take on social roles ranging from individuals to institutions, yet it remains unclear whether their internal representations encode the granularity of such roles, from micro-level in…",
@@ -4343,10 +4519,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4361,7 +4537,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06216v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We revisit a universally accepted but under-examined design choice in every modern LLM: a token index is looked up once at the input embedding layer and then permanently discarded. This single-injection assumption induces two structural…",
@@ -4371,10 +4547,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4390,7 +4566,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06652v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and speci…",
@@ -4400,10 +4576,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4418,7 +4594,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06222v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation by jointly predicting future visual observations and future actions. However, current WAMs typically execute a fixed number of predicted ac…",
@@ -4428,10 +4604,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4447,7 +4623,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06643v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Despite the growing popularity of Multimodal Domain Generalization (MMDG) for enhancing model robustness, it remains unclear whether reported performance gains reflect genuine algorithmic progress or are artifacts of inconsistent evaluat…",
@@ -4457,10 +4633,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4475,7 +4651,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06376v1/x2.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Step distillation has become a leading technique for accelerating diffusion models, among which Distribution Matching Distillation (DMD) and Consistency Distillation are two representative paradigms. While consistency methods enforce sel…",
@@ -4485,10 +4661,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4503,7 +4679,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06200v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Reinforcement learning for agentic large language models (LLMs) typically relies on a sparse, trajectory-level outcome reward, making it difficult to evaluate the contribution of individual tool-calls within multi-turn interactions. Exis…",
@@ -4513,10 +4689,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4531,7 +4707,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06356v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "High-resolution image-to-video (I2V) generation aims to synthesize realistic temporal dynamics while preserving fine-grained appearance details of the input image. At 2K resolution, it becomes extremely challenging, and existing solution…",
@@ -4541,10 +4717,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4559,7 +4735,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05566v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Reinforcement learning with verifiable rewards, particularly Group Relative Policy Optimization (GRPO), has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, in complex tasks, GRPO frequently suf…",
@@ -4569,10 +4745,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4588,7 +4764,7 @@
         "huggingface_papers"
       ],
       "image_url": "",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Large language models (LLMs) are increasingly used as interactive agents, but optimizing them for long-horizon decision making remains difficult because current methods are largely purely reactive, which weakens both exploration and cred…",
@@ -4598,10 +4774,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4616,7 +4792,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06477v1/images/GeoStack.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We address the challenge of knowledge composition in Vision-Language Models (VLMs), where accumulating expertise across multiple domains or tasks typically leads to catastrophic forgetting. We introduce GeoStack (Geometric Stacking), a m…",
@@ -4626,10 +4802,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4644,7 +4820,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.06663v1/x3.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific knowledge. Mixture-of-Experts (MoEs) seem…",
@@ -4654,10 +4830,122 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.06924",
+      "title": "A^2RD: Agentic Autoregressive Diffusion for Long Video Consistency",
+      "link": "https://arxiv.org/abs/2605.06924",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06924v1/x1.png",
+      "score": 9.9,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Synthesizing consistent and coherent long video remains a fundamental challenge. Existing methods suffer from semantic drift and narrative collapse over long horizons. We present A^2RD, an Agentic Auto-Regressive Diffusion architecture t…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 9.9,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 12.88
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.05997",
+      "title": "4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding",
+      "link": "https://arxiv.org/abs/2605.05997",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.05997v1/Figs/pipeline.png",
+      "score": 9.9,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Dynamic spatial reasoning from monocular video is essential for bridging visual intelligence and the physical world, yet remains challenging for vision-language models (VLMs). Prior approaches either verbalize spatial-temporal reasoning…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 9.9,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 12.88
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.06139",
+      "title": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+      "link": "https://arxiv.org/abs/2605.06139",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06139v1/imgs/mountain.png",
+      "score": 9.9,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard approach for large language models (LLMs) post-training to incentivize reasoning capacity. Among existing recipes, group-based policy gradient is prevalent, whic…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 9.9,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 12.88
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.06832",
+      "title": "IntentGrasp: A Comprehensive Benchmark for Intent Understanding",
+      "link": "https://arxiv.org/abs/2605.06832",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06832v1/x3.png",
+      "score": 9.9,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Accurately understanding the intent behind speech, conversation, and writing is crucial to the development of helpful Large Language Model (LLM) assistants. This paper introduces IntentGrasp, a comprehensive benchmark for evaluating the…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 9.9,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4672,7 +4960,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05340v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "As Vision-Language Models (VLMs) are increasingly deployed as autonomous cognitive cores for embodied assistants, evaluating their privacy awareness in physical environments becomes critical. Unlike digital chatbots, these agents operate…",
@@ -4682,10 +4970,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4700,7 +4988,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05207v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Dense 3D reconstruction and tracking of dynamic scenes from monocular video remains an important open challenge in computer vision. Progress in this area has been constrained by the scarcity of high-quality datasets with dense, complete,…",
@@ -4710,10 +4998,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4728,7 +5016,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05206v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract disproportionate attention while carrying lim…",
@@ -4738,10 +5026,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4756,7 +5044,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05191v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Long-horizon search agents must manage a rapidly growing working context as they reason, call tools, and observe information. Naively accumulating all intermediate content can overwhelm the agent, increasing costs and the risk of errors.…",
@@ -4766,10 +5054,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4784,7 +5072,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterion. In an isotropic Gaussian model for…",
@@ -4794,10 +5082,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4812,7 +5100,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05182v1/d-stop.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment,…",
@@ -4822,10 +5110,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4840,7 +5128,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "By far the most common way to estimate an expected loss in machine learning is to draw samples, compute the loss on each one, and take the empirical average. However, sampling is not necessarily optimal. Given an MLP at initialization, w…",
@@ -4850,10 +5138,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4868,7 +5156,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05176v1/figs/scaling_results_nover8heads_all_models_n.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Pre-trained transformers are able to learn from examples provided as part of the prompt without any weight updates, a remarkable ability known as in-context learning (ICL). Despite its demonstrated efficacy across various domains, the th…",
@@ -4878,10 +5166,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4896,7 +5184,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05172v1/figs/Task_Vizulaizations.jpg",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing offline-to-online learning methods o…",
@@ -4906,10 +5194,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4924,7 +5212,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05170v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Driven by a rapid co-evolution of both harness and underlying models, LLM agents are improving at a dizzying pace. In our prior work (performed in Dec. 2025), we introduced \"Design Conductor\" (or just \"Conductor\"), a system capable of bu…",
@@ -4934,10 +5222,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4952,7 +5240,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05164v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Accurate analysis of histopathological images is critical for disease diagnosis and treatment planning. Whole-slide images (WSIs), which digitize tissue specimens at gigapixel resolution, are fundamental to this process but require aggre…",
@@ -4962,10 +5250,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -4980,7 +5268,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05161v1/figures/waldo_method_overview.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Zero-shot anomaly localisation via vision-language models (VLMs) offers a compelling approach for rare pathology detection, yet its performance is fundamentally limited by the absence of healthy anatomical context. We reformulate zero-sh…",
@@ -4990,10 +5278,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5008,7 +5296,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05159v1/assets/pipeline-diagram-psk.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "We present our system for SemEval-2026 Task 9: Multilingual Polarization Detection, a binary classification task spanning 22 languages. Our approach fine-tunes separate Gemma~3 models (12B and 27B parameters) per language using Low-Rank…",
@@ -5018,10 +5306,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5036,7 +5324,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Millimeter-wave (mmWave) frequencies promise multi-gigabit connectivity for vehicle-to-everything (V2X) networks, but face challenges in terms of severe path loss and mobility-related beam misalignment. Reliable V2X connectivity requires…",
@@ -5046,10 +5334,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5064,7 +5352,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.05001v1/x1.png",
-      "score": 11.0,
+      "score": 9.9,
       "category": "Papers",
       "action": "Track",
       "summary": "Artificial intelligence (AI)-driven fault diagnosis in motor drives often requires significant computational efforts and time for re-training, in addition to the limited knowledge behind the model and suitability of training and learning…",
@@ -5074,10 +5362,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 11.0,
+      "popularity_score": 9.9,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 14.33
+        "recent_paper": 12.88
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5177,7 +5465,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05204v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "The landscape of high-performance image generation models is currently shifting from the inefficient multi-step ones to the efficient few-step counterparts (e.g, Z-Image-Turbo and FLUX.2-klein). However, these models present significant…",
@@ -5187,10 +5475,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5206,7 +5494,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05185v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Deep search has become a crucial capability for frontier multimodal agents, enabling models to solve complex questions through active search, evidence verification, and multi-step reasoning. Despite rapid progress, top-tier multimodal se…",
@@ -5216,10 +5504,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5235,7 +5523,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05166v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Self-consistency detects hallucinations by generating multiple sampled answers to a question and measuring agreement, but this requires repeated decoding and can be sensitive to lexical variation. Semantic self-consistency improves this…",
@@ -5245,10 +5533,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5264,7 +5552,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.05163v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Synthesizing physics-grounded 3D assets is a critical bottleneck for interactive virtual worlds and embodied AI. Existing methods predominantly focus on static geometry, overlooking the functional properties essential for interaction. We…",
@@ -5274,10 +5562,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5292,7 +5580,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.03314v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "In single-stream autoregressive interfaces, the same tokens both update the model state and constitute an irreversible public commitment. This coupling creates a silence tax: additional deliberation postpones the first task-relevant cont…",
@@ -5302,10 +5590,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5320,7 +5608,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04461v1/fig/pipeline.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "While Test-Time Scaling (TTS) offers a promising direction to enhance video generation without the surging costs of training, current test-time video generation methods based on diffusion models suffer from exorbitant candidate explorati…",
@@ -5330,10 +5618,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5348,7 +5636,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04569v1/x2.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Video editing has evolved toward In-Context Learning (ICL) paradigms, yet the resulting quadratic attention costs create a critical computational bottleneck. In this work, we propose In-context Sparse Attention (ISA), the first near-loss…",
@@ -5358,10 +5646,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5376,7 +5664,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04916v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Inductive Logic Programming (ILP) learns interpretable logical rules from data. Existing methods are transductive: their learned parameters are bound to specific predicates and require retraining for each new task. We introduce Neural Ru…",
@@ -5386,10 +5674,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5404,7 +5692,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.02910v1/sections/figures/intro.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Recent advances in large language models have led to strong performance on reasoning and environment-interaction tasks, yet their ability for creative problem-solving remains underexplored. We study this capability through the lens of cr…",
@@ -5414,10 +5702,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5432,7 +5720,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04637v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "The emergence of \"vibe coding\" platforms, where users describe applications in natural language and AI agents autonomously generate full-stack software, has created a need for rigorous evaluation beyond code-level benchmarks. In order to…",
@@ -5442,10 +5730,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5460,7 +5748,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04604v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "High-performance computing (HPC) is increasingly important for scalable quantum chemistry workflows that couple classical generative models, quantum circuit simulation, and selected configuration interaction postprocessing. We present th…",
@@ -5470,10 +5758,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5488,7 +5776,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04956v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "LLM-based Triton kernel generation has attracted significant interest, yet a fundamental empirical question remains unanswered: where does this capability break down, and why? We present KernelBench-X, a benchmark designed to answer this…",
@@ -5498,10 +5786,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5516,7 +5804,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04523.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "We present our winning system for Task~B (generation with reference passages) in SemEval-2026 Task~8: MTRAGEval. Our method is a heterogeneous ensemble of seven LLMs with two prompting variants, where a GPT-4o-mini judge selects the best…",
@@ -5526,10 +5814,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5544,7 +5832,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04451v1/x2.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Geospatial reasoning requires models to resolve complex spatial semantics and user intent into precise target locations for Earth observation. Recent progress has liberated the reasoning path from manual curation, allowing models to gene…",
@@ -5554,10 +5842,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5572,7 +5860,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04962v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Foundation models have established unified representations for natural language processing, yet this paradigm remains largely unexplored for tabular data. Existing methods face fundamental limitations: LLM-based approaches lack retrieval…",
@@ -5582,10 +5870,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5600,7 +5888,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04647v1/figs/rd2_teaser.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "We introduce ReflectDrive-2, a masked discrete diffusion planner with separate action expert for autonomous driving that represents plans as discrete trajectory tokens and generates them through parallel masked decoding. This discrete to…",
@@ -5610,10 +5898,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5628,7 +5916,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04256v1/images/phys-mcp-reference-architecture.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Physical neural networks (PNNs) embed computation directly in material dynamics, including molecular, chemical, biological, photonic, memristive, and mechanical substrates. They are attractive for edge computing, especially at the extrem…",
@@ -5638,10 +5926,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5656,7 +5944,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "We introduce PALACE (Persistence Adaptive-Landmark Analytic Classification Engine), the data-adaptive companion to PLACE, paying a small cross-validation tier on three knobs (budget, radii, bandwidth; $\\leq 5$ choices each). A cover-theo…",
@@ -5666,10 +5954,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5684,7 +5972,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04044v1/x2.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Visual correspondence across image-to-image (2D-2D), image-to-point cloud (2D-3D), and point cloud-to-point cloud (3D-3D) geometric matching forms the foundation for numerous 3D vision tasks. Despite sharing a similar problem structure,…",
@@ -5694,10 +5982,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5712,7 +6000,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04040v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Text-to-image generation has advanced rapidly with diffusion models, progressing from CLIP and T5 conditioning to unified systems where a single LLM backbone handles both visual understanding and generation. Despite the architectural uni…",
@@ -5722,10 +6010,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5740,7 +6028,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04039v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Clinical LLMs are often scaled by increasing model size, context length, retrieval complexity, or inference-time compute, with the implicit expectation that higher accuracy implies safer behavior. This assumption is incomplete in medicin…",
@@ -5750,10 +6038,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5768,7 +6056,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04035v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "We propose HeadsUp, a scalable feed-forward method for reconstructing high-quality 3D Gaussian heads from large-scale multi-camera setups. Our method employs an efficient encoder-decoder architecture that compresses input views into a co…",
@@ -5778,10 +6066,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5797,7 +6085,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2604.26752v1/figures/cogvit.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "We present GLM-5V-Turbo, a step toward native foundation models for multimodal agents. As foundation models are increasingly deployed in real environments, agentic capability depends not only on language reasoning, but also on the abilit…",
@@ -5807,10 +6095,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5825,7 +6113,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04029v1/figures/system_architecture.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Current human-AI alignment and evaluation methods for large language models (LLMs) often rely on preference signals collected immediately after an interaction. This practice implicitly treats preference as static, even though many LLM-me…",
@@ -5835,10 +6123,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5853,7 +6141,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04019v1/figures/airt-platform-analytics-charts.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "AI systems are entering critical domains like healthcare, finance, and defense, yet remain vulnerable to adversarial attacks. While AI red teaming is a primary defense, current approaches force operators into manual, library-specific wor…",
@@ -5863,10 +6151,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5881,7 +6169,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04013v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Sampling from unnormalized multimodal distributions with limited density evaluations remains a fundamental challenge in machine learning and natural sciences. Successful approaches construct a bridge between a tractable reference and the…",
@@ -5891,10 +6179,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5909,7 +6197,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "A brain tumor is a medical disorder faced by individuals of all demographics. Medically, it is described as the spread of non-essential cells close to or throughout the brain. Symptoms of this ailment include headaches, seizures, and sen…",
@@ -5919,10 +6207,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5937,7 +6225,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.04003v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "High-precision CNC machining of free-form aerospace components requires bounded compensations informed by inspection, simulation, and process knowledge. Off-the-shelf large language model (LLM) assistants can generate text, but they do n…",
@@ -5947,10 +6235,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5965,7 +6253,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Vision Transformers (ViTs) achieve state-of-the-art segmentation accuracy but require large training datasets because each layer has unique parameters that must be learned independently. We present RD-ViT, a Recurrent-Depth Vision Transf…",
@@ -5975,10 +6263,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -5993,7 +6281,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.03996v1/keypoints.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Nowadays as convolution neural networks demonstrate its powerful problem-solving ability in the area of image processing, efforts have been made to reconstruct detailed face shapes from 2D face images or videos. However, to make the full…",
@@ -6003,10 +6291,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6021,7 +6309,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.03992v1/figures/hidden_neurons.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "This work introduces HyParLyVe (Hyperplane Partitioned Lyapunov Verifier), a novel algorithm for sound and complete verification of neural Lyapunov candidates by interpreting shallow ReLU networks as hyperplane arrangements. This perspec…",
@@ -6031,10 +6319,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6049,7 +6337,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.03989v2/figures/experience_rag_framework.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Retrieval-augmented generation systems often assume that one fixed retrieval pipeline is sufficient across heterogeneous tasks, yet factoid question answering, multi-hop reasoning, and scientific verification exhibit different retrieval…",
@@ -6059,10 +6347,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6077,7 +6365,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.03986v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Multi-Agent Systems (MAS) built using AI agents fulfill a variety of user intents that may be used to design and build a family of related applications. However, the creation of such MAS currently involves manual composition of the plan,…",
@@ -6087,10 +6375,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6105,7 +6393,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.03984v1/x1.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Sampling from unnormalized densities is analogous to the generative modeling problem, but the target distribution is defined by a known energy function instead of data samples. Because evaluating the energy function is often costly, a pr…",
@@ -6115,10 +6403,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6133,7 +6421,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.03788v1/img/LLM-WoT.v6.png",
-      "score": 9.9,
+      "score": 8.5,
       "category": "Papers",
       "action": "Track",
       "summary": "Large Language Models (LLMs) are increasingly explored as high-level reasoning engines for cyber-physical systems, yet their application to real-time UAV swarm management remains challenging due to heterogeneous interfaces, limited groun…",
@@ -6143,10 +6431,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 9.9,
+      "popularity_score": 8.5,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 12.88
+        "recent_paper": 11.09
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6161,7 +6449,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.03941v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Achieving Artificial General Intelligence (AGI) requires agents that learn and interact adaptively, with interactive world models providing scalable environments for perception, reasoning, and action. Yet current research still lacks lar…",
@@ -6171,10 +6459,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6189,7 +6477,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.03596v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Workspace learning requires AI agents to identify, reason over, exploit, and update explicit and implicit dependencies among heterogeneous files in a worker's workspace, enabling them to complete both routine and advanced tasks effective…",
@@ -6199,10 +6487,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6218,7 +6506,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04036v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Deep search capabilities have become an indispensable competency for frontier Large Language Model (LLM) agents, yet their development remains dominated by industrial giants. The typical industry recipe involves a highly resource-intensi…",
@@ -6228,10 +6516,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6247,7 +6535,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04012.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Language models excel at diagnostic assessments on currated medical case-studies and vignettes, performing on par with, or better than, clinical professionals. However, existing studies focus on complex scenarios with rich context making…",
@@ -6257,10 +6545,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6276,7 +6564,7 @@
         "huggingface_papers"
       ],
       "image_url": "",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Audio-Visual Intelligence (AVI) has emerged as a central frontier in artificial intelligence, bridging auditory and visual modalities to enable machines that can perceive, generate, and interact in the multimodal real world. In the era o…",
@@ -6286,10 +6574,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6304,7 +6592,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.03848v1/IMG/SkillFormer.jpeg",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Estimating how well a person performs an action, rather than which action is performed, is central to coaching, rehabilitation, and talent identification. This task is challenging because proficiency is encoded in subtle differences in t…",
@@ -6314,10 +6602,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6332,7 +6620,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04128v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "We present JoyAI-Image, a unified multimodal foundation model for visual understanding, text-to-image generation, and instruction-guided image editing. JoyAI-Image couples a spatially enhanced Multimodal Large Language Model (MLLM) with…",
@@ -6342,10 +6630,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6360,7 +6648,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.03849v1/motivation.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Distillation-based acceleration has become foundational for making autoregressive streaming video diffusion models practical, with distribution matching distillation (DMD) as the de facto choice. Existing methods, however, train the stud…",
@@ -6370,10 +6658,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6388,7 +6676,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.03269v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "While Vision-Language-Action models (VLAs) have shown remarkable progress toward human-like generalist robotic policies through the versatile intelligence (i.e. broad scene understanding and language-conditioned generalization) inherited…",
@@ -6398,10 +6686,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6416,7 +6704,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.04018.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Reasoning-intensive retrieval aims to surface evidence that supports downstream reasoning rather than merely matching topical similarity. This capability is increasingly important for agentic search systems, where retrievers must provide…",
@@ -6426,10 +6714,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6444,7 +6732,7 @@
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.04330v1/x5.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "We investigate the scaling properties of implicit deductive reasoning over Horn clauses in depth-bounded Transformers. By systematically decorrelating provability from spurious features and enforcing algorithmic alignment, we find that i…",
@@ -6454,10 +6742,38 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
+      },
+      "n_platforms": 0,
+      "trending_caption": ""
+    },
+    {
+      "id": "arxiv:2605.06702",
+      "title": "CASCADE: Case-Based Continual Adaptation for Large Language Models During Deployment",
+      "link": "https://arxiv.org/abs/2605.06702",
+      "date": "2026-05-04T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06702v1/x1.png",
+      "score": 6.8,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Large language models (LLMs) have become a central foundation of modern artificial intelligence, yet their lifecycle remains constrained by a rigid separation between training and deployment, after which learning effectively ceases. This…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "",
+      "dimensions": {},
+      "popularity_score": 6.8,
+      "popularity_signals": {},
+      "popularity_contributions": {
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6472,7 +6788,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02892v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Personalized image completion aims to restore occluded regions in personal photos while preserving identity and appearance. Existing methods either rely on generic inpainting models that often fail to maintain identity consistency, or as…",
@@ -6482,10 +6798,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6500,7 +6816,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02888v1/fig1a_throughput_vs_gamma.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target model verifies. A critical hyperparameter in this process is the speculation length~$γ$,…",
@@ -6510,10 +6826,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6528,7 +6844,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02884v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such as range edits, ratio checks, or univariate outlier detection, are effective for ident…",
@@ -6538,10 +6854,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6556,7 +6872,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02867v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments complicate real-world deployment. Altho…",
@@ -6566,10 +6882,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6584,7 +6900,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02866v1/img2/overview_v2.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Rural thematic road network construction aims to extract topological road structures from movement trajectory images of agricultural machinery. However, this task faces challenges where downsampling methods commonly used in existing stud…",
@@ -6594,10 +6910,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6612,7 +6928,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02862v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "The integration of Large Language Model (LLM) reasoning principles into classical robot path planning represents a rapidly emerging research direction. In this paper, we propose a Semantic Risk-Aware Heuristic (SRAH) planner that encodes…",
@@ -6622,10 +6938,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6640,7 +6956,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02860v1/images/method.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Cross-language code clone detection (X-CCD) is challenging because semantically equivalent programs written in different languages often share little surface similarity. Although large language models (LLMs) have shown promise for semant…",
@@ -6650,10 +6966,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6668,7 +6984,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02859v1/figures/five_step_rule.jpg",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Scientists increasingly rely on sensor-based data, yet transforming raw streams into insights across the edge-to-cloud continuum remains difficult. Provisioning heterogeneous infrastructure and managing execution on emerging platforms li…",
@@ -6678,10 +6994,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6696,7 +7012,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02853v1/yes_results_llm3.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Understanding whether deep neural networks are effectively optimized remains challenging, as training occurs in highly nonconvex landscapes and standard metrics provide limited visibility into layer-wise learning quality. This challenge…",
@@ -6706,10 +7022,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6724,7 +7040,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02844v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Scientists increasingly rely on sensor-based data; however transforming raw streams into insights across the edge-to-cloud continuum remains difficult due to the breadth of expertise required to coordinate the necessary data and computat…",
@@ -6734,10 +7050,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6752,7 +7068,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Human activity recognition (HAR) in smart homes remains challenging because many daily activities exhibit similar local sensor patterns, while minimally intrusive sensing provides sparse and ambiguous observations. As a result, methods b…",
@@ -6762,10 +7078,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6780,7 +7096,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "We introduce PLACE (Persistence-Landmark Analytic Classification Engine), a closed-form pipeline for classifying point clouds and graphs through their persistent-homology signatures. Three quantitative guarantees -- a margin-based excess…",
@@ -6790,10 +7106,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6808,7 +7124,7 @@
         "arxiv"
       ],
       "image_url": "",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Edge machine learning (ML) deployments increasingly rely on per-inference timing measured by software clocks such as Python's perf_counter, but these measurements are not always validated against external hardware references on embedded…",
@@ -6818,10 +7134,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6836,7 +7152,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02834v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Videos are unique in their ability to capture actions which transcend multiple frames. Accordingly, for many years action recognition was the quintessential task for video understanding. Unfortunately, due to a lack of sufficiently diver…",
@@ -6846,10 +7162,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6864,7 +7180,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02832v1/figures/fig_dashboard_studio.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Deciding how to distribute work between humans and AI systems is a central challenge in organisational design. Most approaches treat this as a binary choice, yet the operational reality is richer: humans and AI routinely share tasks or t…",
@@ -6874,10 +7190,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6892,7 +7208,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02829v1/x1.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Adapting large pretrained models to diverse tasks is now routine, yet the two dominant strategies of parameter-efficient fine-tuning (PEFT) and low-rank compression are typically composed in sequence. This decoupled practice first compre…",
@@ -6902,10 +7218,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6920,7 +7236,7 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02827v1/plots/eta_0p25.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Probabilistic values, including Shapley values and semivalues, provide a model-agnostic framework to attribute the behavior of a black-box model to data points or features, with a wide range of applications including explainable artifici…",
@@ -6930,10 +7246,10 @@
       "student_project": "",
       "rationale": "",
       "dimensions": {},
-      "popularity_score": 8.5,
+      "popularity_score": 6.8,
       "popularity_signals": {},
       "popularity_contributions": {
-        "recent_paper": 11.09
+        "recent_paper": 8.79
       },
       "n_platforms": 0,
       "trending_caption": ""
@@ -6948,375 +7264,10 @@
         "arxiv"
       ],
       "image_url": "https://arxiv.org/html/2605.02821v1/images/fig1_model_demand.png",
-      "score": 8.5,
+      "score": 6.8,
       "category": "Papers",
       "action": "Track",
       "summary": "Open-weight large language models (LLMs) are often described as downloadable model artifacts, but in production they are increasingly consumed as hosted APIs. This paper studies the intermediary service layer that turns a model release i…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 8.5,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 11.09
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02881",
-      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
-      "link": "https://arxiv.org/abs/2605.02881",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv",
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02881v1/x5.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02222",
-      "title": "Generative Modeling with Orbit-Space Particle Flow Matching",
-      "link": "https://arxiv.org/abs/2605.02222",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02222v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "We present Orbit-Space Geometric Probability Paths (OGPP), a particle-native flow-matching framework for generative modeling of particle systems. OGPP is motivated by two insights: (i) particles are defined up to permutation symmetries,…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02730",
-      "title": "Perceptual Flow Network for Visually Grounded Reasoning",
-      "link": "https://arxiv.org/abs/2605.02730",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02730v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Despite the success of Large-Vision Language Models (LVLMs), general optimization objectives (e.g., standard MLE) fail to constrain visual trajectories, leading to language bias and hallucination. To mitigate this, current methods introd…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02661",
-      "title": "AcademiClaw: When Students Set Challenges for AI Agents",
-      "link": "https://arxiv.org/abs/2605.02661",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02661v1/figures/Task_Comparison.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Benchmarks within the OpenClaw ecosystem have thus far evaluated exclusively assistant-level tasks, leaving the academic-level capabilities of OpenClaw largely unexamined. We introduce AcademiClaw, a bilingual benchmark of 80 complex, lo…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02178",
-      "title": "T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2605.02178",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02178v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Recent progress in multi-turn reinforcement learning (RL) has significantly improved reasoning LLMs' performances on complex interactive tasks. Despite advances in stabilization techniques such as fine-grained credit assignment and traje…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02240",
-      "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
-      "link": "https://arxiv.org/abs/2605.02240",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02240v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "We introduce PhysicianBench, a benchmark for evaluating LLM agents on physician tasks grounded in real clinical setting within electronic health record (EHR) environments. Existing medical agent benchmarks primarily focus on static knowl…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02291",
-      "title": "A Hybrid Approach for Closing the Sim2real Appearance Gap in Game Engine Synthetic Datasets",
-      "link": "https://arxiv.org/abs/2605.02291",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02291v1/flowchart_small_2.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Video game engines have been an important source for generating large volumes of visual synthetic datasets for training and evaluating computer vision algorithms that are to be deployed in the real world. While the visual fidelity of mod…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02134",
-      "title": "Video Generation with Predictive Latents",
-      "link": "https://arxiv.org/abs/2605.02134",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02134v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Video Variational Autoencoder (VAE) enables latent video generative modeling by mapping the visual world into compact spatiotemporal latent spaces, improving training efficiency and stability. While existing video VAEs achieve commendabl…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.03042",
-      "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
-      "link": "https://arxiv.org/abs/2605.03042",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03042v1/x2.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LL…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.03073",
-      "title": "The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap Where Commercial and Open-Source Systems Fail",
-      "link": "https://arxiv.org/abs/2605.03073",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03073v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Niche-domain Indic ASR -- digit strings, currency amounts, addresses, brand names, English/Indic codemix -- is under-served by both open-source SOTA and commercial systems. On a synthesised entity-dense Telugu test set (held-out by synth…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02801",
-      "title": "Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces",
-      "link": "https://arxiv.org/abs/2605.02801",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.02801.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "As large language model (LLM) agents evolve from isolated tool users into coordinated teams, reinforcement learning (RL) must optimize not only individual actions but also how work is spawned, delegated, communicated, aggregated, and sto…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2605.02396",
-      "title": "HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness",
-      "link": "https://arxiv.org/abs/2605.02396",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.02396v1/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Recent advances in agentic harness with orchestration frameworks that coordinate multiple agents with memory, skills, and tool use have achieved remarkable success in complex reasoning tasks. However, the underlying mechanism that truly…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "",
-      "dimensions": {},
-      "popularity_score": 6.8,
-      "popularity_signals": {},
-      "popularity_contributions": {
-        "recent_paper": 8.79
-      },
-      "n_platforms": 0,
-      "trending_caption": ""
-    },
-    {
-      "id": "arxiv:2604.25788",
-      "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
-      "link": "https://arxiv.org/abs/2604.25788",
-      "date": "2026-05-03T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "huggingface_papers"
-      ],
-      "image_url": "https://ar5iv.labs.arxiv.org/html/2604.25788/assets/x1.png",
-      "score": 6.8,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Robotic systems that interact with the physical world must reason about kinematic and dynamic constraints imposed by their own embodiment, their environment, and the task at hand. We introduce KinDER, a benchmark for Kinematic and Dynami…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -7364,11 +7315,11 @@
     "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-10.mp3",
     "rel_path": "podcast/2026-05-10.mp3",
     "title": "Research Radar — Sun May 10: Focus on AI Agent Frameworks and Interaction Datasets",
-    "pub_date": "2026-05-10T09:46:22.066745-04:00",
-    "duration_sec": 141,
-    "size_bytes": 3499680,
-    "word_count": 388,
-    "char_count": 2806,
+    "pub_date": "2026-05-10T21:59:53.865778-04:00",
+    "duration_sec": 144,
+    "size_bytes": 3585120,
+    "word_count": 397,
+    "char_count": 2857,
     "voice": "onyx",
     "headline": "Focus on AI Agent Frameworks and Interaction Datasets",
     "summary_text": "Today's research highlights a surge in open-source frameworks for AI agents, emphasizing interaction and collaboration capabilities. Notably, the AgentTrove dataset offers extensive data for training agentic models.",

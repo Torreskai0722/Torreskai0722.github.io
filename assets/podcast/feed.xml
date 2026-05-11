@@ -6,7 +6,7 @@
     <atom:link href="https://liangkai.org/assets/podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily ~6-minute audio briefing of the autonomy-systems research radar. Generated automatically; voice is OpenAI TTS.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 09:47:02 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 22:00:45 -0400</lastBuildDate>
     <itunes:author>Prof. Liangkai Liu</itunes:author>
     <itunes:summary>Daily ~6-minute audio briefing of the autonomy-systems research radar.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
@@ -14,10 +14,10 @@
     <item>
       <title>Research Radar — Sun May 10: Focus on AI Agent Frameworks and Interaction Datasets</title>
       <description>Today's research highlights a surge in open-source frameworks for AI agents, emphasizing interaction and collaboration capabilities. Notably, the AgentTrove dataset offers extensive data for training agentic models.</description>
-      <pubDate>Sun, 10 May 2026 09:46:22 -0400</pubDate>
-      <enclosure url="https://liangkai.org/assets/podcast/2026-05-10.mp3" length="3499680" type="audio/mpeg"/>
+      <pubDate>Sun, 10 May 2026 21:59:53 -0400</pubDate>
+      <enclosure url="https://liangkai.org/assets/podcast/2026-05-10.mp3" length="3585120" type="audio/mpeg"/>
       <guid isPermaLink="false">research-radar-2026-05-10</guid>
-      <itunes:duration>141</itunes:duration>
+      <itunes:duration>144</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
