@@ -6,18 +6,18 @@
     <atom:link href="https://liangkai.org/assets/podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily ~6-minute audio briefing of the autonomy-systems research radar. Generated automatically; voice is OpenAI TTS.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 22:05:40 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 10:01:08 -0400</lastBuildDate>
     <itunes:author>Prof. Liangkai Liu</itunes:author>
     <itunes:summary>Daily ~6-minute audio briefing of the autonomy-systems research radar.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"/>
     <item>
-      <title>Research Radar — Mon May 11: Focus on AI Tools and Frameworks for LLMs</title>
-      <description>Today's research highlights a surge in AI platforms and frameworks designed to enhance the deployment and management of large language models (LLMs). Projects like 'sglang' and 'mlflow' emphasize the growing need for robust tools that streamline AI workflows and improve model observability.</description>
-      <pubDate>Mon, 11 May 2026 22:04:58 -0400</pubDate>
-      <enclosure url="https://liangkai.org/assets/podcast/2026-05-11.mp3" length="3748800" type="audio/mpeg"/>
-      <guid isPermaLink="false">research-radar-2026-05-11</guid>
-      <itunes:duration>151</itunes:duration>
+      <title>Research Radar — Tue May 12: Focus on LLM Infrastructure and AI Agent Frameworks</title>
+      <description>Today's research highlights a strong emphasis on developing infrastructure for large language models (LLMs) and frameworks for AI agents. Projects like 'mlflow' and 'openai-agents-python' showcase advancements in orchestrating AI workflows and optimizing model performance.</description>
+      <pubDate>Tue, 12 May 2026 10:00:14 -0400</pubDate>
+      <enclosure url="https://liangkai.org/assets/podcast/2026-05-12.mp3" length="3161280" type="audio/mpeg"/>
+      <guid isPermaLink="false">research-radar-2026-05-12</guid>
+      <itunes:duration>129</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
