@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T09:58:25-04:00",
+  "updated_at": "2026-05-13T13:02:52-04:00",
   "mode": "trending",
   "items": [
     {
@@ -20,21 +20,21 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 110k↓ · 462♡",
+      "rationale": "Trending across 1 platform · 110k↓ · 467♡",
       "dimensions": {},
       "popularity_score": 100.0,
       "popularity_signals": {
         "hf_downloads": 110182.0,
-        "hf_likes": 462.0,
-        "hf_trending_score": 455.0
+        "hf_likes": 467.0,
+        "hf_trending_score": 458.0
       },
       "popularity_contributions": {
         "hf_downloads": 34.83,
-        "hf_likes": 30.69,
-        "hf_trending_score": 73.47
+        "hf_likes": 30.74,
+        "hf_trending_score": 73.55
       },
       "n_platforms": 1,
-      "trending_caption": "110k↓ · 462♡"
+      "trending_caption": "110k↓ · 467♡"
     },
     {
       "id": "hash:458314028f7ebca5",
@@ -46,7 +46,7 @@
         "huggingface_trending:dataset"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TuringEnterprises/Open-MM-RL.png",
-      "score": 69.6,
+      "score": 70.0,
       "category": "Projects & Models",
       "action": "Discuss with student",
       "summary": "Dataset Summary\n\t\n\nOpen-MM-RL is a multimodal STEM reasoning dataset covering Physics, Mathematics, Biology, and Chemistry. It is designed for problems that require models to interpret visual information and combine it with step-by-step…",
@@ -54,21 +54,21 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 1k↓ · 72♡",
+      "rationale": "Trending across 1 platform · 1k↓ · 74♡",
       "dimensions": {},
-      "popularity_score": 69.6,
+      "popularity_score": 70.0,
       "popularity_signals": {
         "hf_downloads": 1074.0,
-        "hf_likes": 72.0,
-        "hf_trending_score": 54.0
+        "hf_likes": 74.0,
+        "hf_trending_score": 56.0
       },
       "popularity_contributions": {
         "hf_downloads": 20.94,
-        "hf_likes": 21.45,
-        "hf_trending_score": 48.09
+        "hf_likes": 21.59,
+        "hf_trending_score": 48.52
       },
       "n_platforms": 1,
-      "trending_caption": "1k↓ · 72♡"
+      "trending_caption": "1k↓ · 74♡"
     },
     {
       "id": "arxiv:2605.12501",
@@ -494,7 +494,7 @@
       "id": "hash:b48940b96db331dc",
       "title": "onyx-dot-app/onyx",
       "link": "https://github.com/onyx-dot-app/onyx",
-      "date": "2026-05-13T11:13:51Z",
+      "date": "2026-05-13T16:57:49Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -512,7 +512,7 @@
       "dimensions": {},
       "popularity_score": 63.3,
       "popularity_signals": {
-        "github_stars": 29355.0,
+        "github_stars": 29358.0,
         "github_forks": 3970.0
       },
       "popularity_contributions": {
@@ -543,7 +543,7 @@
       "dimensions": {},
       "popularity_score": 63.3,
       "popularity_signals": {
-        "github_stars": 29493.0,
+        "github_stars": 29494.0,
         "github_forks": 7283.0
       },
       "popularity_contributions": {
@@ -556,7 +556,7 @@
       "id": "hash:2c0207e6b7d3d809",
       "title": "ComposioHQ/composio",
       "link": "https://github.com/ComposioHQ/composio",
-      "date": "2026-05-13T13:54:16Z",
+      "date": "2026-05-13T16:54:14Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -574,7 +574,7 @@
       "dimensions": {},
       "popularity_score": 63.1,
       "popularity_signals": {
-        "github_stars": 28202.0,
+        "github_stars": 28207.0,
         "github_forks": 4555.0
       },
       "popularity_contributions": {
@@ -618,7 +618,7 @@
       "id": "hash:2b1622c80544af02",
       "title": "sgl-project/sglang",
       "link": "https://github.com/sgl-project/sglang",
-      "date": "2026-05-13T13:45:52Z",
+      "date": "2026-05-13T16:57:47Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -636,8 +636,8 @@
       "dimensions": {},
       "popularity_score": 63.0,
       "popularity_signals": {
-        "github_stars": 27753.0,
-        "github_forks": 5879.0
+        "github_stars": 27761.0,
+        "github_forks": 5880.0
       },
       "popularity_contributions": {
         "github_stars": 81.85
@@ -698,7 +698,7 @@
       "dimensions": {},
       "popularity_score": 63.0,
       "popularity_signals": {
-        "github_stars": 28022.0,
+        "github_stars": 28025.0,
         "github_forks": 7091.0
       },
       "popularity_contributions": {
@@ -729,11 +729,11 @@
       "dimensions": {},
       "popularity_score": 62.9,
       "popularity_signals": {
-        "github_stars": 27382.0,
-        "github_forks": 2288.0
+        "github_stars": 27608.0,
+        "github_forks": 2305.0
       },
       "popularity_contributions": {
-        "github_stars": 81.74
+        "github_stars": 81.81
       },
       "n_platforms": 1,
       "trending_caption": "27k★"
@@ -742,7 +742,7 @@
       "id": "hash:4cb2c60d8635d504",
       "title": "langfuse/langfuse",
       "link": "https://github.com/langfuse/langfuse",
-      "date": "2026-05-13T13:32:08Z",
+      "date": "2026-05-13T16:50:40Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -760,8 +760,8 @@
       "dimensions": {},
       "popularity_score": 62.8,
       "popularity_signals": {
-        "github_stars": 27128.0,
-        "github_forks": 2755.0
+        "github_stars": 27137.0,
+        "github_forks": 2756.0
       },
       "popularity_contributions": {
         "github_stars": 81.67
@@ -791,7 +791,7 @@
       "dimensions": {},
       "popularity_score": 62.6,
       "popularity_signals": {
-        "github_stars": 26271.0,
+        "github_stars": 26273.0,
         "github_forks": 4026.0
       },
       "popularity_contributions": {
@@ -804,7 +804,7 @@
       "id": "hash:924d5db653e75771",
       "title": "mlflow/mlflow",
       "link": "https://github.com/mlflow/mlflow",
-      "date": "2026-05-13T13:24:05Z",
+      "date": "2026-05-13T16:18:20Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -822,7 +822,7 @@
       "dimensions": {},
       "popularity_score": 62.5,
       "popularity_signals": {
-        "github_stars": 25909.0,
+        "github_stars": 25914.0,
         "github_forks": 5724.0
       },
       "popularity_contributions": {
@@ -853,11 +853,42 @@
       "dimensions": {},
       "popularity_score": 62.5,
       "popularity_signals": {
-        "github_stars": 25911.0,
+        "github_stars": 25913.0,
         "github_forks": 1559.0
       },
       "popularity_contributions": {
         "github_stars": 81.3
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
+      "id": "hash:d1f9d3d4f12c4fd3",
+      "title": "deepset-ai/haystack",
+      "link": "https://github.com/deepset-ai/haystack",
+      "date": "2026-05-13T14:55:16Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/221654678/23b1cde8-4a33-45f4-8b0b-0686221c8126",
+      "score": 62.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scal…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.4,
+      "popularity_signals": {
+        "github_stars": 25217.0,
+        "github_forks": 2784.0
+      },
+      "popularity_contributions": {
+        "github_stars": 81.08
       },
       "n_platforms": 1,
       "trending_caption": "25k★"
@@ -889,37 +920,6 @@
       },
       "popularity_contributions": {
         "github_stars": 81.14
-      },
-      "n_platforms": 1,
-      "trending_caption": "25k★"
-    },
-    {
-      "id": "hash:d1f9d3d4f12c4fd3",
-      "title": "deepset-ai/haystack",
-      "link": "https://github.com/deepset-ai/haystack",
-      "date": "2026-05-13T12:43:03Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://repository-images.githubusercontent.com/221654678/23b1cde8-4a33-45f4-8b0b-0686221c8126",
-      "score": 62.4,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scal…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 25k★",
-      "dimensions": {},
-      "popularity_score": 62.4,
-      "popularity_signals": {
-        "github_stars": 25216.0,
-        "github_forks": 2784.0
-      },
-      "popularity_contributions": {
-        "github_stars": 81.08
       },
       "n_platforms": 1,
       "trending_caption": "25k★"
@@ -959,7 +959,7 @@
       "id": "hash:4ee68de0f3ced2ea",
       "title": "harvard-edge/cs249r_book",
       "link": "https://github.com/harvard-edge/cs249r_book",
-      "date": "2026-05-13T12:01:17Z",
+      "date": "2026-05-13T15:11:03Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -977,7 +977,7 @@
       "dimensions": {},
       "popularity_score": 62.1,
       "popularity_signals": {
-        "github_stars": 24164.0,
+        "github_stars": 24165.0,
         "github_forks": 2894.0
       },
       "popularity_contributions": {
@@ -990,7 +990,7 @@
       "id": "hash:b1058518d80001e8",
       "title": "PaddlePaddle/Paddle",
       "link": "https://github.com/PaddlePaddle/Paddle",
-      "date": "2026-05-13T12:52:23Z",
+      "date": "2026-05-13T16:55:41Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1083,7 +1083,7 @@
       "id": "hash:bea6fa47a4cf538a",
       "title": "serengil/deepface",
       "link": "https://github.com/serengil/deepface",
-      "date": "2026-05-13T13:47:19Z",
+      "date": "2026-05-13T14:22:15Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1102,7 +1102,7 @@
       "popularity_score": 61.7,
       "popularity_signals": {
         "github_stars": 22727.0,
-        "github_forks": 3087.0
+        "github_forks": 3088.0
       },
       "popularity_contributions": {
         "github_stars": 80.25
@@ -1145,7 +1145,7 @@
       "id": "hash:942b8d414815ae15",
       "title": "onnx/onnx",
       "link": "https://github.com/onnx/onnx",
-      "date": "2026-05-13T13:51:54Z",
+      "date": "2026-05-13T14:14:33Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1163,7 +1163,7 @@
       "dimensions": {},
       "popularity_score": 61.2,
       "popularity_signals": {
-        "github_stars": 20820.0,
+        "github_stars": 20821.0,
         "github_forks": 3929.0
       },
       "popularity_contributions": {
@@ -1225,8 +1225,8 @@
       "dimensions": {},
       "popularity_score": 61.0,
       "popularity_signals": {
-        "github_stars": 20057.0,
-        "github_forks": 2845.0
+        "github_stars": 20060.0,
+        "github_forks": 2846.0
       },
       "popularity_contributions": {
         "github_stars": 79.25
@@ -1256,7 +1256,7 @@
       "dimensions": {},
       "popularity_score": 60.8,
       "popularity_signals": {
-        "github_stars": 19397.0,
+        "github_stars": 19398.0,
         "github_forks": 4451.0
       },
       "popularity_contributions": {
@@ -2144,10 +2144,70 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.11436",
+      "title": "Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty",
+      "link": "https://arxiv.org/abs/2605.11436",
+      "date": "2026-05-11T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.11436v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Large language models (LLMs) are increasingly deployed on long-horizon tasks in partially observable environments, where they must act while inferring and tracking a complex environment state over many steps. This leads to two challenges…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.12419",
+      "title": "ORBIT: Preserving Foundational Language Capabilities in GenRetrieval via Origin-Regulated Merging",
+      "link": "https://arxiv.org/abs/2605.12419",
+      "date": "2026-05-11T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.12419v1/figures/cropped-overview.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Despite the rapid advancements in large language model (LLM) development, fine-tuning them for specific tasks often results in the catastrophic forgetting of their general, language-based reasoning abilities. This work investigates and a…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "hash:9569f5463495b661",
       "title": "cvat-ai/cvat",
       "link": "https://github.com/cvat-ai/cvat",
-      "date": "2026-05-13T13:51:27Z",
+      "date": "2026-05-13T16:04:16Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2170,6 +2230,37 @@
       },
       "popularity_contributions": {
         "github_stars": 77.36
+      },
+      "n_platforms": 1,
+      "trending_caption": "15k★"
+    },
+    {
+      "id": "hash:343cce7198fef564",
+      "title": "tracel-ai/burn",
+      "link": "https://github.com/tracel-ai/burn",
+      "date": "2026-05-13T15:41:32Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/603df37afd3b863b48e35417155d445979c62b94e59ccc2dfaf397b77f433faf/tracel-ai/burn",
+      "score": 59.2,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 15k★",
+      "dimensions": {},
+      "popularity_score": 59.2,
+      "popularity_signals": {
+        "github_stars": 15112.0,
+        "github_forks": 903.0
+      },
+      "popularity_contributions": {
+        "github_stars": 76.99
       },
       "n_platforms": 1,
       "trending_caption": "15k★"
@@ -2201,37 +2292,6 @@
       },
       "popularity_contributions": {
         "github_stars": 76.96
-      },
-      "n_platforms": 1,
-      "trending_caption": "15k★"
-    },
-    {
-      "id": "hash:343cce7198fef564",
-      "title": "tracel-ai/burn",
-      "link": "https://github.com/tracel-ai/burn",
-      "date": "2026-05-12T19:59:11Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/603df37afd3b863b48e35417155d445979c62b94e59ccc2dfaf397b77f433faf/tracel-ai/burn",
-      "score": 59.2,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 15k★",
-      "dimensions": {},
-      "popularity_score": 59.2,
-      "popularity_signals": {
-        "github_stars": 15107.0,
-        "github_forks": 901.0
-      },
-      "popularity_contributions": {
-        "github_stars": 76.98
       },
       "n_platforms": 1,
       "trending_caption": "15k★"
@@ -2271,7 +2331,7 @@
       "id": "hash:a662fd20dd3c9b2d",
       "title": "vosen/ZLUDA",
       "link": "https://github.com/vosen/ZLUDA",
-      "date": "2026-05-13T01:22:14Z",
+      "date": "2026-05-13T03:11:30Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2289,7 +2349,7 @@
       "dimensions": {},
       "popularity_score": 58.8,
       "popularity_signals": {
-        "github_stars": 14189.0,
+        "github_stars": 14193.0,
         "github_forks": 906.0
       },
       "popularity_contributions": {
@@ -2302,7 +2362,7 @@
       "id": "hash:603bb789cd4adf76",
       "title": "carla-simulator/carla",
       "link": "https://github.com/carla-simulator/carla",
-      "date": "2026-05-13T13:07:25Z",
+      "date": "2026-05-13T14:28:38Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2321,7 +2381,7 @@
       "popularity_score": 58.7,
       "popularity_signals": {
         "github_stars": 13946.0,
-        "github_forks": 4560.0
+        "github_forks": 4561.0
       },
       "popularity_contributions": {
         "github_stars": 76.34
@@ -2364,7 +2424,7 @@
       "id": "hash:f0fe01b9989d7dcb",
       "title": "NVIDIA/TensorRT-LLM",
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
-      "date": "2026-05-13T01:20:25Z",
+      "date": "2026-05-13T16:25:26Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2382,11 +2442,11 @@
       "dimensions": {},
       "popularity_score": 58.6,
       "popularity_signals": {
-        "github_stars": 13617.0,
-        "github_forks": 2377.0
+        "github_stars": 13624.0,
+        "github_forks": 2378.0
       },
       "popularity_contributions": {
-        "github_stars": 76.15
+        "github_stars": 76.16
       },
       "n_platforms": 1,
       "trending_caption": "13k★"
@@ -2599,7 +2659,7 @@
       "dimensions": {},
       "popularity_score": 57.3,
       "popularity_signals": {
-        "github_stars": 11019.0,
+        "github_stars": 11020.0,
         "github_forks": 1266.0
       },
       "popularity_contributions": {
@@ -2630,7 +2690,7 @@
       "dimensions": {},
       "popularity_score": 57.2,
       "popularity_signals": {
-        "github_stars": 10940.0,
+        "github_stars": 10942.0,
         "github_forks": 1029.0
       },
       "popularity_contributions": {
@@ -3663,7 +3723,7 @@
       "id": "hash:fe61601f0c7323c8",
       "title": "NVIDIA/cutlass",
       "link": "https://github.com/NVIDIA/cutlass",
-      "date": "2026-05-13T01:06:44Z",
+      "date": "2026-05-13T03:39:02Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3681,11 +3741,42 @@
       "dimensions": {},
       "popularity_score": 56.5,
       "popularity_signals": {
-        "github_stars": 9706.0,
-        "github_forks": 1847.0
+        "github_stars": 9715.0,
+        "github_forks": 1850.0
       },
       "popularity_contributions": {
-        "github_stars": 73.44
+        "github_stars": 73.45
+      },
+      "n_platforms": 1,
+      "trending_caption": "9k★"
+    },
+    {
+      "id": "hash:20748d7b31be8a72",
+      "title": "rapidsai/cudf",
+      "link": "https://github.com/rapidsai/cudf",
+      "date": "2026-05-13T16:55:41Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/e29b2b882cad6c00db0bc4d55e15b96f3b00968b4637c753b106401b09043b6f/rapidsai/cudf",
+      "score": 56.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "cuDF - GPU DataFrame Library",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 9k★",
+      "dimensions": {},
+      "popularity_score": 56.4,
+      "popularity_signals": {
+        "github_stars": 9626.0,
+        "github_forks": 1053.0
+      },
+      "popularity_contributions": {
+        "github_stars": 73.38
       },
       "n_platforms": 1,
       "trending_caption": "9k★"
@@ -3712,7 +3803,7 @@
       "dimensions": {},
       "popularity_score": 56.4,
       "popularity_signals": {
-        "github_stars": 9497.0,
+        "github_stars": 9499.0,
         "github_forks": 942.0
       },
       "popularity_contributions": {
@@ -3722,32 +3813,32 @@
       "trending_caption": "9k★"
     },
     {
-      "id": "hash:20748d7b31be8a72",
-      "title": "rapidsai/cudf",
-      "link": "https://github.com/rapidsai/cudf",
-      "date": "2026-05-13T01:23:45Z",
+      "id": "hash:624cf534c44c85fa",
+      "title": "replicate/cog",
+      "link": "https://github.com/replicate/cog",
+      "date": "2026-05-13T16:06:01Z",
       "type": "Project",
       "sources": [
         "github_trending"
       ],
-      "image_url": "https://opengraph.githubassets.com/e29b2b882cad6c00db0bc4d55e15b96f3b00968b4637c753b106401b09043b6f/rapidsai/cudf",
-      "score": 56.4,
+      "image_url": "https://opengraph.githubassets.com/835bffe491d9054dd8d74f88f9d6127bc8ba2a8d09701689dddc448f2d69fb78/replicate/cog",
+      "score": 56.3,
       "category": "Projects & Models",
       "action": "Discuss with student",
-      "summary": "cuDF - GPU DataFrame Library",
+      "summary": "Containers for machine learning",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
       "rationale": "Trending across 1 platform · 9k★",
       "dimensions": {},
-      "popularity_score": 56.4,
+      "popularity_score": 56.3,
       "popularity_signals": {
-        "github_stars": 9626.0,
-        "github_forks": 1051.0
+        "github_stars": 9411.0,
+        "github_forks": 686.0
       },
       "popularity_contributions": {
-        "github_stars": 73.38
+        "github_stars": 73.2
       },
       "n_platforms": 1,
       "trending_caption": "9k★"
@@ -3784,41 +3875,10 @@
       "trending_caption": "9k★"
     },
     {
-      "id": "hash:624cf534c44c85fa",
-      "title": "replicate/cog",
-      "link": "https://github.com/replicate/cog",
-      "date": "2026-05-12T20:03:46Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/835bffe491d9054dd8d74f88f9d6127bc8ba2a8d09701689dddc448f2d69fb78/replicate/cog",
-      "score": 56.3,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Containers for machine learning",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 9k★",
-      "dimensions": {},
-      "popularity_score": 56.3,
-      "popularity_signals": {
-        "github_stars": 9410.0,
-        "github_forks": 686.0
-      },
-      "popularity_contributions": {
-        "github_stars": 73.2
-      },
-      "n_platforms": 1,
-      "trending_caption": "9k★"
-    },
-    {
       "id": "hash:8b5fa7f4e5284c5f",
       "title": "catboost/catboost",
       "link": "https://github.com/catboost/catboost",
-      "date": "2026-05-12T14:17:56Z",
+      "date": "2026-05-13T15:07:09Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3836,7 +3896,7 @@
       "dimensions": {},
       "popularity_score": 56.0,
       "popularity_signals": {
-        "github_stars": 8939.0,
+        "github_stars": 8942.0,
         "github_forks": 1287.0
       },
       "popularity_contributions": {
@@ -3880,7 +3940,7 @@
       "id": "hash:bc045074e38e928b",
       "title": "LMCache/LMCache",
       "link": "https://github.com/LMCache/LMCache",
-      "date": "2026-05-13T01:46:39Z",
+      "date": "2026-05-13T10:22:37Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3898,11 +3958,11 @@
       "dimensions": {},
       "popularity_score": 55.5,
       "popularity_signals": {
-        "github_stars": 8258.0,
+        "github_stars": 8262.0,
         "github_forks": 1169.0
       },
       "popularity_contributions": {
-        "github_stars": 72.15
+        "github_stars": 72.16
       },
       "n_platforms": 1,
       "trending_caption": "8k★"
@@ -4552,7 +4612,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.09530.png",
+      "image_url": "https://arxiv.org/html/2605.09530v1/x1.png",
       "score": 52.4,
       "category": "Papers",
       "action": "Track",
@@ -4574,70 +4634,10 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.09047",
-      "title": "Locational Pricing for Generative-AI Services via Token-Flow Market Clearing",
-      "link": "https://arxiv.org/abs/2605.09047v1",
-      "date": "2026-05-09T16:38:51Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.09047v1/x1.png",
-      "score": 52.4,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "GenAI services are in an early yet fast expanding phase. Providers compete on model capability and service quality, while the underlying infrastructure remains expensive and heterogeneous across regions, workloads, and compute assets. If…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 52.4,
-      "popularity_signals": {
-        "recent_paper": 5.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 68.09
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.09016",
-      "title": "CATO: Charted Attention for Neural PDE Operators",
-      "link": "https://arxiv.org/abs/2605.09016v1",
-      "date": "2026-05-09T15:55:02Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.09016v1/x1.png",
-      "score": 52.4,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Neural operators have emerged as powerful data-driven solvers for PDEs, offering substantial acceleration over classical numerical methods. However, existing transformer-based operators still face critical challenges when modeling PDEs o…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 52.4,
-      "popularity_signals": {
-        "recent_paper": 5.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 68.09
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:29f2087d2d616a01",
       "title": "newton-physics/newton",
       "link": "https://github.com/newton-physics/newton",
-      "date": "2026-05-13T13:43:18Z",
+      "date": "2026-05-13T15:50:47Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -4656,7 +4656,7 @@
       "popularity_score": 52.3,
       "popularity_signals": {
         "github_stars": 4894.0,
-        "github_forks": 528.0
+        "github_forks": 530.0
       },
       "popularity_contributions": {
         "github_stars": 67.97
@@ -4668,13 +4668,13 @@
       "id": "hash:88163fa077a98238",
       "title": "cactus-compute/cactus",
       "link": "https://github.com/cactus-compute/cactus",
-      "date": "2026-05-13T01:57:20Z",
+      "date": "2026-05-13T16:13:09Z",
       "type": "Project",
       "sources": [
         "github_trending"
       ],
       "image_url": "https://opengraph.githubassets.com/6552e53b2fac72eef7efce8585084ffff8a65a5076ac74fdff0da3190818dfd6/cactus-compute/cactus",
-      "score": 52.1,
+      "score": 52.2,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "Low-latency AI engine for mobile devices & wearables",
@@ -4684,13 +4684,13 @@
       "student_project": "",
       "rationale": "Trending across 1 platform · 4k★",
       "dimensions": {},
-      "popularity_score": 52.1,
+      "popularity_score": 52.2,
       "popularity_signals": {
-        "github_stars": 4760.0,
-        "github_forks": 377.0
+        "github_stars": 4836.0,
+        "github_forks": 381.0
       },
       "popularity_contributions": {
-        "github_stars": 67.75
+        "github_stars": 67.87
       },
       "n_platforms": 1,
       "trending_caption": "4k★"
@@ -5045,6 +5045,66 @@
       },
       "n_platforms": 1,
       "trending_caption": "2k★"
+    },
+    {
+      "id": "arxiv:2605.09047",
+      "title": "Locational Pricing for Generative-AI Services via Token-Flow Market Clearing",
+      "link": "https://arxiv.org/abs/2605.09047v1",
+      "date": "2026-05-09T16:38:51Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.09047v1/x1.png",
+      "score": 47.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "GenAI services are in an early yet fast expanding phase. Providers compete on model capability and service quality, while the underlying infrastructure remains expensive and heterogeneous across regions, workloads, and compute assets. If…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 47.0,
+      "popularity_signals": {
+        "recent_paper": 4.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 61.16
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.09016",
+      "title": "CATO: Charted Attention for Neural PDE Operators",
+      "link": "https://arxiv.org/abs/2605.09016v1",
+      "date": "2026-05-09T15:55:02Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.09016v1/x1.png",
+      "score": 47.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Neural operators have emerged as powerful data-driven solvers for PDEs, offering substantial acceleration over classical numerical methods. However, existing transformer-based operators still face critical challenges when modeling PDEs o…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 47.0,
+      "popularity_signals": {
+        "recent_paper": 4.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 61.16
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.08804",
@@ -5625,7 +5685,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.08626.png",
+      "image_url": "https://arxiv.org/html/2605.08626v1/figures/introduction.png",
       "score": 47.0,
       "category": "Papers",
       "action": "Track",
@@ -5685,7 +5745,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.10977.png",
+      "image_url": "https://arxiv.org/html/2605.10977v1/x2.png",
       "score": 47.0,
       "category": "Papers",
       "action": "Track",
@@ -5745,7 +5805,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.09131.png",
+      "image_url": "https://arxiv.org/html/2605.09131v1/figures/MCPCosmos.png",
       "score": 47.0,
       "category": "Papers",
       "action": "Track",
@@ -6307,66 +6367,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.07910",
-      "title": "One World, Dual Timeline: Decoupled Spatio-Temporal Gaussian Scene Graph for 4D Cooperative Driving Reconstruction",
-      "link": "https://arxiv.org/abs/2605.07910v1",
-      "date": "2026-05-08T15:48:57Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07910v1/x1.png",
-      "score": 47.0,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Reconstructing dynamic scenes from Vehicle-to-Infrastructure Cooperative Autonomous Driving (VICAD) data is fundamentally complicated by temporal asynchrony: vehicle and infrastructure cameras operate on independent clocks, capturing the…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 47.0,
-      "popularity_signals": {
-        "recent_paper": 4.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 61.16
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07859",
-      "title": "EyeCue: Driver Cognitive Distraction Detection via Gaze-Empowered Egocentric Video Understanding",
-      "link": "https://arxiv.org/abs/2605.07859v1",
-      "date": "2026-05-08T15:20:20Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07859v1/x1.png",
-      "score": 47.0,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Driver cognitive distraction is a major cause of road collisions and remains difficult to detect. Unlike manual or visual distraction, cognitive distraction is diverted by thoughts unrelated to driving, even when the driver appears visua…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 47.0,
-      "popularity_signals": {
-        "recent_paper": 4.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 61.16
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:9b59e342fd2e9610",
       "title": "LMD0311/Awesome-World-Model",
       "link": "https://github.com/LMD0311/Awesome-World-Model",
@@ -6388,14 +6388,45 @@
       "dimensions": {},
       "popularity_score": 46.9,
       "popularity_signals": {
-        "github_stars": 2036.0,
+        "github_stars": 2038.0,
         "github_forks": 80.0
       },
       "popularity_contributions": {
-        "github_stars": 60.95
+        "github_stars": 60.96
       },
       "n_platforms": 1,
       "trending_caption": "2k★"
+    },
+    {
+      "id": "hash:54c1011585d5bed9",
+      "title": "autowarefoundation/autoware_universe",
+      "link": "https://github.com/autowarefoundation/autoware_universe",
+      "date": "2026-05-13T16:02:33Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/26a0fe502315d863d6e9b32e5757667d55e237b83fc52d3299ba0ffb033a5928/autowarefoundation/autoware_universe",
+      "score": 45.5,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 1k★",
+      "dimensions": {},
+      "popularity_score": 45.5,
+      "popularity_signals": {
+        "github_stars": 1628.0,
+        "github_forks": 893.0
+      },
+      "popularity_contributions": {
+        "github_stars": 59.17
+      },
+      "n_platforms": 1,
+      "trending_caption": "1k★"
     },
     {
       "id": "hash:b4fb5cfa5bd435de",
@@ -6419,42 +6450,11 @@
       "dimensions": {},
       "popularity_score": 45.5,
       "popularity_signals": {
-        "github_stars": 1637.0,
+        "github_stars": 1638.0,
         "github_forks": 52.0
       },
       "popularity_contributions": {
         "github_stars": 59.21
-      },
-      "n_platforms": 1,
-      "trending_caption": "1k★"
-    },
-    {
-      "id": "hash:54c1011585d5bed9",
-      "title": "autowarefoundation/autoware_universe",
-      "link": "https://github.com/autowarefoundation/autoware_universe",
-      "date": "2026-05-13T08:35:46Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/26a0fe502315d863d6e9b32e5757667d55e237b83fc52d3299ba0ffb033a5928/autowarefoundation/autoware_universe",
-      "score": 45.5,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 1k★",
-      "dimensions": {},
-      "popularity_score": 45.5,
-      "popularity_signals": {
-        "github_stars": 1628.0,
-        "github_forks": 893.0
-      },
-      "popularity_contributions": {
-        "github_stars": 59.17
       },
       "n_platforms": 1,
       "trending_caption": "1k★"
@@ -6499,7 +6499,7 @@
       "sources": [
         "huggingface_trending:dataset"
       ],
-      "image_url": "",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TeichAI/DeepSeek-v4-Pro-Agent.png",
       "score": 43.8,
       "category": "Projects & Models",
       "action": "Track",
@@ -6591,7 +6591,7 @@
       "id": "hash:7f3c449a6ca2d148",
       "title": "microsoft/Biodiversity",
       "link": "https://github.com/microsoft/Biodiversity",
-      "date": "2026-05-13T00:12:31Z",
+      "date": "2026-05-13T16:55:58Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -6636,18 +6636,18 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 895★",
+      "rationale": "Trending across 1 platform · 897★",
       "dimensions": {},
       "popularity_score": 41.8,
       "popularity_signals": {
-        "github_stars": 895.0,
+        "github_stars": 897.0,
         "github_forks": 106.0
       },
       "popularity_contributions": {
-        "github_stars": 54.38
+        "github_stars": 54.4
       },
       "n_platforms": 1,
-      "trending_caption": "895★"
+      "trending_caption": "897★"
     },
     {
       "id": "hash:fa9a3d48ba3ba1ca",
@@ -6659,7 +6659,7 @@
         "hackernews:GPU inference"
       ],
       "image_url": "https://opengraph.githubassets.com/e3b41f672088f41ceed83bc4b43199bc1227e9db8df4a65cad4e22907c82ae4a/cactus-compute/needle",
-      "score": 40.7,
+      "score": 41.2,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "",
@@ -6667,19 +6667,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 535pts",
+      "rationale": "Trending across 1 platform · 579pts",
       "dimensions": {},
-      "popularity_score": 40.7,
+      "popularity_score": 41.2,
       "popularity_signals": {
-        "hn_points": 535.0,
-        "hn_comments": 157.0
+        "hn_points": 579.0,
+        "hn_comments": 166.0
       },
       "popularity_contributions": {
-        "hn_points": 37.7,
-        "hn_comments": 15.19
+        "hn_points": 38.18,
+        "hn_comments": 15.35
       },
       "n_platforms": 1,
-      "trending_caption": "535pts"
+      "trending_caption": "579pts"
     },
     {
       "id": "hash:ec9ce925f1e7ab36",
@@ -6699,18 +6699,78 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 737★",
+      "rationale": "Trending across 1 platform · 738★",
       "dimensions": {},
       "popularity_score": 40.6,
       "popularity_signals": {
-        "github_stars": 737.0,
+        "github_stars": 738.0,
         "github_forks": 110.0
       },
       "popularity_contributions": {
-        "github_stars": 52.83
+        "github_stars": 52.84
       },
       "n_platforms": 1,
-      "trending_caption": "737★"
+      "trending_caption": "738★"
+    },
+    {
+      "id": "arxiv:2605.07910",
+      "title": "One World, Dual Timeline: Decoupled Spatio-Temporal Gaussian Scene Graph for 4D Cooperative Driving Reconstruction",
+      "link": "https://arxiv.org/abs/2605.07910v1",
+      "date": "2026-05-08T15:48:57Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07910v1/x1.png",
+      "score": 40.5,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Reconstructing dynamic scenes from Vehicle-to-Infrastructure Cooperative Autonomous Driving (VICAD) data is fundamentally complicated by temporal asynchrony: vehicle and infrastructure cameras operate on independent clocks, capturing the…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 40.5,
+      "popularity_signals": {
+        "recent_paper": 3.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 52.68
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.07859",
+      "title": "EyeCue: Driver Cognitive Distraction Detection via Gaze-Empowered Egocentric Video Understanding",
+      "link": "https://arxiv.org/abs/2605.07859v1",
+      "date": "2026-05-08T15:20:20Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07859v1/x1.png",
+      "score": 40.5,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Driver cognitive distraction is a major cause of road collisions and remains difficult to detect. Unlike manual or visual distraction, cognitive distraction is diverted by thoughts unrelated to driving, even when the driver appears visua…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 40.5,
+      "popularity_signals": {
+        "recent_paper": 3.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 52.68
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.07574",
@@ -7834,7 +7894,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.07153.png",
+      "image_url": "https://arxiv.org/html/2605.07153v1/x1.png",
       "score": 40.5,
       "category": "Papers",
       "action": "Track",
@@ -7864,7 +7924,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.07654.png",
+      "image_url": "https://arxiv.org/html/2605.07654v1/x1.png",
       "score": 40.5,
       "category": "Papers",
       "action": "Track",
@@ -7894,7 +7954,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.07579.png",
+      "image_url": "https://arxiv.org/html/2605.07579v1/x1.png",
       "score": 40.5,
       "category": "Papers",
       "action": "Track",
@@ -7924,7 +7984,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.08299.png",
+      "image_url": "https://arxiv.org/html/2605.08299v1/x1.png",
       "score": 40.5,
       "category": "Papers",
       "action": "Track",
@@ -8456,97 +8516,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.06483",
-      "title": "ReasonSTL: Bridging Natural Language and Signal Temporal Logic via Tool-Augmented Process-Rewarded Learning",
-      "link": "https://arxiv.org/abs/2605.06483v2",
-      "date": "2026-05-07T16:07:30Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.06483v1/pic/shown.png",
-      "score": 40.5,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Signal Temporal Logic (STL) is an expressive formal language for specifying spatio-temporal requirements over real-valued, real-time signals. It has been widely used for the verification and synthesis of autonomous systems and cyber-phys…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 40.5,
-      "popularity_signals": {
-        "recent_paper": 3.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 52.68
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.06311",
-      "title": "Toward Visually Realistic Simulation: A Benchmark for Evaluating Robot Manipulation in Simulation",
-      "link": "https://arxiv.org/abs/2605.06311v1",
-      "date": "2026-05-07T14:13:05Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.06311v1/x1.png",
-      "score": 40.5,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Reliable simulation evaluation of robot manipulation policies serves as a high-fidelity proxy for real-world performance. Although existing benchmarks cover a wide range of task categories, they lack visual realism, creating a large doma…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 40.5,
-      "popularity_signals": {
-        "recent_paper": 3.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 52.68
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "hash:52ea4e251661c40a",
-      "title": "MizuhoAOKI/python_simple_mppi",
-      "link": "https://github.com/MizuhoAOKI/python_simple_mppi",
-      "date": "2026-05-04T12:16:09Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://repository-images.githubusercontent.com/689511986/628a4310-304a-484a-b556-04ab4282da10",
-      "score": 40.4,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "Python implementation of MPPI (Model Predictive Path-Integral) controller to understand the basic idea. Mandatory dependencies are numpy and matplotlib only.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 704★",
-      "dimensions": {},
-      "popularity_score": 40.4,
-      "popularity_signals": {
-        "github_stars": 704.0,
-        "github_forks": 69.0
-      },
-      "popularity_contributions": {
-        "github_stars": 52.47
-      },
-      "n_platforms": 1,
-      "trending_caption": "704★"
-    },
-    {
       "id": "hash:bcd83bb8969e7cd5",
       "title": "autowarefoundation/AWSIM",
       "link": "https://github.com/autowarefoundation/AWSIM",
@@ -8658,19 +8627,52 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 370pts",
+      "rationale": "Trending across 1 platform · 371pts",
       "dimensions": {},
       "popularity_score": 38.2,
       "popularity_signals": {
-        "hn_points": 370.0,
+        "hn_points": 371.0,
         "hn_comments": 109.0
       },
       "popularity_contributions": {
-        "hn_points": 35.5,
+        "hn_points": 35.51,
         "hn_comments": 14.1
       },
       "n_platforms": 1,
-      "trending_caption": "370pts"
+      "trending_caption": "371pts"
+    },
+    {
+      "id": "hash:d47d3e3925ad1854",
+      "title": "Reimagining the mouse pointer for the AI era",
+      "link": "https://deepmind.google/blog/ai-pointer/",
+      "date": "2026-05-12T17:40:13+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI",
+        "rss:DeepMind Blog"
+      ],
+      "image_url": "",
+      "score": 37.6,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 239pts",
+      "dimensions": {},
+      "popularity_score": 37.6,
+      "popularity_signals": {
+        "hn_points": 239.0,
+        "hn_comments": 206.0
+      },
+      "popularity_contributions": {
+        "hn_points": 32.88,
+        "hn_comments": 16.0
+      },
+      "n_platforms": 1,
+      "trending_caption": "239pts"
     },
     {
       "id": "hash:eb8d506635f452c9",
@@ -8735,39 +8737,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "477pts"
-    },
-    {
-      "id": "hash:d47d3e3925ad1854",
-      "title": "Reimagining the mouse pointer for the AI era",
-      "link": "https://deepmind.google/blog/ai-pointer/",
-      "date": "2026-05-12T17:40:13+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI",
-        "rss:DeepMind Blog"
-      ],
-      "image_url": "",
-      "score": 37.2,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 224pts",
-      "dimensions": {},
-      "popularity_score": 37.2,
-      "popularity_signals": {
-        "hn_points": 224.0,
-        "hn_comments": 193.0
-      },
-      "popularity_contributions": {
-        "hn_points": 32.5,
-        "hn_comments": 15.8
-      },
-      "n_platforms": 1,
-      "trending_caption": "224pts"
     },
     {
       "id": "hash:5755f1b522d9cc2c",
@@ -8875,7 +8844,7 @@
         "hackernews:AI"
       ],
       "image_url": "",
-      "score": 33.2,
+      "score": 34.1,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -8883,51 +8852,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 170pts",
+      "rationale": "Trending across 1 platform · 188pts",
       "dimensions": {},
-      "popularity_score": 33.2,
+      "popularity_score": 34.1,
       "popularity_signals": {
-        "hn_points": 170.0,
-        "hn_comments": 60.0
+        "hn_points": 188.0,
+        "hn_comments": 71.0
       },
       "popularity_contributions": {
-        "hn_points": 30.85,
-        "hn_comments": 12.33
+        "hn_points": 31.45,
+        "hn_comments": 12.83
       },
       "n_platforms": 1,
-      "trending_caption": "170pts"
-    },
-    {
-      "id": "hash:230b4992c5253400",
-      "title": "OpenAI, Google, and Microsoft Back Bill to Fund 'AI Literacy' in Schools",
-      "link": "https://www.404media.co/literacy-in-future-technologies-artificial-intelligence-act-adam-schiff-mike-rounds/",
-      "date": "2026-05-04T16:21:38+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "https://images.unsplash.com/photo-1598032604570-d65c6680d246?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fGNoaWxkJTIwb24lMjBhJTIwY29tcHV0ZXIlMjBpbiUyMHNjaG9vbHxlbnwwfHx8fDE3Nzc5MDQ2NDd8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;2000",
-      "score": 33.1,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 120pts",
-      "dimensions": {},
-      "popularity_score": 33.1,
-      "popularity_signals": {
-        "hn_points": 120.0,
-        "hn_comments": 113.0
-      },
-      "popularity_contributions": {
-        "hn_points": 28.77,
-        "hn_comments": 14.21
-      },
-      "n_platforms": 1,
-      "trending_caption": "120pts"
+      "trending_caption": "188pts"
     },
     {
       "id": "hash:bb3e2c7f15891209",
@@ -8992,6 +8929,66 @@
       },
       "n_platforms": 1,
       "trending_caption": "124pts"
+    },
+    {
+      "id": "arxiv:2605.06483",
+      "title": "ReasonSTL: Bridging Natural Language and Signal Temporal Logic via Tool-Augmented Process-Rewarded Learning",
+      "link": "https://arxiv.org/abs/2605.06483v2",
+      "date": "2026-05-07T16:07:30Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06483v1/pic/shown.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Signal Temporal Logic (STL) is an expressive formal language for specifying spatio-temporal requirements over real-valued, real-time signals. It has been widely used for the verification and synthesis of autonomous systems and cyber-phys…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.06311",
+      "title": "Toward Visually Realistic Simulation: A Benchmark for Evaluating Robot Manipulation in Simulation",
+      "link": "https://arxiv.org/abs/2605.06311v1",
+      "date": "2026-05-07T14:13:05Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06311v1/x1.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Reliable simulation evaluation of robot manipulation policies serves as a high-fidelity proxy for real-world performance. Although existing benchmarks cover a wide range of task categories, they lack visual realism, creating a large doma…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.06140",
@@ -10591,6 +10588,36 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.06546",
+      "title": "Efficient Pre-Training with Token Superposition",
+      "link": "https://arxiv.org/abs/2605.06546",
+      "date": "2026-05-06T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06546.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Pre-training of Large Language Models is often prohibitively expensive and inefficient at scale, requiring complex and invasive modifications in order to achieve high data throughput. In this work, we present Token-Superposition Training…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "arxiv:2605.05340",
       "title": "How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study",
       "link": "https://arxiv.org/abs/2605.05340v1",
@@ -10981,70 +11008,10 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.05071",
-      "title": "Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity",
-      "link": "https://arxiv.org/abs/2605.05071v1",
-      "date": "2026-05-06T16:07:26Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Millimeter-wave (mmWave) frequencies promise multi-gigabit connectivity for vehicle-to-everything (V2X) networks, but face challenges in terms of severe path loss and mobility-related beam misalignment. Reliable V2X connectivity requires…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05001",
-      "title": "Unlocking Embodied Probabilistic Computational Features in Motor Drives",
-      "link": "https://arxiv.org/abs/2605.05001v1",
-      "date": "2026-05-06T15:02:08Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05001v1/x1.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Artificial intelligence (AI)-driven fault diagnosis in motor drives often requires significant computational efforts and time for re-training, in addition to the limited knowledge behind the model and suitability of training and learning…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:f1daf7f75aaf75cf",
       "title": "xybrid-ai/xybrid",
       "link": "https://github.com/xybrid-ai/xybrid",
-      "date": "2026-05-12T20:34:56Z",
+      "date": "2026-05-13T16:03:12Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -11101,6 +11068,38 @@
       },
       "n_platforms": 1,
       "trending_caption": "168★"
+    },
+    {
+      "id": "hash:ee61a88769d103e8",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "link": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "date": "2026-05-10T17:05:05+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:LLM"
+      ],
+      "image_url": "",
+      "score": 31.6,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 258pts",
+      "dimensions": {},
+      "popularity_score": 31.6,
+      "popularity_signals": {
+        "hn_points": 258.0,
+        "hn_comments": 12.0
+      },
+      "popularity_contributions": {
+        "hn_points": 33.34,
+        "hn_comments": 7.69
+      },
+      "n_platforms": 1,
+      "trending_caption": "258pts"
     },
     {
       "id": "arxiv:2604.26752",
@@ -11168,38 +11167,6 @@
       "trending_caption": "101pts"
     },
     {
-      "id": "hash:ee61a88769d103e8",
-      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
-      "link": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-      "date": "2026-05-10T17:05:05+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:LLM"
-      ],
-      "image_url": "",
-      "score": 31.5,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 256pts",
-      "dimensions": {},
-      "popularity_score": 31.5,
-      "popularity_signals": {
-        "hn_points": 256.0,
-        "hn_comments": 12.0
-      },
-      "popularity_contributions": {
-        "hn_points": 33.29,
-        "hn_comments": 7.69
-      },
-      "n_platforms": 1,
-      "trending_caption": "256pts"
-    },
-    {
       "id": "hash:eb43d65b3aa35fbf",
       "title": "Two Home Affairs officials suspended after AI 'hallucinations' found",
       "link": "https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/",
@@ -11230,6 +11197,38 @@
       },
       "n_platforms": 1,
       "trending_caption": "141pts"
+    },
+    {
+      "id": "hash:652e82cef3e67905",
+      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+      "link": "https://github.com/statewright/statewright",
+      "date": "2026-05-12T14:24:55+00:00",
+      "type": "Project",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 30.7,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 108pts",
+      "dimensions": {},
+      "popularity_score": 30.7,
+      "popularity_signals": {
+        "hn_points": 108.0,
+        "hn_comments": 49.0
+      },
+      "popularity_contributions": {
+        "hn_points": 28.15,
+        "hn_comments": 11.74
+      },
+      "n_platforms": 1,
+      "trending_caption": "108pts"
     },
     {
       "id": "hash:9d2fe290c04d50c2",
@@ -11297,38 +11296,6 @@
       "trending_caption": "122pts"
     },
     {
-      "id": "hash:652e82cef3e67905",
-      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
-      "link": "https://github.com/statewright/statewright",
-      "date": "2026-05-12T14:24:55+00:00",
-      "type": "Project",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "",
-      "score": 30.2,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 101pts",
-      "dimensions": {},
-      "popularity_score": 30.2,
-      "popularity_signals": {
-        "hn_points": 101.0,
-        "hn_comments": 45.0
-      },
-      "popularity_contributions": {
-        "hn_points": 27.75,
-        "hn_comments": 11.49
-      },
-      "n_platforms": 1,
-      "trending_caption": "101pts"
-    },
-    {
       "id": "hash:26b961151fe12c47",
       "title": "jegly/OfflineLLM",
       "link": "https://github.com/jegly/OfflineLLM",
@@ -11338,7 +11305,7 @@
         "github_trending"
       ],
       "image_url": "https://opengraph.githubassets.com/9bea4ec649664c0df7536d996548dbf0e776759b96624e29bea7983aa291a1ec/jegly/OfflineLLM",
-      "score": 30.0,
+      "score": 30.1,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "A privacy-first Android chat app that runs large language models entirely on-device. No internet, no cloud, no tracking. Built with Kotlin, Jetpack Compose, and llama.cpp with optimized ARM NEON/SVE inference.",
@@ -11346,18 +11313,18 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 131★",
+      "rationale": "Trending across 1 platform · 132★",
       "dimensions": {},
-      "popularity_score": 30.0,
+      "popularity_score": 30.1,
       "popularity_signals": {
-        "github_stars": 131.0,
+        "github_stars": 132.0,
         "github_forks": 8.0
       },
       "popularity_contributions": {
-        "github_stars": 39.06
+        "github_stars": 39.12
       },
       "n_platforms": 1,
-      "trending_caption": "131★"
+      "trending_caption": "132★"
     },
     {
       "id": "hash:1bdbf8a756d0b4c0",
@@ -11433,7 +11400,7 @@
         "github_trending"
       ],
       "image_url": "",
-      "score": 29.4,
+      "score": 29.5,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "True on-device AI for Kotlin Multiplatform (Android, iOS, Desktop, JVM, WASM). LLM, Speech-to-Text and Image Generation — powered by llama.cpp, whisper.cpp and stable-diffusion.cpp.",
@@ -11441,18 +11408,18 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 117★",
+      "rationale": "Trending across 1 platform · 119★",
       "dimensions": {},
-      "popularity_score": 29.4,
+      "popularity_score": 29.5,
       "popularity_signals": {
-        "github_stars": 117.0,
-        "github_forks": 20.0
+        "github_stars": 119.0,
+        "github_forks": 21.0
       },
       "popularity_contributions": {
-        "github_stars": 38.17
+        "github_stars": 38.3
       },
       "n_platforms": 1,
-      "trending_caption": "117★"
+      "trending_caption": "119★"
     },
     {
       "id": "hash:d53d47e2bef3ba51",
@@ -11581,6 +11548,38 @@
       "trending_caption": "45pts"
     },
     {
+      "id": "hash:7f5b720aeb123925",
+      "title": "Show HN: Reducing LLM input tokens by 70%",
+      "link": "https://adola.app/",
+      "date": "2026-05-12T15:18:33+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:LLM"
+      ],
+      "image_url": "",
+      "score": 26.0,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 48pts",
+      "dimensions": {},
+      "popularity_score": 26.0,
+      "popularity_signals": {
+        "hn_points": 48.0,
+        "hn_comments": 31.0
+      },
+      "popularity_contributions": {
+        "hn_points": 23.35,
+        "hn_comments": 10.4
+      },
+      "n_platforms": 1,
+      "trending_caption": "48pts"
+    },
+    {
       "id": "hash:949539d302837b47",
       "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
       "link": "https://voker.ai",
@@ -11676,6 +11675,66 @@
       },
       "n_platforms": 1,
       "trending_caption": "30pts"
+    },
+    {
+      "id": "arxiv:2605.05071",
+      "title": "Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity",
+      "link": "https://arxiv.org/abs/2605.05071v1",
+      "date": "2026-05-06T16:07:26Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Millimeter-wave (mmWave) frequencies promise multi-gigabit connectivity for vehicle-to-everything (V2X) networks, but face challenges in terms of severe path loss and mobility-related beam misalignment. Reliable V2X connectivity requires…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.05001",
+      "title": "Unlocking Embodied Probabilistic Computational Features in Motor Drives",
+      "link": "https://arxiv.org/abs/2605.05001v1",
+      "date": "2026-05-06T15:02:08Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.05001v1/x1.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Artificial intelligence (AI)-driven fault diagnosis in motor drives often requires significant computational efforts and time for re-training, in addition to the limited knowledge behind the model and suitability of training and learning…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.04777",
@@ -12822,36 +12881,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.03788",
-      "title": "Say the Mission, Execute the Swarm: Agent-Enhanced LLM Reasoning in the Web-of-Drones",
-      "link": "https://arxiv.org/abs/2605.03788v1",
-      "date": "2026-05-05T14:14:57Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03788v1/img/LLM-WoT.v6.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Large Language Models (LLMs) are increasingly explored as high-level reasoning engines for cyber-physical systems, yet their application to real-time UAV swarm management remains challenging due to heterogeneous interfaces, limited groun…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:97059329b320774b",
       "title": "Company behind GLiNER model released open source model for running LLM guardrail",
       "link": "https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model",
@@ -12915,11 +12944,11 @@
     "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-13.mp3",
     "rel_path": "podcast/2026-05-13.mp3",
     "title": "Research Radar — Wed May 13: Focus on multimodal reasoning and inference efficiency",
-    "pub_date": "2026-05-13T09:57:45.716119-04:00",
-    "duration_sec": 145,
-    "size_bytes": 3699360,
-    "word_count": 400,
-    "char_count": 2948,
+    "pub_date": "2026-05-13T13:01:47.488387-04:00",
+    "duration_sec": 147,
+    "size_bytes": 3804000,
+    "word_count": 405,
+    "char_count": 3040,
     "voice": "onyx",
     "headline": "Focus on multimodal reasoning and inference efficiency",
     "summary_text": "Today's research highlights advancements in multimodal reasoning with datasets like Open-MM-RL, while also addressing inference efficiency through techniques like KV-Fold for long-context processing. These developments are crucial for enhancing AI systems in safety-critical applications.",
