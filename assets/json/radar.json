@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T13:02:52-04:00",
+  "updated_at": "2026-05-13T13:21:28-04:00",
   "mode": "trending",
   "items": [
     {
@@ -191,19 +191,20 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.12484",
-      "title": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
-      "link": "https://arxiv.org/abs/2605.12484v1",
-      "date": "2026-05-12T17:58:20Z",
+      "id": "arxiv:2605.12483",
+      "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
+      "link": "https://arxiv.org/abs/2605.12483v1",
+      "date": "2026-05-12T17:57:48Z",
       "type": "Paper",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "huggingface_papers"
       ],
-      "image_url": "https://arxiv.org/html/2605.12484v1/x1.png",
+      "image_url": "https://arxiv.org/html/2605.12483v1/x1.png",
       "score": 64.2,
       "category": "Papers",
       "action": "Discuss with student",
-      "summary": "Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can result in catastrophic forgetting and loss…",
+      "summary": "In settings where labeled verifiable training data is the binding constraint, each checked example should be allocated carefully. The standard practice is to use this data directly on the model that will be deployed, for example by runni…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -494,7 +495,7 @@
       "id": "hash:b48940b96db331dc",
       "title": "onyx-dot-app/onyx",
       "link": "https://github.com/onyx-dot-app/onyx",
-      "date": "2026-05-13T16:57:49Z",
+      "date": "2026-05-13T17:18:12Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -574,7 +575,7 @@
       "dimensions": {},
       "popularity_score": 63.1,
       "popularity_signals": {
-        "github_stars": 28207.0,
+        "github_stars": 28209.0,
         "github_forks": 4555.0
       },
       "popularity_contributions": {
@@ -618,7 +619,7 @@
       "id": "hash:2b1622c80544af02",
       "title": "sgl-project/sglang",
       "link": "https://github.com/sgl-project/sglang",
-      "date": "2026-05-13T16:57:47Z",
+      "date": "2026-05-13T17:08:42Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -636,8 +637,8 @@
       "dimensions": {},
       "popularity_score": 63.0,
       "popularity_signals": {
-        "github_stars": 27761.0,
-        "github_forks": 5880.0
+        "github_stars": 27762.0,
+        "github_forks": 5881.0
       },
       "popularity_contributions": {
         "github_stars": 81.85
@@ -729,8 +730,8 @@
       "dimensions": {},
       "popularity_score": 62.9,
       "popularity_signals": {
-        "github_stars": 27608.0,
-        "github_forks": 2305.0
+        "github_stars": 27618.0,
+        "github_forks": 2306.0
       },
       "popularity_contributions": {
         "github_stars": 81.81
@@ -742,7 +743,7 @@
       "id": "hash:4cb2c60d8635d504",
       "title": "langfuse/langfuse",
       "link": "https://github.com/langfuse/langfuse",
-      "date": "2026-05-13T16:50:40Z",
+      "date": "2026-05-13T17:03:12Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -791,7 +792,7 @@
       "dimensions": {},
       "popularity_score": 62.6,
       "popularity_signals": {
-        "github_stars": 26273.0,
+        "github_stars": 26274.0,
         "github_forks": 4026.0
       },
       "popularity_contributions": {
@@ -853,7 +854,7 @@
       "dimensions": {},
       "popularity_score": 62.5,
       "popularity_signals": {
-        "github_stars": 25913.0,
+        "github_stars": 25914.0,
         "github_forks": 1559.0
       },
       "popularity_contributions": {
@@ -959,7 +960,7 @@
       "id": "hash:4ee68de0f3ced2ea",
       "title": "harvard-edge/cs249r_book",
       "link": "https://github.com/harvard-edge/cs249r_book",
-      "date": "2026-05-13T15:11:03Z",
+      "date": "2026-05-13T17:05:27Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1145,7 +1146,7 @@
       "id": "hash:942b8d414815ae15",
       "title": "onnx/onnx",
       "link": "https://github.com/onnx/onnx",
-      "date": "2026-05-13T14:14:33Z",
+      "date": "2026-05-13T17:18:28Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1540,20 +1541,20 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.12483",
-      "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
-      "link": "https://arxiv.org/abs/2605.12483",
+      "id": "arxiv:2605.12484",
+      "title": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
+      "link": "https://arxiv.org/abs/2605.12484",
       "date": "2026-05-11T20:00:00.000Z",
       "type": "Paper",
       "sources": [
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "https://arxiv.org/html/2605.12483v1/x1.png",
+      "image_url": "https://arxiv.org/html/2605.12484v1/x1.png",
       "score": 60.8,
       "category": "Papers",
       "action": "Discuss with student",
-      "summary": "In settings where labeled verifiable training data is the binding constraint, each checked example should be allocated carefully. The standard practice is to use this data directly on the model that will be deployed, for example by runni…",
+      "summary": "Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can result in catastrophic forgetting and loss…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -2225,7 +2226,7 @@
       "dimensions": {},
       "popularity_score": 59.5,
       "popularity_signals": {
-        "github_stars": 15829.0,
+        "github_stars": 15831.0,
         "github_forks": 3675.0
       },
       "popularity_contributions": {
@@ -2238,7 +2239,7 @@
       "id": "hash:343cce7198fef564",
       "title": "tracel-ai/burn",
       "link": "https://github.com/tracel-ai/burn",
-      "date": "2026-05-13T15:41:32Z",
+      "date": "2026-05-13T17:14:08Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2269,7 +2270,7 @@
       "id": "hash:3e5c198b11630661",
       "title": "ArduPilot/ardupilot",
       "link": "https://github.com/ArduPilot/ardupilot",
-      "date": "2026-05-13T08:29:04Z",
+      "date": "2026-05-13T17:04:38Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2349,11 +2350,11 @@
       "dimensions": {},
       "popularity_score": 58.8,
       "popularity_signals": {
-        "github_stars": 14193.0,
+        "github_stars": 14194.0,
         "github_forks": 906.0
       },
       "popularity_contributions": {
-        "github_stars": 76.48
+        "github_stars": 76.49
       },
       "n_platforms": 1,
       "trending_caption": "14k★"
@@ -2381,7 +2382,7 @@
       "popularity_score": 58.7,
       "popularity_signals": {
         "github_stars": 13946.0,
-        "github_forks": 4561.0
+        "github_forks": 4562.0
       },
       "popularity_contributions": {
         "github_stars": 76.34
@@ -2517,7 +2518,7 @@
       "id": "hash:06f4b4c98b984db8",
       "title": "ludwig-ai/ludwig",
       "link": "https://github.com/ludwig-ai/ludwig",
-      "date": "2026-05-13T05:04:35Z",
+      "date": "2026-05-13T17:07:16Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -2690,7 +2691,7 @@
       "dimensions": {},
       "popularity_score": 57.2,
       "popularity_signals": {
-        "github_stars": 10942.0,
+        "github_stars": 10943.0,
         "github_forks": 1029.0
       },
       "popularity_contributions": {
@@ -3720,6 +3721,36 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.09936",
+      "title": "Urban-ImageNet: A Large-Scale Multi-Modal Dataset and Evaluation Framework for Urban Space Perception",
+      "link": "https://arxiv.org/abs/2605.09936",
+      "date": "2026-05-10T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.09936v1/Framework.jpg",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We present Urban-ImageNet, a large-scale multi-modal dataset and evaluation benchmark for urban space perception from user-generated social media imagery. The corpus contains over 2 Million public social media images and paired textual p…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "hash:fe61601f0c7323c8",
       "title": "NVIDIA/cutlass",
       "link": "https://github.com/NVIDIA/cutlass",
@@ -3741,7 +3772,7 @@
       "dimensions": {},
       "popularity_score": 56.5,
       "popularity_signals": {
-        "github_stars": 9715.0,
+        "github_stars": 9717.0,
         "github_forks": 1850.0
       },
       "popularity_contributions": {
@@ -3754,7 +3785,7 @@
       "id": "hash:20748d7b31be8a72",
       "title": "rapidsai/cudf",
       "link": "https://github.com/rapidsai/cudf",
-      "date": "2026-05-13T16:55:41Z",
+      "date": "2026-05-13T17:12:17Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3989,7 +4020,7 @@
       "dimensions": {},
       "popularity_score": 54.6,
       "popularity_signals": {
-        "github_stars": 7151.0,
+        "github_stars": 7152.0,
         "github_forks": 3515.0
       },
       "popularity_contributions": {
@@ -6667,19 +6698,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 579pts",
+      "rationale": "Trending across 1 platform · 580pts",
       "dimensions": {},
       "popularity_score": 41.2,
       "popularity_signals": {
-        "hn_points": 579.0,
-        "hn_comments": 166.0
+        "hn_points": 580.0,
+        "hn_comments": 168.0
       },
       "popularity_contributions": {
-        "hn_points": 38.18,
-        "hn_comments": 15.35
+        "hn_points": 38.19,
+        "hn_comments": 15.39
       },
       "n_platforms": 1,
-      "trending_caption": "579pts"
+      "trending_caption": "580pts"
     },
     {
       "id": "hash:ec9ce925f1e7ab36",
@@ -8486,36 +8517,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.06593",
-      "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
-      "link": "https://arxiv.org/abs/2605.06593v1",
-      "date": "2026-05-07T17:20:15Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.06593v1/x1.png",
-      "score": 40.5,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Retargeting human kinematic reference motion onto a robot's morphology remains a formidable challenge. Existing methods often produce physical inconsistencies, such as foot sliding, self-collisions, or dynamically infeasible motions, whi…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 40.5,
-      "popularity_signals": {
-        "recent_paper": 3.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 52.68
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:bcd83bb8969e7cd5",
       "title": "autowarefoundation/AWSIM",
       "link": "https://github.com/autowarefoundation/AWSIM",
@@ -8843,7 +8844,7 @@
       "sources": [
         "hackernews:AI"
       ],
-      "image_url": "",
+      "image_url": "https://ca-times.brightspotcdn.com/dims4/default/2b5a390/2147483647/strip/true/crop/6015x3158+0+427/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faf%2F5f%2Fdbbf044c488da394716de14e67ea%2F2270407856.jpg",
       "score": 34.1,
       "category": "News & Industry",
       "action": "Track",
@@ -8929,6 +8930,36 @@
       },
       "n_platforms": 1,
       "trending_caption": "124pts"
+    },
+    {
+      "id": "arxiv:2605.06593",
+      "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
+      "link": "https://arxiv.org/abs/2605.06593v1",
+      "date": "2026-05-07T17:20:15Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.06593v1/x1.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Retargeting human kinematic reference motion onto a robot's morphology remains a formidable challenge. Existing methods often produce physical inconsistencies, such as foot sliding, self-collisions, or dynamically infeasible motions, whi…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.06483",
@@ -11011,7 +11042,7 @@
       "id": "hash:f1daf7f75aaf75cf",
       "title": "xybrid-ai/xybrid",
       "link": "https://github.com/xybrid-ai/xybrid",
-      "date": "2026-05-13T16:03:12Z",
+      "date": "2026-05-13T17:06:32Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -11221,11 +11252,11 @@
       "popularity_score": 30.7,
       "popularity_signals": {
         "hn_points": 108.0,
-        "hn_comments": 49.0
+        "hn_comments": 50.0
       },
       "popularity_contributions": {
         "hn_points": 28.15,
-        "hn_comments": 11.74
+        "hn_comments": 11.8
       },
       "n_platforms": 1,
       "trending_caption": "108pts"
@@ -12701,186 +12732,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.03999",
-      "title": "RD-ViT: Recurrent-Depth Vision Transformer for Semantic Segmentation with Reduced Data Dependence Extending the Recurrent-Depth Transformer Architecture to Dense Prediction",
-      "link": "https://arxiv.org/abs/2605.03999v1",
-      "date": "2026-05-05T17:21:18Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Vision Transformers (ViTs) achieve state-of-the-art segmentation accuracy but require large training datasets because each layer has unique parameters that must be learned independently. We present RD-ViT, a Recurrent-Depth Vision Transf…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.03996",
-      "title": "3D Human Face Reconstruction with 3DMM face model from RGB image",
-      "link": "https://arxiv.org/abs/2605.03996v1",
-      "date": "2026-05-05T17:19:44Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03996v1/keypoints.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Nowadays as convolution neural networks demonstrate its powerful problem-solving ability in the area of image processing, efforts have been made to reconstruct detailed face shapes from 2D face images or videos. However, to make the full…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.03992",
-      "title": "HyParLyVe: Hyperplane Partitioning for Neural Lyapunov Verification",
-      "link": "https://arxiv.org/abs/2605.03992v1",
-      "date": "2026-05-05T17:13:32Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03992v1/figures/hidden_neurons.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "This work introduces HyParLyVe (Hyperplane Partitioned Lyapunov Verifier), a novel algorithm for sound and complete verification of neural Lyapunov candidates by interpreting shallow ReLU networks as hyperplane arrangements. This perspec…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.03989",
-      "title": "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
-      "link": "https://arxiv.org/abs/2605.03989v1",
-      "date": "2026-05-05T17:10:25Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03989v2/figures/experience_rag_framework.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Retrieval-augmented generation systems often assume that one fixed retrieval pipeline is sufficient across heterogeneous tasks, yet factoid question answering, multi-hop reasoning, and scientific verification exhibit different retrieval…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.03986",
-      "title": "From Intent to Execution: Composing Agentic Workflows with Agent Recommendation",
-      "link": "https://arxiv.org/abs/2605.03986v1",
-      "date": "2026-05-05T17:08:26Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03986v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Multi-Agent Systems (MAS) built using AI agents fulfill a variety of user intents that may be used to design and build a family of related applications. However, the creation of such MAS currently involves manual composition of the plan,…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.03984",
-      "title": "Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes",
-      "link": "https://arxiv.org/abs/2605.03984v1",
-      "date": "2026-05-05T17:07:37Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.03984v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Sampling from unnormalized densities is analogous to the generative modeling problem, but the target distribution is defined by a known energy function instead of data samples. Because evaluating the energy function is often costly, a pr…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:97059329b320774b",
       "title": "Company behind GLiNER model released open source model for running LLM guardrail",
       "link": "https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model",
@@ -12913,46 +12764,25 @@
     }
   ],
   "summary": {
-    "headline": "Focus on multimodal reasoning and inference efficiency",
-    "tldr": "Today's research highlights advancements in multimodal reasoning with datasets like Open-MM-RL, while also addressing inference efficiency through techniques like KV-Fold for long-context processing. These developments are crucial for enhancing AI systems in safety-critical applications.",
-    "themes": [
-      {
-        "bullet": "Emerging datasets enhance multimodal reasoning capabilities for AI.",
-        "cite": "Open-MM-RL is a multimodal STEM reasoning dataset"
-      },
-      {
-        "bullet": "Techniques for efficient inference are critical for real-time applications.",
-        "cite": "KV-Fold: One-Step KV-Cache Recurrence for Long-Context Inference"
-      },
-      {
-        "bullet": "Challenges in reliability and trust for AI agents persist.",
-        "cite": "Covering Human Action Space for Computer Use"
-      },
-      {
-        "bullet": "Innovations in attention mechanisms aim to improve model scalability.",
-        "cite": "Elastic Attention Cores for Scalable Vision Transformers"
-      },
-      {
-        "bullet": "Quantization techniques are vital for accelerating generative model inference.",
-        "cite": "Search Your Block Floating Point Scales!"
-      }
-    ],
+    "headline": "Quiet day for autonomy systems research insights.",
+    "tldr": "Today's research highlights a focus on multimodal reasoning and efficient model architectures, but lacks strong connections to real-time inference for safety-critical applications. Notable works include 'Elastic Attention Cores for Scalable Vision Transformers' and 'Automated multiphase identification and refinement in powder diffraction'.",
+    "themes": [],
     "n_items": 15,
-    "generated_at": "2026-05-13T13:57:45Z"
+    "generated_at": "2026-05-13T17:20:42Z"
   },
   "podcast": {
     "path": "/home/runner/work/research-radar/research-radar/web/podcast/2026-05-13.mp3",
     "rel_path": "podcast/2026-05-13.mp3",
-    "title": "Research Radar — Wed May 13: Focus on multimodal reasoning and inference efficiency",
-    "pub_date": "2026-05-13T13:01:47.488387-04:00",
-    "duration_sec": 147,
-    "size_bytes": 3804000,
-    "word_count": 405,
-    "char_count": 3040,
+    "title": "Research Radar — Wed May 13: Quiet day for autonomy systems research insights.",
+    "pub_date": "2026-05-13T13:20:42.830511-04:00",
+    "duration_sec": 127,
+    "size_bytes": 3205440,
+    "word_count": 348,
+    "char_count": 2568,
     "voice": "onyx",
-    "headline": "Focus on multimodal reasoning and inference efficiency",
-    "summary_text": "Today's research highlights advancements in multimodal reasoning with datasets like Open-MM-RL, while also addressing inference efficiency through techniques like KV-Fold for long-context processing. These developments are crucial for enhancing AI systems in safety-critical applications.",
-    "episode_key": "7789f951e5adb77f856f19242b3e53bb",
+    "headline": "Quiet day for autonomy systems research insights.",
+    "summary_text": "Today's research highlights a focus on multimodal reasoning and efficient model architectures, but lacks strong connections to real-time inference for safety-critical applications. Notable works include 'Elastic Attention Cores for Scalable Vision Transformers' and 'Automated multiphase identification and refinement in powder diffraction'.",
+    "episode_key": "61f92e9243fdded403f43d7dfb17645f",
     "version": "podcast.v1"
   },
   "score_weights": {},
