@@ -6,18 +6,18 @@
     <atom:link href="https://liangkai.org/assets/podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily ~6-minute audio briefing of the autonomy-systems research radar. Generated automatically; voice is OpenAI TTS.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 22:05:17 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 09:58:25 -0400</lastBuildDate>
     <itunes:author>Prof. Liangkai Liu</itunes:author>
     <itunes:summary>Daily ~6-minute audio briefing of the autonomy-systems research radar.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"/>
     <item>
-      <title>Research Radar — Tue May 12: Focus on AI Platforms and Multi-Agent Frameworks Emerges</title>
-      <description>Today's items highlight a surge in open-source AI platforms and frameworks designed for multi-agent workflows and LLM integration. Projects like SGLang and MLflow emphasize the growing need for robust infrastructure to support complex AI applications.</description>
-      <pubDate>Tue, 12 May 2026 22:04:19 -0400</pubDate>
-      <enclosure url="https://liangkai.org/assets/podcast/2026-05-12.mp3" length="3576480" type="audio/mpeg"/>
-      <guid isPermaLink="false">research-radar-2026-05-12</guid>
-      <itunes:duration>141</itunes:duration>
+      <title>Research Radar — Wed May 13: Focus on multimodal reasoning and inference efficiency</title>
+      <description>Today's research highlights advancements in multimodal reasoning with datasets like Open-MM-RL, while also addressing inference efficiency through techniques like KV-Fold for long-context processing. These developments are crucial for enhancing AI systems in safety-critical applications.</description>
+      <pubDate>Wed, 13 May 2026 09:57:45 -0400</pubDate>
+      <enclosure url="https://liangkai.org/assets/podcast/2026-05-13.mp3" length="3699360" type="audio/mpeg"/>
+      <guid isPermaLink="false">research-radar-2026-05-13</guid>
+      <itunes:duration>145</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
