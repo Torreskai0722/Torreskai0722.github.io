@@ -9,7 +9,7 @@ nav_order: 4
 
 **Organizing Committee**
 
-- Co-Chair, [DroneSys 2026: Second Workshop on Autonomous Drone Computing Systems and Applications](/dronesys/), co-located with ACM/IEEE SEC 2026
+- Co-Chair, [DroneSys 2026: Second Workshop on Autonomous Drone Computing Systems and Applications](https://dronesys.site/), co-located with ACM/IEEE SEC 2026
 - Co-Chair, [DroneSys: First Workshop on Autonomous Drone Computing Systems and Applications](https://acm-ieee-sec.org/2025/dronesys.php), December 2025
 - Publication Chair, ACM/IEEE Symposium on Edge Computing ([SEC](https://acm-ieee-sec.org/2025/)), 2025
 - Web Chair, The 30th Annual International Conference on Mobile Computing and Networking ([MobiCom](https://www.sigmobile.org/mobicom/2024/index.html)) 2024
