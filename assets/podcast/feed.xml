@@ -6,18 +6,18 @@
     <atom:link href="https://liangkai.org/assets/podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Daily ~6-minute audio briefing of the autonomy-systems research radar. Generated automatically; voice is OpenAI TTS.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 13:21:28 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 22:01:05 -0400</lastBuildDate>
     <itunes:author>Prof. Liangkai Liu</itunes:author>
     <itunes:summary>Daily ~6-minute audio briefing of the autonomy-systems research radar.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="Technology"/>
     <item>
-      <title>Research Radar — Wed May 13: Quiet day for autonomy systems research insights.</title>
-      <description>Today's research highlights a focus on multimodal reasoning and efficient model architectures, but lacks strong connections to real-time inference for safety-critical applications. Notable works include 'Elastic Attention Cores for Scalable Vision Transformers' and 'Automated multiphase identification and refinement in powder diffraction'.</description>
-      <pubDate>Wed, 13 May 2026 13:20:42 -0400</pubDate>
-      <enclosure url="https://liangkai.org/assets/podcast/2026-05-13.mp3" length="3205440" type="audio/mpeg"/>
+      <title>Research Radar — Wed May 13: Focus on AI Platforms and Multimodal Datasets Dominates Today</title>
+      <description>Today's research highlights a strong emphasis on AI platforms and multimodal datasets, particularly for STEM reasoning and robotics applications. The Open-MM-RL dataset exemplifies the trend towards integrating visual information in AI models.</description>
+      <pubDate>Wed, 13 May 2026 22:00:14 -0400</pubDate>
+      <enclosure url="https://liangkai.org/assets/podcast/2026-05-13.mp3" length="2968320" type="audio/mpeg"/>
       <guid isPermaLink="false">research-radar-2026-05-13</guid>
-      <itunes:duration>127</itunes:duration>
+      <itunes:duration>121</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
