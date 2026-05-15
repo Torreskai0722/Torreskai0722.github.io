@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T21:53:54-04:00",
+  "updated_at": "2026-05-15T09:47:50-04:00",
   "mode": "trending",
   "items": [
     {
@@ -12,7 +12,7 @@
         "huggingface_trending:dataset"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TuringEnterprises/Open-MM-RL.png",
-      "score": 75.8,
+      "score": 77.1,
       "category": "Projects & Models",
       "action": "Read",
       "summary": "Dataset Summary\n\t\n\nOpen-MM-RL is a multimodal STEM reasoning dataset covering Physics, Mathematics, Biology, and Chemistry. It is designed for problems that require models to interpret visual information and combine it with step-by-step…",
@@ -20,21 +20,501 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 2k↓ · 94♡",
+      "rationale": "Trending across 1 platform · 3k↓ · 97♡",
       "dimensions": {},
-      "popularity_score": 75.8,
+      "popularity_score": 77.1,
       "popularity_signals": {
-        "hf_downloads": 2621.0,
-        "hf_likes": 94.0,
-        "hf_trending_score": 76.0
+        "hf_downloads": 3849.0,
+        "hf_likes": 97.0,
+        "hf_trending_score": 79.0
       },
       "popularity_contributions": {
-        "hf_downloads": 23.62,
-        "hf_likes": 22.77,
-        "hf_trending_score": 52.13
+        "hf_downloads": 24.77,
+        "hf_likes": 22.92,
+        "hf_trending_score": 52.58
       },
       "n_platforms": 1,
-      "trending_caption": "2k↓ · 94♡"
+      "trending_caption": "3k↓ · 97♡"
+    },
+    {
+      "id": "arxiv:2605.15199",
+      "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
+      "link": "https://arxiv.org/abs/2605.15199v1",
+      "date": "2026-05-14T17:59:55Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15199v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long sequences. Existing evaluations typically…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15196",
+      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+      "link": "https://arxiv.org/abs/2605.15196v1",
+      "date": "2026-05-14T17:59:52Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15196v1/x2.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15195",
+      "title": "VGGT-$Ω$",
+      "link": "https://arxiv.org/abs/2605.15195v1",
+      "date": "2026-05-14T17:59:51Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks. Here, we show that the quality of th…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15193",
+      "title": "Aligning Latent Geometry for Spherical Flow Matching in Image Generation",
+      "link": "https://arxiv.org/abs/2605.15193v1",
+      "date": "2026-05-14T17:59:37Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15193v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Latent flow matching for image generation usually transports Gaussian noise to variational autoencoder latents along linear paths. Both endpoints, however, concentrate in thin spherical shells, and a Euclidean chord leaves those shells e…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15187",
+      "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+      "link": "https://arxiv.org/abs/2605.15187v1",
+      "date": "2026-05-14T17:59:18Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15187v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We re…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15183",
+      "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+      "link": "https://arxiv.org/abs/2605.15183v1",
+      "date": "2026-05-14T17:58:27Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15183v1/Figures/body/svhn_backdoor_label_outer.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either empirical behaviour, leaving them blind…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15181",
+      "title": "From Plans to Pixels: Learning to Plan and Orchestrate for Open-Ended Image Editing",
+      "link": "https://arxiv.org/abs/2605.15181v1",
+      "date": "2026-05-14T17:58:19Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15181v1/figs/newtease.jpg",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Modern image editing models produce realistic results but struggle with abstract, multi step instructions (e.g., ``make this advertisement more vegetarian-friendly''). Prior agent based methods decompose such tasks but rely on handcrafte…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15179",
+      "title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
+      "link": "https://arxiv.org/abs/2605.15179v1",
+      "date": "2026-05-14T17:58:15Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15179v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Scaling Scientific Machine Learning (SciML) toward universal foundation models is bottlenecked by negative transfer: the simultaneous co-training of disparate partial differential equation (PDE) regimes can induce gradient conflict, unst…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15177",
+      "title": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation",
+      "link": "https://arxiv.org/abs/2605.15177v1",
+      "date": "2026-05-14T17:57:40Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15177v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Test-time compute scaling is a primary axis for improving LLM reasoning. Existing methods primarily scale depth by extending a single reasoning trace. Scaling breadth by sampling multiple candidates in parallel is straightforward, but in…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15171",
+      "title": "Evidential Reasoning Advances Interpretable Real-World Disease Screening",
+      "link": "https://arxiv.org/abs/2605.15171v1",
+      "date": "2026-05-14T17:56:07Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15171v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Disease screening is critical for early detection and timely intervention in clinical practice. However, most current screening models for medical images suffer from limited interpretability and suboptimal performance. They often lack ef…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15168",
+      "title": "Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment",
+      "link": "https://arxiv.org/abs/2605.15168v1",
+      "date": "2026-05-14T17:55:27Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15168v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Reconstructing precise clinical timelines is essential for modeling patient trajectories and forecasting risk in complex, heterogeneous conditions like sepsis. While unstructured clinical narratives offer semantically rich and contextual…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15164",
+      "title": "Position: Behavioural Assurance Cannot Verify the Safety Claims Governance Now Demands",
+      "link": "https://arxiv.org/abs/2605.15164v1",
+      "date": "2026-05-14T17:54:28Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "This position paper argues that behavioural assurance, even when carefully designed, is being asked to carry safety claims it cannot verify. AI governance frameworks enacted between 2019 and early 2026 require reviewable evidence of prop…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15161",
+      "title": "On the Nonexistence of Continuous Immersions for Discrete-time Systems",
+      "link": "https://arxiv.org/abs/2605.15161v1",
+      "date": "2026-05-14T17:53:56Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15161v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Understanding when linear immersions of nonlinear dynamical systems exist is important since such immersions allow us to leverage the rich tools of linear system theory to analyze nonlinear dynamics. Recently, Liu et al. (2023) showed th…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15157",
+      "title": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
+      "link": "https://arxiv.org/abs/2605.15157v1",
+      "date": "2026-05-14T17:51:40Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15157v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Interactive Imitation…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15156",
+      "title": "MeMo: Memory as a Model",
+      "link": "https://arxiv.org/abs/2605.15156v1",
+      "date": "2026-05-14T17:51:34Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15156v1/x1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Large language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information, motivating the…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15154",
+      "title": "RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution",
+      "link": "https://arxiv.org/abs/2605.15154v1",
+      "date": "2026-05-14T17:51:09Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15154v1/figures/shap_demo_seed1.png",
+      "score": 64.2,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Feature attribution analysis is critical for interpreting machine learning models and supporting reliable data-driven decisions. However, feature attribution measures often exhibit stochastic variation: different train--test splits, rand…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 64.2,
+      "popularity_signals": {
+        "recent_paper": 8.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 83.49
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "hash:b48940b96db331dc",
@@ -89,8 +569,8 @@
       "dimensions": {},
       "popularity_score": 63.3,
       "popularity_signals": {
-        "github_stars": 29503.0,
-        "github_forks": 7285.0
+        "github_stars": 29510.0,
+        "github_forks": 7286.0
       },
       "popularity_contributions": {
         "github_stars": 82.34
@@ -787,6 +1267,7 @@
       "date": "2026-05-13T20:00:00.000Z",
       "type": "Paper",
       "sources": [
+        "arxiv",
         "huggingface_papers"
       ],
       "image_url": "https://arxiv.org/html/2605.15190v1/x1.png",
@@ -854,6 +1335,854 @@
       "category": "Papers",
       "action": "Discuss with student",
       "summary": "As large language models reshape scientific research, literature retrieval faces a twofold challenge: ensuring source authenticity while maintaining a deep comprehension of academic search intents. While reliable, traditional keyword-cen…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15198",
+      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+      "link": "https://arxiv.org/abs/2605.15198",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15198v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computatio…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15188",
+      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+      "link": "https://arxiv.org/abs/2605.15188",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.15188.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulation…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15186",
+      "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+      "link": "https://arxiv.org/abs/2605.15186",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15186v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite their strong performance in static sce…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15185",
+      "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
+      "link": "https://arxiv.org/abs/2605.15185",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.15185.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines rely heavily on hum…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15182",
+      "title": "Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video",
+      "link": "https://arxiv.org/abs/2605.15182",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15182v1/assets/paper_teaser.jpg",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Camera-controlled video generation has made substantial progress, enabling generated videos to follow prescribed viewpoint trajectories. However, existing methods usually learn camera-specific conditioning through camera encoders, contro…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15178",
+      "title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer",
+      "link": "https://arxiv.org/abs/2605.15178",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15178v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We introduce SANA-WM, an efficient 2.6B-parameter open-source world model natively trained for one-minute generation, synthesizing high-fidelity, 720p, minute-scale videos with precise camera control. SANA-WM achieves visual quality comp…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15167",
+      "title": "Does Synthetic Layered Design Data Benefit Layered Design Decomposition?",
+      "link": "https://arxiv.org/abs/2605.15167",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.15167.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Recent advances in image generation have made it easy to produce high-quality images. However, these outputs are inherently flattened, entangling foreground elements, background, and text within a fixed canvas. As a result, flexible post…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15155",
+      "title": "Self-Distilled Agentic Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2605.15155",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15155v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon interaction. On-Policy Self-Distillation (OPSD) compleme…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14984",
+      "title": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
+      "link": "https://arxiv.org/abs/2605.14984",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14984v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Generating a street-level 3D scene from a single satellite image is a crucial yet challenging task. Current methods present a stark trade-off: geometry-colorization models achieve high geometric fidelity but are typically building-focuse…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14607",
+      "title": "ViMU: Benchmarking Video Metaphorical Understanding",
+      "link": "https://arxiv.org/abs/2605.14607",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14607v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Any new medium, once it emerges, is used for more than the transmission of overt content alone. The information it carries typically operates on two levels: one is the content directly presented, while the other is the subtext beneath it…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14438",
+      "title": "BEAM: Binary Expert Activation Masking for Dynamic Routing in MoE",
+      "link": "https://arxiv.org/abs/2605.14438",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14438v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Mixture-of-Experts (MoE) architectures enhance the efficiency of large language models by activating only a subset of experts per token. However, standard MoE employs a fixed Top-K routing strategy, leading to redundant computation and s…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14454",
+      "title": "LiSA: Lifelong Safety Adaptation via Conservative Policy Induction",
+      "link": "https://arxiv.org/abs/2605.14454",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14454v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "As AI agents move from chat interfaces to systems that read private data, call tools, and execute multi-step workflows, guardrails become a last line of defense against concrete deployment harms. In these settings, guardrail failures are…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14445",
+      "title": "FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale",
+      "link": "https://arxiv.org/abs/2605.14445",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14445v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Many real-world coding challenges are open-ended and admit no known optimal solution. Yet, recent progress in LLM coding has focused on well-defined tasks such as feature implementation, bug fixing, and competitive programming. Open-ende…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.11459",
+      "title": "Overcoming Dynamics-Blindness: Training-Free Pace-and-Path Correction for VLA Models",
+      "link": "https://arxiv.org/abs/2605.11459",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.11459v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Vision-Language-Action (VLA) models achieve remarkable flexibility and generalization beyond classical control paradigms. However, most prevailing VLAs are trained under a single-frame observation paradigm, which leaves them structurally…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14876",
+      "title": "Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning",
+      "link": "https://arxiv.org/abs/2605.14876",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14876v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Despite rapid advancements, current text-to-image (T2I) models predominantly rely on a single-step generation paradigm, which struggles with complex semantics and faces diminishing returns from parameter scaling.\n  While recent multi-ste…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14323",
+      "title": "Dynamic Latent Routing",
+      "link": "https://arxiv.org/abs/2605.14323",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.14323.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We investigate the temporal concatenation of sub-policies in Markov Decision Processes (MDP) with time-varying reward functions. We introduce General Dijkstra Search (GDS), and prove that globally optimal goal-reaching policies can be re…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15141",
+      "title": "Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation",
+      "link": "https://arxiv.org/abs/2605.15141",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15141v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Real-time interactive video generation requires low-latency, streaming, and controllable rollout. Existing autoregressive (AR) diffusion distillation methods have achieved strong results in the chunk-wise 4-step regime by distilling bidi…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14712",
+      "title": "IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation",
+      "link": "https://arxiv.org/abs/2605.14712",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14712v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Robot imitation data are often multimodal: similar visual-language observations may be followed by different action chunks because human demonstrators act with different short-horizon intents, task phases, or recent context. Existing fra…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14906",
+      "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+      "link": "https://arxiv.org/abs/2605.14906",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.14906.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Memory is essential for large vision-language models (LVLMs) to handle long, multimodal interactions, with two method directions providing this capability: long-context LVLMs and memory-augmented agents. However, no existing benchmark co…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15055",
+      "title": "DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models",
+      "link": "https://arxiv.org/abs/2605.15055",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15055v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Reinforcement learning has emerged as a powerful tool for improving diffusion-based text-to-image models, but existing methods are largely limited to single-task optimization. Extending RL to multiple tasks is challenging: joint optimiza…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14386",
+      "title": "Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning",
+      "link": "https://arxiv.org/abs/2605.14386",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14386v1/figures/fig1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We present Darwin Family, a framework for training-free evolutionary merging of large language models via gradient-free weight-space recombination. We ask whether frontier-level reasoning performance can be improved without additional tr…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15128",
+      "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
+      "link": "https://arxiv.org/abs/2605.15128",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15128v1/x8.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Long-term agent memory is increasingly multimodal, yet existing evaluations rarely test whether agents preserve the visual evidence needed for later reasoning. In prior work, many visually grounded questions can be answered using only ca…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15040",
+      "title": "Orchard: An Open-Source Agentic Modeling Framework",
+      "link": "https://arxiv.org/abs/2605.15040",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15040v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Agentic modeling aims to transform LLMs into autonomous agents capable of solving complex tasks through planning, reasoning, tool use, and multi-turn interaction with environments. Despite major investment, open research remains constrai…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14389",
+      "title": "Nexus : An Agentic Framework for Time Series Forecasting",
+      "link": "https://arxiv.org/abs/2605.14389",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14389v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Time series forecasting is not just numerical extrapolation, but often requires reasoning with unstructured contextual data such as news or events. While specialized Time Series Foundation Models (TSFMs) excel at forecasting based on num…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14392",
+      "title": "Learning to Build the Environment: Self-Evolving Reasoning RL via Verifiable Environment Synthesis",
+      "link": "https://arxiv.org/abs/2605.14392",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14392v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We pursue a vision for self-improving language models in which the model does not merely generate problems or traces to imitate, but constructs the environments that train it. In zero-data reasoning RL, this reframes self-improvement fro…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14354",
+      "title": "LLM-based Detection of Manipulative Political Narratives",
+      "link": "https://arxiv.org/abs/2605.14354",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14354v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We present a new computational framework for detecting and structuring manipulative political narratives. A task that became more important due to the shift of political discussions to social media. One of the primary challenges thereby…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14892",
+      "title": "Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems",
+      "link": "https://arxiv.org/abs/2605.14892",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.14892.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "LLM-based autonomous agents have demonstrated strong capabilities in reasoning, planning, and tool use, yet remain limited when tasks require sustained coordination across roles, tools, and environments. Multi-agent systems address this…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14269",
+      "title": "PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation",
+      "link": "https://arxiv.org/abs/2605.14269",
+      "date": "2026-05-13T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.14269v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Generating realistic human motion is a central yet unsolved challenge in video generation. While reinforcement learning (RL)-based post-training has driven recent gains in general video quality, extending it to human motion remains bottl…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -945,36 +2274,6 @@
       "category": "Papers",
       "action": "Discuss with student",
       "summary": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue membership queries, and must output a hyp…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 60.8,
-      "popularity_signals": {
-        "recent_paper": 7.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 79.02
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.13834",
-      "title": "Topology-Preserving Neural Operator Learning via Hodge Decomposition",
-      "link": "https://arxiv.org/abs/2605.13834v1",
-      "date": "2026-05-13T17:56:23Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.13834v1/fig/schematic.png",
-      "score": 60.8,
-      "category": "Papers",
-      "action": "Discuss with student",
-      "summary": "In this paper, we study solution operators of physical field equations on geometric meshes from a function-space perspective. We reveal that Hodge orthogonality fundamentally resolves spectral interference by isolating unlearnable topolo…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -1533,6 +2832,37 @@
       "trending_caption": "15k★"
     },
     {
+      "id": "hash:3e5c198b11630661",
+      "title": "ArduPilot/ardupilot",
+      "link": "https://github.com/ArduPilot/ardupilot",
+      "date": "2026-05-15T10:56:36Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/7512484/fb21ac00-b752-11e9-8726-b5186af26b01",
+      "score": 59.2,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "ArduPlane, ArduCopter, ArduRover, ArduSub source",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 15k★",
+      "dimensions": {},
+      "popularity_score": 59.2,
+      "popularity_signals": {
+        "github_stars": 15085.0,
+        "github_forks": 20777.0
+      },
+      "popularity_contributions": {
+        "github_stars": 76.97
+      },
+      "n_platforms": 1,
+      "trending_caption": "15k★"
+    },
+    {
       "id": "hash:343cce7198fef564",
       "title": "tracel-ai/burn",
       "link": "https://github.com/tracel-ai/burn",
@@ -1559,37 +2889,6 @@
       },
       "popularity_contributions": {
         "github_stars": 76.99
-      },
-      "n_platforms": 1,
-      "trending_caption": "15k★"
-    },
-    {
-      "id": "hash:3e5c198b11630661",
-      "title": "ArduPilot/ardupilot",
-      "link": "https://github.com/ArduPilot/ardupilot",
-      "date": "2026-05-14T10:15:53Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://repository-images.githubusercontent.com/7512484/fb21ac00-b752-11e9-8726-b5186af26b01",
-      "score": 59.2,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "ArduPlane, ArduCopter, ArduRover, ArduSub source",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 15k★",
-      "dimensions": {},
-      "popularity_score": 59.2,
-      "popularity_signals": {
-        "github_stars": 15076.0,
-        "github_forks": 20770.0
-      },
-      "popularity_contributions": {
-        "github_stars": 76.97
       },
       "n_platforms": 1,
       "trending_caption": "15k★"
@@ -1660,7 +2959,7 @@
       "id": "hash:603bb789cd4adf76",
       "title": "carla-simulator/carla",
       "link": "https://github.com/carla-simulator/carla",
-      "date": "2026-05-14T10:50:30Z",
+      "date": "2026-05-15T09:23:13Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1678,8 +2977,8 @@
       "dimensions": {},
       "popularity_score": 58.7,
       "popularity_signals": {
-        "github_stars": 13951.0,
-        "github_forks": 4563.0
+        "github_stars": 13958.0,
+        "github_forks": 4564.0
       },
       "popularity_contributions": {
         "github_stars": 76.35
@@ -1771,8 +3070,8 @@
       "dimensions": {},
       "popularity_score": 58.4,
       "popularity_signals": {
-        "github_stars": 13260.0,
-        "github_forks": 2127.0
+        "github_stars": 13265.0,
+        "github_forks": 2128.0
       },
       "popularity_contributions": {
         "github_stars": 75.94
@@ -1812,6 +3111,37 @@
       "trending_caption": "11k★"
     },
     {
+      "id": "hash:207a97991189d206",
+      "title": "autowarefoundation/autoware",
+      "link": "https://github.com/autowarefoundation/autoware",
+      "date": "2026-05-15T02:48:01Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/20454841ba1612c2eb5163e9f468080b1fcbe55429ccd31a4035eb7d874d2b2b/autowarefoundation/autoware",
+      "score": 57.6,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Autoware - the world's leading open-source software project for autonomous driving",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 11k★",
+      "dimensions": {},
+      "popularity_score": 57.6,
+      "popularity_signals": {
+        "github_stars": 11586.0,
+        "github_forks": 3628.0
+      },
+      "popularity_contributions": {
+        "github_stars": 74.86
+      },
+      "n_platforms": 1,
+      "trending_caption": "11k★"
+    },
+    {
       "id": "hash:06f4b4c98b984db8",
       "title": "ludwig-ai/ludwig",
       "link": "https://github.com/ludwig-ai/ludwig",
@@ -1843,37 +3173,6 @@
       "trending_caption": "11k★"
     },
     {
-      "id": "hash:207a97991189d206",
-      "title": "autowarefoundation/autoware",
-      "link": "https://github.com/autowarefoundation/autoware",
-      "date": "2026-05-10T09:00:19Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/20454841ba1612c2eb5163e9f468080b1fcbe55429ccd31a4035eb7d874d2b2b/autowarefoundation/autoware",
-      "score": 57.6,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Autoware - the world's leading open-source software project for autonomous driving",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 11k★",
-      "dimensions": {},
-      "popularity_score": 57.6,
-      "popularity_signals": {
-        "github_stars": 11584.0,
-        "github_forks": 3628.0
-      },
-      "popularity_contributions": {
-        "github_stars": 74.86
-      },
-      "n_platforms": 1,
-      "trending_caption": "11k★"
-    },
-    {
       "id": "hash:2a71499ec06e0985",
       "title": "kornia/kornia",
       "link": "https://github.com/kornia/kornia",
@@ -1895,7 +3194,7 @@
       "dimensions": {},
       "popularity_score": 57.4,
       "popularity_signals": {
-        "github_stars": 11202.0,
+        "github_stars": 11203.0,
         "github_forks": 1180.0
       },
       "popularity_contributions": {
@@ -2102,6 +3401,37 @@
       "category": "Papers",
       "action": "Discuss with student",
       "summary": "Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges:…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.13834",
+      "title": "Topology-Preserving Neural Operator Learning via Hodge Decomposition",
+      "link": "https://arxiv.org/abs/2605.13834",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.13834v1/fig/schematic.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "In this paper, we study solution operators of physical field equations on geometric meshes from a function-space perspective. We reveal that Hodge orthogonality fundamentally resolves spectral interference by isolating unlearnable topolo…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -2720,6 +4050,186 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.12034",
+      "title": "Boosting Omni-Modal Language Models: Staged Post-Training with Visually Debiased Evaluation",
+      "link": "https://arxiv.org/abs/2605.12034",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.12034.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Omni-modal language models are intended to jointly understand audio, visual inputs, and language, but benchmark gains can be inflated when visual evidence alone is enough to answer a query. We study whether current omni-modal benchmarks…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.14068",
+      "title": "CurveBench: A Benchmark for Exact Topological Reasoning over Nested Jordan Curves",
+      "link": "https://arxiv.org/abs/2605.14068",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.14068.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "We introduce CurveBench, a benchmark for hierarchical topological reasoning from visual input. CurveBench consists of 756 images of pairwise non-intersecting Jordan curves across easy, polygonal, topographic-inspired, maze-like, and dens…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.13169",
+      "title": "PanoWorld: Towards Spatial Supersensing in 360^circ Panorama World",
+      "link": "https://arxiv.org/abs/2605.13169",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.13169.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Multimodal large laboratory models (MLLMs) still struggle with spatial understanding under the dominant perspective-image paradigm, which inherits the narrow field of view of human-like perception. For navigation, robotic search, and 3D…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.13027",
+      "title": "PRISM: Prior Rectification and Uncertainty-Aware Structure Modeling for Diffusion-Based Text Image Super-Resolution",
+      "link": "https://arxiv.org/abs/2605.13027",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.13027.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Text image super-resolution (Text-SR) requires more than visually plausible detail synthesis: slight errors in stroke topology may alter character identity and break readability. Existing methods improve text fidelity with stronger recog…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.13941",
+      "title": "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+      "link": "https://arxiv.org/abs/2605.13941",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.13941.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Long-term memory is essential for LLM agents that operate across multiple sessions, yet existing memory systems treat retrieval infrastructure as fixed: stored content evolves while scoring functions, fusion strategies, and answer-genera…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.13301",
+      "title": "Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling",
+      "link": "https://arxiv.org/abs/2605.13301",
+      "date": "2026-05-12T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.13301.png",
+      "score": 56.9,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Recent progress in reasoning models has substantially advanced long-horizon mathematical and scientific problem solving, with several systems now reaching gold-medal-level performance on International Mathematical Olympiad (IMO) and Inte…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 56.9,
+      "popularity_signals": {
+        "recent_paper": 6.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 73.94
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "arxiv:2605.12491",
       "title": "Elastic Attention Cores for Scalable Vision Transformers",
       "link": "https://arxiv.org/abs/2605.12491v1",
@@ -3051,36 +4561,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.11517",
-      "title": "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading",
-      "link": "https://arxiv.org/abs/2605.11517v1",
-      "date": "2026-05-12T04:39:58Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.11517v1/x1.png",
-      "score": 56.9,
-      "category": "Papers",
-      "action": "Discuss with student",
-      "summary": "Full-graph training of graph neural networks (GNNs) is widely used as it enables direct validation of algorithmic improvements by preserving complete neighborhood information. However, it typically requires multiple GPUs or servers, incu…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 56.9,
-      "popularity_signals": {
-        "recent_paper": 6.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 73.94
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:fe61601f0c7323c8",
       "title": "NVIDIA/cutlass",
       "link": "https://github.com/NVIDIA/cutlass",
@@ -3329,10 +4809,44 @@
       "trending_caption": "8k★"
     },
     {
+      "id": "hash:40fe8bd6d49f603d",
+      "title": "blanchon/opencs2_dataset (dataset)",
+      "link": "https://huggingface.co/datasets/blanchon/opencs2_dataset",
+      "date": "2026-05-08T00:14:06.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/blanchon/opencs2_dataset.png",
+      "score": 55.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "OpenCS2 - POV Renders\n\t\n\n\n\nBrowse with the OpenCS2 Viewer - every match, map and round, with all 10 player POVs synced on one timeline.\n\nTick-aligned Counter-Strike 2 POV training clips, rendered from\nblanchon/cs2_dataset_demo. Each row…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 20k↓ · 11♡",
+      "dimensions": {},
+      "popularity_score": 55.4,
+      "popularity_signals": {
+        "hf_downloads": 20182.0,
+        "hf_likes": 11.0,
+        "hf_trending_score": 11.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 29.74,
+        "hf_likes": 12.42,
+        "hf_trending_score": 29.82
+      },
+      "n_platforms": 1,
+      "trending_caption": "20k↓ · 11♡"
+    },
+    {
       "id": "hash:1bfa929801a2e14f",
       "title": "isaac-sim/IsaacLab",
       "link": "https://github.com/isaac-sim/IsaacLab",
-      "date": "2026-05-14T07:11:39Z",
+      "date": "2026-05-15T07:24:35Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3350,11 +4864,11 @@
       "dimensions": {},
       "popularity_score": 54.6,
       "popularity_signals": {
-        "github_stars": 7159.0,
-        "github_forks": 3519.0
+        "github_stars": 7166.0,
+        "github_forks": 3528.0
       },
       "popularity_contributions": {
-        "github_stars": 71.01
+        "github_stars": 71.02
       },
       "n_platforms": 1,
       "trending_caption": "7k★"
@@ -3420,40 +4934,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "5k★"
-    },
-    {
-      "id": "hash:40fe8bd6d49f603d",
-      "title": "blanchon/opencs2_dataset (dataset)",
-      "link": "https://huggingface.co/datasets/blanchon/opencs2_dataset",
-      "date": "2026-05-08T00:14:06.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/blanchon/opencs2_dataset.png",
-      "score": 52.9,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "OpenCS2 - POV Renders\n\t\n\n\n\nBrowse with the OpenCS2 Viewer - every match, map and round, with all 10 player POVs synced on one timeline.\n\nTick-aligned Counter-Strike 2 POV training clips, rendered from\nblanchon/cs2_dataset_demo. Each row…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 19k↓ · 9♡",
-      "dimensions": {},
-      "popularity_score": 52.9,
-      "popularity_signals": {
-        "hf_downloads": 19456.0,
-        "hf_likes": 9.0,
-        "hf_trending_score": 9.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 29.63,
-        "hf_likes": 11.51,
-        "hf_trending_score": 27.63
-      },
-      "n_platforms": 1,
-      "trending_caption": "19k↓ · 9♡"
     },
     {
       "id": "hash:b5a09fc5781c558d",
@@ -3549,6 +5029,36 @@
       "trending_caption": "5k★"
     },
     {
+      "id": "arxiv:2605.11517",
+      "title": "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading",
+      "link": "https://arxiv.org/abs/2605.11517v1",
+      "date": "2026-05-12T04:39:58Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.11517v1/x1.png",
+      "score": 52.4,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Full-graph training of graph neural networks (GNNs) is widely used as it enables direct validation of algorithmic improvements by preserving complete neighborhood information. However, it typically requires multiple GPUs or servers, incu…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 52.4,
+      "popularity_signals": {
+        "recent_paper": 5.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 68.09
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "arxiv:2605.11333",
       "title": "MLCommons Chakra: Advancing Performance Benchmarking and Co-design using Standardized Execution Traces",
       "link": "https://arxiv.org/abs/2605.11333v1",
@@ -3588,7 +5098,7 @@
         "arxiv",
         "huggingface_papers"
       ],
-      "image_url": "https://arxiv.org/html/2605.06607v1/x1.png",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.06607.png",
       "score": 52.4,
       "category": "Papers",
       "action": "Track",
@@ -4941,6 +6451,127 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.12243",
+      "title": "PreScam: A Benchmark for Predicting Scam Progression from Early Conversations",
+      "link": "https://arxiv.org/abs/2605.12243",
+      "date": "2026-05-11T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.12243.png",
+      "score": 52.4,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Conversational scams, such as romance and investment scams, are emerging as a major form of online fraud. Unlike one-shot scam lures such as fake lottery or unpaid toll messages, they unfold through multi-turn conversations in which scam…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 52.4,
+      "popularity_signals": {
+        "recent_paper": 5.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 68.09
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.07637",
+      "title": "Learning to Communicate Locally for Large-Scale Multi-Agent Pathfinding",
+      "link": "https://arxiv.org/abs/2605.07637",
+      "date": "2026-05-11T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.07637.png",
+      "score": 52.4,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Multi-agent pathfinding (MAPF) is a widely used abstraction for multi-robot trajectory planning problems, where multiple homogeneous agents move simultaneously within a shared environment. Although solving MAPF optimally is NP-hard, scal…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 52.4,
+      "popularity_signals": {
+        "recent_paper": 5.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 68.09
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.11458",
+      "title": "Adaptive Teacher Exposure for Self-Distillation in LLM Reasoning",
+      "link": "https://arxiv.org/abs/2605.11458",
+      "date": "2026-05-11T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.11458.png",
+      "score": 52.4,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "On-policy self-distillation has become a strong recipe for LLM reasoning, where a privileged teacher supervises the student's own rollouts while conditioning on the reference solution. A design choice shared by nearly all such methods, h…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 52.4,
+      "popularity_signals": {
+        "recent_paper": 5.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 68.09
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "hash:29f2087d2d616a01",
+      "title": "newton-physics/newton",
+      "link": "https://github.com/newton-physics/newton",
+      "date": "2026-05-15T08:52:55Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/edd9dd90440833cb4b4afb5f7ec158d1137a2356f901da3457bd84dcdf5caa97/newton-physics/newton",
+      "score": 52.3,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 4k★",
+      "dimensions": {},
+      "popularity_score": 52.3,
+      "popularity_signals": {
+        "github_stars": 4909.0,
+        "github_forks": 533.0
+      },
+      "popularity_contributions": {
+        "github_stars": 67.99
+      },
+      "n_platforms": 1,
+      "trending_caption": "4k★"
+    },
+    {
       "id": "hash:88163fa077a98238",
       "title": "cactus-compute/cactus",
       "link": "https://github.com/cactus-compute/cactus",
@@ -4972,41 +6603,10 @@
       "trending_caption": "4k★"
     },
     {
-      "id": "hash:29f2087d2d616a01",
-      "title": "newton-physics/newton",
-      "link": "https://github.com/newton-physics/newton",
-      "date": "2026-05-14T04:47:31Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/edd9dd90440833cb4b4afb5f7ec158d1137a2356f901da3457bd84dcdf5caa97/newton-physics/newton",
-      "score": 52.3,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 4k★",
-      "dimensions": {},
-      "popularity_score": 52.3,
-      "popularity_signals": {
-        "github_stars": 4902.0,
-        "github_forks": 531.0
-      },
-      "popularity_contributions": {
-        "github_stars": 67.98
-      },
-      "n_platforms": 1,
-      "trending_caption": "4k★"
-    },
-    {
       "id": "hash:341e8db09eef169f",
       "title": "cyberbotics/webots",
       "link": "https://github.com/cyberbotics/webots",
-      "date": "2026-05-13T23:35:14Z",
+      "date": "2026-05-14T23:32:03Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -5037,7 +6637,7 @@
       "id": "hash:e14fddb8bd61c2c4",
       "title": "ros-navigation/navigation2",
       "link": "https://github.com/ros-navigation/navigation2",
-      "date": "2026-05-13T18:05:32Z",
+      "date": "2026-05-14T18:28:27Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -5055,8 +6655,8 @@
       "dimensions": {},
       "popularity_score": 51.4,
       "popularity_signals": {
-        "github_stars": 4255.0,
-        "github_forks": 1825.0
+        "github_stars": 4258.0,
+        "github_forks": 1826.0
       },
       "popularity_contributions": {
         "github_stars": 66.85
@@ -5127,6 +6727,40 @@
       "trending_caption": "4k★"
     },
     {
+      "id": "hash:5e0050f363143fb1",
+      "title": "TeichAI/DeepSeek-v4-Pro-Agent (dataset)",
+      "link": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent",
+      "date": "2026-05-09T06:15:11.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TeichAI/DeepSeek-v4-Pro-Agent.png",
+      "score": 51.0,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "This dataset was generated using teich by TeichAI \nPrepare these datasets for supervised fine-tuning in just a few lines of code — see the Conversion section below.\n\n\t\n\t\t\n\t\n\t\n\t\tDeepSeek v4 Pro Agent Traces\n\t\n\nThis directory contains raw…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 1k↓ · 13♡",
+      "dimensions": {},
+      "popularity_score": 51.0,
+      "popularity_signals": {
+        "hf_downloads": 1276.0,
+        "hf_likes": 13.0,
+        "hf_trending_score": 13.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 21.46,
+        "hf_likes": 13.2,
+        "hf_trending_score": 31.67
+      },
+      "n_platforms": 1,
+      "trending_caption": "1k↓ · 13♡"
+    },
+    {
       "id": "hash:02c8d92213a2b74c",
       "title": "introlab/rtabmap",
       "link": "https://github.com/introlab/rtabmap",
@@ -5156,40 +6790,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "3k★"
-    },
-    {
-      "id": "hash:5e0050f363143fb1",
-      "title": "TeichAI/DeepSeek-v4-Pro-Agent (dataset)",
-      "link": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent",
-      "date": "2026-05-09T06:15:11.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TeichAI/DeepSeek-v4-Pro-Agent.png",
-      "score": 50.0,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "This dataset was generated using teich by TeichAI \nPrepare these datasets for supervised fine-tuning in just a few lines of code — see the Conversion section below.\n\n\t\n\t\t\n\t\n\t\n\t\tDeepSeek v4 Pro Agent Traces\n\t\n\nThis directory contains raw…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 1k↓ · 12♡",
-      "dimensions": {},
-      "popularity_score": 50.0,
-      "popularity_signals": {
-        "hf_downloads": 1232.0,
-        "hf_likes": 12.0,
-        "hf_trending_score": 12.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 21.35,
-        "hf_likes": 12.82,
-        "hf_trending_score": 30.78
-      },
-      "n_platforms": 1,
-      "trending_caption": "1k↓ · 12♡"
     },
     {
       "id": "hash:f4459fe473327cb5",
@@ -5255,74 +6855,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "231↓ · 15♡"
-    },
-    {
-      "id": "hash:f29ebae9362da518",
-      "title": "dianetc/OBLIQ-Bench (dataset)",
-      "link": "https://huggingface.co/datasets/dianetc/OBLIQ-Bench",
-      "date": "2026-05-06T00:10:36.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/dianetc/OBLIQ-Bench.png",
-      "score": 48.8,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "OBLIQ-Bench\n\t\n\nExposing Overlooked Bottlenecks in Modern Retrievers with Latent and Implicit Queries\nOBLIQ-Bench is a suite of five retrieval benchmarks designed to expose a blind spot in modern search systems: oblique queries, where the…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 478↓ · 13♡",
-      "dimensions": {},
-      "popularity_score": 48.8,
-      "popularity_signals": {
-        "hf_downloads": 478.0,
-        "hf_likes": 13.0,
-        "hf_trending_score": 13.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 18.52,
-        "hf_likes": 13.2,
-        "hf_trending_score": 31.67
-      },
-      "n_platforms": 1,
-      "trending_caption": "478↓ · 13♡"
-    },
-    {
-      "id": "hash:c2bab6c8e9d5c80d",
-      "title": "Inferact/codex_swebenchpro_traces (dataset)",
-      "link": "https://huggingface.co/datasets/Inferact/codex_swebenchpro_traces",
-      "date": "2026-05-06T01:09:22.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/Inferact/codex_swebenchpro_traces.png",
-      "score": 48.7,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "This is a dataset generated by real swebenchpro agentic workload trace + codex agent.\n\n\n\t\n\t\t\n\t\t1. Eval Result Summary\n\t\n\n\n\t\n\t\t\nMetric\nValue\n\n\n\t\t\nTotal trials\n731\n\n\nSuccessful trials\n610\n\n\nFailed trials\n120\n\n\nNo data (skipped)\n1\n\n\nPassed…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 308↓ · 17♡",
-      "dimensions": {},
-      "popularity_score": 48.7,
-      "popularity_signals": {
-        "hf_downloads": 308.0,
-        "hf_likes": 17.0,
-        "hf_trending_score": 13.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 17.2,
-        "hf_likes": 14.45,
-        "hf_trending_score": 31.67
-      },
-      "n_platforms": 1,
-      "trending_caption": "308↓ · 17♡"
     },
     {
       "id": "hash:ad5b9737c99c0d34",
@@ -6646,6 +8178,100 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.10912",
+      "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+      "link": "https://arxiv.org/abs/2605.10912",
+      "date": "2026-05-10T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.10912.png",
+      "score": 47.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. However, most agent benchmarks still rely on synthetic sandboxes, short-horizon tasks, mock-s…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 47.0,
+      "popularity_signals": {
+        "recent_paper": 4.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 61.16
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.13880",
+      "title": "PREPING: Building Agent Memory without Tasks",
+      "link": "https://arxiv.org/abs/2605.13880",
+      "date": "2026-05-10T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.13880.png",
+      "score": 47.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap when first introduced to a new environm…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 47.0,
+      "popularity_signals": {
+        "recent_paper": 4.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 61.16
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "hash:d624b21d6e9a8f40",
+      "title": "Exgentic/agent-llm-traces (dataset)",
+      "link": "https://huggingface.co/datasets/Exgentic/agent-llm-traces",
+      "date": "2026-05-07T13:59:42.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/Exgentic/agent-llm-traces.png",
+      "score": 47.0,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Multi-Benchmark LLM Agent Traces\n\t\n\nA comprehensive dataset of OpenTelemetry traces capturing LLM inference behavior across multiple agent frameworks, benchmarks, and model providers. This dataset enables research into LLM performance an…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 344↓ · 12♡",
+      "dimensions": {},
+      "popularity_score": 47.0,
+      "popularity_signals": {
+        "hf_downloads": 344.0,
+        "hf_likes": 12.0,
+        "hf_trending_score": 12.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 17.53,
+        "hf_likes": 12.82,
+        "hf_trending_score": 30.78
+      },
+      "n_platforms": 1,
+      "trending_caption": "344↓ · 12♡"
+    },
+    {
       "id": "hash:9b59e342fd2e9610",
       "title": "LMD0311/Awesome-World-Model",
       "link": "https://github.com/LMD0311/Awesome-World-Model",
@@ -6667,54 +8293,20 @@
       "dimensions": {},
       "popularity_score": 46.9,
       "popularity_signals": {
-        "github_stars": 2039.0,
+        "github_stars": 2043.0,
         "github_forks": 80.0
       },
       "popularity_contributions": {
-        "github_stars": 60.97
+        "github_stars": 60.98
       },
       "n_platforms": 1,
       "trending_caption": "2k★"
     },
     {
-      "id": "hash:d624b21d6e9a8f40",
-      "title": "Exgentic/agent-llm-traces (dataset)",
-      "link": "https://huggingface.co/datasets/Exgentic/agent-llm-traces",
-      "date": "2026-05-07T13:59:42.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/Exgentic/agent-llm-traces.png",
-      "score": 46.6,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "Multi-Benchmark LLM Agent Traces\n\t\n\nA comprehensive dataset of OpenTelemetry traces capturing LLM inference behavior across multiple agent frameworks, benchmarks, and model providers. This dataset enables research into LLM performance an…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 282↓ · 12♡",
-      "dimensions": {},
-      "popularity_score": 46.6,
-      "popularity_signals": {
-        "hf_downloads": 282.0,
-        "hf_likes": 12.0,
-        "hf_trending_score": 12.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 16.94,
-        "hf_likes": 12.82,
-        "hf_trending_score": 30.78
-      },
-      "n_platforms": 1,
-      "trending_caption": "282↓ · 12♡"
-    },
-    {
       "id": "hash:b4fb5cfa5bd435de",
       "title": "leofan90/Awesome-World-Models",
       "link": "https://github.com/leofan90/Awesome-World-Models",
-      "date": "2026-05-14T03:32:00Z",
+      "date": "2026-05-15T02:32:26Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -6732,11 +8324,11 @@
       "dimensions": {},
       "popularity_score": 45.6,
       "popularity_signals": {
-        "github_stars": 1647.0,
+        "github_stars": 1651.0,
         "github_forks": 52.0
       },
       "popularity_contributions": {
-        "github_stars": 59.26
+        "github_stars": 59.28
       },
       "n_platforms": 1,
       "trending_caption": "1k★"
@@ -6745,7 +8337,7 @@
       "id": "hash:54c1011585d5bed9",
       "title": "autowarefoundation/autoware_universe",
       "link": "https://github.com/autowarefoundation/autoware_universe",
-      "date": "2026-05-14T07:39:27Z",
+      "date": "2026-05-15T08:44:21Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -6764,7 +8356,7 @@
       "popularity_score": 45.5,
       "popularity_signals": {
         "github_stars": 1629.0,
-        "github_forks": 894.0
+        "github_forks": 895.0
       },
       "popularity_contributions": {
         "github_stars": 59.17
@@ -6807,7 +8399,7 @@
       "id": "hash:c663f10bd199d6a7",
       "title": "hanruihua/ir-sim",
       "link": "https://github.com/hanruihua/ir-sim",
-      "date": "2026-05-14T06:54:03Z",
+      "date": "2026-05-15T10:06:22Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -6835,38 +8427,6 @@
       "trending_caption": "1k★"
     },
     {
-      "id": "hash:b1fca956e249daaa",
-      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-      "link": "https://www.anthropic.com/news/higher-limits-spacex",
-      "date": "2026-05-06T16:17:33+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:LLM"
-      ],
-      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&amp;backgroundColor=fig",
-      "score": 43.0,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 509pts",
-      "dimensions": {},
-      "popularity_score": 43.0,
-      "popularity_signals": {
-        "hn_points": 509.0,
-        "hn_comments": 483.0
-      },
-      "popularity_contributions": {
-        "hn_points": 37.41,
-        "hn_comments": 18.55
-      },
-      "n_platforms": 1,
-      "trending_caption": "509pts"
-    },
-    {
       "id": "hash:fa9a3d48ba3ba1ca",
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
       "link": "https://github.com/cactus-compute/needle",
@@ -6876,7 +8436,7 @@
         "hackernews:GPU inference"
       ],
       "image_url": "https://opengraph.githubassets.com/e3b41f672088f41ceed83bc4b43199bc1227e9db8df4a65cad4e22907c82ae4a/cactus-compute/needle",
-      "score": 42.7,
+      "score": 42.8,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "",
@@ -6884,19 +8444,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 731pts",
+      "rationale": "Trending across 1 platform · 738pts",
       "dimensions": {},
-      "popularity_score": 42.7,
+      "popularity_score": 42.8,
       "popularity_signals": {
-        "hn_points": 731.0,
-        "hn_comments": 206.0
+        "hn_points": 738.0,
+        "hn_comments": 207.0
       },
       "popularity_contributions": {
-        "hn_points": 39.57,
-        "hn_comments": 16.0
+        "hn_points": 39.63,
+        "hn_comments": 16.01
       },
       "n_platforms": 1,
-      "trending_caption": "731pts"
+      "trending_caption": "738pts"
     },
     {
       "id": "hash:7f3c449a6ca2d148",
@@ -6930,6 +8490,38 @@
       "trending_caption": "1k★"
     },
     {
+      "id": "hash:85f5e3d553795e67",
+      "title": "AI is making me dumb",
+      "link": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
+      "date": "2026-05-14T18:19:28+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "https://jpain.io/static/og-image.png",
+      "score": 41.9,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 508pts",
+      "dimensions": {},
+      "popularity_score": 41.9,
+      "popularity_signals": {
+        "hn_points": 508.0,
+        "hn_comments": 295.0
+      },
+      "popularity_contributions": {
+        "hn_points": 37.39,
+        "hn_comments": 17.07
+      },
+      "n_platforms": 1,
+      "trending_caption": "508pts"
+    },
+    {
       "id": "hash:e6088d4413eec755",
       "title": "louiszengCN/CarlaAir",
       "link": "https://github.com/louiszengCN/CarlaAir",
@@ -6961,16 +8553,16 @@
       "trending_caption": "897★"
     },
     {
-      "id": "hash:85f5e3d553795e67",
-      "title": "AI is making me dumb",
-      "link": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
-      "date": "2026-05-14T18:19:28+00:00",
+      "id": "hash:26ae8d2a5f448bd4",
+      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
+      "link": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
+      "date": "2026-05-14T15:47:31+00:00",
       "type": "News",
       "sources": [
         "hackernews:AI"
       ],
-      "image_url": "https://jpain.io/static/og-image.png",
-      "score": 40.8,
+      "image_url": "",
+      "score": 41.4,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -6978,19 +8570,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 428pts",
+      "rationale": "Trending across 1 platform · 638pts",
       "dimensions": {},
-      "popularity_score": 40.8,
+      "popularity_score": 41.4,
       "popularity_signals": {
-        "hn_points": 428.0,
-        "hn_comments": 263.0
+        "hn_points": 638.0,
+        "hn_comments": 149.0
       },
       "popularity_contributions": {
-        "hn_points": 36.37,
-        "hn_comments": 16.73
+        "hn_points": 38.76,
+        "hn_comments": 15.03
       },
       "n_platforms": 1,
-      "trending_caption": "428pts"
+      "trending_caption": "638pts"
     },
     {
       "id": "hash:ec9ce925f1e7ab36",
@@ -7624,6 +9216,36 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.09681",
+      "title": "Forcing-KV: Hybrid KV Cache Compression for Efficient Autoregressive Video Diffusion Models",
+      "link": "https://arxiv.org/abs/2605.09681",
+      "date": "2026-05-09T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.09681.png",
+      "score": 40.5,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Autoregressive (AR) video diffusion models adopt a streaming generation framework, enabling long-horizon video generation with real-time responsiveness, as exemplified by the Self Forcing training paradigm. However, existing AR video dif…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 40.5,
+      "popularity_signals": {
+        "recent_paper": 3.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 52.68
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "arxiv:2605.09047",
       "title": "Locational Pricing for Generative-AI Services via Token-Flow Market Clearing",
       "link": "https://arxiv.org/abs/2605.09047v1",
@@ -7684,96 +9306,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.08804",
-      "title": "Constraint-Aware Diffusion Priors for High-Fidelity and Versatile Quadruped Locomotion",
-      "link": "https://arxiv.org/abs/2605.08804v1",
-      "date": "2026-05-09T08:47:49Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.08804v1/Figure/teaser_3.jpeg",
-      "score": 40.5,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Reinforcement learning combined with imitation learning has significantly advanced biomimetic quadrupedal locomotion. However, scaling these frameworks to massive, multi-source datasets exposes fundamental bottlenecks. First, traditional…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 40.5,
-      "popularity_signals": {
-        "recent_paper": 3.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 52.68
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.08663",
-      "title": "CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition",
-      "link": "https://arxiv.org/abs/2605.08663v1",
-      "date": "2026-05-09T04:02:40Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.08663v1/x1.png",
-      "score": 40.5,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "We propose CAST, a dual-stream architecture that utilizes channel-aware spatial transfer learning for isolated sign language recognition addressing the challenges of magnitude-only 60~GHz radar Range-Time Maps (RTM). The proposed framewo…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 40.5,
-      "popularity_signals": {
-        "recent_paper": 3.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 52.68
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.08613",
-      "title": "Generalization Bounds of Emergent Communications for Agentic AI Networking",
-      "link": "https://arxiv.org/abs/2605.08613v1",
-      "date": "2026-05-09T02:15:34Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.08613v1/x1.png",
-      "score": 40.5,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "The evolution of 6G networking toward agentic AI networking (AgentNet) systems requires a shift from traditional data pipelines to task-aware, agentic AI-native communication solutions. Emergent communication, a novel communication parad…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 40.5,
-      "popularity_signals": {
-        "recent_paper": 3.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 52.68
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:336e129b2596888a",
       "title": "MIV-XJTU/FSDrive",
       "link": "https://github.com/MIV-XJTU/FSDrive",
@@ -7808,13 +9340,13 @@
       "id": "hash:bcd83bb8969e7cd5",
       "title": "autowarefoundation/AWSIM",
       "link": "https://github.com/autowarefoundation/AWSIM",
-      "date": "2026-05-09T08:30:41Z",
+      "date": "2026-05-13T23:00:51Z",
       "type": "Project",
       "sources": [
         "github_trending"
       ],
       "image_url": "https://repository-images.githubusercontent.com/551179179/0b7d4074-5704-4003-9d5a-56b74ee44b69",
-      "score": 40.3,
+      "score": 40.4,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "Open sourced digital twin simulator for Autoware",
@@ -7822,18 +9354,52 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 703★",
+      "rationale": "Trending across 1 platform · 706★",
       "dimensions": {},
-      "popularity_score": 40.3,
+      "popularity_score": 40.4,
       "popularity_signals": {
-        "github_stars": 703.0,
+        "github_stars": 706.0,
         "github_forks": 150.0
       },
       "popularity_contributions": {
-        "github_stars": 52.45
+        "github_stars": 52.49
       },
       "n_platforms": 1,
-      "trending_caption": "703★"
+      "trending_caption": "706★"
+    },
+    {
+      "id": "hash:f973f39dba66efed",
+      "title": "alibaba-multimodal-industrial-ai/IndustryBench (dataset)",
+      "link": "https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench",
+      "date": "2026-05-12T06:15:11.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "",
+      "score": 40.3,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "IndustryBench: Probing the Industrial Knowledge Boundaries of LLMs\n\t\n\n💻Github | 📝Paper\nIndustryBench is a multi-lingual benchmark for evaluating the industrial domain knowledge of large language models. It comprises 2,049 expert-curated…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 69↓ · 10♡",
+      "dimensions": {},
+      "popularity_score": 40.3,
+      "popularity_signals": {
+        "hf_downloads": 69.0,
+        "hf_likes": 10.0,
+        "hf_trending_score": 9.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 12.75,
+        "hf_likes": 11.99,
+        "hf_trending_score": 27.63
+      },
+      "n_platforms": 1,
+      "trending_caption": "69↓ · 10♡"
     },
     {
       "id": "hash:d626adab6a3770fb",
@@ -7845,7 +9411,7 @@
         "hackernews:AI"
       ],
       "image_url": "",
-      "score": 40.1,
+      "score": 40.2,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -7853,51 +9419,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 231pts",
+      "rationale": "Trending across 1 platform · 235pts",
       "dimensions": {},
-      "popularity_score": 40.1,
+      "popularity_score": 40.2,
       "popularity_signals": {
-        "hn_points": 231.0,
-        "hn_comments": 656.0
+        "hn_points": 235.0,
+        "hn_comments": 666.0
       },
       "popularity_contributions": {
-        "hn_points": 32.68,
-        "hn_comments": 19.46
+        "hn_points": 32.78,
+        "hn_comments": 19.51
       },
       "n_platforms": 1,
-      "trending_caption": "231pts"
-    },
-    {
-      "id": "hash:26ae8d2a5f448bd4",
-      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
-      "link": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
-      "date": "2026-05-14T15:47:31+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "",
-      "score": 39.9,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 491pts",
-      "dimensions": {},
-      "popularity_score": 39.9,
-      "popularity_signals": {
-        "hn_points": 491.0,
-        "hn_comments": 134.0
-      },
-      "popularity_contributions": {
-        "hn_points": 37.19,
-        "hn_comments": 14.72
-      },
-      "n_platforms": 1,
-      "trending_caption": "491pts"
+      "trending_caption": "235pts"
     },
     {
       "id": "hash:949a13b8d0503f56",
@@ -8059,16 +9593,16 @@
       "trending_caption": "251pts"
     },
     {
-      "id": "hash:eb8d506635f452c9",
-      "title": "Telus Uses AI to Alter Call-Agent Accents",
-      "link": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
-      "date": "2026-05-06T01:38:44+00:00",
+      "id": "hash:75055667216a264f",
+      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+      "date": "2026-05-14T22:37:40+00:00",
       "type": "News",
       "sources": [
         "hackernews:AI"
       ],
-      "image_url": "https://cdn.iphoneincanada.ca/wp-content/uploads/2026/02/telus-5g.jpg",
-      "score": 37.6,
+      "image_url": "",
+      "score": 36.8,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -8076,19 +9610,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 235pts",
+      "rationale": "Trending across 1 platform · 259pts",
       "dimensions": {},
-      "popularity_score": 37.6,
+      "popularity_score": 36.8,
       "popularity_signals": {
-        "hn_points": 235.0,
-        "hn_comments": 214.0
+        "hn_points": 259.0,
+        "hn_comments": 124.0
       },
       "popularity_contributions": {
-        "hn_points": 32.78,
-        "hn_comments": 16.11
+        "hn_points": 33.36,
+        "hn_comments": 14.48
       },
       "n_platforms": 1,
-      "trending_caption": "235pts"
+      "trending_caption": "259pts"
     },
     {
       "id": "hash:5755f1b522d9cc2c",
@@ -8123,6 +9657,70 @@
       "trending_caption": "228pts"
     },
     {
+      "id": "hash:fd19e7193499e3e0",
+      "title": "The AI zombification of universities",
+      "link": "https://www.thenewcritic.com/p/the-great-zombification",
+      "date": "2026-05-14T18:37:08+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 36.3,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 187pts",
+      "dimensions": {},
+      "popularity_score": 36.3,
+      "popularity_signals": {
+        "hn_points": 187.0,
+        "hn_comments": 193.0
+      },
+      "popularity_contributions": {
+        "hn_points": 31.42,
+        "hn_comments": 15.8
+      },
+      "n_platforms": 1,
+      "trending_caption": "187pts"
+    },
+    {
+      "id": "hash:500b38372454e522",
+      "title": "Access to frontier AI will soon be limited by economic and security constraints",
+      "link": "https://writing.antonleicht.me/p/cut-off",
+      "date": "2026-05-15T01:08:04+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 36.2,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 184pts",
+      "dimensions": {},
+      "popularity_score": 36.2,
+      "popularity_signals": {
+        "hn_points": 184.0,
+        "hn_comments": 186.0
+      },
+      "popularity_contributions": {
+        "hn_points": 31.32,
+        "hn_comments": 15.69
+      },
+      "n_platforms": 1,
+      "trending_caption": "184pts"
+    },
+    {
       "id": "hash:33d451373dabc6f3",
       "title": "Microsoft Israel chief leaves amid ethical controversy",
       "link": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
@@ -8132,7 +9730,7 @@
         "hackernews:chip"
       ],
       "image_url": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1778424713/COT_Pic/80_r5rtaj.jpg",
-      "score": 35.9,
+      "score": 36.1,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -8140,51 +9738,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 195pts",
+      "rationale": "Trending across 1 platform · 196pts",
       "dimensions": {},
-      "popularity_score": 35.9,
+      "popularity_score": 36.1,
       "popularity_signals": {
-        "hn_points": 195.0,
-        "hn_comments": 149.0
+        "hn_points": 196.0,
+        "hn_comments": 158.0
       },
       "popularity_contributions": {
-        "hn_points": 31.67,
-        "hn_comments": 15.03
+        "hn_points": 31.7,
+        "hn_comments": 15.21
       },
       "n_platforms": 1,
-      "trending_caption": "195pts"
-    },
-    {
-      "id": "hash:fd19e7193499e3e0",
-      "title": "The AI Zombification of Universities",
-      "link": "https://www.thenewcritic.com/p/the-great-zombification",
-      "date": "2026-05-14T18:37:08+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "",
-      "score": 35.6,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 167pts",
-      "dimensions": {},
-      "popularity_score": 35.6,
-      "popularity_signals": {
-        "hn_points": 167.0,
-        "hn_comments": 173.0
-      },
-      "popularity_contributions": {
-        "hn_points": 30.74,
-        "hn_comments": 15.48
-      },
-      "n_platforms": 1,
-      "trending_caption": "167pts"
+      "trending_caption": "196pts"
     },
     {
       "id": "hash:61a962c2f9f6682b",
@@ -8196,8 +9762,72 @@
         "hackernews:AI"
       ],
       "image_url": "https://ca-times.brightspotcdn.com/dims4/default/2b5a390/2147483647/strip/true/crop/6015x3158+0+427/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faf%2F5f%2Fdbbf044c488da394716de14e67ea%2F2270407856.jpg",
-      "score": 35.6,
+      "score": 35.7,
       "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 225pts",
+      "dimensions": {},
+      "popularity_score": 35.7,
+      "popularity_signals": {
+        "hn_points": 225.0,
+        "hn_comments": 100.0
+      },
+      "popularity_contributions": {
+        "hn_points": 32.52,
+        "hn_comments": 13.85
+      },
+      "n_platforms": 1,
+      "trending_caption": "225pts"
+    },
+    {
+      "id": "hash:ed270330a8342a78",
+      "title": "Details of the Daring Airdrop at Tristan Da Cunha",
+      "link": "https://www.tristandc.com/government/news-2026-05-11-airdrop.php",
+      "date": "2026-05-15T03:56:14+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 34.0,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 188pts",
+      "dimensions": {},
+      "popularity_score": 34.0,
+      "popularity_signals": {
+        "hn_points": 188.0,
+        "hn_comments": 68.0
+      },
+      "popularity_contributions": {
+        "hn_points": 31.45,
+        "hn_comments": 12.7
+      },
+      "n_platforms": 1,
+      "trending_caption": "188pts"
+    },
+    {
+      "id": "hash:4ea6b2aa95b11779",
+      "title": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
+      "link": "https://github.com/Andyyyy64/whichllm",
+      "date": "2026-05-15T09:19:24+00:00",
+      "type": "Project",
+      "sources": [
+        "hackernews:LLM"
+      ],
+      "image_url": "",
+      "score": 33.2,
+      "category": "Projects & Models",
       "action": "Track",
       "summary": "",
       "why_matters": "",
@@ -8206,14 +9836,14 @@
       "student_project": "",
       "rationale": "Trending across 1 platform · 223pts",
       "dimensions": {},
-      "popularity_score": 35.6,
+      "popularity_score": 33.2,
       "popularity_signals": {
         "hn_points": 223.0,
-        "hn_comments": 100.0
+        "hn_comments": 35.0
       },
       "popularity_contributions": {
         "hn_points": 32.47,
-        "hn_comments": 13.85
+        "hn_comments": 10.75
       },
       "n_platforms": 1,
       "trending_caption": "223pts"
@@ -8249,6 +9879,160 @@
       },
       "n_platforms": 1,
       "trending_caption": "140pts"
+    },
+    {
+      "id": "hash:2cc0e203b5a5b140",
+      "title": "Amazonbot is finally respecting robots.txt",
+      "link": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
+      "date": "2026-05-14T20:22:35+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:robotics"
+      ],
+      "image_url": "",
+      "score": 32.4,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 163pts",
+      "dimensions": {},
+      "popularity_score": 32.4,
+      "popularity_signals": {
+        "hn_points": 163.0,
+        "hn_comments": 46.0
+      },
+      "popularity_contributions": {
+        "hn_points": 30.6,
+        "hn_comments": 11.55
+      },
+      "n_platforms": 1,
+      "trending_caption": "163pts"
+    },
+    {
+      "id": "hash:1afa8854a07a318d",
+      "title": "Show HN: Git for AI Agents",
+      "link": "https://github.com/regent-vcs/re_gent",
+      "date": "2026-05-08T14:15:36+00:00",
+      "type": "Project",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "https://opengraph.githubassets.com/6be25c0857e84cd8ec7642f85dec8f0b89f5dface3407768fad84c0f476a02ab/regent-vcs/re_gent",
+      "score": 32.2,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 127pts",
+      "dimensions": {},
+      "popularity_score": 32.2,
+      "popularity_signals": {
+        "hn_points": 127.0,
+        "hn_comments": 68.0
+      },
+      "popularity_contributions": {
+        "hn_points": 29.11,
+        "hn_comments": 12.7
+      },
+      "n_platforms": 1,
+      "trending_caption": "127pts"
+    },
+    {
+      "id": "arxiv:2605.08804",
+      "title": "Constraint-Aware Diffusion Priors for High-Fidelity and Versatile Quadruped Locomotion",
+      "link": "https://arxiv.org/abs/2605.08804v1",
+      "date": "2026-05-09T08:47:49Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.08804v1/Figure/teaser_3.jpeg",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Reinforcement learning combined with imitation learning has significantly advanced biomimetic quadrupedal locomotion. However, scaling these frameworks to massive, multi-source datasets exposes fundamental bottlenecks. First, traditional…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.08663",
+      "title": "CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition",
+      "link": "https://arxiv.org/abs/2605.08663v1",
+      "date": "2026-05-09T04:02:40Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.08663v1/x1.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "We propose CAST, a dual-stream architecture that utilizes channel-aware spatial transfer learning for isolated sign language recognition addressing the challenges of magnitude-only 60~GHz radar Range-Time Maps (RTM). The proposed framewo…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.08613",
+      "title": "Generalization Bounds of Emergent Communications for Agentic AI Networking",
+      "link": "https://arxiv.org/abs/2605.08613v1",
+      "date": "2026-05-09T02:15:34Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.08613v1/x1.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "The evolution of 6G networking toward agentic AI networking (AgentNet) systems requires a shift from traditional data pipelines to task-aware, agentic AI-native communication solutions. Emergent communication, a novel communication parad…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.08529",
@@ -8941,6 +10725,36 @@
       "trending_caption": "daily paper update"
     },
     {
+      "id": "arxiv:2605.08703",
+      "title": "RewardHarness: Self-Evolving Agentic Post-Training",
+      "link": "https://arxiv.org/abs/2605.08703",
+      "date": "2026-05-08T20:00:00.000Z",
+      "type": "Paper",
+      "sources": [
+        "huggingface_papers"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.08703.png",
+      "score": 32.1,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Evaluating instruction-guided image edits requires rewards that reflect subtle human preferences, yet current reward models typically depend on large-scale preference annotation and additional model training. This creates a data-efficien…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 32.1,
+      "popularity_signals": {
+        "recent_paper": 2.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 41.75
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
       "id": "arxiv:2605.08084",
       "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
       "link": "https://arxiv.org/abs/2605.08084v1",
@@ -9541,188 +11355,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "hash:1afa8854a07a318d",
-      "title": "Show HN: Git for AI Agents",
-      "link": "https://github.com/regent-vcs/re_gent",
-      "date": "2026-05-08T14:15:36+00:00",
-      "type": "Project",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "https://opengraph.githubassets.com/6be25c0857e84cd8ec7642f85dec8f0b89f5dface3407768fad84c0f476a02ab/regent-vcs/re_gent",
-      "score": 32.1,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 126pts",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "hn_points": 126.0,
-        "hn_comments": 68.0
-      },
-      "popularity_contributions": {
-        "hn_points": 29.07,
-        "hn_comments": 12.7
-      },
-      "n_platforms": 1,
-      "trending_caption": "126pts"
-    },
-    {
-      "id": "arxiv:2605.07574",
-      "title": "PolarVLM: Bridging the Semantic-Physical Gap in Vision-Language Models",
-      "link": "https://arxiv.org/abs/2605.07574v1",
-      "date": "2026-05-08T10:43:54Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07574v1/x1.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Mainstream vision-language models (VLMs) fundamentally struggle with severe optical ambiguities, such as reflections and transparent objects, due to the inherent limitations of standard RGB inputs. While polarization imaging captures pol…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07370",
-      "title": "MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation",
-      "link": "https://arxiv.org/abs/2605.07370v1",
-      "date": "2026-05-08T07:27:10Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07370v1/assets/multivehiclefleet.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "V2X can warn an autonomous vehicle about hazards beyond line-of-sight, but it also brings uncertainty: messages may be delayed, dropped, or even forged. Meanwhile, map knowledge may change during a trip, forcing the vehicle to replan und…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07264",
-      "title": "Sat3R: Satellite DSM Reconstruction via RPC-Aware Depth Fine-tuning",
-      "link": "https://arxiv.org/abs/2605.07264v1",
-      "date": "2026-05-08T05:29:55Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07264v1/figs/teaser_ffd.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Accurate Digital Surface Model (DSM) reconstruction from satellite imagery is critical for applications such as disaster response, urban planning, and large-scale geographic mapping. Existing approaches face a fundamental trade-off: opti…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07227",
-      "title": "Physics Aware Representation Learning on Electronic Charge Density for Materials Property Prediction",
-      "link": "https://arxiv.org/abs/2605.07227v1",
-      "date": "2026-05-08T04:26:05Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07227v1/x1.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "The fundamental quantity governing the mechanical and thermodynamic properties of a crystalline solid is its electronic charge density. Yet, its direct use for the rapid prediction of materials properties remains challenging due to its h…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07146",
-      "title": "UniV2D: Bridging Visual Restoration and Semantic Perception for Underwater Salient Object Detection",
-      "link": "https://arxiv.org/abs/2605.07146v1",
-      "date": "2026-05-08T02:31:45Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07146v1/x1.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Underwater salient object detection (USOD) plays a vital role in marine vision tasks but remains fundamentally challenging due to severe visual degradation, such as selective absorption and medium scattering. Conventional pipelines typic…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:f1daf7f75aaf75cf",
       "title": "xybrid-ai/xybrid",
       "link": "https://github.com/xybrid-ai/xybrid",
@@ -9752,6 +11384,38 @@
       },
       "n_platforms": 1,
       "trending_caption": "176★"
+    },
+    {
+      "id": "hash:def8ec7193bf43cd",
+      "title": "UK sovereign LLM inference",
+      "link": "https://relax.ai/docs",
+      "date": "2026-05-15T09:27:26+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:LLM"
+      ],
+      "image_url": "",
+      "score": 31.6,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 93pts",
+      "dimensions": {},
+      "popularity_score": 31.6,
+      "popularity_signals": {
+        "hn_points": 93.0,
+        "hn_comments": 101.0
+      },
+      "popularity_contributions": {
+        "hn_points": 27.26,
+        "hn_comments": 13.87
+      },
+      "n_platforms": 1,
+      "trending_caption": "93pts"
     },
     {
       "id": "hash:fe2fcce773e8b827",
@@ -9913,36 +11577,36 @@
       "trending_caption": "141pts"
     },
     {
-      "id": "hash:2cc0e203b5a5b140",
-      "title": "Amazonbot is finally respecting robots.txt",
-      "link": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
-      "date": "2026-05-14T20:22:35+00:00",
-      "type": "News",
+      "id": "hash:c7db62aa304c285a",
+      "title": "LLM Policy for Rust Compiler",
+      "link": "https://github.com/rust-lang/rust-forge/pull/1040",
+      "date": "2026-05-14T23:37:21+00:00",
+      "type": "Project",
       "sources": [
-        "hackernews:robotics"
+        "hackernews:LLM"
       ],
       "image_url": "",
-      "score": 30.3,
-      "category": "News & Industry",
+      "score": 30.6,
+      "category": "Projects & Models",
       "action": "Track",
       "summary": "",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 137pts",
+      "rationale": "Trending across 1 platform · 91pts",
       "dimensions": {},
-      "popularity_score": 30.3,
+      "popularity_score": 30.6,
       "popularity_signals": {
-        "hn_points": 137.0,
-        "hn_comments": 26.0
+        "hn_points": 91.0,
+        "hn_comments": 68.0
       },
       "popularity_contributions": {
-        "hn_points": 29.56,
-        "hn_comments": 9.89
+        "hn_points": 27.13,
+        "hn_comments": 12.7
       },
       "n_platforms": 1,
-      "trending_caption": "137pts"
+      "trending_caption": "91pts"
     },
     {
       "id": "hash:37f5ef3bbdcfa560",
@@ -10199,38 +11863,6 @@
       "trending_caption": "80pts"
     },
     {
-      "id": "hash:75055667216a264f",
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "date": "2026-05-14T22:37:40+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "",
-      "score": 29.1,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 98pts",
-      "dimensions": {},
-      "popularity_score": 29.1,
-      "popularity_signals": {
-        "hn_points": 98.0,
-        "hn_comments": 30.0
-      },
-      "popularity_contributions": {
-        "hn_points": 27.57,
-        "hn_comments": 10.3
-      },
-      "n_platforms": 1,
-      "trending_caption": "98pts"
-    },
-    {
       "id": "hash:a9630d6aa73d86eb",
       "title": "mozilla-ai/encoderfile",
       "link": "https://github.com/mozilla-ai/encoderfile",
@@ -10327,36 +11959,186 @@
       "trending_caption": "59pts"
     },
     {
-      "id": "hash:4655a8cc0991c9a8",
-      "title": "FFmpeg developer calls out OxideAV for AI license laundering of his code",
-      "link": "https://github.com/OxideAV/oxideav-magicyuv/issues/3",
-      "date": "2026-05-06T01:50:42+00:00",
-      "type": "Project",
+      "id": "hash:f0777df36add50d1",
+      "title": "Show HN: GridTravel – A community based travel app for users to share routes",
+      "link": "https://www.gridtravel.app",
+      "date": "2026-05-14T22:05:30+00:00",
+      "type": "News",
       "sources": [
-        "hackernews:AI"
+        "hackernews:GPU inference"
       ],
-      "image_url": "https://opengraph.githubassets.com/957dd7e4d32f0114aefead0965ecbaccc5e6eabb8e05420ab0e0b8a3b1db9faf/OxideAV/oxideav-magicyuv/issues/3",
-      "score": 24.8,
-      "category": "Projects & Models",
+      "image_url": "",
+      "score": 25.8,
+      "category": "News & Industry",
       "action": "Track",
       "summary": "",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 81pts",
+      "rationale": "Trending across 1 platform · 49pts",
       "dimensions": {},
-      "popularity_score": 24.8,
+      "popularity_score": 25.8,
       "popularity_signals": {
-        "hn_points": 81.0,
-        "hn_comments": 6.0
+        "hn_points": 49.0,
+        "hn_comments": 28.0
       },
       "popularity_contributions": {
-        "hn_points": 26.44,
-        "hn_comments": 5.84
+        "hn_points": 23.47,
+        "hn_comments": 10.1
       },
       "n_platforms": 1,
-      "trending_caption": "81pts"
+      "trending_caption": "49pts"
+    },
+    {
+      "id": "arxiv:2605.07574",
+      "title": "PolarVLM: Bridging the Semantic-Physical Gap in Vision-Language Models",
+      "link": "https://arxiv.org/abs/2605.07574v1",
+      "date": "2026-05-08T10:43:54Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07574v1/x1.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Mainstream vision-language models (VLMs) fundamentally struggle with severe optical ambiguities, such as reflections and transparent objects, due to the inherent limitations of standard RGB inputs. While polarization imaging captures pol…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.07370",
+      "title": "MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation",
+      "link": "https://arxiv.org/abs/2605.07370v1",
+      "date": "2026-05-08T07:27:10Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07370v1/assets/multivehiclefleet.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "V2X can warn an autonomous vehicle about hazards beyond line-of-sight, but it also brings uncertainty: messages may be delayed, dropped, or even forged. Meanwhile, map knowledge may change during a trip, forcing the vehicle to replan und…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.07264",
+      "title": "Sat3R: Satellite DSM Reconstruction via RPC-Aware Depth Fine-tuning",
+      "link": "https://arxiv.org/abs/2605.07264v1",
+      "date": "2026-05-08T05:29:55Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07264v1/figs/teaser_ffd.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Accurate Digital Surface Model (DSM) reconstruction from satellite imagery is critical for applications such as disaster response, urban planning, and large-scale geographic mapping. Existing approaches face a fundamental trade-off: opti…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.07227",
+      "title": "Physics Aware Representation Learning on Electronic Charge Density for Materials Property Prediction",
+      "link": "https://arxiv.org/abs/2605.07227v1",
+      "date": "2026-05-08T04:26:05Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07227v1/x1.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "The fundamental quantity governing the mechanical and thermodynamic properties of a crystalline solid is its electronic charge density. Yet, its direct use for the rapid prediction of materials properties remains challenging due to its h…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.07146",
+      "title": "UniV2D: Bridging Visual Restoration and Semantic Perception for Underwater Salient Object Detection",
+      "link": "https://arxiv.org/abs/2605.07146v1",
+      "date": "2026-05-08T02:31:45Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.07146v1/x1.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Underwater salient object detection (USOD) plays a vital role in marine vision tasks but remains fundamentally challenging due to severe visual degradation, such as selective absorption and medium scattering. Conventional pipelines typic…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.05558",
@@ -12084,216 +13866,6 @@
       "category": "Papers",
       "action": "Track",
       "summary": "Reliable simulation evaluation of robot manipulation policies serves as a high-fidelity proxy for real-world performance. Although existing benchmarks cover a wide range of task categories, they lack visual realism, creating a large doma…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.06140",
-      "title": "SymDrift: One-Shot Generative Modeling under Symmetries",
-      "link": "https://arxiv.org/abs/2605.06140v1",
-      "date": "2026-05-07T12:38:44Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.06140v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Generative modeling of physical systems, such as molecules, requires learning distributions that are invariant under global symmetries, such as rotations in three-dimensional space. Equivariant diffusion and flow matching models can inco…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05897",
-      "title": "Generating Roadside LiDAR Datasets from Vehicle-Side Datasets via Novel View Synthesis",
-      "link": "https://arxiv.org/abs/2605.05897v1",
-      "date": "2026-05-07T09:10:18Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05897v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Intelligent Transportation Systems (ITS) require reliable environmental perception to support safe and efficient transportation. With the rapid development of Vehicle-to-everything (V2X), roadside perception has become an effective means…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05876",
-      "title": "3DSS: 3D Surface Splatting for Inverse Rendering",
-      "link": "https://arxiv.org/abs/2605.05876v1",
-      "date": "2026-05-07T08:43:51Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05876v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "We present 3D Surface Splatting (3DSS), the first differentiable surface splatting renderer for physically-based inverse rendering from multi-view images. Our central insight is that the surface separation problem at the heart of surface…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05861",
-      "title": "SANEmerg: An Emergent Communication Framework for Semantic-aware Agentic AI Networking",
-      "link": "https://arxiv.org/abs/2605.05861v1",
-      "date": "2026-05-07T08:30:43Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05861v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Future networking systems are envisioned to become part of an agentic AI-native ecosystem in which a vast number of heterogeneous and specialized AI agents cooperate seamlessly to fulfill complex user requirements in real time. However,…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05756",
-      "title": "MaMi-HOI: Harmonizing Global Kinematics and Local Geometry for Human-Object Interaction Generation",
-      "link": "https://arxiv.org/abs/2605.05756v1",
-      "date": "2026-05-07T06:52:14Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05756v1/geometric_dilution_final.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Generating realistic 3D Human-Object Interactions (HOI) is a fundamental task for applications ranging from embodied AI to virtual content creation, which requires harmonizing high-level semantic intent with strict low-level physical con…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05748",
-      "title": "Evaluating Explainability in Safety-Critical ATR Systems: Limitations of Post-Hoc Methods and Paths Toward Robust XAI",
-      "link": "https://arxiv.org/abs/2605.05748v1",
-      "date": "2026-05-07T06:42:08Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05748v1/image_OBJ.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Explainable Artificial Intelligence (XAI) is increasingly rec ognized as essential for deploying machine learning systems in safety critical environments. In Automatic Target Recognition (ATR), where models operate on image, video, radar…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.05636",
-      "title": "Learning a Delighting Prior for Facial Appearance Capture in the Wild",
-      "link": "https://arxiv.org/abs/2605.05636v1",
-      "date": "2026-05-07T03:43:24Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.05636v1/figure/teaser.jpg",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "High-quality facial appearance capture has traditionally required costly studio recording. Recent works consider an in-the-wild smartphone-based setup; however, their model-based inverse rendering paradigm struggles with the complex dise…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
