@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T21:57:27-04:00",
+  "updated_at": "2026-05-16T09:43:52-04:00",
   "mode": "trending",
   "items": [
     {
@@ -12,7 +12,7 @@
         "huggingface_trending:dataset"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TuringEnterprises/Open-MM-RL.png",
-      "score": 78.0,
+      "score": 79.2,
       "category": "Projects & Models",
       "action": "Read",
       "summary": "Dataset Summary\n\t\n\nOpen-MM-RL is a multimodal STEM reasoning dataset covering Physics, Mathematics, Biology, and Chemistry. It is designed for problems that require models to interpret visual information and combine it with step-by-step…",
@@ -20,21 +20,21 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 3k↓ · 103♡",
+      "rationale": "Trending across 1 platform · 5k↓ · 106♡",
       "dimensions": {},
-      "popularity_score": 78.0,
+      "popularity_score": 79.2,
       "popularity_signals": {
-        "hf_downloads": 3849.0,
-        "hf_likes": 103.0,
-        "hf_trending_score": 85.0
+        "hf_downloads": 5217.0,
+        "hf_likes": 106.0,
+        "hf_trending_score": 88.0
       },
       "popularity_contributions": {
-        "hf_downloads": 24.77,
-        "hf_likes": 23.22,
-        "hf_trending_score": 53.45
+        "hf_downloads": 25.68,
+        "hf_likes": 23.36,
+        "hf_trending_score": 53.86
       },
       "n_platforms": 1,
-      "trending_caption": "3k↓ · 103♡"
+      "trending_caption": "5k↓ · 106♡"
     },
     {
       "id": "hash:0e8d7d119ae7a8cc",
@@ -71,7 +71,7 @@
       "id": "hash:b48940b96db331dc",
       "title": "onyx-dot-app/onyx",
       "link": "https://github.com/onyx-dot-app/onyx",
-      "date": "2026-05-16T01:55:47Z",
+      "date": "2026-05-16T10:31:41Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -89,8 +89,8 @@
       "dimensions": {},
       "popularity_score": 63.3,
       "popularity_signals": {
-        "github_stars": 29433.0,
-        "github_forks": 3971.0
+        "github_stars": 29438.0,
+        "github_forks": 3976.0
       },
       "popularity_contributions": {
         "github_stars": 82.32
@@ -120,8 +120,8 @@
       "dimensions": {},
       "popularity_score": 63.3,
       "popularity_signals": {
-        "github_stars": 29514.0,
-        "github_forks": 7286.0
+        "github_stars": 29519.0,
+        "github_forks": 7288.0
       },
       "popularity_contributions": {
         "github_stars": 82.34
@@ -133,7 +133,7 @@
       "id": "hash:2c0207e6b7d3d809",
       "title": "ComposioHQ/composio",
       "link": "https://github.com/ComposioHQ/composio",
-      "date": "2026-05-16T01:30:25Z",
+      "date": "2026-05-16T05:59:52Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -151,11 +151,11 @@
       "dimensions": {},
       "popularity_score": 63.1,
       "popularity_signals": {
-        "github_stars": 28261.0,
+        "github_stars": 28279.0,
         "github_forks": 4564.0
       },
       "popularity_contributions": {
-        "github_stars": 81.99
+        "github_stars": 82.0
       },
       "n_platforms": 1,
       "trending_caption": "28k★"
@@ -182,7 +182,7 @@
       "dimensions": {},
       "popularity_score": 63.1,
       "popularity_signals": {
-        "github_stars": 28378.0,
+        "github_stars": 28381.0,
         "github_forks": 8872.0
       },
       "popularity_contributions": {
@@ -195,7 +195,7 @@
       "id": "hash:2b1622c80544af02",
       "title": "sgl-project/sglang",
       "link": "https://github.com/sgl-project/sglang",
-      "date": "2026-05-16T01:54:38Z",
+      "date": "2026-05-16T12:58:41Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -213,8 +213,8 @@
       "dimensions": {},
       "popularity_score": 63.0,
       "popularity_signals": {
-        "github_stars": 27856.0,
-        "github_forks": 5931.0
+        "github_stars": 27866.0,
+        "github_forks": 5940.0
       },
       "popularity_contributions": {
         "github_stars": 81.88
@@ -244,7 +244,7 @@
       "dimensions": {},
       "popularity_score": 63.0,
       "popularity_signals": {
-        "github_stars": 28042.0,
+        "github_stars": 28045.0,
         "github_forks": 7097.0
       },
       "popularity_contributions": {
@@ -275,11 +275,11 @@
       "dimensions": {},
       "popularity_score": 63.0,
       "popularity_signals": {
-        "github_stars": 27910.0,
+        "github_stars": 27914.0,
         "github_forks": 4602.0
       },
       "popularity_contributions": {
-        "github_stars": 81.89
+        "github_stars": 81.9
       },
       "n_platforms": 1,
       "trending_caption": "27k★"
@@ -306,11 +306,11 @@
       "dimensions": {},
       "popularity_score": 62.9,
       "popularity_signals": {
-        "github_stars": 27283.0,
-        "github_forks": 2775.0
+        "github_stars": 27303.0,
+        "github_forks": 2779.0
       },
       "popularity_contributions": {
-        "github_stars": 81.71
+        "github_stars": 81.72
       },
       "n_platforms": 1,
       "trending_caption": "27k★"
@@ -337,8 +337,8 @@
       "dimensions": {},
       "popularity_score": 62.9,
       "popularity_signals": {
-        "github_stars": 27345.0,
-        "github_forks": 3290.0
+        "github_stars": 27354.0,
+        "github_forks": 3293.0
       },
       "popularity_contributions": {
         "github_stars": 81.73
@@ -347,10 +347,41 @@
       "trending_caption": "27k★"
     },
     {
+      "id": "hash:c20b7e9a9935183f",
+      "title": "Fosowl/agenticSeek",
+      "link": "https://github.com/Fosowl/agenticSeek",
+      "date": "2026-05-16T13:16:53Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/1f4ad7578653a4f1ea9fd2aa94c9282cc2373f64e37e1c8f62cb7e630fbbfa58/Fosowl/agenticSeek",
+      "score": 62.6,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 26k★",
+      "dimensions": {},
+      "popularity_score": 62.6,
+      "popularity_signals": {
+        "github_stars": 26354.0,
+        "github_forks": 2952.0
+      },
+      "popularity_contributions": {
+        "github_stars": 81.44
+      },
+      "n_platforms": 1,
+      "trending_caption": "26k★"
+    },
+    {
       "id": "hash:0f8fcf0b5953d33d",
       "title": "openai/openai-agents-python",
       "link": "https://github.com/openai/openai-agents-python",
-      "date": "2026-05-16T01:04:23Z",
+      "date": "2026-05-16T02:37:31Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -368,8 +399,8 @@
       "dimensions": {},
       "popularity_score": 62.6,
       "popularity_signals": {
-        "github_stars": 26337.0,
-        "github_forks": 4036.0
+        "github_stars": 26344.0,
+        "github_forks": 4039.0
       },
       "popularity_contributions": {
         "github_stars": 81.43
@@ -381,7 +412,7 @@
       "id": "hash:924d5db653e75771",
       "title": "mlflow/mlflow",
       "link": "https://github.com/mlflow/mlflow",
-      "date": "2026-05-15T20:55:26Z",
+      "date": "2026-05-16T13:07:16Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -399,8 +430,8 @@
       "dimensions": {},
       "popularity_score": 62.5,
       "popularity_signals": {
-        "github_stars": 25957.0,
-        "github_forks": 5734.0
+        "github_stars": 25959.0,
+        "github_forks": 5740.0
       },
       "popularity_contributions": {
         "github_stars": 81.31
@@ -440,6 +471,37 @@
       "trending_caption": "25k★"
     },
     {
+      "id": "hash:b1c661c4825f2ee9",
+      "title": "shap/shap",
+      "link": "https://github.com/shap/shap",
+      "date": "2026-05-16T08:02:18Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/6cd5b2dcb4b986741007677e7cb72c043912086f643dcdd9036da93b45924482/shap/shap",
+      "score": 62.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "A game theoretic approach to explain the output of any machine learning model.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 25k★",
+      "dimensions": {},
+      "popularity_score": 62.4,
+      "popularity_signals": {
+        "github_stars": 25429.0,
+        "github_forks": 3726.0
+      },
+      "popularity_contributions": {
+        "github_stars": 81.15
+      },
+      "n_platforms": 1,
+      "trending_caption": "25k★"
+    },
+    {
       "id": "hash:d1f9d3d4f12c4fd3",
       "title": "deepset-ai/haystack",
       "link": "https://github.com/deepset-ai/haystack",
@@ -461,42 +523,11 @@
       "dimensions": {},
       "popularity_score": 62.4,
       "popularity_signals": {
-        "github_stars": 25239.0,
+        "github_stars": 25246.0,
         "github_forks": 2784.0
       },
       "popularity_contributions": {
         "github_stars": 81.09
-      },
-      "n_platforms": 1,
-      "trending_caption": "25k★"
-    },
-    {
-      "id": "hash:b1c661c4825f2ee9",
-      "title": "shap/shap",
-      "link": "https://github.com/shap/shap",
-      "date": "2026-05-13T19:40:36Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/6cd5b2dcb4b986741007677e7cb72c043912086f643dcdd9036da93b45924482/shap/shap",
-      "score": 62.4,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "A game theoretic approach to explain the output of any machine learning model.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 25k★",
-      "dimensions": {},
-      "popularity_score": 62.4,
-      "popularity_signals": {
-        "github_stars": 25426.0,
-        "github_forks": 3726.0
-      },
-      "popularity_contributions": {
-        "github_stars": 81.15
       },
       "n_platforms": 1,
       "trending_caption": "25k★"
@@ -536,7 +567,7 @@
       "id": "hash:4ee68de0f3ced2ea",
       "title": "harvard-edge/cs249r_book",
       "link": "https://github.com/harvard-edge/cs249r_book",
-      "date": "2026-05-16T01:43:01Z",
+      "date": "2026-05-16T02:02:06Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -554,7 +585,7 @@
       "dimensions": {},
       "popularity_score": 62.1,
       "popularity_signals": {
-        "github_stars": 24184.0,
+        "github_stars": 24189.0,
         "github_forks": 2894.0
       },
       "popularity_contributions": {
@@ -567,7 +598,7 @@
       "id": "hash:b1058518d80001e8",
       "title": "PaddlePaddle/Paddle",
       "link": "https://github.com/PaddlePaddle/Paddle",
-      "date": "2026-05-15T07:24:26Z",
+      "date": "2026-05-16T04:11:26Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -585,7 +616,7 @@
       "dimensions": {},
       "popularity_score": 62.0,
       "popularity_signals": {
-        "github_stars": 23888.0,
+        "github_stars": 23889.0,
         "github_forks": 5989.0
       },
       "popularity_contributions": {
@@ -647,8 +678,8 @@
       "dimensions": {},
       "popularity_score": 61.9,
       "popularity_signals": {
-        "github_stars": 23231.0,
-        "github_forks": 4422.0
+        "github_stars": 23233.0,
+        "github_forks": 4423.0
       },
       "popularity_contributions": {
         "github_stars": 80.43
@@ -678,8 +709,8 @@
       "dimensions": {},
       "popularity_score": 61.7,
       "popularity_signals": {
-        "github_stars": 22777.0,
-        "github_forks": 3092.0
+        "github_stars": 22781.0,
+        "github_forks": 3093.0
       },
       "popularity_contributions": {
         "github_stars": 80.27
@@ -710,7 +741,7 @@
       "popularity_score": 61.4,
       "popularity_signals": {
         "github_stars": 21514.0,
-        "github_forks": 3199.0
+        "github_forks": 3201.0
       },
       "popularity_contributions": {
         "github_stars": 79.81
@@ -722,7 +753,7 @@
       "id": "hash:942b8d414815ae15",
       "title": "onnx/onnx",
       "link": "https://github.com/onnx/onnx",
-      "date": "2026-05-15T18:28:14Z",
+      "date": "2026-05-16T13:29:38Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -740,7 +771,7 @@
       "dimensions": {},
       "popularity_score": 61.2,
       "popularity_signals": {
-        "github_stars": 20834.0,
+        "github_stars": 20835.0,
         "github_forks": 3929.0
       },
       "popularity_contributions": {
@@ -802,8 +833,8 @@
       "dimensions": {},
       "popularity_score": 61.0,
       "popularity_signals": {
-        "github_stars": 20151.0,
-        "github_forks": 2859.0
+        "github_stars": 20165.0,
+        "github_forks": 2861.0
       },
       "popularity_contributions": {
         "github_stars": 79.29
@@ -833,7 +864,7 @@
       "dimensions": {},
       "popularity_score": 60.8,
       "popularity_signals": {
-        "github_stars": 19406.0,
+        "github_stars": 19408.0,
         "github_forks": 4451.0
       },
       "popularity_contributions": {
@@ -916,6 +947,37 @@
       "category": "Papers",
       "action": "Discuss with student",
       "summary": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks. Here, we show that the quality of th…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 60.8,
+      "popularity_signals": {
+        "recent_paper": 7.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 79.02
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.15190",
+      "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO",
+      "link": "https://arxiv.org/abs/2605.15190v1",
+      "date": "2026-05-14T17:59:30Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv",
+        "huggingface_papers"
+      ],
+      "image_url": "https://arxiv.org/html/2605.15190v1/x1.png",
+      "score": 60.8,
+      "category": "Papers",
+      "action": "Discuss with student",
+      "summary": "Causal autoregressive video diffusion models support real-time streaming generation by extrapolating future chunks from previously generated content. Distilling such generators from high-fidelity bidirectional teachers yields competitive…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
@@ -1296,7 +1358,7 @@
       "id": "hash:9569f5463495b661",
       "title": "cvat-ai/cvat",
       "link": "https://github.com/cvat-ai/cvat",
-      "date": "2026-05-15T20:29:55Z",
+      "date": "2026-05-16T09:49:37Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1314,7 +1376,7 @@
       "dimensions": {},
       "popularity_score": 59.5,
       "popularity_signals": {
-        "github_stars": 15852.0,
+        "github_stars": 15854.0,
         "github_forks": 3679.0
       },
       "popularity_contributions": {
@@ -1345,7 +1407,7 @@
       "dimensions": {},
       "popularity_score": 59.2,
       "popularity_signals": {
-        "github_stars": 15086.0,
+        "github_stars": 15090.0,
         "github_forks": 20779.0
       },
       "popularity_contributions": {
@@ -1376,8 +1438,8 @@
       "dimensions": {},
       "popularity_score": 59.2,
       "popularity_signals": {
-        "github_stars": 15135.0,
-        "github_forks": 905.0
+        "github_stars": 15136.0,
+        "github_forks": 906.0
       },
       "popularity_contributions": {
         "github_stars": 77.0
@@ -1438,7 +1500,7 @@
       "dimensions": {},
       "popularity_score": 58.8,
       "popularity_signals": {
-        "github_stars": 14204.0,
+        "github_stars": 14206.0,
         "github_forks": 906.0
       },
       "popularity_contributions": {
@@ -1469,7 +1531,7 @@
       "dimensions": {},
       "popularity_score": 58.7,
       "popularity_signals": {
-        "github_stars": 13959.0,
+        "github_stars": 13961.0,
         "github_forks": 4564.0
       },
       "popularity_contributions": {
@@ -1500,7 +1562,7 @@
       "dimensions": {},
       "popularity_score": 58.7,
       "popularity_signals": {
-        "github_stars": 13811.0,
+        "github_stars": 13813.0,
         "github_forks": 1282.0
       },
       "popularity_contributions": {
@@ -1513,7 +1575,7 @@
       "id": "hash:f0fe01b9989d7dcb",
       "title": "NVIDIA/TensorRT-LLM",
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
-      "date": "2026-05-15T23:59:16Z",
+      "date": "2026-05-16T11:40:29Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1531,11 +1593,11 @@
       "dimensions": {},
       "popularity_score": 58.6,
       "popularity_signals": {
-        "github_stars": 13651.0,
-        "github_forks": 2385.0
+        "github_stars": 13656.0,
+        "github_forks": 2386.0
       },
       "popularity_contributions": {
-        "github_stars": 76.17
+        "github_stars": 76.18
       },
       "n_platforms": 1,
       "trending_caption": "13k★"
@@ -1562,8 +1624,8 @@
       "dimensions": {},
       "popularity_score": 58.4,
       "popularity_signals": {
-        "github_stars": 13268.0,
-        "github_forks": 2129.0
+        "github_stars": 13270.0,
+        "github_forks": 2131.0
       },
       "popularity_contributions": {
         "github_stars": 75.95
@@ -1593,7 +1655,7 @@
       "dimensions": {},
       "popularity_score": 57.7,
       "popularity_signals": {
-        "github_stars": 11895.0,
+        "github_stars": 11897.0,
         "github_forks": 1341.0
       },
       "popularity_contributions": {
@@ -1606,7 +1668,7 @@
       "id": "hash:06f4b4c98b984db8",
       "title": "ludwig-ai/ludwig",
       "link": "https://github.com/ludwig-ai/ludwig",
-      "date": "2026-05-16T01:18:33Z",
+      "date": "2026-05-16T07:03:35Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1655,14 +1717,48 @@
       "dimensions": {},
       "popularity_score": 57.6,
       "popularity_signals": {
-        "github_stars": 11589.0,
+        "github_stars": 11593.0,
         "github_forks": 3628.0
       },
       "popularity_contributions": {
-        "github_stars": 74.86
+        "github_stars": 74.87
       },
       "n_platforms": 1,
       "trending_caption": "11k★"
+    },
+    {
+      "id": "hash:5e0050f363143fb1",
+      "title": "TeichAI/DeepSeek-v4-Pro-Agent (dataset)",
+      "link": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent",
+      "date": "2026-05-09T06:15:11.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TeichAI/DeepSeek-v4-Pro-Agent.png",
+      "score": 57.6,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "This dataset was generated using teich by TeichAI \nPrepare these datasets for supervised fine-tuning in just a few lines of code — see the Conversion section below.\n\n\t\n\t\t\n\t\n\t\n\t\tDeepSeek v4 Pro Agent Traces\n\t\n\nThis directory contains raw…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 2k↓ · 20♡",
+      "dimensions": {},
+      "popularity_score": 57.6,
+      "popularity_signals": {
+        "hf_downloads": 2212.0,
+        "hf_likes": 20.0,
+        "hf_trending_score": 20.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 23.11,
+        "hf_likes": 15.22,
+        "hf_trending_score": 36.53
+      },
+      "n_platforms": 1,
+      "trending_caption": "2k↓ · 20♡"
     },
     {
       "id": "hash:2a71499ec06e0985",
@@ -1696,6 +1792,40 @@
       "trending_caption": "11k★"
     },
     {
+      "id": "hash:40fe8bd6d49f603d",
+      "title": "blanchon/opencs2_dataset (dataset)",
+      "link": "https://huggingface.co/datasets/blanchon/opencs2_dataset",
+      "date": "2026-05-08T00:14:06.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/blanchon/opencs2_dataset.png",
+      "score": 57.4,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "OpenCS2 - POV Renders\n\t\n\n\n\nBrowse with the OpenCS2 Viewer - every match, map and round, with all 10 player POVs synced on one timeline.\n\nTick-aligned Counter-Strike 2 POV training clips, rendered from\nblanchon/cs2_dataset_demo. Each row…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 20k↓ · 13♡",
+      "dimensions": {},
+      "popularity_score": 57.4,
+      "popularity_signals": {
+        "hf_downloads": 20467.0,
+        "hf_likes": 13.0,
+        "hf_trending_score": 13.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 29.78,
+        "hf_likes": 13.2,
+        "hf_trending_score": 31.67
+      },
+      "n_platforms": 1,
+      "trending_caption": "20k↓ · 13♡"
+    },
+    {
       "id": "hash:934e668cb52b3780",
       "title": "wandb/wandb",
       "link": "https://github.com/wandb/wandb",
@@ -1717,7 +1847,7 @@
       "dimensions": {},
       "popularity_score": 57.3,
       "popularity_signals": {
-        "github_stars": 11069.0,
+        "github_stars": 11070.0,
         "github_forks": 870.0
       },
       "popularity_contributions": {
@@ -1748,7 +1878,7 @@
       "dimensions": {},
       "popularity_score": 57.3,
       "popularity_signals": {
-        "github_stars": 11023.0,
+        "github_stars": 11024.0,
         "github_forks": 1266.0
       },
       "popularity_contributions": {
@@ -1761,7 +1891,7 @@
       "id": "hash:2ab8f1b4337fefda",
       "title": "cupy/cupy",
       "link": "https://github.com/cupy/cupy",
-      "date": "2026-05-15T17:06:07Z",
+      "date": "2026-05-16T11:10:53Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -1787,37 +1917,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "10k★"
-    },
-    {
-      "id": "arxiv:2605.15190",
-      "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO",
-      "link": "https://arxiv.org/abs/2605.15190",
-      "date": "2026-05-13T20:00:00.000Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv",
-        "huggingface_papers"
-      ],
-      "image_url": "https://arxiv.org/html/2605.15190v1/x1.png",
-      "score": 56.9,
-      "category": "Papers",
-      "action": "Discuss with student",
-      "summary": "Causal autoregressive video diffusion models support real-time streaming generation by extrapolating future chunks from previously generated content. Distilling such generators from high-fidelity bidirectional teachers yields competitive…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 56.9,
-      "popularity_signals": {
-        "recent_paper": 6.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 73.94
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.14352",
@@ -3393,7 +3492,7 @@
       "id": "hash:20748d7b31be8a72",
       "title": "rapidsai/cudf",
       "link": "https://github.com/rapidsai/cudf",
-      "date": "2026-05-16T00:32:36Z",
+      "date": "2026-05-16T09:08:54Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3411,7 +3510,7 @@
       "dimensions": {},
       "popularity_score": 56.4,
       "popularity_signals": {
-        "github_stars": 9629.0,
+        "github_stars": 9630.0,
         "github_forks": 1054.0
       },
       "popularity_contributions": {
@@ -3442,7 +3541,7 @@
       "dimensions": {},
       "popularity_score": 56.4,
       "popularity_signals": {
-        "github_stars": 9510.0,
+        "github_stars": 9512.0,
         "github_forks": 943.0
       },
       "popularity_contributions": {
@@ -3452,75 +3551,10 @@
       "trending_caption": "9k★"
     },
     {
-      "id": "hash:40fe8bd6d49f603d",
-      "title": "blanchon/opencs2_dataset (dataset)",
-      "link": "https://huggingface.co/datasets/blanchon/opencs2_dataset",
-      "date": "2026-05-08T00:14:06.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/blanchon/opencs2_dataset.png",
-      "score": 56.4,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "OpenCS2 - POV Renders\n\t\n\n\n\nBrowse with the OpenCS2 Viewer - every match, map and round, with all 10 player POVs synced on one timeline.\n\nTick-aligned Counter-Strike 2 POV training clips, rendered from\nblanchon/cs2_dataset_demo. Each row…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 20k↓ · 12♡",
-      "dimensions": {},
-      "popularity_score": 56.4,
-      "popularity_signals": {
-        "hf_downloads": 20182.0,
-        "hf_likes": 12.0,
-        "hf_trending_score": 12.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 29.74,
-        "hf_likes": 12.82,
-        "hf_trending_score": 30.78
-      },
-      "n_platforms": 1,
-      "trending_caption": "20k↓ · 12♡"
-    },
-    {
-      "id": "hash:1eb4648a5511a41e",
-      "title": "OpenPipe/ART",
-      "link": "https://github.com/OpenPipe/ART",
-      "date": "2026-05-16T01:51:52Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://repository-images.githubusercontent.com/946178371/65bbf38b-59ea-4662-832b-2a7aa30ea51c",
-      "score": 56.3,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more!",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 9k★",
-      "dimensions": {},
-      "popularity_score": 56.3,
-      "popularity_signals": {
-        "github_stars": 9458.0,
-        "github_forks": 832.0
-      },
-      "popularity_contributions": {
-        "github_stars": 73.24
-      },
-      "n_platforms": 1,
-      "trending_caption": "9k★"
-    },
-    {
       "id": "hash:624cf534c44c85fa",
       "title": "replicate/cog",
       "link": "https://github.com/replicate/cog",
-      "date": "2026-05-15T19:53:00Z",
+      "date": "2026-05-16T12:23:17Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3548,10 +3582,41 @@
       "trending_caption": "9k★"
     },
     {
+      "id": "hash:1eb4648a5511a41e",
+      "title": "OpenPipe/ART",
+      "link": "https://github.com/OpenPipe/ART",
+      "date": "2026-05-16T01:51:52Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/946178371/65bbf38b-59ea-4662-832b-2a7aa30ea51c",
+      "score": 56.3,
+      "category": "Projects & Models",
+      "action": "Discuss with student",
+      "summary": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more!",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 9k★",
+      "dimensions": {},
+      "popularity_score": 56.3,
+      "popularity_signals": {
+        "github_stars": 9459.0,
+        "github_forks": 832.0
+      },
+      "popularity_contributions": {
+        "github_stars": 73.24
+      },
+      "n_platforms": 1,
+      "trending_caption": "9k★"
+    },
+    {
       "id": "hash:8b5fa7f4e5284c5f",
       "title": "catboost/catboost",
       "link": "https://github.com/catboost/catboost",
-      "date": "2026-05-15T23:25:06Z",
+      "date": "2026-05-16T09:55:51Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3569,7 +3634,7 @@
       "dimensions": {},
       "popularity_score": 56.0,
       "popularity_signals": {
-        "github_stars": 8944.0,
+        "github_stars": 8945.0,
         "github_forks": 1288.0
       },
       "popularity_contributions": {
@@ -3610,40 +3675,6 @@
       "trending_caption": "8k★"
     },
     {
-      "id": "hash:5e0050f363143fb1",
-      "title": "TeichAI/DeepSeek-v4-Pro-Agent (dataset)",
-      "link": "https://huggingface.co/datasets/TeichAI/DeepSeek-v4-Pro-Agent",
-      "date": "2026-05-09T06:15:11.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/TeichAI/DeepSeek-v4-Pro-Agent.png",
-      "score": 55.7,
-      "category": "Projects & Models",
-      "action": "Discuss with student",
-      "summary": "This dataset was generated using teich by TeichAI \nPrepare these datasets for supervised fine-tuning in just a few lines of code — see the Conversion section below.\n\n\t\n\t\t\n\t\n\t\n\t\tDeepSeek v4 Pro Agent Traces\n\t\n\nThis directory contains raw…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 1k↓ · 19♡",
-      "dimensions": {},
-      "popularity_score": 55.7,
-      "popularity_signals": {
-        "hf_downloads": 1276.0,
-        "hf_likes": 19.0,
-        "hf_trending_score": 19.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 21.46,
-        "hf_likes": 14.98,
-        "hf_trending_score": 35.95
-      },
-      "n_platforms": 1,
-      "trending_caption": "1k↓ · 19♡"
-    },
-    {
       "id": "hash:bc045074e38e928b",
       "title": "LMCache/LMCache",
       "link": "https://github.com/LMCache/LMCache",
@@ -3678,7 +3709,7 @@
       "id": "hash:1bfa929801a2e14f",
       "title": "isaac-sim/IsaacLab",
       "link": "https://github.com/isaac-sim/IsaacLab",
-      "date": "2026-05-16T00:42:17Z",
+      "date": "2026-05-16T07:59:27Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -3696,11 +3727,11 @@
       "dimensions": {},
       "popularity_score": 54.6,
       "popularity_signals": {
-        "github_stars": 7170.0,
+        "github_stars": 7177.0,
         "github_forks": 3528.0
       },
       "popularity_contributions": {
-        "github_stars": 71.02
+        "github_stars": 71.03
       },
       "n_platforms": 1,
       "trending_caption": "7k★"
@@ -3727,11 +3758,42 @@
       "dimensions": {},
       "popularity_score": 53.2,
       "popularity_signals": {
-        "github_stars": 5685.0,
+        "github_stars": 5687.0,
         "github_forks": 453.0
       },
       "popularity_contributions": {
         "github_stars": 69.17
+      },
+      "n_platforms": 1,
+      "trending_caption": "5k★"
+    },
+    {
+      "id": "hash:2f7ea8e15068c4b4",
+      "title": "NVlabs/Sana",
+      "link": "https://github.com/NVlabs/Sana",
+      "date": "2026-05-16T05:33:08Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/fe8f4025b7d697b3122ea93519ff96321a1d8dd8a47bb1b2b7ba538dc3b43416/NVlabs/Sana",
+      "score": 53.0,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 5k★",
+      "dimensions": {},
+      "popularity_score": 53.0,
+      "popularity_signals": {
+        "github_stars": 5482.0,
+        "github_forks": 366.0
+      },
+      "popularity_contributions": {
+        "github_stars": 68.88
       },
       "n_platforms": 1,
       "trending_caption": "5k★"
@@ -3758,42 +3820,11 @@
       "dimensions": {},
       "popularity_score": 53.0,
       "popularity_signals": {
-        "github_stars": 5526.0,
+        "github_stars": 5529.0,
         "github_forks": 563.0
       },
       "popularity_contributions": {
         "github_stars": 68.94
-      },
-      "n_platforms": 1,
-      "trending_caption": "5k★"
-    },
-    {
-      "id": "hash:2f7ea8e15068c4b4",
-      "title": "NVlabs/Sana",
-      "link": "https://github.com/NVlabs/Sana",
-      "date": "2026-05-15T04:50:15Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/fe8f4025b7d697b3122ea93519ff96321a1d8dd8a47bb1b2b7ba538dc3b43416/NVlabs/Sana",
-      "score": 52.8,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 5k★",
-      "dimensions": {},
-      "popularity_score": 52.8,
-      "popularity_signals": {
-        "github_stars": 5281.0,
-        "github_forks": 350.0
-      },
-      "popularity_contributions": {
-        "github_stars": 68.58
       },
       "n_platforms": 1,
       "trending_caption": "5k★"
@@ -5156,34 +5187,35 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.11517",
-      "title": "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading",
-      "link": "https://arxiv.org/abs/2605.11517v1",
-      "date": "2026-05-12T04:39:58Z",
-      "type": "Paper",
+      "id": "hash:88163fa077a98238",
+      "title": "cactus-compute/cactus",
+      "link": "https://github.com/cactus-compute/cactus",
+      "date": "2026-05-16T10:36:58Z",
+      "type": "Project",
       "sources": [
-        "arxiv"
+        "github_trending"
       ],
-      "image_url": "https://arxiv.org/html/2605.11517v1/x1.png",
-      "score": 52.4,
-      "category": "Papers",
+      "image_url": "https://opengraph.githubassets.com/6552e53b2fac72eef7efce8585084ffff8a65a5076ac74fdff0da3190818dfd6/cactus-compute/cactus",
+      "score": 52.3,
+      "category": "Projects & Models",
       "action": "Track",
-      "summary": "Full-graph training of graph neural networks (GNNs) is widely used as it enables direct validation of algorithmic improvements by preserving complete neighborhood information. However, it typically requires multiple GPUs or servers, incu…",
+      "summary": "Low-latency AI engine for mobile devices & wearables",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "daily paper update",
+      "rationale": "Trending across 1 platform · 4k★",
       "dimensions": {},
-      "popularity_score": 52.4,
+      "popularity_score": 52.3,
       "popularity_signals": {
-        "recent_paper": 5.0
+        "github_stars": 4938.0,
+        "github_forks": 384.0
       },
       "popularity_contributions": {
-        "recent_paper": 68.09
+        "github_stars": 68.04
       },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
+      "n_platforms": 1,
+      "trending_caption": "4k★"
     },
     {
       "id": "hash:29f2087d2d616a01",
@@ -5207,42 +5239,11 @@
       "dimensions": {},
       "popularity_score": 52.3,
       "popularity_signals": {
-        "github_stars": 4913.0,
+        "github_stars": 4914.0,
         "github_forks": 533.0
       },
       "popularity_contributions": {
         "github_stars": 68.0
-      },
-      "n_platforms": 1,
-      "trending_caption": "4k★"
-    },
-    {
-      "id": "hash:88163fa077a98238",
-      "title": "cactus-compute/cactus",
-      "link": "https://github.com/cactus-compute/cactus",
-      "date": "2026-05-15T17:08:48Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/6552e53b2fac72eef7efce8585084ffff8a65a5076ac74fdff0da3190818dfd6/cactus-compute/cactus",
-      "score": 52.3,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "Low-latency AI engine for mobile devices & wearables",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 4k★",
-      "dimensions": {},
-      "popularity_score": 52.3,
-      "popularity_signals": {
-        "github_stars": 4926.0,
-        "github_forks": 384.0
-      },
-      "popularity_contributions": {
-        "github_stars": 68.02
       },
       "n_platforms": 1,
       "trending_caption": "4k★"
@@ -5403,6 +5404,40 @@
       "trending_caption": "3k★"
     },
     {
+      "id": "hash:d624b21d6e9a8f40",
+      "title": "Exgentic/agent-llm-traces (dataset)",
+      "link": "https://huggingface.co/datasets/Exgentic/agent-llm-traces",
+      "date": "2026-05-07T13:59:42.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/Exgentic/agent-llm-traces.png",
+      "score": 50.1,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Multi-Benchmark LLM Agent Traces\n\t\n\nA comprehensive dataset of OpenTelemetry traces capturing LLM inference behavior across multiple agent frameworks, benchmarks, and model providers. This dataset enables research into LLM performance an…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 1k↓ · 12♡",
+      "dimensions": {},
+      "popularity_score": 50.1,
+      "popularity_signals": {
+        "hf_downloads": 1331.0,
+        "hf_likes": 12.0,
+        "hf_trending_score": 12.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 21.58,
+        "hf_likes": 12.82,
+        "hf_trending_score": 30.78
+      },
+      "n_platforms": 1,
+      "trending_caption": "1k↓ · 12♡"
+    },
+    {
       "id": "hash:f4459fe473327cb5",
       "title": "Farama-Foundation/HighwayEnv",
       "link": "https://github.com/Farama-Foundation/HighwayEnv",
@@ -5432,6 +5467,38 @@
       },
       "n_platforms": 1,
       "trending_caption": "3k★"
+    },
+    {
+      "id": "hash:8d82931d8fda4c71",
+      "title": "I believe there are entire companies right now under AI psychosis",
+      "link": "https://twitter.com/mitchellh/status/2055380239711457578",
+      "date": "2026-05-15T20:26:47+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 49.2,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 1521pts",
+      "dimensions": {},
+      "popularity_score": 49.2,
+      "popularity_signals": {
+        "hn_points": 1521.0,
+        "hn_comments": 785.0
+      },
+      "popularity_contributions": {
+        "hn_points": 43.97,
+        "hn_comments": 20.0
+      },
+      "n_platforms": 1,
+      "trending_caption": "1521pts"
     },
     {
       "id": "hash:7d2be04490818461",
@@ -5468,6 +5535,39 @@
       "trending_caption": "231↓ · 15♡"
     },
     {
+      "id": "hash:996a8664bfa949ee",
+      "title": "cbensimon/wan2-2-fp8da-aoti-preview2 (space)",
+      "link": "https://huggingface.co/spaces/cbensimon/wan2-2-fp8da-aoti-preview2",
+      "date": "2026-05-12T10:08:17.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:space"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/cbensimon/wan2-2-fp8da-aoti-preview2.png",
+      "score": 47.4,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 38♡",
+      "dimensions": {},
+      "popularity_score": 47.4,
+      "popularity_signals": {
+        "hf_downloads": 0.0,
+        "hf_likes": 38.0,
+        "hf_trending_score": 36.0
+      },
+      "popularity_contributions": {
+        "hf_likes": 18.32,
+        "hf_trending_score": 43.33
+      },
+      "n_platforms": 1,
+      "trending_caption": "38♡"
+    },
+    {
       "id": "hash:ad5b9737c99c0d34",
       "title": "MRPT/mrpt",
       "link": "https://github.com/MRPT/mrpt",
@@ -5497,6 +5597,36 @@
       },
       "n_platforms": 1,
       "trending_caption": "2k★"
+    },
+    {
+      "id": "arxiv:2605.11517",
+      "title": "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading",
+      "link": "https://arxiv.org/abs/2605.11517v1",
+      "date": "2026-05-12T04:39:58Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.11517v1/x1.png",
+      "score": 47.0,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Full-graph training of graph neural networks (GNNs) is widely used as it enables direct validation of algorithmic improvements by preserving complete neighborhood information. However, it typically requires multiple GPUs or servers, incu…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 47.0,
+      "popularity_signals": {
+        "recent_paper": 4.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 61.16
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.11333",
@@ -6981,40 +7111,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "hash:d624b21d6e9a8f40",
-      "title": "Exgentic/agent-llm-traces (dataset)",
-      "link": "https://huggingface.co/datasets/Exgentic/agent-llm-traces",
-      "date": "2026-05-07T13:59:42.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/Exgentic/agent-llm-traces.png",
-      "score": 47.0,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "Multi-Benchmark LLM Agent Traces\n\t\n\nA comprehensive dataset of OpenTelemetry traces capturing LLM inference behavior across multiple agent frameworks, benchmarks, and model providers. This dataset enables research into LLM performance an…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 344↓ · 12♡",
-      "dimensions": {},
-      "popularity_score": 47.0,
-      "popularity_signals": {
-        "hf_downloads": 344.0,
-        "hf_likes": 12.0,
-        "hf_trending_score": 12.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 17.53,
-        "hf_likes": 12.82,
-        "hf_trending_score": 30.78
-      },
-      "n_platforms": 1,
-      "trending_caption": "344↓ · 12♡"
-    },
-    {
       "id": "hash:9b59e342fd2e9610",
       "title": "LMD0311/Awesome-World-Model",
       "link": "https://github.com/LMD0311/Awesome-World-Model",
@@ -7036,14 +7132,48 @@
       "dimensions": {},
       "popularity_score": 46.9,
       "popularity_signals": {
-        "github_stars": 2043.0,
+        "github_stars": 2044.0,
         "github_forks": 80.0
       },
       "popularity_contributions": {
-        "github_stars": 60.98
+        "github_stars": 60.99
       },
       "n_platforms": 1,
       "trending_caption": "2k★"
+    },
+    {
+      "id": "hash:f973f39dba66efed",
+      "title": "alibaba-multimodal-industrial-ai/IndustryBench (dataset)",
+      "link": "https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench",
+      "date": "2026-05-12T06:15:11.000Z",
+      "type": "Project",
+      "sources": [
+        "huggingface_trending:dataset"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/alibaba-multimodal-industrial-ai/IndustryBench.png",
+      "score": 46.1,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "IndustryBench: Probing the Industrial Knowledge Boundaries of LLMs\n\t\n\n💻Github | 📝Paper\nIndustryBench is a multi-lingual benchmark for evaluating the industrial domain knowledge of large language models. It comprises 2,049 expert-curated…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 91↓ · 15♡",
+      "dimensions": {},
+      "popularity_score": 46.1,
+      "popularity_signals": {
+        "hf_downloads": 91.0,
+        "hf_likes": 15.0,
+        "hf_trending_score": 14.0
+      },
+      "popularity_contributions": {
+        "hf_downloads": 13.57,
+        "hf_likes": 13.86,
+        "hf_trending_score": 32.5
+      },
+      "n_platforms": 1,
+      "trending_caption": "91↓ · 15♡"
     },
     {
       "id": "hash:b4fb5cfa5bd435de",
@@ -7067,11 +7197,11 @@
       "dimensions": {},
       "popularity_score": 45.6,
       "popularity_signals": {
-        "github_stars": 1651.0,
+        "github_stars": 1653.0,
         "github_forks": 52.0
       },
       "popularity_contributions": {
-        "github_stars": 59.28
+        "github_stars": 59.29
       },
       "n_platforms": 1,
       "trending_caption": "1k★"
@@ -7139,109 +7269,10 @@
       "trending_caption": "1k★"
     },
     {
-      "id": "hash:996a8664bfa949ee",
-      "title": "cbensimon/wan2-2-fp8da-aoti-preview2 (space)",
-      "link": "https://huggingface.co/spaces/cbensimon/wan2-2-fp8da-aoti-preview2",
-      "date": "2026-05-12T10:08:17.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:space"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/cbensimon/wan2-2-fp8da-aoti-preview2.png",
-      "score": 45.1,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 32♡",
-      "dimensions": {},
-      "popularity_score": 45.1,
-      "popularity_signals": {
-        "hf_downloads": 0.0,
-        "hf_likes": 32.0,
-        "hf_trending_score": 30.0
-      },
-      "popularity_contributions": {
-        "hf_likes": 17.48,
-        "hf_trending_score": 41.21
-      },
-      "n_platforms": 1,
-      "trending_caption": "32♡"
-    },
-    {
-      "id": "hash:f973f39dba66efed",
-      "title": "alibaba-multimodal-industrial-ai/IndustryBench (dataset)",
-      "link": "https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench",
-      "date": "2026-05-12T06:15:11.000Z",
-      "type": "Project",
-      "sources": [
-        "huggingface_trending:dataset"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/alibaba-multimodal-industrial-ai/IndustryBench.png",
-      "score": 44.6,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "IndustryBench: Probing the Industrial Knowledge Boundaries of LLMs\n\t\n\n💻Github | 📝Paper\nIndustryBench is a multi-lingual benchmark for evaluating the industrial domain knowledge of large language models. It comprises 2,049 expert-curated…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 69↓ · 14♡",
-      "dimensions": {},
-      "popularity_score": 44.6,
-      "popularity_signals": {
-        "hf_downloads": 69.0,
-        "hf_likes": 14.0,
-        "hf_trending_score": 13.0
-      },
-      "popularity_contributions": {
-        "hf_downloads": 12.75,
-        "hf_likes": 13.54,
-        "hf_trending_score": 31.67
-      },
-      "n_platforms": 1,
-      "trending_caption": "69↓ · 14♡"
-    },
-    {
-      "id": "hash:8d82931d8fda4c71",
-      "title": "I believe there are entire companies right now under AI psychosis",
-      "link": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "date": "2026-05-15T20:26:47+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "",
-      "score": 44.5,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 811pts",
-      "dimensions": {},
-      "popularity_score": 44.5,
-      "popularity_signals": {
-        "hn_points": 811.0,
-        "hn_comments": 351.0
-      },
-      "popularity_contributions": {
-        "hn_points": 40.2,
-        "hn_comments": 17.59
-      },
-      "n_platforms": 1,
-      "trending_caption": "811pts"
-    },
-    {
       "id": "hash:c663f10bd199d6a7",
       "title": "hanruihua/ir-sim",
       "link": "https://github.com/hanruihua/ir-sim",
-      "date": "2026-05-15T10:06:22Z",
+      "date": "2026-05-16T13:30:31Z",
       "type": "Project",
       "sources": [
         "github_trending"
@@ -7286,19 +7317,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 747pts",
+      "rationale": "Trending across 1 platform · 751pts",
       "dimensions": {},
       "popularity_score": 42.9,
       "popularity_signals": {
-        "hn_points": 747.0,
+        "hn_points": 751.0,
         "hn_comments": 208.0
       },
       "popularity_contributions": {
-        "hn_points": 39.7,
+        "hn_points": 39.74,
         "hn_comments": 16.03
       },
       "n_platforms": 1,
-      "trending_caption": "747pts"
+      "trending_caption": "751pts"
     },
     {
       "id": "hash:7f3c449a6ca2d148",
@@ -7349,19 +7380,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 531pts",
+      "rationale": "Trending across 1 platform · 541pts",
       "dimensions": {},
       "popularity_score": 42.2,
       "popularity_signals": {
-        "hn_points": 531.0,
+        "hn_points": 541.0,
         "hn_comments": 302.0
       },
       "popularity_contributions": {
-        "hn_points": 37.66,
+        "hn_points": 37.77,
         "hn_comments": 17.14
       },
       "n_platforms": 1,
-      "trending_caption": "531pts"
+      "trending_caption": "541pts"
     },
     {
       "id": "hash:26ae8d2a5f448bd4",
@@ -7373,7 +7404,7 @@
         "hackernews:AI"
       ],
       "image_url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/macos-egpu.jpg",
-      "score": 42.0,
+      "score": 42.1,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -7381,19 +7412,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 674pts",
+      "rationale": "Trending across 1 platform · 684pts",
       "dimensions": {},
-      "popularity_score": 42.0,
+      "popularity_score": 42.1,
       "popularity_signals": {
-        "hn_points": 674.0,
-        "hn_comments": 172.0
+        "hn_points": 684.0,
+        "hn_comments": 176.0
       },
       "popularity_contributions": {
-        "hn_points": 39.09,
-        "hn_comments": 15.46
+        "hn_points": 39.18,
+        "hn_comments": 15.53
       },
       "n_platforms": 1,
-      "trending_caption": "674pts"
+      "trending_caption": "684pts"
     },
     {
       "id": "hash:e6088d4413eec755",
@@ -7427,6 +7458,38 @@
       "trending_caption": "897★"
     },
     {
+      "id": "hash:84f27edabb65983e",
+      "title": "Amazon workers under pressure to up their AI usage are making up tasks",
+      "link": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
+      "date": "2026-05-15T13:28:55+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 41.1,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 363pts",
+      "dimensions": {},
+      "popularity_score": 41.1,
+      "popularity_signals": {
+        "hn_points": 363.0,
+        "hn_comments": 403.0
+      },
+      "popularity_contributions": {
+        "hn_points": 35.38,
+        "hn_comments": 18.0
+      },
+      "n_platforms": 1,
+      "trending_caption": "363pts"
+    },
+    {
       "id": "hash:ec9ce925f1e7ab36",
       "title": "sipeed/MaixPy",
       "link": "https://github.com/sipeed/MaixPy",
@@ -7436,7 +7499,7 @@
         "github_trending"
       ],
       "image_url": "https://opengraph.githubassets.com/43f2e59bfb28b6b941ec0ac447a3f57b75d9047ebd77984aef9b881ea9007480/sipeed/MaixPy",
-      "score": 40.6,
+      "score": 40.7,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "Easily create AI projects with Python on edge device",
@@ -7444,18 +7507,18 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 738★",
+      "rationale": "Trending across 1 platform · 739★",
       "dimensions": {},
-      "popularity_score": 40.6,
+      "popularity_score": 40.7,
       "popularity_signals": {
-        "github_stars": 738.0,
+        "github_stars": 739.0,
         "github_forks": 110.0
       },
       "popularity_contributions": {
-        "github_stars": 52.84
+        "github_stars": 52.85
       },
       "n_platforms": 1,
-      "trending_caption": "738★"
+      "trending_caption": "739★"
     },
     {
       "id": "arxiv:2605.10664",
@@ -8756,7 +8819,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.10912.png",
+      "image_url": "https://arxiv.org/html/2605.10912v1/x1.png",
       "score": 40.5,
       "category": "Papers",
       "action": "Track",
@@ -8786,7 +8849,7 @@
       "sources": [
         "huggingface_papers"
       ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.13880.png",
+      "image_url": "https://arxiv.org/html/2605.13880v1/x1.png",
       "score": 40.5,
       "category": "Papers",
       "action": "Track",
@@ -8902,38 +8965,6 @@
       "trending_caption": "237pts"
     },
     {
-      "id": "hash:84f27edabb65983e",
-      "title": "Amazon workers under pressure to up their AI usage are making up tasks",
-      "link": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
-      "date": "2026-05-15T13:28:55+00:00",
-      "type": "News",
-      "sources": [
-        "hackernews:AI"
-      ],
-      "image_url": "",
-      "score": 40.1,
-      "category": "News & Industry",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 317pts",
-      "dimensions": {},
-      "popularity_score": 40.1,
-      "popularity_signals": {
-        "hn_points": 317.0,
-        "hn_comments": 346.0
-      },
-      "popularity_contributions": {
-        "hn_points": 34.57,
-        "hn_comments": 17.55
-      },
-      "n_platforms": 1,
-      "trending_caption": "317pts"
-    },
-    {
       "id": "hash:949a13b8d0503f56",
       "title": "fluxions-ai/vui",
       "link": "https://github.com/fluxions-ai/vui",
@@ -8942,8 +8973,8 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
-      "score": 39.9,
+      "image_url": "https://opengraph.githubassets.com/534ae8dd4bb8680e41b49215b5bb97f9618914bbbc718e6d9fad54af194bb9f2/fluxions-ai/vui",
+      "score": 40.0,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "Real-time voice assistant — WebRTC streaming, faster-whisper ASR, local LLM, Vui Nano (300M) TTS. OpenAI Realtime API compatible. Voice cloning, barge-in, ~9× realtime on a 4090. Apache 2.0.",
@@ -8951,18 +8982,18 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 657★",
+      "rationale": "Trending across 1 platform · 659★",
       "dimensions": {},
-      "popularity_score": 39.9,
+      "popularity_score": 40.0,
       "popularity_signals": {
-        "github_stars": 657.0,
+        "github_stars": 659.0,
         "github_forks": 64.0
       },
       "popularity_contributions": {
-        "github_stars": 51.91
+        "github_stars": 51.94
       },
       "n_platforms": 1,
-      "trending_caption": "657★"
+      "trending_caption": "659★"
     },
     {
       "id": "hash:67c628a66d41110f",
@@ -8973,7 +9004,7 @@
       "sources": [
         "github_trending"
       ],
-      "image_url": "",
+      "image_url": "https://opengraph.githubassets.com/2ca0ac2bdd0d3e04075217e2090e01b6c1668e166335e3a740239be3736a793d/Little-Podi/Collaborative_Perception",
       "score": 39.4,
       "category": "Projects & Models",
       "action": "Track",
@@ -8982,18 +9013,18 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 602★",
+      "rationale": "Trending across 1 platform · 603★",
       "dimensions": {},
       "popularity_score": 39.4,
       "popularity_signals": {
-        "github_stars": 602.0,
+        "github_stars": 603.0,
         "github_forks": 64.0
       },
       "popularity_contributions": {
-        "github_stars": 51.22
+        "github_stars": 51.23
       },
       "n_platforms": 1,
-      "trending_caption": "602★"
+      "trending_caption": "603★"
     },
     {
       "id": "hash:e046c94f49a853db",
@@ -9132,8 +9163,8 @@
       "sources": [
         "hackernews:AI"
       ],
-      "image_url": "",
-      "score": 37.6,
+      "image_url": "https://image.theregister.com/5240796.jpg?imageId=5240796&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "score": 37.8,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9141,19 +9172,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 297pts",
+      "rationale": "Trending across 1 platform · 305pts",
       "dimensions": {},
-      "popularity_score": 37.6,
+      "popularity_score": 37.8,
       "popularity_signals": {
-        "hn_points": 297.0,
-        "hn_comments": 135.0
+        "hn_points": 305.0,
+        "hn_comments": 136.0
       },
       "popularity_contributions": {
-        "hn_points": 34.18,
-        "hn_comments": 14.74
+        "hn_points": 34.34,
+        "hn_comments": 14.76
       },
       "n_platforms": 1,
-      "trending_caption": "297pts"
+      "trending_caption": "305pts"
     },
     {
       "id": "hash:0e3ab0c0f3114d53",
@@ -9196,7 +9227,7 @@
         "hackernews:AI"
       ],
       "image_url": "",
-      "score": 37.0,
+      "score": 37.3,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9204,19 +9235,51 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 207pts",
+      "rationale": "Trending across 1 platform · 218pts",
       "dimensions": {},
-      "popularity_score": 37.0,
+      "popularity_score": 37.3,
       "popularity_signals": {
-        "hn_points": 207.0,
-        "hn_comments": 213.0
+        "hn_points": 218.0,
+        "hn_comments": 214.0
       },
       "popularity_contributions": {
-        "hn_points": 32.03,
-        "hn_comments": 16.1
+        "hn_points": 32.33,
+        "hn_comments": 16.11
       },
       "n_platforms": 1,
-      "trending_caption": "207pts"
+      "trending_caption": "218pts"
+    },
+    {
+      "id": "hash:06616cf2a6534f4c",
+      "title": "Frontier AI has broken the open CTF format",
+      "link": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "date": "2026-05-16T07:01:55+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:AI"
+      ],
+      "image_url": "",
+      "score": 36.7,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 211pts",
+      "dimensions": {},
+      "popularity_score": 36.7,
+      "popularity_signals": {
+        "hn_points": 211.0,
+        "hn_comments": 177.0
+      },
+      "popularity_contributions": {
+        "hn_points": 32.14,
+        "hn_comments": 15.55
+      },
+      "n_platforms": 1,
+      "trending_caption": "211pts"
     },
     {
       "id": "hash:fd19e7193499e3e0",
@@ -9228,7 +9291,7 @@
         "hackernews:AI"
       ],
       "image_url": "",
-      "score": 36.6,
+      "score": 36.7,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9236,19 +9299,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 190pts",
+      "rationale": "Trending across 1 platform · 193pts",
       "dimensions": {},
-      "popularity_score": 36.6,
+      "popularity_score": 36.7,
       "popularity_signals": {
-        "hn_points": 190.0,
-        "hn_comments": 207.0
+        "hn_points": 193.0,
+        "hn_comments": 212.0
       },
       "popularity_contributions": {
-        "hn_points": 31.51,
-        "hn_comments": 16.01
+        "hn_points": 31.61,
+        "hn_comments": 16.08
       },
       "n_platforms": 1,
-      "trending_caption": "190pts"
+      "trending_caption": "193pts"
     },
     {
       "id": "hash:5755f1b522d9cc2c",
@@ -9292,7 +9355,7 @@
         "hackernews:AI"
       ],
       "image_url": "",
-      "score": 36.2,
+      "score": 36.4,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9300,19 +9363,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 258pts",
+      "rationale": "Trending across 1 platform · 261pts",
       "dimensions": {},
-      "popularity_score": 36.2,
+      "popularity_score": 36.4,
       "popularity_signals": {
-        "hn_points": 258.0,
-        "hn_comments": 94.0
+        "hn_points": 261.0,
+        "hn_comments": 102.0
       },
       "popularity_contributions": {
-        "hn_points": 33.34,
-        "hn_comments": 13.66
+        "hn_points": 33.41,
+        "hn_comments": 13.9
       },
       "n_platforms": 1,
-      "trending_caption": "258pts"
+      "trending_caption": "261pts"
     },
     {
       "id": "hash:33d451373dabc6f3",
@@ -9337,11 +9400,11 @@
       "popularity_score": 36.2,
       "popularity_signals": {
         "hn_points": 196.0,
-        "hn_comments": 163.0
+        "hn_comments": 165.0
       },
       "popularity_contributions": {
         "hn_points": 31.7,
-        "hn_comments": 15.3
+        "hn_comments": 15.34
       },
       "n_platforms": 1,
       "trending_caption": "196pts"
@@ -9356,7 +9419,7 @@
         "hackernews:AI"
       ],
       "image_url": "https://ca-times.brightspotcdn.com/dims4/default/2b5a390/2147483647/strip/true/crop/6015x3158+0+427/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faf%2F5f%2Fdbbf044c488da394716de14e67ea%2F2270407856.jpg",
-      "score": 35.7,
+      "score": 35.9,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9366,14 +9429,14 @@
       "student_project": "",
       "rationale": "Trending across 1 platform · 225pts",
       "dimensions": {},
-      "popularity_score": 35.7,
+      "popularity_score": 35.9,
       "popularity_signals": {
         "hn_points": 225.0,
-        "hn_comments": 103.0
+        "hn_comments": 111.0
       },
       "popularity_contributions": {
         "hn_points": 32.52,
-        "hn_comments": 13.93
+        "hn_comments": 14.16
       },
       "n_platforms": 1,
       "trending_caption": "225pts"
@@ -9388,7 +9451,7 @@
         "hackernews:LLM"
       ],
       "image_url": "",
-      "score": 35.6,
+      "score": 35.7,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "",
@@ -9396,19 +9459,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 278pts",
+      "rationale": "Trending across 1 platform · 282pts",
       "dimensions": {},
-      "popularity_score": 35.6,
+      "popularity_score": 35.7,
       "popularity_signals": {
-        "hn_points": 278.0,
-        "hn_comments": 63.0
+        "hn_points": 282.0,
+        "hn_comments": 65.0
       },
       "popularity_contributions": {
-        "hn_points": 33.79,
-        "hn_comments": 12.48
+        "hn_points": 33.87,
+        "hn_comments": 12.57
       },
       "n_platforms": 1,
-      "trending_caption": "278pts"
+      "trending_caption": "282pts"
     },
     {
       "id": "hash:bb3e2c7f15891209",
@@ -9452,7 +9515,7 @@
         "hackernews:robotics"
       ],
       "image_url": "",
-      "score": 32.6,
+      "score": 32.7,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9462,14 +9525,14 @@
       "student_project": "",
       "rationale": "Trending across 1 platform · 168pts",
       "dimensions": {},
-      "popularity_score": 32.6,
+      "popularity_score": 32.7,
       "popularity_signals": {
         "hn_points": 168.0,
-        "hn_comments": 47.0
+        "hn_comments": 50.0
       },
       "popularity_contributions": {
         "hn_points": 30.78,
-        "hn_comments": 11.61
+        "hn_comments": 11.8
       },
       "n_platforms": 1,
       "trending_caption": "168pts"
@@ -9484,7 +9547,7 @@
         "hackernews:LLM"
       ],
       "image_url": "",
-      "score": 32.3,
+      "score": 32.5,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -9492,19 +9555,50 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 104pts",
+      "rationale": "Trending across 1 platform · 106pts",
       "dimensions": {},
-      "popularity_score": 32.3,
+      "popularity_score": 32.5,
       "popularity_signals": {
-        "hn_points": 104.0,
-        "hn_comments": 109.0
+        "hn_points": 106.0,
+        "hn_comments": 111.0
       },
       "popularity_contributions": {
-        "hn_points": 27.92,
-        "hn_comments": 14.1
+        "hn_points": 28.04,
+        "hn_comments": 14.16
       },
       "n_platforms": 1,
-      "trending_caption": "104pts"
+      "trending_caption": "106pts"
+    },
+    {
+      "id": "hash:f1daf7f75aaf75cf",
+      "title": "xybrid-ai/xybrid",
+      "link": "https://github.com/xybrid-ai/xybrid",
+      "date": "2026-05-16T12:27:44Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/1115684492/c582fae3-17e7-48fd-80dd-4690a8ea3b97",
+      "score": 32.2,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Build apps powered by on-device AI",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 186★",
+      "dimensions": {},
+      "popularity_score": 32.2,
+      "popularity_signals": {
+        "github_stars": 186.0,
+        "github_forks": 21.0
+      },
+      "popularity_contributions": {
+        "github_stars": 41.85
+      },
+      "n_platforms": 1,
+      "trending_caption": "186★"
     },
     {
       "id": "hash:1afa8854a07a318d",
@@ -9537,37 +9631,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "127pts"
-    },
-    {
-      "id": "hash:f1daf7f75aaf75cf",
-      "title": "xybrid-ai/xybrid",
-      "link": "https://github.com/xybrid-ai/xybrid",
-      "date": "2026-05-15T17:10:35Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://repository-images.githubusercontent.com/1115684492/c582fae3-17e7-48fd-80dd-4690a8ea3b97",
-      "score": 32.1,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "Build apps powered by on-device AI",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 183★",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "github_stars": 183.0,
-        "github_forks": 21.0
-      },
-      "popularity_contributions": {
-        "github_stars": 41.72
-      },
-      "n_platforms": 1,
-      "trending_caption": "183★"
     },
     {
       "id": "arxiv:2605.09153",
@@ -10260,96 +10323,6 @@
       "trending_caption": "daily paper update"
     },
     {
-      "id": "arxiv:2605.08804",
-      "title": "Constraint-Aware Diffusion Priors for High-Fidelity and Versatile Quadruped Locomotion",
-      "link": "https://arxiv.org/abs/2605.08804v1",
-      "date": "2026-05-09T08:47:49Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.08804v1/Figure/teaser_3.jpeg",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Reinforcement learning combined with imitation learning has significantly advanced biomimetic quadrupedal locomotion. However, scaling these frameworks to massive, multi-source datasets exposes fundamental bottlenecks. First, traditional…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.08663",
-      "title": "CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition",
-      "link": "https://arxiv.org/abs/2605.08663v1",
-      "date": "2026-05-09T04:02:40Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.08663v1/x1.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "We propose CAST, a dual-stream architecture that utilizes channel-aware spatial transfer learning for isolated sign language recognition addressing the challenges of magnitude-only 60~GHz radar Range-Time Maps (RTM). The proposed framewo…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.08613",
-      "title": "Generalization Bounds of Emergent Communications for Agentic AI Networking",
-      "link": "https://arxiv.org/abs/2605.08613v1",
-      "date": "2026-05-09T02:15:34Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.08613v1/x1.png",
-      "score": 32.1,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "The evolution of 6G networking toward agentic AI networking (AgentNet) systems requires a shift from traditional data pipelines to task-aware, agentic AI-native communication solutions. Emergent communication, a novel communication parad…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 32.1,
-      "popularity_signals": {
-        "recent_paper": 2.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 41.75
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
       "id": "hash:fe2fcce773e8b827",
       "title": "scaleoutsystems/scaleout-client",
       "link": "https://github.com/scaleoutsystems/scaleout-client",
@@ -10462,19 +10435,82 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 122pts",
+      "rationale": "Trending across 1 platform · 123pts",
       "dimensions": {},
       "popularity_score": 31.5,
       "popularity_signals": {
-        "hn_points": 122.0,
+        "hn_points": 123.0,
         "hn_comments": 54.0
       },
       "popularity_contributions": {
-        "hn_points": 28.87,
+        "hn_points": 28.92,
         "hn_comments": 12.02
       },
       "n_platforms": 1,
-      "trending_caption": "122pts"
+      "trending_caption": "123pts"
+    },
+    {
+      "id": "hash:c7db62aa304c285a",
+      "title": "LLM Policy for Rust Compiler",
+      "link": "https://github.com/rust-lang/rust-forge/pull/1040",
+      "date": "2026-05-14T23:37:21+00:00",
+      "type": "Project",
+      "sources": [
+        "hackernews:LLM"
+      ],
+      "image_url": "",
+      "score": 31.4,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 98pts",
+      "dimensions": {},
+      "popularity_score": 31.4,
+      "popularity_signals": {
+        "hn_points": 98.0,
+        "hn_comments": 83.0
+      },
+      "popularity_contributions": {
+        "hn_points": 27.57,
+        "hn_comments": 13.29
+      },
+      "n_platforms": 1,
+      "trending_caption": "98pts"
+    },
+    {
+      "id": "hash:704b3371ef384f58",
+      "title": "facex-engine/facex",
+      "link": "https://github.com/facex-engine/facex",
+      "date": "2026-05-14T23:59:11Z",
+      "type": "Project",
+      "sources": [
+        "github_trending"
+      ],
+      "image_url": "https://opengraph.githubassets.com/2ac5f8060254248e1613d4cd971e3471d2afba4e1769798fb43a5899739a3ece/facex-engine/facex",
+      "score": 31.3,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "Full face stack that runs entirely in the browser. Detection, 576-point 3D mesh, recognition, anti-spoof, smile — all WebAssembly, zero server. Apache 2.0.",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 162★",
+      "dimensions": {},
+      "popularity_score": 31.3,
+      "popularity_signals": {
+        "github_stars": 162.0,
+        "github_forks": 22.0
+      },
+      "popularity_contributions": {
+        "github_stars": 40.75
+      },
+      "n_platforms": 1,
+      "trending_caption": "162★"
     },
     {
       "id": "hash:eb43d65b3aa35fbf",
@@ -10507,69 +10543,6 @@
       },
       "n_platforms": 1,
       "trending_caption": "141pts"
-    },
-    {
-      "id": "hash:704b3371ef384f58",
-      "title": "facex-engine/facex",
-      "link": "https://github.com/facex-engine/facex",
-      "date": "2026-05-14T23:59:11Z",
-      "type": "Project",
-      "sources": [
-        "github_trending"
-      ],
-      "image_url": "https://opengraph.githubassets.com/2ac5f8060254248e1613d4cd971e3471d2afba4e1769798fb43a5899739a3ece/facex-engine/facex",
-      "score": 31.2,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "Full face stack that runs entirely in the browser. Detection, 576-point 3D mesh, recognition, anti-spoof, smile — all WebAssembly, zero server. Apache 2.0.",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 157★",
-      "dimensions": {},
-      "popularity_score": 31.2,
-      "popularity_signals": {
-        "github_stars": 157.0,
-        "github_forks": 21.0
-      },
-      "popularity_contributions": {
-        "github_stars": 40.5
-      },
-      "n_platforms": 1,
-      "trending_caption": "157★"
-    },
-    {
-      "id": "hash:c7db62aa304c285a",
-      "title": "LLM Policy for Rust Compiler",
-      "link": "https://github.com/rust-lang/rust-forge/pull/1040",
-      "date": "2026-05-14T23:37:21+00:00",
-      "type": "Project",
-      "sources": [
-        "hackernews:LLM"
-      ],
-      "image_url": "",
-      "score": 31.2,
-      "category": "Projects & Models",
-      "action": "Track",
-      "summary": "",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "Trending across 1 platform · 95pts",
-      "dimensions": {},
-      "popularity_score": 31.2,
-      "popularity_signals": {
-        "hn_points": 95.0,
-        "hn_comments": 81.0
-      },
-      "popularity_contributions": {
-        "hn_points": 27.39,
-        "hn_comments": 13.22
-      },
-      "n_platforms": 1,
-      "trending_caption": "95pts"
     },
     {
       "id": "hash:37f5ef3bbdcfa560",
@@ -10608,13 +10581,13 @@
       "id": "hash:26b961151fe12c47",
       "title": "jegly/OfflineLLM",
       "link": "https://github.com/jegly/OfflineLLM",
-      "date": "2026-05-08T05:24:28Z",
+      "date": "2026-05-16T07:42:25Z",
       "type": "Project",
       "sources": [
         "github_trending"
       ],
       "image_url": "https://opengraph.githubassets.com/9bea4ec649664c0df7536d996548dbf0e776759b96624e29bea7983aa291a1ec/jegly/OfflineLLM",
-      "score": 30.1,
+      "score": 30.2,
       "category": "Projects & Models",
       "action": "Track",
       "summary": "A privacy-first Android chat app that runs large language models entirely on-device. No internet, no cloud, no tracking. Built with Kotlin, Jetpack Compose, and llama.cpp with optimized ARM NEON/SVE inference.",
@@ -10622,18 +10595,50 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 133★",
+      "rationale": "Trending across 1 platform · 135★",
       "dimensions": {},
-      "popularity_score": 30.1,
+      "popularity_score": 30.2,
       "popularity_signals": {
-        "github_stars": 133.0,
+        "github_stars": 135.0,
         "github_forks": 8.0
       },
       "popularity_contributions": {
-        "github_stars": 39.18
+        "github_stars": 39.3
       },
       "n_platforms": 1,
-      "trending_caption": "133★"
+      "trending_caption": "135★"
+    },
+    {
+      "id": "hash:8720996ccc5e07af",
+      "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+      "link": "https://github.com/chiennv2000/orthrus",
+      "date": "2026-05-15T22:38:58+00:00",
+      "type": "Project",
+      "sources": [
+        "hackernews:chip"
+      ],
+      "image_url": "",
+      "score": 30.2,
+      "category": "Projects & Models",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 141pts",
+      "dimensions": {},
+      "popularity_score": 30.2,
+      "popularity_signals": {
+        "hn_points": 141.0,
+        "hn_comments": 23.0
+      },
+      "popularity_contributions": {
+        "hn_points": 29.73,
+        "hn_comments": 9.53
+      },
+      "n_platforms": 1,
+      "trending_caption": "141pts"
     },
     {
       "id": "hash:cbef6b50c52f6329",
@@ -10835,7 +10840,7 @@
         "hackernews:GPU inference"
       ],
       "image_url": "",
-      "score": 26.7,
+      "score": 27.0,
       "category": "News & Industry",
       "action": "Track",
       "summary": "",
@@ -10843,19 +10848,19 @@
       "connection": "",
       "proposal_angle": "",
       "student_project": "",
-      "rationale": "Trending across 1 platform · 53pts",
+      "rationale": "Trending across 1 platform · 56pts",
       "dimensions": {},
-      "popularity_score": 26.7,
+      "popularity_score": 27.0,
       "popularity_signals": {
-        "hn_points": 53.0,
-        "hn_comments": 35.0
+        "hn_points": 56.0,
+        "hn_comments": 36.0
       },
       "popularity_contributions": {
-        "hn_points": 23.93,
-        "hn_comments": 10.75
+        "hn_points": 24.26,
+        "hn_comments": 10.83
       },
       "n_platforms": 1,
-      "trending_caption": "53pts"
+      "trending_caption": "56pts"
     },
     {
       "id": "hash:7f5b720aeb123925",
@@ -10921,6 +10926,128 @@
       },
       "n_platforms": 1,
       "trending_caption": "59pts"
+    },
+    {
+      "id": "hash:d761abbbcde4c249",
+      "title": "Show HN: Vibe Coding a $20k /Year Enterprise Logistics Platform",
+      "link": "https://trmnl.com/blog/vibe-coding-shiphero",
+      "date": "2026-05-15T13:51:39+00:00",
+      "type": "News",
+      "sources": [
+        "hackernews:chip"
+      ],
+      "image_url": "",
+      "score": 20.3,
+      "category": "News & Industry",
+      "action": "Track",
+      "summary": "",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "Trending across 1 platform · 30pts",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "hn_points": 30.0,
+        "hn_comments": 6.0
+      },
+      "popularity_contributions": {
+        "hn_points": 20.6,
+        "hn_comments": 5.84
+      },
+      "n_platforms": 1,
+      "trending_caption": "30pts"
+    },
+    {
+      "id": "arxiv:2605.08804",
+      "title": "Constraint-Aware Diffusion Priors for High-Fidelity and Versatile Quadruped Locomotion",
+      "link": "https://arxiv.org/abs/2605.08804v1",
+      "date": "2026-05-09T08:47:49Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.08804v1/Figure/teaser_3.jpeg",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "Reinforcement learning combined with imitation learning has significantly advanced biomimetic quadrupedal locomotion. However, scaling these frameworks to massive, multi-source datasets exposes fundamental bottlenecks. First, traditional…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.08663",
+      "title": "CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition",
+      "link": "https://arxiv.org/abs/2605.08663v1",
+      "date": "2026-05-09T04:02:40Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.08663v1/x1.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "We propose CAST, a dual-stream architecture that utilizes channel-aware spatial transfer learning for isolated sign language recognition addressing the challenges of magnitude-only 60~GHz radar Range-Time Maps (RTM). The proposed framewo…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
+    },
+    {
+      "id": "arxiv:2605.08613",
+      "title": "Generalization Bounds of Emergent Communications for Agentic AI Networking",
+      "link": "https://arxiv.org/abs/2605.08613v1",
+      "date": "2026-05-09T02:15:34Z",
+      "type": "Paper",
+      "sources": [
+        "arxiv"
+      ],
+      "image_url": "https://arxiv.org/html/2605.08613v1/x1.png",
+      "score": 20.3,
+      "category": "Papers",
+      "action": "Track",
+      "summary": "The evolution of 6G networking toward agentic AI networking (AgentNet) systems requires a shift from traditional data pipelines to task-aware, agentic AI-native communication solutions. Emergent communication, a novel communication parad…",
+      "why_matters": "",
+      "connection": "",
+      "proposal_angle": "",
+      "student_project": "",
+      "rationale": "daily paper update",
+      "dimensions": {},
+      "popularity_score": 20.3,
+      "popularity_signals": {
+        "recent_paper": 1.0
+      },
+      "popularity_contributions": {
+        "recent_paper": 26.34
+      },
+      "n_platforms": 0,
+      "trending_caption": "daily paper update"
     },
     {
       "id": "arxiv:2605.08529",
@@ -12226,156 +12353,6 @@
       "category": "Papers",
       "action": "Track",
       "summary": "Driver cognitive distraction is a major cause of road collisions and remains difficult to detect. Unlike manual or visual distraction, cognitive distraction is diverted by thoughts unrelated to driving, even when the driver appears visua…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07574",
-      "title": "PolarVLM: Bridging the Semantic-Physical Gap in Vision-Language Models",
-      "link": "https://arxiv.org/abs/2605.07574v1",
-      "date": "2026-05-08T10:43:54Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07574v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Mainstream vision-language models (VLMs) fundamentally struggle with severe optical ambiguities, such as reflections and transparent objects, due to the inherent limitations of standard RGB inputs. While polarization imaging captures pol…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07370",
-      "title": "MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation",
-      "link": "https://arxiv.org/abs/2605.07370v1",
-      "date": "2026-05-08T07:27:10Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07370v1/assets/multivehiclefleet.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "V2X can warn an autonomous vehicle about hazards beyond line-of-sight, but it also brings uncertainty: messages may be delayed, dropped, or even forged. Meanwhile, map knowledge may change during a trip, forcing the vehicle to replan und…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07264",
-      "title": "Sat3R: Satellite DSM Reconstruction via RPC-Aware Depth Fine-tuning",
-      "link": "https://arxiv.org/abs/2605.07264v1",
-      "date": "2026-05-08T05:29:55Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07264v1/figs/teaser_ffd.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Accurate Digital Surface Model (DSM) reconstruction from satellite imagery is critical for applications such as disaster response, urban planning, and large-scale geographic mapping. Existing approaches face a fundamental trade-off: opti…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07227",
-      "title": "Physics Aware Representation Learning on Electronic Charge Density for Materials Property Prediction",
-      "link": "https://arxiv.org/abs/2605.07227v1",
-      "date": "2026-05-08T04:26:05Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07227v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "The fundamental quantity governing the mechanical and thermodynamic properties of a crystalline solid is its electronic charge density. Yet, its direct use for the rapid prediction of materials properties remains challenging due to its h…",
-      "why_matters": "",
-      "connection": "",
-      "proposal_angle": "",
-      "student_project": "",
-      "rationale": "daily paper update",
-      "dimensions": {},
-      "popularity_score": 20.3,
-      "popularity_signals": {
-        "recent_paper": 1.0
-      },
-      "popularity_contributions": {
-        "recent_paper": 26.34
-      },
-      "n_platforms": 0,
-      "trending_caption": "daily paper update"
-    },
-    {
-      "id": "arxiv:2605.07146",
-      "title": "UniV2D: Bridging Visual Restoration and Semantic Perception for Underwater Salient Object Detection",
-      "link": "https://arxiv.org/abs/2605.07146v1",
-      "date": "2026-05-08T02:31:45Z",
-      "type": "Paper",
-      "sources": [
-        "arxiv"
-      ],
-      "image_url": "https://arxiv.org/html/2605.07146v1/x1.png",
-      "score": 20.3,
-      "category": "Papers",
-      "action": "Track",
-      "summary": "Underwater salient object detection (USOD) plays a vital role in marine vision tasks but remains fundamentally challenging due to severe visual degradation, such as selective absorption and medium scattering. Conventional pipelines typic…",
       "why_matters": "",
       "connection": "",
       "proposal_angle": "",
