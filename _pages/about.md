@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 # subtitle: <a href='#'>University of Michigan</a>.
-subtitle: <a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a>
+subtitle: <a href="mailto:liangkai0722@gmail.com">liangkai0722@gmail.com</a>
 
 profile:
   align: right
