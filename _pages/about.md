@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-# subtitle: <a href='#'>University of Michigan</a>.
-subtitle: <a href="mailto:liangkai.liu@ttu.edu">liangkai.liu@ttu.edu</a>
+subtitle: Assistant Professor in Computer Science <br> liangkai.liu@ttu.edu">liangkai.liu@ttu.edu</a>
 
 profile:
   align: right
@@ -11,10 +10,10 @@ profile:
   image_circular: true # crops the image to make it circular
   social: true # includes social icons at the bottom of the page
   # more_info: >
-  #   <p><strong>Research Fellow</strong></p>
-  #   <p>Real-Time Computing Laboratory</p>
-  #   <p>University of Michigan</p>
-  #   <p><a href="mailto:liangkai@umich.edu">liangkai@umich.edu</a></p>
+  #   # <p><strong>Research Fellow</strong></p>
+  #   # <p>Real-Time Computing Laboratory</p>
+  #   # <p>University of Michigan</p>
+  #   <p><a href="mailto:liangkai.liu@ttu.edu">liangkai.liu@ttu.edu</a></p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
