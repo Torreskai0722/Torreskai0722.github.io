@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor in Computer Science <br> liangkai.liu@ttu.edu">liangkai.liu@ttu.edu</a>
+subtitle: Assistant Professor in Computer Science <br> <a href="mailto:liangkai.liu@ttu.edu">liangkai.liu@ttu.edu</a>
 
 profile:
   align: right
