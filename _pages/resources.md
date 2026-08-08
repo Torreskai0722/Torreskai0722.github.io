@@ -30,8 +30,6 @@ nav_order: 7
 - [Advice](https://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html) on research and writing
 - A [link](https://owl.purdue.edu/owl/general_writing/index.html) on writing
 - Advice for [writing papers](https://cse.hkust.edu.hk/~gchan/students/write.pdf) (from Prof. Ivan Stojmenovic)
-- Writing a [math paper](https://web.mit.edu/18.096/www/piiUJM2.pdf) (by Profs. Kleiman and Tesler)
-- Paper writing with [MS Words](https://cse.hkust.edu.hk/~gchan/students/write_Lionel.pdf) (by Prof. Lionel Ni)
 - Task of a [referee](https://spaf.cerias.purdue.edu/StudentInfo/review2.pdf) (good to know before you write a paper)
 
 **Academic career**
