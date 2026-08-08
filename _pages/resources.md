@@ -36,5 +36,3 @@ nav_order: 7
 
 - [Advice](https://people.eecs.berkeley.edu/~pattrsn/talks/nontech.html) from Professor David Patterson
 - Academic [life](http://www2.cs.arizona.edu/~rts/pubs/SIGMODRecordMar02.pdf)
-
-<small><em>List adapted from Prof. [Suining He](https://hesuining.weebly.com/)'s homepage.</em></small>
