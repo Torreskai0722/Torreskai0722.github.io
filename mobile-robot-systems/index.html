@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile Robot Systems — CS 4331/5331 · Fall 2026 · Texas Tech</title>
+<link rel="canonical" href="https://liangkai.org/mobile-robot-systems/">
+<meta name="description" content="Bridging robot learning and computing systems for robust, efficient autonomy. Build, deploy, and measure real autonomous robots — Jetson ground robots and Crazyflie drones. Texas Tech CS 4331/5331, Fall 2026, Tue/Thu 8:00–9:20 AM.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<style>
+:root{
+  color-scheme: light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --hair:#e1e0d9; --accent:#2a78d6; --accent-deep:#184f95;
+  --hero:#0e1726; --hero-ink:#f4f6f9; --hero-ink2:#b8c2d1;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;font-size:16px}
+a{color:var(--accent-deep)}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:10;background:rgba(14,23,38,.97);border-bottom:1px solid #1f2c44}
+nav .wrap{display:flex;gap:4px;align-items:center;overflow-x:auto;padding:0 12px}
+nav a{color:var(--hero-ink2);text-decoration:none;padding:11px 10px;font-size:14px;white-space:nowrap}
+nav a:hover{color:#fff}
+nav .brand{font-weight:700;color:#fff;margin-right:8px}
+header{background:linear-gradient(160deg,#0e1726 0%,#132441 55%,#173056 100%);color:var(--hero-ink);padding:56px 0 48px}
+.kicker{letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:#7fa8dc;font-weight:700;margin:0 0 10px}
+h1{font-size:clamp(30px,5.5vw,46px);line-height:1.08;margin:0 0 14px;font-weight:800}
+.tagline{font-size:clamp(16px,2.4vw,20px);color:var(--hero-ink2);max-width:56ch;margin:0 0 18px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--hero-ink2);font-size:14.5px;margin-bottom:26px}
+.meta strong{color:var(--hero-ink)}
+.cta{display:inline-block;border-radius:8px;padding:11px 18px;font-weight:700;text-decoration:none;margin:0 10px 10px 0}
+.cta.primary{background:var(--accent);color:#fff}
+.cta.primary:hover{background:#256abf}
+.cta.ghost{border:1.5px solid #55719d;color:var(--hero-ink)}
+.banner{background:#fff7df;border-bottom:1px solid #eadfae;color:#4a3d09;font-size:14.5px;padding:9px 0;text-align:center}
+section{padding:44px 0 10px}
+h2{font-size:26px;margin:0 0 6px}
+.sub{color:var(--ink2);margin:0 0 22px;max-width:72ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:18px 18px 14px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--ink2);font-size:14.5px}
+.card .tag{display:inline-block;font-size:12px;font-weight:700;color:var(--accent-deep);background:#e8f0fb;border-radius:20px;padding:2px 10px;margin-bottom:8px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:8px 0 6px}
+.tile{background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:16px 16px 12px}
+.tile .v{font-size:30px;font-weight:800;line-height:1.1}
+.tile .l{color:var(--ink2);font-size:13.5px;margin-top:4px}
+.gradebar{display:flex;height:34px;border-radius:6px;overflow:hidden;gap:2px;background:var(--page);margin:14px 0 10px}
+.gradebar span{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--ink2);margin-bottom:6px}
+.legend b{color:var(--ink);font-weight:600}
+.sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:7px;vertical-align:baseline}
+details{background:var(--surface);border:1px solid var(--hair);border-radius:10px;margin-bottom:12px;overflow:hidden}
+summary{cursor:pointer;padding:14px 18px;font-weight:700;font-size:16px;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary .when{color:var(--muted);font-weight:500;font-size:13.5px;white-space:nowrap}
+summary:hover{background:#f4f4f1}
+details[open] summary{border-bottom:1px solid var(--hair)}
+.tblwrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th{color:var(--muted);text-align:left;font-weight:600;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase}
+th,td{padding:9px 12px;border-bottom:1px solid var(--hair);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.n{color:var(--muted);white-space:nowrap}
+td .t{font-weight:600}
+td .d{color:var(--ink2)}
+.due{color:var(--accent-deep);font-weight:600;font-size:13px}
+.exam td{background:#fdf3e4}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.step{background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:18px}
+.step::before{counter-increment:s;content:"Lab " counter(s);font-size:12px;font-weight:800;color:var(--accent-deep);letter-spacing:.08em;text-transform:uppercase}
+.step h3{margin:6px 0}
+.step p{margin:0;color:var(--ink2);font-size:14.5px}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+footer{margin-top:52px;background:var(--hero);color:var(--hero-ink2);padding:30px 0 40px;font-size:14.5px}
+footer a{color:#9ec5f4}
+footer .wrap{display:grid;gap:6px}
+.fine{color:var(--muted);font-size:13px}
+@media (max-width:640px){ table{min-width:560px} }
+</style>
+</head>
+<body>
+
+<nav aria-label="Sections"><div class="wrap">
+<span class="brand">Mobile Robot Systems</span>
+<a href="#why">Why</a><a href="#projects">Projects</a><a href="#schedule">Schedule</a>
+<a href="#labs">Labs</a><a href="#hardware">Hardware</a><a href="#logistics">Register</a>
+</div></nav>
+
+<header><div class="wrap">
+<p class="kicker">Texas Tech University · Department of Computer Science · New for Fall 2026</p>
+<h1>Mobile Robot Systems</h1>
+<p class="tagline">Bridging <strong>robot learning</strong> and <strong>computing systems</strong> for
+robust, efficient autonomy — build an autonomous capability, make it fast and safe, and
+deploy it on a <strong>real robot</strong>.</p>
+<div class="meta">
+<span><strong>CS 4331 / CS 5331</strong> (dual-listed)</span>
+<span><strong>Tue &amp; Thu · 8:00–9:20 AM</strong></span>
+<span>Fall 2026 · 3 credits</span>
+<span>Instructor: <strong>Dr. Liangkai Liu</strong></span>
+</div>
+<a class="cta primary" href="#logistics">How to register</a>
+<a class="cta ghost" href="#schedule">See the full schedule</a>
+</div></header>
+
+<div class="banner"><strong>Seats open for Fall 2026.</strong> No robotics background assumed —
+come from <em>either</em> machine learning <em>or</em> systems. Register on Raiderlink before add/drop closes.</div>
+
+<main class="wrap">
+
+<section id="why">
+<h2>Why take this course</h2>
+<p class="sub">A policy that is brilliant in a notebook is useless on a robot if it can't meet the
+latency budget — and dangerous if it fails silently. This course lives on the seam where deployed
+autonomy actually succeeds or fails.</p>
+<div class="cards">
+<div class="card"><span class="tag">Real hardware</span><h3>End on a real robot</h3>
+<p>Every project develops sim-first, then deploys to Jetson-powered ground robots or Crazyflie
+micro-drones and measures the sim-to-real gap. "Does it actually work?" becomes a number.</p></div>
+<div class="card"><span class="tag">Two-way bridge</span><h3>ML or systems — not both</h3>
+<p>The course levels each side up on the other: the modular autonomy pipeline (sensing, perception,
+planning, control) for systems folks; real-time, edge, and inference systems for ML folks.</p></div>
+<div class="card"><span class="tag">Project-driven</span><h3>Build, measure, publish</h3>
+<p>No final exam. The capstone is a semester project — make an autonomy capability efficient
+<em>and</em> robust, then defend it with measurements in a workshop-style paper and talk.</p></div>
+</div>
+</section>
+
+<section id="glance">
+<h2>At a glance</h2>
+<div class="tiles">
+<div class="tile"><div class="v">28</div><div class="l">dated sessions over 15 weeks</div></div>
+<div class="tile"><div class="v">7</div><div class="l">robots — 4 Jetson ground robots + 3 Crazyflie drones</div></div>
+<div class="tile"><div class="v">8</div><div class="l">ready-made project directions (or propose your own)</div></div>
+<div class="tile"><div class="v">0</div><div class="l">final exams — final presentations instead</div></div>
+</div>
+<h3 style="margin:18px 0 4px;font-size:16px">Grading</h3>
+<div class="gradebar" role="img" aria-label="Grading split: project 35%, labs 30%, paper presentation 10%, paper critiques 10%, midterm 10%, in-class activities 5%">
+<span style="width:35%;background:var(--s1);border-radius:6px 0 0 6px" title="Course project — 35%"></span>
+<span style="width:30%;background:var(--s2)" title="Labs (3 × 10%) — 30%"></span>
+<span style="width:10%;background:var(--s3)" title="Paper presentation — 10%"></span>
+<span style="width:10%;background:var(--s4)" title="Written paper critiques — 10%"></span>
+<span style="width:10%;background:var(--s5)" title="Midterm exam — 10%"></span>
+<span style="width:5%;background:var(--s6);border-radius:0 6px 6px 0" title="In-class activities &amp; discussion — 5%"></span>
+</div>
+<div class="legend">
+<span><span class="sw" style="background:var(--s1)"></span><b>Project 35%</b></span>
+<span><span class="sw" style="background:var(--s2)"></span><b>Labs 30%</b></span>
+<span><span class="sw" style="background:var(--s3)"></span><b>Presentation 10%</b></span>
+<span><span class="sw" style="background:var(--s4)"></span><b>Critiques 10%</b></span>
+<span><span class="sw" style="background:var(--s5)"></span><b>Midterm 10%</b></span>
+<span><span class="sw" style="background:var(--s6)"></span><b>In-class 5%</b></span>
+</div>
+<p class="fine">Team model: CS 5331 students complete the project individually; CS 4331 students
+may form teams of 2–3 — the one difference between the sections.</p>
+</section>
+
+<section id="projects">
+<h2>What you'll build</h2>
+<p class="sub">Eight project directions — every one touches both sides of the bridge and ends with
+a hardware reality-check. Or propose your own.</p>
+<div class="cards">
+<div class="card"><h3>Anytime perception on a budget</h3><p>An early-exit / cascaded detector; map the
+accuracy–latency–energy frontier with calibrated confidence.</p></div>
+<div class="card"><h3>Guarded visuomotor policy</h3><p>A sim-trained driving policy plus an OOD detector
+and safe fallback, quantized to the control deadline. Induce OOD on the robot — does it catch it?</p></div>
+<div class="card"><h3>Adaptive edge offloading</h3><p>Split perception between robot and edge under
+replayed network traces; fail safe when the link degrades.</p></div>
+<div class="card"><h3>Reliable LiDAR localization</h3><p>2-D SLAM with a bounded-memory map and an
+integrity monitor that flags an unreliable pose; real drift vs. sim.</p></div>
+<div class="card"><h3>Compress a big model for the edge</h3><p>Distill / quantize a large vision model
+onto the Orin Nano within a frame-time budget; measure the accuracy and calibration cost.</p></div>
+<div class="card"><h3>Sim-to-real warmup study</h3><p>How a short, cheap on-robot adaptation phase closes
+the sim-to-real gap — the reality-check is the core of the project.</p></div>
+<div class="card"><h3>Collaborative perception</h3><p>Two robots — or a drone swarm — share detections
+over WiFi; accuracy gain vs. bandwidth cost, with graceful degradation.</p></div>
+<div class="card"><h3>Autonomy-stack measurement study</h3><p>Profile a ROS 2 pipeline on the Orin Nano
+under load; locate the efficiency and reliability bottlenecks.</p></div>
+</div>
+</section>
+
+<section id="schedule">
+<h2>Schedule</h2>
+<p class="sub">28 sessions, six arcs, every one dated (Tue/Thu 8:00–9:20 AM). Most sessions from
+Week 3 on end with a 20-minute student paper slot.</p>
+
+<details open>
+<summary>Arc 0 — Framing <span class="when">Week 1</span></summary>
+<div class="tblwrap"><table>
+<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
+<tr><td class="n">L1</td><td class="n">Tue Aug 25</td><td><span class="t">Bridging robot learning and computing systems.</span> <span class="d">The two communities; what robust, safe, efficient autonomy demands.</span></td><td class="due">Presentation sign-up opens</td></tr>
+<tr><td class="n">L2</td><td class="n">Thu Aug 27</td><td><span class="t">A tour of real end-to-end autonomous systems.</span> <span class="d">AV stacks, drones, manipulators — where trust and efficiency break.</span></td><td>Instructor models the paper slot</td></tr>
+</table></div>
+</details>
+
+<details>
+<summary>Arc 1 — Pillar I: How autonomy is built &amp; learned <span class="when">Weeks 2–5</span></summary>
+<div class="tblwrap"><table>
+<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
+<tr><td class="n">L3</td><td class="n">Tue Sep 1</td><td><span class="t">The modular autonomy pipeline.</span> <span class="d">Sense → perceive → plan → act; where learning enters.</span></td><td></td></tr>
+<tr><td class="n">L4</td><td class="n">Thu Sep 3</td><td><span class="t">Sensing and state estimation.</span> <span class="d">Cameras, LiDAR, IMU; KF/EKF; learned estimation.</span></td><td class="due">Lab 1 out</td></tr>
+<tr><td class="n">L5</td><td class="n">Tue Sep 8</td><td><span class="t">Perception I — localization &amp; mapping.</span> <span class="d">SLAM fundamentals.</span></td><td></td></tr>
+<tr><td class="n">L6</td><td class="n">Thu Sep 10</td><td><span class="t">Perception II — detection, segmentation, tracking.</span></td><td>YOLO · first student slot</td></tr>
+<tr><td class="n">L7</td><td class="n">Tue Sep 15</td><td><span class="t">Planning and navigation.</span> <span class="d">Motion planning; Nav2; learned planning.</span></td><td>Nav2 · <span class="due">group + topic due</span></td></tr>
+<tr><td class="n">L8</td><td class="n">Thu Sep 17</td><td><span class="t">Control, and learning for control.</span> <span class="d">PID → MPC; imitation learning; RL in brief.</span></td><td>Diffusion Policy</td></tr>
+<tr><td class="n">L9</td><td class="n">Tue Sep 22</td><td><span class="t">End-to-end &amp; foundation models vs. the modular stack.</span> <span class="d">VLAs — what E2E buys and costs.</span></td><td>RT-2 · <span class="due">Lab 1 due</span></td></tr>
+</table></div>
+</details>
+
+<details>
+<summary>Arc 2 — Pillar II: How robots compute <span class="when">Weeks 5–8</span></summary>
+<div class="tblwrap"><table>
+<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
+<tr><td class="n">L10</td><td class="n">Thu Sep 24</td><td><span class="t">Robot software systems.</span> <span class="d">ROS 2, the compute graph, execution.</span></td><td>ROS 2</td></tr>
+<tr><td class="n">L11</td><td class="n">Tue Sep 29</td><td><span class="t">Real-time systems for robots.</span> <span class="d">Deadlines, WCET, scheduling.</span></td><td>ROS 2 response-time · <span class="due">Lab 2 out</span></td></tr>
+<tr><td class="n">L12</td><td class="n">Thu Oct 1</td><td><span class="t">The robot compute platform.</span> <span class="d">CPU/GPU/NPU; power budgets; profiling the course Jetson.</span></td><td class="due">Proposal due</td></tr>
+<tr><td class="n">L13</td><td class="n">Tue Oct 6</td><td><span class="t">ML and inference systems.</span> <span class="d">How DNNs execute; runtimes and accelerators.</span></td><td>TVM</td></tr>
+<tr><td class="n">L14</td><td class="n">Thu Oct 8</td><td><span class="t">Edge, cloud, and connected robots.</span> <span class="d">Offloading trade-space; V2X; the data flywheel.</span></td><td>Neurosurgeon</td></tr>
+<tr class="exam"><td class="n">L15</td><td class="n">Tue Oct 13</td><td><span class="t">Midterm exam</span> <span class="d">— in class, covering both pillars.</span></td><td class="due">Lab 2 due</td></tr>
+</table></div>
+</details>
+
+<details>
+<summary>Arc 3 — Bridge I: Efficiency <span class="when">Weeks 8–10</span></summary>
+<div class="tblwrap"><table>
+<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
+<tr><td class="n">L16</td><td class="n">Thu Oct 15</td><td><span class="t">The efficiency gap.</span> <span class="d">A learned policy vs. the robot's budget; how to measure.</span></td><td></td></tr>
+<tr><td class="n">L17</td><td class="n">Tue Oct 20</td><td><span class="t">Making models fit.</span> <span class="d">Quantization, pruning, distillation.</span></td><td>Integer-only quantization · <span class="due">baseline due</span></td></tr>
+<tr><td class="n">L18</td><td class="n">Thu Oct 22</td><td><span class="t">Anytime and input-adaptive inference.</span> <span class="d">Cascades, early exit; the accuracy–latency–energy frontier.</span></td><td>BranchyNet · <span class="due">Lab 3 out</span></td></tr>
+<tr><td class="n">L19</td><td class="n">Tue Oct 27</td><td><span class="t">System-level efficiency.</span> <span class="d">Scheduling under deadlines; offloading on replayed traces.</span></td><td>D3</td></tr>
+<tr><td class="n">L20</td><td class="n">Thu Oct 29</td><td><span class="t">Project milestone presentations.</span></td><td class="due">Milestone</td></tr>
+</table></div>
+</details>
+
+<details>
+<summary>Arc 4 — Bridge II: Robust &amp; Safe Autonomy <span class="when">Weeks 11–13</span></summary>
+<div class="tblwrap"><table>
+<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
+<tr><td class="n">L21</td><td class="n">Tue Nov 3</td><td><span class="t">What breaks deployed autonomy.</span> <span class="d">Failure modes; robustness &amp; safety as measurable properties.</span></td><td>Concrete Problems in AI Safety</td></tr>
+<tr><td class="n">L22</td><td class="n">Thu Nov 5</td><td><span class="t">Uncertainty and introspection.</span> <span class="d">Calibration; OOD detection.</span></td><td>Calibration + Deep ensembles</td></tr>
+<tr><td class="n">L23</td><td class="n">Tue Nov 10</td><td><span class="t">Distribution shift and sim-to-real robustness.</span> <span class="d">Domain randomization; adaptation and warmup.</span></td><td>Domain randomization</td></tr>
+<tr><td class="n">L24</td><td class="n">Thu Nov 12</td><td><span class="t">Failure detection and safe fallback.</span> <span class="d">Knowing when perception is wrong; graceful degradation.</span></td><td><span class="due">Lab 3 due · reality-check opens</span></td></tr>
+<tr><td class="n">L25</td><td class="n">Tue Nov 17</td><td><span class="t">Safe learning-based control.</span> <span class="d">Safety filters and shields; safe RL; recovery.</span></td><td>Safety-filter paper</td></tr>
+</table></div>
+</details>
+
+<details>
+<summary>Arc 5 — The end-to-end system <span class="when">Weeks 13–15 + finals</span></summary>
+<div class="tblwrap"><table>
+<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
+<tr><td class="n">L26</td><td class="n">Thu Nov 19</td><td><span class="t">Integrating the system.</span> <span class="d">Cross-layer co-design; sim to physical robot.</span></td><td></td></tr>
+<tr><td class="n">L27</td><td class="n">Tue Nov 24</td><td><span class="t">Connected and collaborative autonomy.</span> <span class="d">V2X, cooperative perception, swarms, connected-vehicle stacks.</span></td><td>V2VNet</td></tr>
+<tr><td class="n">L28</td><td class="n">Tue Dec 1</td><td><span class="t">Final project presentations I.</span></td><td class="due">Part II in the final-exam block (Dec 4–9) · report due Dec 9</td></tr>
+</table></div>
+</details>
+</section>
+
+<section id="labs">
+<h2>Three labs, one ladder</h2>
+<p class="sub">Each lab builds a skill on one side of the bridge — the last crosses it on real hardware.</p>
+<div class="steps">
+<div class="step"><h3>Run a learned autonomy component</h3><p>Train or deploy a perception or control
+component in simulation and characterize its task performance. <em>Out Sep 3 · due Sep 22.</em></p></div>
+<div class="step"><h3>Profile it as a system</h3><p>Put it in a ROS 2 graph, instrument it, and measure
+end-to-end latency and where time actually goes. <em>Out Sep 29 · due Oct 13.</em></p></div>
+<div class="step"><h3>Cross the bridge on real hardware</h3><p>Deploy to a Jetson robot: hit an on-device
+latency budget <em>and</em> add an uncertainty signal or failure detector — measure both on the device.
+<em>Out Oct 22 · due Nov 12.</em></p></div>
+</div>
+</section>
+
+<section id="hardware">
+<h2>The fleet</h2>
+<div class="split">
+<div class="card"><h3>🚗 Jetson ground robots ×4</h3><p>JetBot-class differential drive: NVIDIA Orin
+Nano + camera + 2-D LiDAR. The on-device efficiency platform — compression, anytime inference, and
+localization projects run here.</p></div>
+<div class="card"><h3>🚁 Crazyflie drones ×3</h3><p>27-gram open-source micro-quadcopters — too small
+to compute onboard, so they embody the offloading problem, have a sharper sim-to-real gap, and are
+swarm-native.</p></div>
+</div>
+<p class="fine">Development is sim-first (Gazebo / Isaac Sim, public datasets, cloud GPUs); the fleet
+is booked late-term for every project's hardware reality-check.</p>
+</section>
+
+<section id="logistics">
+<h2>Register &amp; logistics</h2>
+<div class="split">
+<div class="card"><h3>How to register</h3>
+<p>Register on <strong>Raiderlink</strong> for Fall 2026: <strong>CS 4331</strong> (senior
+undergraduates) or <strong>CS 5331</strong> (graduate students) — dual-listed, meeting together
+<strong>Tue/Thu 8:00–9:20 AM</strong>. Questions about fit or background? Email the instructor —
+answers within a day.</p></div>
+<div class="card"><h3>What you need coming in</h3>
+<p>Python and C++, linear algebra and probability, and a background in <strong>either</strong> ML
+<strong>or</strong> systems — the course levels you up on the other side. No robotics experience
+assumed. CS 4331 expects CS 2413 plus one of CS 3375 / CS 4352 / an intro AI-ML course.</p></div>
+</div>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+<div><strong style="color:#fff">Mobile Robot Systems</strong> — CS 4331/5331 · Fall 2026 ·
+Texas Tech University, Department of Computer Science</div>
+<div>Instructor: Dr. Liangkai Liu · Tue/Thu 8:00–9:20 AM · location TBD</div>
+<div><a href="https://liangkai.org">liangkai.org</a></div>
+</div></footer>
+
+</body>
+</html>
