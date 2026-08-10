@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mobile Robot Systems — CS 4331/5331 · Fall 2026 · Texas Tech</title>
 <link rel="canonical" href="https://liangkai.org/mobile-robot-systems/">
-<meta name="description" content="Bridging robot learning and computing systems for robust, efficient autonomy. Build, deploy, and measure real autonomous robots — Jetson ground robots and Crazyflie drones. Texas Tech CS 4331/5331, Fall 2026, Tue/Thu 8:00–9:20 AM.">
+<meta name="description" content="Bridging robot learning and computing systems for efficient end-to-end autonomy. Build, deploy, and measure real autonomous robots — Jetson ground robots and Crazyflie drones. Texas Tech CS 4331/5331, Fall 2026, Tue/Thu 8:00–9:20 AM.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 <style>
 :root{
@@ -95,8 +95,8 @@ footer .wrap{display:grid;gap:6px}
 <p class="kicker">Texas Tech University · Department of Computer Science · New for Fall 2026</p>
 <h1>Mobile Robot Systems</h1>
 <p class="tagline">Bridging <strong>robot learning</strong> and <strong>computing systems</strong> for
-robust, efficient autonomy — build an autonomous capability, make it fast and safe, and
-deploy it on a <strong>real robot</strong>.</p>
+efficient end-to-end autonomy — build an autonomous capability, make it fast enough for a
+<strong>real robot</strong>, and prove it on hardware.</p>
 <div class="meta">
 <span><strong>CS 4331 / CS 5331</strong> (dual-listed)</span>
 <span><strong>Tue &amp; Thu · 8:00–9:20 AM</strong></span>
@@ -125,8 +125,8 @@ micro-drones and measures the sim-to-real gap. "Does it actually work?" becomes 
 <p>The course levels each side up on the other: the modular autonomy pipeline (sensing, perception,
 planning, control) for systems folks; real-time, edge, and inference systems for ML folks.</p></div>
 <div class="card"><span class="tag">Project-driven</span><h3>Build, measure, publish</h3>
-<p>No final exam. The capstone is a semester project — make an autonomy capability efficient
-<em>and</em> robust, then defend it with measurements in a workshop-style paper and talk.</p></div>
+<p>No final exam. The capstone is a semester project — make an autonomy capability efficient,
+then defend it with measurements in a workshop-style paper and talk.</p></div>
 </div>
 </section>
 
@@ -165,21 +165,21 @@ may form teams of 2–3 — the one difference between the sections.</p>
 a hardware reality-check. Or propose your own.</p>
 <div class="cards">
 <div class="card"><h3>Anytime perception on a budget</h3><p>An early-exit / cascaded detector; map the
-accuracy–latency–energy frontier with calibrated confidence.</p></div>
-<div class="card"><h3>Guarded visuomotor policy</h3><p>A sim-trained driving policy plus an OOD detector
-and safe fallback, quantized to the control deadline. Induce OOD on the robot — does it catch it?</p></div>
+accuracy–latency–energy frontier.</p></div>
+<div class="card"><h3>Visuomotor policy on a deadline</h3><p>A sim-trained driving policy quantized and
+accelerated until it hits the control deadline on-device; task success vs. latency, sim vs. real.</p></div>
 <div class="card"><h3>Adaptive edge offloading</h3><p>Split perception between robot and edge under
-replayed network traces; fail safe when the link degrades.</p></div>
-<div class="card"><h3>Reliable LiDAR localization</h3><p>2-D SLAM with a bounded-memory map and an
-integrity monitor that flags an unreliable pose; real drift vs. sim.</p></div>
+replayed network traces; the split adapts as the link degrades.</p></div>
+<div class="card"><h3>LiDAR localization on a memory budget</h3><p>2-D SLAM with a bounded-memory map;
+the accuracy vs. memory/latency frontier; real drift vs. sim.</p></div>
 <div class="card"><h3>Compress a big model for the edge</h3><p>Distill / quantize a large vision model
-onto the Orin Nano within a frame-time budget; measure the accuracy and calibration cost.</p></div>
+onto the Orin Nano within a frame-time budget; measure the accuracy cost.</p></div>
 <div class="card"><h3>Sim-to-real warmup study</h3><p>How a short, cheap on-robot adaptation phase closes
 the sim-to-real gap — the reality-check is the core of the project.</p></div>
 <div class="card"><h3>Collaborative perception</h3><p>Two robots — or a drone swarm — share detections
-over WiFi; accuracy gain vs. bandwidth cost, with graceful degradation.</p></div>
+over WiFi; accuracy gain vs. bandwidth and latency cost.</p></div>
 <div class="card"><h3>Autonomy-stack measurement study</h3><p>Profile a ROS 2 pipeline on the Orin Nano
-under load; locate the efficiency and reliability bottlenecks.</p></div>
+under load; locate the efficiency bottlenecks.</p></div>
 </div>
 </section>
 
@@ -192,8 +192,8 @@ Week 3 on end with a 20-minute student paper slot.</p>
 <summary>Arc 0 — Framing <span class="when">Week 1</span></summary>
 <div class="tblwrap"><table>
 <tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
-<tr><td class="n">L1</td><td class="n">Tue Aug 25</td><td><span class="t">Bridging robot learning and computing systems.</span> <span class="d">The two communities; what robust, safe, efficient autonomy demands.</span></td><td class="due">Presentation sign-up opens</td></tr>
-<tr><td class="n">L2</td><td class="n">Thu Aug 27</td><td><span class="t">A tour of real end-to-end autonomous systems.</span> <span class="d">AV stacks, drones, manipulators — where trust and efficiency break.</span></td><td>Instructor models the paper slot</td></tr>
+<tr><td class="n">L1</td><td class="n">Tue Aug 25</td><td><span class="t">Bridging robot learning and computing systems.</span> <span class="d">The two communities; what efficient end-to-end autonomy demands.</span></td><td class="due">Presentation sign-up opens</td></tr>
+<tr><td class="n">L2</td><td class="n">Thu Aug 27</td><td><span class="t">A tour of real end-to-end autonomous systems.</span> <span class="d">AV stacks, drones, manipulators — where efficiency breaks.</span></td><td>Instructor models the paper slot</td></tr>
 </table></div>
 </details>
 
@@ -225,7 +225,7 @@ Week 3 on end with a 20-minute student paper slot.</p>
 </details>
 
 <details>
-<summary>Arc 3 — Bridge I: Efficiency <span class="when">Weeks 8–10</span></summary>
+<summary>Arc 3 — The Bridge: Efficiency <span class="when">Weeks 8–13</span></summary>
 <div class="tblwrap"><table>
 <tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
 <tr><td class="n">L16</td><td class="n">Thu Oct 15</td><td><span class="t">The efficiency gap.</span> <span class="d">A learned policy vs. the robot's budget; how to measure.</span></td><td></td></tr>
@@ -233,23 +233,16 @@ Week 3 on end with a 20-minute student paper slot.</p>
 <tr><td class="n">L18</td><td class="n">Thu Oct 22</td><td><span class="t">Anytime and input-adaptive inference.</span> <span class="d">Cascades, early exit; the accuracy–latency–energy frontier.</span></td><td>BranchyNet · <span class="due">Lab 3 out</span></td></tr>
 <tr><td class="n">L19</td><td class="n">Tue Oct 27</td><td><span class="t">System-level efficiency.</span> <span class="d">Scheduling under deadlines; offloading on replayed traces.</span></td><td>D3</td></tr>
 <tr><td class="n">L20</td><td class="n">Thu Oct 29</td><td><span class="t">Project milestone presentations.</span></td><td class="due">Milestone</td></tr>
+<tr><td class="n">L21</td><td class="n">Tue Nov 3</td><td><span class="t">Hardware-aware model design &amp; NAS.</span> <span class="d">Efficient architectures; once-for-all networks.</span></td><td>Once-for-All</td></tr>
+<tr><td class="n">L22</td><td class="n">Thu Nov 5</td><td><span class="t">Energy and power management.</span> <span class="d">Measuring energy on the Jetson; DVFS; energy-aware inference.</span></td><td>Energy-aware inference paper</td></tr>
+<tr><td class="n">L23</td><td class="n">Tue Nov 10</td><td><span class="t">Project studio I — deployment clinic.</span> <span class="d">Quantization/TensorRT pipelines onto the Orin Nano.</span></td><td></td></tr>
+<tr><td class="n">L24</td><td class="n">Thu Nov 12</td><td><span class="t">Project studio II — reality-check prep.</span> <span class="d">On-device measurement harnesses.</span></td><td><span class="due">Lab 3 due · reality-check opens</span></td></tr>
+<tr><td class="n">L25</td><td class="n">Tue Nov 17</td><td><span class="t">Project studio III — measurement dry-runs.</span> <span class="d">Full-pipeline rehearsal; peer feedback.</span></td><td></td></tr>
 </table></div>
 </details>
 
 <details>
-<summary>Arc 4 — Bridge II: Robust &amp; Safe Autonomy <span class="when">Weeks 11–13</span></summary>
-<div class="tblwrap"><table>
-<tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
-<tr><td class="n">L21</td><td class="n">Tue Nov 3</td><td><span class="t">What breaks deployed autonomy.</span> <span class="d">Failure modes; robustness &amp; safety as measurable properties.</span></td><td>Concrete Problems in AI Safety</td></tr>
-<tr><td class="n">L22</td><td class="n">Thu Nov 5</td><td><span class="t">Uncertainty and introspection.</span> <span class="d">Calibration; OOD detection.</span></td><td>Calibration + Deep ensembles</td></tr>
-<tr><td class="n">L23</td><td class="n">Tue Nov 10</td><td><span class="t">Distribution shift and sim-to-real robustness.</span> <span class="d">Domain randomization; adaptation and warmup.</span></td><td>Domain randomization</td></tr>
-<tr><td class="n">L24</td><td class="n">Thu Nov 12</td><td><span class="t">Failure detection and safe fallback.</span> <span class="d">Knowing when perception is wrong; graceful degradation.</span></td><td><span class="due">Lab 3 due · reality-check opens</span></td></tr>
-<tr><td class="n">L25</td><td class="n">Tue Nov 17</td><td><span class="t">Safe learning-based control.</span> <span class="d">Safety filters and shields; safe RL; recovery.</span></td><td>Safety-filter paper</td></tr>
-</table></div>
-</details>
-
-<details>
-<summary>Arc 5 — The end-to-end system <span class="when">Weeks 13–15 + finals</span></summary>
+<summary>Arc 4 — The end-to-end system <span class="when">Weeks 13–15 + finals</span></summary>
 <div class="tblwrap"><table>
 <tr><th>Session</th><th>Date</th><th>Topic</th><th>Paper / milestones</th></tr>
 <tr><td class="n">L26</td><td class="n">Thu Nov 19</td><td><span class="t">Integrating the system.</span> <span class="d">Cross-layer co-design; sim to physical robot.</span></td><td></td></tr>
@@ -267,9 +260,9 @@ Week 3 on end with a 20-minute student paper slot.</p>
 component in simulation and characterize its task performance. <em>Out Sep 3 · due Sep 22.</em></p></div>
 <div class="step"><h3>Profile it as a system</h3><p>Put it in a ROS 2 graph, instrument it, and measure
 end-to-end latency and where time actually goes. <em>Out Sep 29 · due Oct 13.</em></p></div>
-<div class="step"><h3>Cross the bridge on real hardware</h3><p>Deploy to a Jetson robot: hit an on-device
-latency budget <em>and</em> add an uncertainty signal or failure detector — measure both on the device.
-<em>Out Oct 22 · due Nov 12.</em></p></div>
+<div class="step"><h3>Cross the bridge on real hardware</h3><p>Deploy to a Jetson robot: compress and
+accelerate until it hits an on-device latency budget — measure accuracy, latency, and energy on the
+device. <em>Out Oct 22 · due Nov 12.</em></p></div>
 </div>
 </section>
 
