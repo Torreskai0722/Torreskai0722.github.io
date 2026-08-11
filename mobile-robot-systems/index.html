@@ -80,6 +80,9 @@ footer{margin-top:52px;background:var(--hero);color:var(--hero-ink2);padding:30p
 footer a{color:#9ec5f4}
 footer .wrap{display:grid;gap:6px}
 .fine{color:var(--muted);font-size:13px}
+figure.fig{margin:22px 0 8px;padding:10px;background:var(--surface);border:1px solid var(--hair);border-radius:10px}
+figure.fig img{display:block;width:100%;height:auto;border-radius:6px}
+figure.fig figcaption{text-align:center;color:var(--muted);font-size:13px;margin:8px 4px 2px}
 @media (max-width:640px){ table{min-width:560px} }
 </style>
 </head>
@@ -128,6 +131,12 @@ planning, control) for systems folks; real-time, edge, and inference systems for
 <p>No final exam. The capstone is a semester project — make an autonomy capability efficient,
 then defend it with measurements in a workshop-style paper and talk.</p></div>
 </div>
+
+<figure class="fig">
+<img src="figs/web/figure-1.jpg" width="1400" height="612" loading="lazy"
+alt="Two cliffs labeled Robot Learning and Computing Systems are connected by a blue truss bridge labeled Mobile Robot Systems — co-design across the seam; a small robot crosses toward a sign reading efficient autonomy, proven on real hardware.">
+<figcaption>Each community optimizes its half; deployed autonomy lives on the seam between them — this course is the bridge.</figcaption>
+</figure>
 </section>
 
 <section id="glance">
@@ -181,12 +190,24 @@ over WiFi; accuracy gain vs. bandwidth and latency cost.</p></div>
 <div class="card"><h3>Autonomy-stack measurement study</h3><p>Profile a ROS 2 pipeline on the Orin Nano
 under load; locate the efficiency bottlenecks.</p></div>
 </div>
+
+<figure class="fig">
+<img src="figs/web/figure-3.jpg" width="1400" height="612" loading="lazy"
+alt="Left, a wireframe simulator view of a robot with metrics accuracy 91 percent, latency 38 milliseconds, energy 4.1 watts; a blue deploy arrow for weeks 12 to 14 leads to a photo-style physical robot with unknown metrics; dashed lines converge on a box reading delta equals the sim-to-real gap, above a 15-week timeline.">
+<figcaption>Every project shares one arc: iterate sim-first all term, deploy once for real in Weeks 12–14 — and the measured Δ is what your paper reports.</figcaption>
+</figure>
 </section>
 
 <section id="schedule">
 <h2>Schedule</h2>
 <p class="sub">28 sessions, five arcs, every one dated (Tue/Thu 8:00–9:20 AM). Most sessions from
 Week 3 on end with a 20-minute student paper slot.</p>
+
+<figure class="fig">
+<img src="figs/web/figure-2.jpg" width="1400" height="525" loading="lazy"
+alt="The modular autonomy pipeline drawn on a robot chassis: Sense, Perceive, Plan, and Act boxes with labeled data arrows and Arc-1 session numbers, plus a blue arrow labeled end-to-end policy bypassing the middle stages from camera to control.">
+<figcaption>Arc 1 builds the pipeline module by module — sessions L4–L8 — then weighs it against the end-to-end shortcut (L9). All of it runs on the robot's compute budget.</figcaption>
+</figure>
 
 <details open>
 <summary>Arc 0 — Framing <span class="when">Week 1</span></summary>
