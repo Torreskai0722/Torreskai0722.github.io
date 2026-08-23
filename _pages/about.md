@@ -6,7 +6,7 @@ subtitle: Assistant Professor in Computer Science <br> <a href="mailto:liangkai.
 
 profile:
   align: right
-  image: liangkai-pic-old.jpg
+  image: liangkai-new.jpg
   image_circular: true # crops the image to make it circular
   social: true # includes social icons at the bottom of the page
   # more_info: >
