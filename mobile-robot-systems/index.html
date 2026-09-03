@@ -149,7 +149,7 @@ alt="Two cliffs labeled Robot Learning and Computing Systems are connected by a 
 </div>
 <h3 style="margin:18px 0 4px;font-size:16px">Grading</h3>
 <div class="gradebar" role="img" aria-label="Grading split: project 35%, labs 30%, paper presentation 10%, paper critiques 10%, midterm 10%, in-class activities 5%">
-<span style="width:35%;background:var(--s1);border-radius:6px 0 0 6px" title="Course project — 35%"></span>
+<span style="width:35%;background:var(--s1);border-radius:6px 0 0 6px" title="Course project — 35% (CS 5331 only)"></span>
 <span style="width:30%;background:var(--s2)" title="Labs (3 × 10%) — 30%"></span>
 <span style="width:10%;background:var(--s3)" title="Paper presentation — 10%"></span>
 <span style="width:10%;background:var(--s4)" title="Written paper critiques — 10%"></span>
@@ -157,15 +157,18 @@ alt="Two cliffs labeled Robot Learning and Computing Systems are connected by a 
 <span style="width:5%;background:var(--s6);border-radius:0 6px 6px 0" title="In-class activities &amp; discussion — 5%"></span>
 </div>
 <div class="legend">
-<span><span class="sw" style="background:var(--s1)"></span><b>Project 35%</b></span>
+<span><span class="sw" style="background:var(--s1)"></span><b>Project 35%</b> <span style="opacity:.7">(5331)</span></span>
 <span><span class="sw" style="background:var(--s2)"></span><b>Labs 30%</b></span>
 <span><span class="sw" style="background:var(--s3)"></span><b>Presentation 10%</b></span>
 <span><span class="sw" style="background:var(--s4)"></span><b>Critiques 10%</b></span>
 <span><span class="sw" style="background:var(--s5)"></span><b>Midterm 10%</b></span>
 <span><span class="sw" style="background:var(--s6)"></span><b>In-class 5%</b></span>
 </div>
-<p class="fine">Team model: CS 5331 students complete the project individually; CS 4331 students
-may form teams of 2–3 — the one difference between the sections.</p>
+<p class="fine">Team model: the course project is required of <b>CS 5331 students only</b>,
+individually or in a team of up to 3; <b>CS 4331 students do not complete a project</b> — the one
+difference between the sections. Percentages above are the CS 5331 ledger; without the project the
+CS 4331 ledger renormalizes to Labs 46.2%, presentation 15.4%, critiques 15.4%, midterm 15.4%,
+in-class 7.7%.</p>
 </section>
 
 <section id="projects">
@@ -277,10 +280,11 @@ alt="The modular autonomy pipeline drawn on a robot chassis: Sense, Perceive, Pl
 <h2>Three labs, one ladder</h2>
 <p class="sub">Each lab builds a skill on one side of the bridge — the last crosses it on real hardware.</p>
 <div class="steps">
-<div class="step"><h3>Run a learned autonomy component</h3><p>Train or deploy a perception or control
-component in simulation and characterize its task performance. <em>Out Sep 3 · due Sep 22.</em></p></div>
-<div class="step"><h3>Profile it as a system</h3><p>Put it in a ROS 2 graph, instrument it, and measure
-end-to-end latency and where time actually goes. <em>Out Sep 29 · due Oct 13.</em></p></div>
+<div class="step"><h3>Stand up the pipeline in simulation</h3><p>Bring up a TurtleBot 4 or a Clearpath
+Husky in Gazebo, map its world with SLAM, and navigate the map with Nav2 — sense → perceive → plan → act.
+<em>Out Sep 3 · due Sep 22.</em></p></div>
+<div class="step"><h3>Profile it as a system</h3><p>Instrument that navigation stack — a ROS 2 graph — and
+measure end-to-end latency and where time actually goes. <em>Out Sep 29 · due Oct 13.</em></p></div>
 <div class="step"><h3>Cross the bridge on real hardware</h3><p>Deploy to a Jetson robot: compress and
 accelerate until it hits an on-device latency budget — measure accuracy, latency, and energy on the
 device. <em>Out Oct 22 · due Nov 12.</em></p></div>
