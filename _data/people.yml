@@ -1,6 +1,5 @@
 # People shown on the STAR Lab page (/star-lab/).
-# To add a member, copy the commented template under `members` and fill it in.
-# `image` is optional and names a file in assets/img/.
+# Each member needs `name` and `role`; `url`, `image` (a file in assets/img/), `since`, and `note` are optional.
 
 director:
   name: Liangkai Liu
@@ -13,14 +12,23 @@ director:
   scholar: https://scholar.google.com/citations?user=xMSYHlIAAAAJ
 
 members:
-  # - name: First Last
-  #   role: PhD student
-  #   since: 2026
-  #   url: https://example.com
-  #   image: first-last.jpg
-  #   note: One line on their research focus
+  - name: Xiaoxiao Wu
+    role: PhD student
+  - name: Mingyu Guo
+    role: PhD student, University of Delaware
+  - name: Kaiwen Zhu
+    role: MS student, University of Illinois Urbana-Champaign
+  - name: Aobo Guo
+    role: MS student, University of Michigan
+  - name: Bimal Thapa Magar
+    role: MS student, Texas Tech University
+  - name: Ganesh Adhikari
+    role: MS student, Texas Tech University
 
 alumni:
+  - name: Aaron Sequeira
+    role: MS student, University of Michigan
+    now: Apple
   - name: Sanjith Udupa
     role: Summer research intern, 2023
     now: MIT, Class of 2028
