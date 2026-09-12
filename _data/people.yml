@@ -1,0 +1,27 @@
+# People shown on the STAR Lab page (/star-lab/).
+# To add a member, copy the commented template under `members` and fill it in.
+# `image` is optional and names a file in assets/img/.
+
+director:
+  name: Liangkai Liu
+  title: Director
+  role: Assistant Professor, Department of Computer Science
+  affiliation: Texas Tech University
+  image: head-new.jpg
+  email: liangkai.liu@ttu.edu
+  url: /
+  scholar: https://scholar.google.com/citations?user=xMSYHlIAAAAJ
+
+members:
+  # - name: First Last
+  #   role: PhD student
+  #   since: 2026
+  #   url: https://example.com
+  #   image: first-last.jpg
+  #   note: One line on their research focus
+
+alumni:
+  - name: Sanjith Udupa
+    role: Summer research intern, 2023
+    now: MIT, Class of 2028
+    url: https://www.linkedin.com/in/sanjithudupa/

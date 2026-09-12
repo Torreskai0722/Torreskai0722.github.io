@@ -1,0 +1,579 @@
+---
+layout: page
+permalink: /star-lab/
+title: STAR Lab
+description: Safe and Trustworthy Autonomous Robotics Laboratory · Texas Tech University
+nav: true
+nav_order: 1
+---
+
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+#star {
+  --st-surface: var(--global-card-bg-color);
+  --st-border: #e2dfd8;
+  --st-border-dark: #c8c4bc;
+  --st-ink: #1a1916;
+  --st-ink2: #6b6760;
+  --st-muted: #8f8c86;
+  --st-chip: #f7f6f2;
+  --st-accent: #1f4e9c;
+  --st-accent-ink: #1a3a6b;
+  --st-accent-soft: #e8eef8;
+  --st-accent-contrast: #ffffff;
+  --st-hero-ink: #f4f6f9;
+  --st-hero-ink2: #b8c2d1;
+  --st-hero-kicker: #7fa8dc;
+  --st-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--st-ink);
+}
+html[data-theme="dark"] #star {
+  --st-border: #3a3a3f;
+  --st-border-dark: #56565d;
+  --st-ink: #e8e6e1;
+  --st-ink2: #b5b2ab;
+  --st-muted: #8b8983;
+  --st-chip: #2a2a2e;
+  --st-accent: #7fb0f0;
+  --st-accent-ink: #a9cbf5;
+  --st-accent-soft: #1b2a44;
+  --st-accent-contrast: #0e1726;
+}
+
+/* ── Hero ── */
+#star .st-hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, #0e1726 0%, #132441 55%, #173056 100%);
+  border-radius: 12px;
+  padding: 2.5rem 2.25rem 2.25rem;
+  margin-bottom: 1.5rem;
+  color: var(--st-hero-ink);
+}
+#star .st-hero p, #star .st-hero div, #star .st-hero span, #star .st-hero strong, #star .st-hero em { color: inherit; }
+#star .st-hero a { color: var(--st-hero-ink); text-decoration: underline; text-decoration-color: rgba(244, 246, 249, 0.35); text-underline-offset: 3px; }
+#star .st-hero a:hover { color: #fff; text-decoration-color: currentColor; }
+#star .st-kicker {
+  font-family: var(--st-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--st-hero-kicker);
+  margin: 0 0 0.9rem;
+}
+#star .st-headline {
+  font-size: clamp(24px, 3.6vw, 34px);
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: -0.015em;
+  max-width: 28ch;
+  margin: 0 0 1rem;
+}
+#star .st-headline em { font-style: normal; color: #9ec5f4; }
+#star .st-mission { font-size: 16px; line-height: 1.65; color: var(--st-hero-ink2); max-width: 66ch; margin: 0; }
+#star .st-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.25rem;
+  margin-top: 1.4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+#star .st-meta-item { display: flex; flex-direction: column; gap: 2px; }
+#star .st-meta-label {
+  font-family: var(--st-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--st-hero-kicker);
+}
+#star .st-meta-value { font-size: 15px; }
+#star .st-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 1.4rem; }
+#star .st-stars { position: absolute; right: 22px; top: 18px; width: 220px; height: 130px; opacity: 0.6; pointer-events: none; }
+
+/* ── Buttons ── */
+#star .cta-btn, #star .st-btn {
+  display: inline-block;
+  padding: 0.6rem 1.15rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+#star .cta-btn { background-color: var(--st-accent); color: var(--st-accent-contrast); }
+#star .cta-btn:hover, #star .cta-btn:focus { color: var(--st-accent-contrast); filter: brightness(0.92); text-decoration: none; }
+#star .st-hero .cta-btn { background-color: #fff; color: #0e1726; }
+#star .st-hero .cta-btn:hover, #star .st-hero .cta-btn:focus { color: #0e1726; }
+#star .st-btn-ghost { border: 1.5px solid var(--st-border-dark); color: var(--st-ink); background: transparent; }
+#star .st-btn-ghost:hover { border-color: var(--st-ink); color: var(--st-ink); text-decoration: none; }
+#star .st-hero .st-btn-ghost { border-color: rgba(255, 255, 255, 0.4); color: var(--st-hero-ink); }
+#star .st-hero .st-btn-ghost:hover { border-color: #fff; color: #fff; }
+
+/* ── Section nav ── */
+#star .st-subnav {
+  background: var(--st-surface);
+  border: 1px solid var(--st-border);
+  border-radius: 8px;
+  margin-bottom: 2.25rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+#star .st-subnav::-webkit-scrollbar { display: none; }
+#star .st-subnav-inner { display: flex; padding: 0 0.5rem; }
+#star .st-subnav a {
+  font-family: var(--st-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--st-muted);
+  text-decoration: none;
+  padding: 11px 14px;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  display: block;
+  transition: color 0.15s, border-color 0.15s;
+}
+#star .st-subnav a:hover { color: var(--st-ink); border-bottom-color: var(--st-accent); text-decoration: none; }
+
+/* ── Sections ── */
+#star .st-section { margin: 0 0 2.75rem; scroll-margin-top: 72px; }
+#star .st-section-head { margin-bottom: 1.1rem; }
+#star .st-section-kicker {
+  font-family: var(--st-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--st-accent-ink);
+  margin: 0 0 4px;
+}
+#star .st-section-title {
+  font-size: 26px;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  margin: 0 0 6px;
+  border: none;
+  color: var(--st-ink);
+}
+#star .st-section-sub { font-size: 15.5px; color: var(--st-ink2); max-width: 72ch; margin: 0; }
+
+/* ── Grid and cards ── */
+#star .st-grid { display: grid; gap: 12px; }
+#star .st-grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+#star .st-grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+#star .st-grid-4 { grid-template-columns: repeat(auto-fit, minmax(195px, 1fr)); }
+#star .st-card {
+  background: var(--st-surface);
+  border: 1px solid var(--st-border);
+  border-radius: 10px;
+  padding: 1.1rem 1.15rem 1rem;
+  transition: border-color 0.15s;
+}
+#star .st-card:hover { border-color: var(--st-border-dark); }
+#star .st-card h3 { font-size: 17px; font-weight: 600; line-height: 1.35; margin: 0 0 0.5rem; color: var(--st-ink); }
+#star .st-card p { font-size: 14.5px; line-height: 1.6; color: var(--st-ink2); margin: 0 0 0.6rem; }
+#star .st-card p:last-child { margin-bottom: 0; }
+#star .st-tag, #star .st-num {
+  display: inline-block;
+  font-family: var(--st-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--st-accent-ink);
+  background: var(--st-accent-soft);
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin-bottom: 0.7rem;
+}
+#star .st-why strong { color: var(--st-ink); font-weight: 600; }
+#star .st-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 0.75rem; }
+#star .st-link {
+  font-family: var(--st-mono);
+  font-size: 12px;
+  color: var(--st-ink);
+  background: var(--st-chip);
+  border: 1px solid var(--st-border-dark);
+  border-radius: 4px;
+  padding: 4px 10px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+#star .st-link::after { content: "↗"; font-size: 11px; opacity: 0.5; }
+#star .st-link:hover { background: var(--st-ink); color: var(--st-surface); border-color: var(--st-ink); text-decoration: none; }
+#star .st-link:hover::after { opacity: 1; }
+
+/* ── Figure ── */
+#star .st-figure { margin: 1.25rem 0 1rem; padding: 10px; background: var(--st-surface); border: 1px solid var(--st-border); border-radius: 10px; }
+#star .st-figure figure { margin: 0; }
+#star .st-figure img { display: block; width: 100%; height: auto; border-radius: 6px; }
+#star .st-figure figcaption { text-align: center; color: var(--st-muted); font-size: 13px; margin: 8px 4px 2px; }
+
+/* ── People ── */
+#star .st-director {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+  background: var(--st-surface);
+  border: 1px solid var(--st-border);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+#star .st-avatar { flex: 0 0 auto; width: 104px; }
+#star .st-avatar figure { margin: 0; }
+#star .st-avatar img { width: 104px; height: 104px; object-fit: cover; border-radius: 50%; display: block; }
+#star .st-director-body { flex: 1 1 260px; }
+#star .st-director-body h3 { margin: 0 0 2px; font-size: 20px; font-weight: 600; color: var(--st-ink); }
+#star .st-role { color: var(--st-ink2); font-size: 14.5px; margin: 0 0 0.25rem; }
+#star .st-track-label {
+  font-family: var(--st-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--st-ink2);
+  margin: 1.5rem 0 0.6rem;
+}
+#star .st-member-avatar img { width: 56px; height: 56px; object-fit: cover; border-radius: 50%; display: block; margin-bottom: 0.6rem; }
+#star .st-member-avatar figure { margin: 0; }
+#star .st-open {
+  border-style: dashed;
+  border-color: var(--st-border-dark);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+}
+#star .st-open div { flex: 1 1 320px; }
+#star .st-alumni { list-style: none; padding: 0; margin: 0; }
+#star .st-alumni li { padding: 0.55rem 0; border-top: 1px solid var(--st-border); font-size: 15px; color: var(--st-ink2); }
+#star .st-alumni li:last-child { border-bottom: 1px solid var(--st-border); }
+#star .st-alumni a { color: var(--st-ink); font-weight: 500; }
+
+/* ── Publications, news, join ── */
+#star .st-more { margin: 0.75rem 0 0; font-size: 15px; }
+#star .st-more a { color: var(--st-accent-ink); font-weight: 500; text-decoration: none; }
+#star .st-more a:hover { text-decoration: underline; }
+#star .st-join { background: var(--st-accent-soft); border-radius: 12px; padding: 1.75rem 1.75rem 1.5rem; }
+#star .st-join .st-section-title { margin-bottom: 0.5rem; }
+#star .st-join .st-lead { font-size: 15.5px; color: var(--st-ink2); max-width: 70ch; margin: 0 0 1.1rem; }
+#star .st-join .st-actions { margin-top: 0; }
+#star .st-fine { font-size: 14px; color: var(--st-ink2); margin: 1rem 0 0; }
+#star .st-fine a { color: var(--st-accent-ink); }
+
+@media (max-width: 640px) {
+  #star .st-stars { display: none; }
+  #star .st-hero { padding: 1.75rem 1.25rem 1.5rem; }
+  #star .st-join { padding: 1.25rem 1.1rem 1.1rem; }
+}
+</style>
+
+{% assign director = site.data.people.director %}
+
+<div id="star">
+
+  <!-- Hero -->
+  <div class="st-hero">
+    <svg class="st-stars" viewBox="0 0 220 130" aria-hidden="true" focusable="false">
+      <g stroke="rgba(255,255,255,0.28)" stroke-width="1" fill="none">
+        <polyline points="18,92 62,38 118,66 160,22 202,60" />
+        <polyline points="118,66 150,112" />
+      </g>
+      <g fill="#9ec5f4">
+        <circle cx="18" cy="92" r="2.5" /><circle cx="62" cy="38" r="3.5" /><circle cx="118" cy="66" r="2.5" />
+        <circle cx="160" cy="22" r="4" /><circle cx="202" cy="60" r="2.5" /><circle cx="150" cy="112" r="2" />
+      </g>
+      <g fill="rgba(255,255,255,0.35)">
+        <circle cx="40" cy="14" r="1.2" /><circle cx="90" cy="20" r="1" /><circle cx="130" cy="100" r="1.2" />
+        <circle cx="190" cy="110" r="1" /><circle cx="8" cy="50" r="1" /><circle cx="210" cy="14" r="1.2" />
+      </g>
+    </svg>
+    <p class="st-kicker">Texas Tech University · Department of Computer Science</p>
+    <p class="st-headline">Building the computing foundations for autonomy that is <em>safe</em>, <em>predictable</em>, and <em>efficient</em>.</p>
+    <p class="st-mission">
+      STAR Lab works at the intersection of AI, robotics, and cyber-physical systems. We co-design models, runtime systems,
+      sensing and perception pipelines, and computing platforms for mission-critical autonomy, from autonomous vehicles and
+      mobile robots to drones, and we validate our ideas on real hardware.
+    </p>
+    <div class="st-meta">
+      <div class="st-meta-item">
+        <span class="st-meta-label">Director</span>
+        <span class="st-meta-value"><a href="{{ director.url | relative_url }}">{{ director.name }}</a></span>
+      </div>
+      <div class="st-meta-item">
+        <span class="st-meta-label">Where</span>
+        <span class="st-meta-value">{{ director.affiliation }}, Lubbock, Texas</span>
+      </div>
+      <div class="st-meta-item">
+        <span class="st-meta-label">Contact</span>
+        <span class="st-meta-value"><a href="mailto:{{ director.email }}">{{ director.email }}</a></span>
+      </div>
+    </div>
+    <div class="st-actions">
+      <a class="cta-btn" href="{{ '/openings/' | relative_url }}">Join the lab</a>
+      <a class="st-btn st-btn-ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="st-btn st-btn-ghost" href="{{ '/onboarding/' | relative_url }}">Onboarding guide</a>
+    </div>
+  </div>
+
+  <!-- Section nav -->
+  <nav class="st-subnav" aria-label="Page sections">
+    <div class="st-subnav-inner">
+      <a href="#star-research">Research</a>
+      <a href="#star-platforms">Platforms</a>
+      <a href="#star-people">People</a>
+      <a href="#star-publications">Publications</a>
+      <a href="#star-news">News</a>
+      <a href="#star-funding">Funding</a>
+      <a href="#star-join">Join</a>
+    </div>
+  </nav>
+
+  <!-- Research -->
+  <section class="st-section" id="star-research">
+    <div class="st-section-head">
+      <p class="st-section-kicker">Research</p>
+      <h2 class="st-section-title">Three thrusts, one goal: autonomy you can trust</h2>
+      <p class="st-section-sub">
+        Each thrust works on a different layer of the autonomy stack. Together they make AI-enabled robots safe to deploy
+        where timing, energy, and physics cannot be ignored.
+      </p>
+    </div>
+    <div class="st-grid st-grid-3">
+      <article class="st-card">
+        <span class="st-num">01</span>
+        <h3>Foundation Models for Autonomy</h3>
+        <p>Perception, reasoning, and decision-making for AI-enabled autonomy in autonomous vehicles, robots, and drones.</p>
+        <p class="st-why">
+          <strong>Why it matters for safety.</strong> A capable model only helps a robot if it fits the latency and energy
+          budget of the platform and stays predictable when the scene gets hard. We study how to keep that capability
+          under those constraints.
+        </p>
+        <div class="st-links">
+          <a class="st-link" href="https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2024/rtss24-liu.pdf">RT-BEV · RTSS 2024</a>
+          <a class="st-link" href="https://www.arxiv.org/abs/2408.05363">AyE-Edge · ICCAD 2024</a>
+        </div>
+      </article>
+      <article class="st-card">
+        <span class="st-num">02</span>
+        <h3>Computing Systems for Robotics</h3>
+        <p>Real-time, efficient, and scalable systems support for autonomous intelligence across device, edge, and cloud.</p>
+        <p class="st-why">
+          <strong>Why it matters for safety.</strong> Predictable end-to-end timing, energy-aware middleware, and profiling
+          tools that turn "it usually works" into a guarantee you can put on a robot.
+        </p>
+        <div class="st-links">
+          <a class="st-link" href="https://ieeexplore.ieee.org/document/9984807">Prophet · RTSS 2022</a>
+          <a class="st-link" href="https://dl.acm.org/doi/10.1145/3318216.3363302">E2M · SEC 2019</a>
+          <a class="st-link" href="https://github.com/Torreskai0722/pPerf">pPerf · profiler</a>
+        </div>
+      </article>
+      <article class="st-card">
+        <span class="st-num">03</span>
+        <h3>Physics Intelligence</h3>
+        <p>
+          Physics-aware and safety-conscious autonomy for robust cyber-physical systems, including autonomous vehicles,
+          off-road platforms, AR/VR, and other emerging applications.
+        </p>
+        <p class="st-why">
+          <strong>Why it matters for safety.</strong> Autonomy that respects the physical world it runs in: vehicle
+          dynamics, energy and thermal limits, and terrain, so that decisions stay safe when the road, the terrain, or the
+          battery is not ideal.
+        </p>
+        <div class="st-links">
+          <a class="st-link" href="https://ieeexplore.ieee.org/document/10161110">Efficient AMRs · ICRA 2023</a>
+          <a class="st-link" href="https://ieeexplore.ieee.org/document/10153345">Truck fuel rate · TITS 2023</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Platforms -->
+  <section class="st-section" id="star-platforms">
+    <div class="st-section-head">
+      <p class="st-section-kicker">Platforms and testbeds</p>
+      <h2 class="st-section-title">Ideas are proven on real robots</h2>
+      <p class="st-section-sub">
+        Our work is measured on hardware, from indoor mobile robots to full-scale vehicles, not only in simulation.
+      </p>
+    </div>
+    <div class="st-figure">
+      {% include figure.liquid path="assets/img/research-platforms.jpg" class="st-figure-img" alt="Research platforms: the HydraOne and Donkey indoor robots, the F1TENTH, Clearpath Husky, and AgileX outdoor robots, and the Hydra drive-by-wire vehicle" sizes="(min-width: 930px) 900px, 95vw" zoomable=true caption="Indoor, outdoor and off-road, and full-scale vehicle platforms our members work with." %}
+    </div>
+    <div class="st-grid st-grid-4">
+      <div class="st-card">
+        <span class="st-tag">Indoor</span>
+        <h3>HydraOne and Donkey</h3>
+        <p>Mecanum-wheel research robots with 3-D LiDAR, cameras, and NVIDIA Jetson compute, built for fine-grained energy and timing measurements.</p>
+      </div>
+      <div class="st-card">
+        <span class="st-tag">Outdoor and off-road</span>
+        <h3>F1TENTH, Husky, AgileX</h3>
+        <p>Racing-scale cars, a Clearpath Husky, and an AgileX rover for high-speed and rough-terrain autonomy.</p>
+      </div>
+      <div class="st-card">
+        <span class="st-tag">Ground vehicles</span>
+        <h3>Hydra</h3>
+        <p>A drive-by-wire passenger vehicle with a roof-mounted sensor rig for full-scale autonomous driving research.</p>
+      </div>
+      <div class="st-card">
+        <span class="st-tag">Course fleet</span>
+        <h3>Jetson robots and Crazyflies</h3>
+        <p>
+          Four Jetson Orin Nano ground robots with camera and 2-D LiDAR, and three Crazyflie micro-quadcopters, shared with the
+          <a href="{{ '/mobile-robot-systems/' | relative_url }}">Mobile Robot Systems</a> course.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- People -->
+  <section class="st-section" id="star-people">
+    <div class="st-section-head">
+      <p class="st-section-kicker">People</p>
+      <h2 class="st-section-title">The team</h2>
+    </div>
+
+    <div class="st-director">
+      {% if director.image %}
+        {% assign director_image = director.image | prepend: 'assets/img/' %}
+        <div class="st-avatar">
+          {% include figure.liquid path=director_image class="st-avatar-img" alt=director.name sizes="104px" %}
+        </div>
+      {% endif %}
+      <div class="st-director-body">
+        <h3>{{ director.name }}</h3>
+        <p class="st-role">{{ director.title }} · {{ director.role }}, {{ director.affiliation }}</p>
+        <div class="st-links">
+          <a class="st-link" href="{{ director.url | relative_url }}">Homepage</a>
+          {% if director.scholar %}<a class="st-link" href="{{ director.scholar }}">Google Scholar</a>{% endif %}
+          <a class="st-link" href="mailto:{{ director.email }}">Email</a>
+        </div>
+      </div>
+    </div>
+
+    {% if site.data.people.members %}
+      <p class="st-track-label">Members</p>
+      <div class="st-grid st-grid-3">
+        {% for member in site.data.people.members %}
+          <div class="st-card">
+            {% if member.image %}
+              {% assign member_image = member.image | prepend: 'assets/img/' %}
+              <div class="st-member-avatar">
+                {% include figure.liquid path=member_image alt=member.name sizes="56px" %}
+              </div>
+            {% endif %}
+            <h3>{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
+            <p>{{ member.role }}{% if member.since %} · since {{ member.since }}{% endif %}</p>
+            {% if member.note %}<p>{{ member.note }}</p>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="st-card st-open">
+      <div>
+        <h3>Open positions</h3>
+        <p>
+          We are recruiting PhD students and research interns. Fully funded research assistant positions with a competitive
+          stipend and tuition waiver are available.
+        </p>
+      </div>
+      <a class="cta-btn" href="{{ '/openings/' | relative_url }}">See openings</a>
+    </div>
+
+    {% if site.data.people.alumni %}
+      <p class="st-track-label">Alumni and past mentees</p>
+      <ul class="st-alumni">
+        {% for person in site.data.people.alumni %}
+          <li>
+            {% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}
+            · {{ person.role }}{% if person.now %}. Now: {{ person.now }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+
+  <!-- Publications -->
+  <section class="st-section" id="star-publications">
+    <div class="st-section-head">
+      <p class="st-section-kicker">Selected publications</p>
+      <h2 class="st-section-title">Representative work</h2>
+      <p class="st-section-sub">A short list. The full record, with preprints, code, and BibTeX, is on the publications page.</p>
+    </div>
+    <div class="publications">
+      {% bibliography --group_by none --max 6 --query @*[selected=true]* %}
+    </div>
+    <p class="st-more"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
+  </section>
+
+  <!-- News -->
+  <section class="st-section" id="star-news">
+    <div class="st-section-head">
+      <p class="st-section-kicker">News</p>
+      <h2 class="st-section-title">Latest from the lab</h2>
+    </div>
+    {% include news.liquid limit=true %}
+    <p class="st-more"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+  </section>
+
+  <!-- Funding -->
+  <section class="st-section" id="star-funding">
+    <div class="st-section-head">
+      <p class="st-section-kicker">Support</p>
+      <h2 class="st-section-title">Funding and partners</h2>
+      <p class="st-section-sub">Our research has been supported by:</p>
+    </div>
+    <div class="st-grid st-grid-2">
+      <div class="st-card">
+        <span class="st-tag">National Science Foundation</span>
+        <h3>CSR: Small: Predictable Multi-Tenant DNN Inference for Autonomous Driving</h3>
+        <p>CNS-2343601 · 2024–2027 · Co-Principal Investigator (PI: Weisong Shi)</p>
+        <div class="st-links">
+          <a class="st-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343601&HistoricalAwards=false">NSF award page</a>
+        </div>
+      </div>
+      <div class="st-card">
+        <span class="st-tag">General Motors</span>
+        <h3>I-SEE: Intelligent Vehicular Perception and Control</h3>
+        <p>2025–2026 · Project Leader (PI: Kang G. Shin)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join -->
+  <section class="st-section" id="star-join">
+    <div class="st-join">
+      <p class="st-section-kicker">Join us</p>
+      <h2 class="st-section-title">Join STAR Lab</h2>
+      <p class="st-lead">
+        We look for students with a background in robotics, machine learning, computer vision, or computer engineering,
+        programming skills in Python and ROS, and a real passion for research and robots. Read the openings page and the
+        research statement first, then apply.
+      </p>
+      <div class="st-actions">
+        <a class="cta-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSea4ocykyiOsp-uoxQg72iiNcKTXn2gk3swSwZ923mYu0gCDQ/viewform?usp=dialog" target="_blank" rel="noopener">Apply via Google Form</a>
+        <a class="st-btn st-btn-ghost" href="{{ '/openings/' | relative_url }}">Openings</a>
+        <a class="st-btn st-btn-ghost" href="{{ '/assets/pdf/research.pdf' | relative_url }}">Research statement</a>
+      </div>
+      <p class="st-fine">
+        Or email your CV, transcripts, and research statement to
+        <a href="mailto:{{ director.email }}">{{ director.email }}</a>. New members: start with the
+        <a href="{{ '/onboarding/' | relative_url }}">Lab Onboarding Plan</a> and the
+        <a href="{{ '/robotics-frontier/' | relative_url }}">Robotics Frontier Primer</a>.
+      </p>
+    </div>
+  </section>
+
+</div>

@@ -1287,3 +1287,21 @@ ninja-keys::part(ninja-input-wrapper) {
     border-bottom-color: var(--global-divider-color);
   }
 }
+
+// Call-to-action button, shared by the Openings and STAR Lab pages.
+.cta-btn {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+  background-color: var(--global-theme-color);
+  color: var(--global-hover-text-color);
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--global-hover-text-color);
+    text-decoration: none;
+    filter: brightness(0.9);
+  }
+}
