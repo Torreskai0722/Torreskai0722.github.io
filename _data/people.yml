@@ -1,5 +1,6 @@
-# People shown on the STAR Lab page (/star-lab/).
-# Each member needs `name` and `role`; `url`, `image` (a file in assets/img/), `since`, and `note` are optional.
+# People shown on the SEAL Lab page (/lab/).
+# `groups` renders one labeled block per entry, in order. Each member needs `name`;
+# `role` (for example the university), `url`, `image` (a file in assets/img/), `since`, and `note` are optional.
 
 director:
   name: Liangkai Liu
@@ -11,19 +12,22 @@ director:
   url: /
   scholar: https://scholar.google.com/citations?user=xMSYHlIAAAAJ
 
-members:
-  - name: Xiaoxiao Wu
-    role: PhD student
-  - name: Mingyu Guo
-    role: PhD student, University of Delaware
-  - name: Kaiwen Zhu
-    role: MS student, University of Illinois Urbana-Champaign
-  - name: Aobo Guo
-    role: MS student, University of Michigan
-  - name: Bimal Thapa Magar
-    role: MS student, Texas Tech University
-  - name: Ganesh Adhikari
-    role: MS student, Texas Tech University
+groups:
+  - label: PhD students
+    members:
+      - name: Xiaoxiao Wu
+      - name: Mingyu Guo
+        role: University of Delaware
+  - label: MS students
+    members:
+      - name: Kaiwen Zhu
+        role: University of Illinois Urbana-Champaign
+      - name: Aobo Guo
+        role: University of Michigan
+      - name: Bimal Thapa Magar
+        role: Texas Tech University
+      - name: Ganesh Adhikari
+        role: Texas Tech University
 
 alumni:
   - name: Aaron Sequeira

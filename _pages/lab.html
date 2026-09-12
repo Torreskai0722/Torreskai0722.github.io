@@ -1,0 +1,79 @@
+---
+layout: page
+permalink: /lab/
+title: SEAL Lab
+description: Safe and Efficient Autonomy Laboratory · Texas Tech University
+nav: true
+nav_order: 1
+---
+
+<style>
+  #lab-people .lab-person { display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1.1rem 1.25rem; }
+  #lab-people .lab-avatar { flex: 0 0 auto; width: 104px; }
+  #lab-people .lab-avatar figure { margin: 0; }
+  #lab-people .lab-avatar img { width: 104px; height: 104px; object-fit: cover; border-radius: 50%; display: block; }
+  #lab-people .lab-body { flex: 1 1 260px; }
+  #lab-people .lab-body h3 { margin: 0 0 0.2rem; font-size: 1.25rem; }
+  #lab-people .lab-body p { margin: 0 0 0.4rem; color: var(--global-text-color-light); }
+  #lab-people .lab-label { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--global-text-color-light); margin: 1.75rem 0 0.6rem; }
+  #lab-people .lab-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  #lab-people .lab-card { background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1rem 1.1rem; }
+  #lab-people .lab-card figure { margin: 0 0 0.6rem; }
+  #lab-people .lab-card img { width: 56px; height: 56px; object-fit: cover; border-radius: 50%; display: block; }
+  #lab-people .lab-card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+  #lab-people .lab-card p { margin: 0; font-size: 0.95rem; color: var(--global-text-color-light); }
+  #lab-people .lab-alumni { list-style: none; padding: 0; margin: 0; }
+  #lab-people .lab-alumni li { padding: 0.5rem 0; border-top: 1px solid var(--global-divider-color); }
+  #lab-people .lab-alumni li:last-child { border-bottom: 1px solid var(--global-divider-color); }
+</style>
+
+{% assign director = site.data.people.director %}
+
+<section id="lab-people">
+  <div class="lab-person">
+    {% if director.image %}
+      {% assign director_image = director.image | prepend: 'assets/img/' %}
+      <div class="lab-avatar">{% include figure.liquid path=director_image alt=director.name sizes="104px" %}</div>
+    {% endif %}
+    <div class="lab-body">
+      <h3>{{ director.name }}</h3>
+      <p>{{ director.title }} · {{ director.role }}, {{ director.affiliation }}</p>
+      <p>
+        <a href="{{ director.url | relative_url }}">Homepage</a>
+        {% if director.scholar %} · <a href="{{ director.scholar }}">Google Scholar</a>{% endif %}
+        · <a href="mailto:{{ director.email }}">{{ director.email }}</a>
+      </p>
+    </div>
+  </div>
+
+  {% for group in site.data.people.groups %}
+    {% if group.members %}
+      <p class="lab-label">{{ group.label }}</p>
+      <div class="lab-grid">
+        {% for member in group.members %}
+          <div class="lab-card">
+            {% if member.image %}
+              {% assign member_image = member.image | prepend: 'assets/img/' %}
+              {% include figure.liquid path=member_image alt=member.name sizes="56px" %}
+            {% endif %}
+            <h3>{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
+            {% if member.role %}<p>{{ member.role }}{% if member.since %} · since {{ member.since }}{% endif %}</p>{% endif %}
+            {% if member.note %}<p>{{ member.note }}</p>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+
+  {% if site.data.people.alumni %}
+    <p class="lab-label">Alumni and past mentees</p>
+    <ul class="lab-alumni">
+      {% for person in site.data.people.alumni %}
+        <li>
+          {% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}
+          · {{ person.role }}{% if person.now %}. Now: {{ person.now }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
