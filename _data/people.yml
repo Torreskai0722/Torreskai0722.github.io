@@ -16,6 +16,7 @@ groups:
   - label: PhD students
     members:
       - name: Xiaoxiao Wu
+        role: Texas Tech University
       - name: Mingyu Guo
         role: University of Delaware
   - label: MS students

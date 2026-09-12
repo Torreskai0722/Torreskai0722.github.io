@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 
 <!-- ## About Me -->
 
-I am an assistant professor in Department of Computer Science at Texas Tech University and the director of the [Safe and Efficient Autonomy Laboratory (SEAL Lab)](/lab/). Previously, I'm a postdoc research fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) at the University of Michigan, working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/). I received my Ph.D. in Computer Science from Wayne State University in May 2023, where I was supervised by Prof. [Weisong Shi](https://www.weisongshi.org/). 
+I am an assistant professor in Department of Computer Science at Texas Tech University. Previously, I'm a postdoc research fellow in the [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) at the University of Michigan, working with Prof. [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/). I received my Ph.D. in Computer Science from Wayne State University in May 2023, where I was supervised by Prof. [Weisong Shi](https://www.weisongshi.org/). 
 
 <!-- Throughout my research career, I've had the privilege of collaborating with leading researchers from Argonne National Laboratory, General Motors, IBM Research, MIT Lincoln Laboratory, Inceptio, and Autoware. -->
 
