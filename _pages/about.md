@@ -50,4 +50,4 @@ My research focuses on building **safe**, **predictable**, and **energy-efficien
 
 <!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
 
-<!-- ![Research Overview](../assets/img/research-overview.png){: style="max-width:90%; height:auto;" } -->
+![Research Overview](../assets/img/research-overview.png){: style="max-width:90%; height:auto;" }
