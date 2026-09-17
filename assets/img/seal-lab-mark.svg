@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="SEAL Lab mark">
+  <path d="M100 14 L176 42 V104 C176 146 142 174 100 188 C58 174 24 146 24 104 V42 Z" fill="#CC0000"/>
+  <path d="M100 30 L162 52 V104 C162 138 134 160 100 172 C66 160 38 138 38 104 V52 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3"/>
+  <path d="M68 156 L132 156 L109 76 L91 76 Z" fill="#FFFFFF"/>
+  <path d="M100 148 V84" stroke="#CC0000" stroke-width="5" stroke-dasharray="11 9" stroke-linecap="round"/>
+  <path d="M82 66 L100 46 L118 66" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

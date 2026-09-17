@@ -25,7 +25,11 @@ nav_order: 1
   #lab-people .lab-alumni { list-style: none; padding: 0; margin: 0; }
   #lab-people .lab-alumni li { padding: 0.5rem 0; border-top: 1px solid var(--global-divider-color); }
   #lab-people .lab-alumni li:last-child { border-bottom: 1px solid var(--global-divider-color); }
+  #lab-logo { display: flex; justify-content: center; margin: 0.25rem 0 1.75rem; }
+  #lab-logo .seal-lab-logo { width: min(100%, 420px); height: auto; color: var(--global-text-color); }
 </style>
+
+<div id="lab-logo">{% include seal-lab-logo.svg %}</div>
 
 {% assign director = site.data.people.director %}
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" role="img" aria-labelledby="seal-logo-title" class="seal-lab-logo">
+  <title id="seal-logo-title">SEAL Lab — Safe and Efficient Autonomy Laboratory</title>
+  <!-- shield -->
+  <path d="M100 14 L176 42 V104 C176 146 142 174 100 188 C58 174 24 146 24 104 V42 Z" fill="#CC0000"/>
+  <path d="M100 30 L162 52 V104 C162 138 134 160 100 172 C66 160 38 138 38 104 V52 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3"/>
+  <!-- road in perspective -->
+  <path d="M68 156 L132 156 L109 76 L91 76 Z" fill="#FFFFFF"/>
+  <path d="M100 148 V84" stroke="#CC0000" stroke-width="5" stroke-dasharray="11 9" stroke-linecap="round"/>
+  <!-- forward chevron -->
+  <path d="M82 66 L100 46 L118 66" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- wordmark -->
+  <text x="212" y="112" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="6" textLength="320" lengthAdjust="spacingAndGlyphs" fill="currentColor">SEAL</text>
+  <text x="214" y="152" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="2.4" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#CC0000">SAFE AND EFFICIENT AUTONOMY LABORATORY</text>
+</svg>
