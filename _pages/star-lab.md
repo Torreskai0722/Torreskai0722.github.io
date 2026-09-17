@@ -1,7 +1,6 @@
 ---
 layout: default
 permalink: /star-lab/
-published: false
 title: SEAL Lab
 redirect: /lab/
 nav: false
