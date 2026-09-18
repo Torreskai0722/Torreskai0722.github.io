@@ -10,6 +10,13 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %}
+<h3 class="pub-section">Preprints</h3>
+{% bibliography --query @*[abbr~=^Pre] %}
+
+<h3 class="pub-section">Highlighted Publications</h3>
+{% bibliography --query @*[selected=true && abbr!~^Pre] %}
+
+<h3 class="pub-section">Other Publications</h3>
+{% bibliography --query @*[selected!=true && abbr!~^Pre] %}
 
 </div>
