@@ -669,6 +669,14 @@ footer.sticky-bottom {
     }
   }
 
+  .pub-preview {
+    .preview,
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
   .pub-entry {
     line-height: 1.5;
 
