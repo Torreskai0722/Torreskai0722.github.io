@@ -1,36 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" role="img" aria-labelledby="seal-logo-title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 176" role="img" aria-labelledby="seal-logo-title">
   <title id="seal-logo-title">SEAL Lab — Safe and Efficient Autonomy Laboratory</title>
-  <circle cx="100" cy="100" r="94" fill="#CC0000"/>
-  <!-- tail flukes -->
-  <path d="M132 150 C 150 140, 166 146, 176 158 C 164 160, 152 168, 146 176 C 140 168, 132 160, 132 150 Z" fill="#E8E8EA"/>
-  <!-- body -->
-  <ellipse cx="98" cy="142" rx="60" ry="36" fill="#F4F4F6"/>
-  <!-- head -->
-  <circle cx="100" cy="88" r="52" fill="#F4F4F6"/>
-  <!-- flippers -->
-  <ellipse cx="52" cy="152" rx="20" ry="10" transform="rotate(-28 52 152)" fill="#E0E0E3"/>
-  <ellipse cx="128" cy="164" rx="18" ry="9" transform="rotate(18 128 164)" fill="#E0E0E3"/>
-  <!-- spots -->
-  <circle cx="66" cy="66" r="3.5" fill="#D3D3D7"/>
-  <circle cx="132" cy="60" r="3" fill="#D3D3D7"/>
-  <circle cx="126" cy="130" r="3.5" fill="#D3D3D7"/>
-  <circle cx="72" cy="128" r="2.5" fill="#D3D3D7"/>
-  <!-- blush -->
-  <ellipse cx="70" cy="102" rx="9" ry="5" fill="#F7A8B8"/>
-  <ellipse cx="130" cy="102" rx="9" ry="5" fill="#F7A8B8"/>
-  <!-- eyes -->
-  <circle cx="82" cy="86" r="8" fill="#1F1F24"/>
-  <circle cx="118" cy="86" r="8" fill="#1F1F24"/>
-  <circle cx="79" cy="83" r="3" fill="#FFFFFF"/>
-  <circle cx="115" cy="83" r="3" fill="#FFFFFF"/>
-  <circle cx="85" cy="89" r="1.4" fill="#FFFFFF"/>
-  <circle cx="121" cy="89" r="1.4" fill="#FFFFFF"/>
-  <!-- nose + mouth -->
-  <path d="M95 99 L105 99 L100 105 Z" fill="#1F1F24" stroke="#1F1F24" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M92 108 Q96 113 100 108 Q104 113 108 108" fill="none" stroke="#1F1F24" stroke-width="2.4" stroke-linecap="round"/>
-  <!-- whiskers -->
-  <path d="M62 96 L76 99 M62 104 L76 103 M138 96 L124 99 M138 104 L124 103" stroke="#B9B9BE" stroke-width="2" stroke-linecap="round"/>
-  <!-- wordmark -->
-  <text x="212" y="112" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="6" textLength="320" lengthAdjust="spacingAndGlyphs" fill="#111111">SEAL</text>
-  <text x="214" y="152" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="2.4" textLength="520" lengthAdjust="spacingAndGlyphs" fill="#CC0000">SAFE AND EFFICIENT AUTONOMY LABORATORY</text>
+  <text x="360" y="104" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="8" textLength="360" lengthAdjust="spacingAndGlyphs" fill="#111111">SEAL</text>
+  <text x="360" y="158" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="2.5" textLength="700" lengthAdjust="spacingAndGlyphs" fill="#CC0000">SAFE AND EFFICIENT AUTONOMY LABORATORY</text>
 </svg>
