@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: (* represents co-first author)
+description: (* co-first author; underlined names are my students)
 nav: true
 nav_order: 2
 ---

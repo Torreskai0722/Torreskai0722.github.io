@@ -52,8 +52,15 @@ Preprints (abbr Pre*, or booktitle Arxiv/Submission) get no venue tag.
           {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
+      {%- assign author_full_name = author.first | append: ' ' | append: author_last_name -%}
+      {%- assign author_is_student = false -%}
+      {%- if site.data.students contains author_full_name -%}
+        {%- assign author_is_student = true -%}
+      {%- endif -%}
       {%- if author_is_self -%}
         <strong>{{ author.first }} {{ author_last_html }}</strong>
+      {%- elsif author_is_student -%}
+        <u class="student">{{ author.first }} {{ author_last_html }}</u>
       {%- elsif coauthor_url -%}
         <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
       {%- else -%}
