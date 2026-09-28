@@ -10,7 +10,7 @@ nav_order: 6
 
 <!-- ![Texas Tech University Campus](../assets/img/ttu-campus.jpg){: style="max-width:100%; height:auto; margin-bottom:30px;" } -->
 
-I will join the Department of Computer Science at **Texas Tech University** as an Assistant Professor in Fall 2026. I am actively recruiting several PhD students to join my group starting in Fall 2026 and Spring 2027. 
+I will join the Department of Computer Science at **Texas Tech University** as an Assistant Professor in Fall 2026. I am actively recruiting several PhD students to join my group starting in Spring 2027 and Fall 2027. 
 
 If you are interested in working with me, please read my [Research Statement](../assets/pdf/research.pdf) first before reaching out.
 
