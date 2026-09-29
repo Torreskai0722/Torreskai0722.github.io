@@ -19,6 +19,7 @@ groups:
         image: xiaoxiao-wu.jpg
         role: Texas Tech University
       - name: Mingyu Guo
+        image: mingyu-guo.jpg
         role: University of Delaware
   - label: MS students
     members:
