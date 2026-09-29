@@ -33,6 +33,7 @@ groups:
         image: bimal-thapa-magar.jpg
         role: Texas Tech University
       - name: Ganesh Adhikari
+        image: ganesh-adhikari.jpg
         role: Texas Tech University
 
 alumni:
