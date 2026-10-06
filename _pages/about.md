@@ -42,11 +42,11 @@ My research focuses on building **safe**, **predictable**, and **energy-efficien
 - **Edge Computing for Public Safety** [[CPSWeek19](https://dl.acm.org/doi/10.1145/3313237.3313303), [PIEEE19](https://ieeexplore.ieee.org/document/8744265), [HotEdge18](https://www.usenix.org/conference/hotedge18/presentation/liu), [SEC18](https://ieeexplore.ieee.org/document/8567654), [ICDCS18](https://ieeexplore.ieee.org/document/8416394)] -->
 
 <!-- <span style="color: #A500FF;"><strong>I will join the Department of Computer Science at Texas Tech University as an Assistant Professor in Fall 2026. I am actively recruiting PhD students and interns — see the <a href="/openings/">Openings</a> page for details.</strong></span> -->
-<div style="border: 2px solid #A500FF; background-color: #F8EEFF; padding: 16px 20px; border-radius: 12px; margin: 20px 0; text-align: center;">
+<!-- <div style="border: 2px solid #A500FF; background-color: #F8EEFF; padding: 16px 20px; border-radius: 12px; margin: 20px 0; text-align: center;">
   <strong style="color: #000000;">
     I am actively recruiting PhD students and interns — see the <a href="/openings/" style="color: #A500FF; text-decoration: underline;">Openings</a> page for details.
   </strong>
-</div>
+</div> -->
 
 <!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
 
