@@ -18,6 +18,9 @@ groups:
       - name: Xiaoxiao Wu
         image: xiaoxiao-wu.jpg
         role: Texas Tech University
+      - name: Bimal Thapa Magar
+        image: bimal-thapa-magar.jpg
+        role: Texas Tech University
   - label: MS students
     members:
       - name: Kaiwen Zhu
@@ -26,9 +29,6 @@ groups:
       - name: Aobo Guo
         image: aobo-guo.jpg
         role: University of Michigan
-      - name: Bimal Thapa Magar
-        image: bimal-thapa-magar.jpg
-        role: Texas Tech University
       - name: Ganesh Adhikari
         image: ganesh-adhikari.jpg
         role: Texas Tech University
