@@ -70,7 +70,7 @@ Preprints (abbr Pre*, or booktitle Arxiv/Submission) get no venue tag.
     {%- endfor -%}
   </div>
   {%- if venue != '' %}
-  <div class="pub-venue">{{ venue }}{% if entry.note %} ({{ entry.note | strip }}){% endif %}</div>
+  <div class="pub-venue{% unless is_preprint %} pub-venue-published{% endunless %}">{{ venue }}{% if entry.note %} ({{ entry.note | strip }}){% endif %}</div>
   {%- endif %}
   {%- if entry.award %}
   <div class="pub-award">{{ entry.award_name | default: entry.award | strip_html | strip }}</div>
