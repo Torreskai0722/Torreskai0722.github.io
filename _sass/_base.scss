@@ -692,14 +692,13 @@ footer.sticky-bottom {
 
     .pub-tag {
       font-weight: bold;
-      color: var(--global-theme-color);
+      color: var(--global-text-color);
     }
 
     .pub-venue {
       color: var(--global-text-color);
 
       &.pub-venue-published {
-        color: var(--global-theme-color);
         font-style: italic;
         font-weight: 600;
       }
