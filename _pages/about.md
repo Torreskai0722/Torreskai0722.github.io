@@ -33,8 +33,8 @@ I am an assistant professor in Department of Computer Science at Texas Tech Univ
 ## Research Focus
 
 My research focuses on building **safe**, **predictable**, and **energy-efficient** AI systems for safety-critical **cyber-physical systems (CPS)** — from **autonomous driving** to **robotics** and beyond. I develop novel **cross-layer** systems (model/algorithms, middleware system, operating system, etc.) to achieve these goals. I'm particularly interested in:
-- **Foundation Models for Autonomy**
 - **Computing Systems for Robotics**
+- **Foundation Models for Autonomy**
 - **Physics Intelligence**
 
 <!-- - **Predictable ML for CPS** [[RTSS24](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2024/rtss24-liu.pdf), [ICCAD24](https://www.arxiv.org/abs/2408.05363), [DAC24](https://dl.acm.org/doi/10.1145/3649329.3657310), [RTSS22](https://weisongshi.org/papers/liu22-prophet.pdf), [MLBench23](https://arxiv.org/abs/2209.05487), [IoTJ20](https://arxiv.org/abs/2009.14349)]
@@ -50,4 +50,4 @@ My research focuses on building **safe**, **predictable**, and **energy-efficien
 
 <!-- **Application Materials:** [CV](../assets/pdf/CV-Liangkai_Liu.pdf) | [Research Statement](../assets/pdf/research.pdf) | [Teaching Statement](../assets/pdf/teaching.pdf) -->
 
-![Research Overview](../assets/img/research-overview.png){: style="max-width:90%; height:auto;" }
+![Research Overview](../assets/img/research-overview-2027.jpeg){: style="max-width:90%; height:auto;" }
